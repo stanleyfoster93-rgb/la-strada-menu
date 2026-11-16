@@ -3,7 +3,7 @@
     --card-bg: #1e1e1e;
     --text-primary: #f3f4f6;
     --text-secondary: #9ca3af;
-    --accent-color: #d4af37; /* благородный золотистый оттенок для бара */
+    --accent-color: #d4af37;
     --border-color: #2a2a2a;
 }
 
@@ -29,7 +29,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .header {
@@ -68,6 +68,7 @@ body {
 }
 
 .cat-btn {
+    flex: 0 0 auto;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
@@ -95,6 +96,9 @@ body {
 }
 
 .menu-item {
+    width: 100%;
+    text-align: left;
+    color: inherit;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 12px;
@@ -104,6 +108,13 @@ body {
     align-items: center;
     cursor: pointer;
     transition: transform 0.1s, border-color 0.2s;
+}
+
+.menu-item:focus-visible,
+.cat-btn:focus-visible,
+.close-btn:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 3px;
 }
 
 .menu-item:active {
@@ -120,6 +131,7 @@ body {
 }
 
 .item-name {
+    display: block;
     font-size: 0.95rem;
     font-weight: 600;
     margin-bottom: 4px;
@@ -142,6 +154,16 @@ body {
     white-space: nowrap;
 }
 
+.menu-message {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-top: 20px;
+}
+
+.menu-message-error {
+    color: #fca5a5;
+}
+
 .footer {
     padding: 16px;
     text-align: center;
@@ -150,13 +172,9 @@ body {
     border-top: 1px solid var(--border-color);
 }
 
-/* Модальное окно (Pop-up) */
 .modal-overlay {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background: rgba(0, 0, 0, 0.75);
     display: flex;
     align-items: flex-end;
@@ -173,6 +191,7 @@ body {
 }
 
 .modal-card {
+    position: relative;
     width: 100%;
     max-width: 480px;
     background: var(--card-bg);
@@ -194,6 +213,7 @@ body {
     position: relative;
     width: 100%;
     height: 200px;
+    flex: 0 0 200px;
 }
 
 .modal-img-container img {
@@ -214,15 +234,19 @@ body {
     border-radius: 6px;
 }
 
+.modal-badge[hidden] {
+    display: none;
+}
+
 .close-btn {
     position: absolute;
     top: 12px;
     right: 12px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     border: none;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     font-size: 1.2rem;
     cursor: pointer;
@@ -267,7 +291,7 @@ body {
 .allergens-section {
     font-size: 0.8rem;
     color: var(--text-secondary);
-    background: rgba(255,255,255,0.03);
+    background: rgba(255, 255, 255, 0.03);
     padding: 10px 14px;
     border-radius: 8px;
     border: 1px solid var(--border-color);
@@ -275,4 +299,13 @@ body {
 
 .allergens-section strong {
     color: var(--text-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
 }

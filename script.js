@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     let menuData = null;
     let activeCategory = null;
+    let lastFocusedElement = null;
 
     const categoriesNav = document.getElementById("categoriesNav");
     const menuList = document.getElementById("menuList");
-
     const modalOverlay = document.getElementById("modalOverlay");
     const closeModal = document.getElementById("closeModal");
     const modalImg = document.getElementById("modalImg");
@@ -16,134 +16,173 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalAllergens = document.getElementById("modalAllergens");
 
     function getLocalizedValue(value, lang = "en") {
-        if (!value) return "";
-
         if (typeof value === "string") return value;
+        if (!value || typeof value !== "object" || Array.isArray(value)) return "";
+        return value[lang] || Object.values(value).find(entry => typeof entry === "string") || "";
+    }
 
-        if (typeof value === "object") {
-            if (value[lang]) return value[lang];
-            const fallback = Object.values(value)[0];
-            return fallback ?? "";
-        }
-
-        return "";
+    function showMessage(message, isError = false) {
+        const paragraph = document.createElement("p");
+        paragraph.className = isError ? "menu-message menu-message-error" : "menu-message";
+        paragraph.textContent = message;
+        menuList.replaceChildren(paragraph);
     }
 
     function renderCategories() {
-        categoriesNav.innerHTML = "";
+        categoriesNav.replaceChildren();
 
         menuData.categories.forEach(category => {
-            const btn = document.createElement("button");
-            btn.type = "button";
-            btn.className = `cat-btn ${category.id === activeCategory?.id ? "active" : ""}`;
-            btn.textContent = getLocalizedValue({ en: category.en, ro: category.ro }, "en") || category.id;
-
-            btn.addEventListener("click", () => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = `cat-btn${category.id === activeCategory.id ? " active" : ""}`;
+            button.textContent = category.en || category.id;
+            button.setAttribute("aria-pressed", String(category.id === activeCategory.id));
+            button.addEventListener("click", () => {
                 activeCategory = category;
                 renderCategories();
                 renderItems();
             });
-
-            categoriesNav.appendChild(btn);
+            categoriesNav.appendChild(button);
         });
     }
 
     function renderItems() {
-        menuList.innerHTML = "";
+        menuList.replaceChildren();
+        const items = menuData.items.filter(item => item.categoryId === activeCategory.id);
 
-        const filteredItems = menuData.items.filter(item => item.categoryId === activeCategory.id);
-
-        if (filteredItems.length === 0) {
-            menuList.innerHTML = `<p style="text-align:center; color:#9ca3af; margin-top:20px;">No items in this category yet.</p>`;
+        if (items.length === 0) {
+            showMessage("No items in this category yet.");
             return;
         }
 
-        filteredItems.forEach(item => {
-            const itemEl = document.createElement("div");
-            const itemName = getLocalizedValue(item.name, "en");
-            const badgeText = getLocalizedValue(item.badge, "en");
+        items.forEach(item => {
+            const button = document.createElement("button");
+            const info = document.createElement("span");
+            const name = document.createElement("span");
+            const price = document.createElement("span");
+            const title = getLocalizedValue(item.name);
+            const badgeText = getLocalizedValue(item.badge);
 
-            itemEl.className = "menu-item";
-            itemEl.innerHTML = `
-                <div class="item-info">
-                    <div class="item-name">${itemName}</div>
-                    ${badgeText ? `<span class="item-tag">${badgeText}</span>` : ""}
-                </div>
-                <div class="item-price">${Number(item.priceMdl || 0)} MDL</div>
-            `;
+            button.type = "button";
+            button.className = "menu-item";
+            button.setAttribute("aria-label", `${title}, ${item.priceMdl} MDL. Show details`);
+            info.className = "item-info";
+            name.className = "item-name";
+            name.textContent = title;
+            info.appendChild(name);
 
-            itemEl.addEventListener("click", () => openModal(item));
-            menuList.appendChild(itemEl);
+            if (badgeText) {
+                const badge = document.createElement("span");
+                badge.className = "item-tag";
+                badge.textContent = badgeText;
+                info.appendChild(badge);
+            }
+
+            price.className = "item-price";
+            price.textContent = `${item.priceMdl} MDL`;
+            button.append(info, price);
+            button.addEventListener("click", () => openModal(item, button));
+            menuList.appendChild(button);
         });
     }
 
-    function openModal(item) {
-        const title = getLocalizedValue(item.name, "en");
-        const description = getLocalizedValue(item.description, "en");
-        const badgeText = getLocalizedValue(item.badge, "en");
+    function getAllergens(item) {
+        if (Array.isArray(item.allergens)) return item.allergens;
+        if (Array.isArray(item.allergens?.en)) return item.allergens.en;
+        if (Array.isArray(item.allergens?.ro)) return item.allergens.ro;
+        return [];
+    }
 
-        const allergens = Array.isArray(item.allergens)
-            ? item.allergens
-            : Array.isArray(item.allergens?.en)
-                ? item.allergens.en
-                : Array.isArray(item.allergens?.ro)
-                    ? item.allergens.ro
-                    : [];
+    function openModal(item, trigger) {
+        lastFocusedElement = trigger;
+        const title = getLocalizedValue(item.name);
+        const image = typeof item.image === "string" ? item.image : "";
 
-        modalImg.src = item.image || "";
-        modalImg.alt = title;
         modalTitle.textContent = title;
-        modalWeight.textContent = `Weight: ${item.weight || "N/A"}`;
-        modalPrice.textContent = `${Number(item.priceMdl || 0)} MDL`;
-        modalDesc.textContent = description;
-
-        if (badgeText) {
-            modalBadge.textContent = badgeText;
-            modalBadge.style.display = "block";
+        modalImg.alt = image ? title : "";
+        if (image) {
+            modalImg.src = image;
         } else {
-            modalBadge.style.display = "none";
+            modalImg.removeAttribute("src");
         }
+        modalWeight.textContent = `Weight: ${item.weight}`;
+        modalPrice.textContent = `${item.priceMdl} MDL`;
+        modalDesc.textContent = getLocalizedValue(item.description);
+        modalBadge.textContent = getLocalizedValue(item.badge);
+        modalBadge.hidden = !modalBadge.textContent;
+        modalAllergens.textContent = getAllergens(item).join(", ") || "None specified";
 
-        if (allergens.length > 0) {
-            modalAllergens.textContent = allergens.join(", ");
-        } else {
-            modalAllergens.textContent = "None specified";
-        }
-
+        modalOverlay.inert = false;
+        modalOverlay.setAttribute("aria-hidden", "false");
         modalOverlay.classList.add("active");
+        closeModal.focus();
     }
 
     function closeModalHandler() {
+        if (!modalOverlay.classList.contains("active")) return;
         modalOverlay.classList.remove("active");
+        modalOverlay.inert = true;
+        modalOverlay.setAttribute("aria-hidden", "true");
+        if (lastFocusedElement?.isConnected) lastFocusedElement.focus();
+    }
+
+    function validateMenu(data) {
+        if (!data || !Array.isArray(data.categories) || !Array.isArray(data.items)) {
+            throw new Error("Menu must contain categories and items arrays.");
+        }
+        if (data.categories.length === 0) throw new Error("Menu has no categories.");
+
+        const categoryIds = new Set();
+        data.categories.forEach(category => {
+            if (!category || typeof category.id !== "string" || !category.id.trim() || categoryIds.has(category.id)) {
+                throw new Error("Every category must have a unique, non-empty string id.");
+            }
+            categoryIds.add(category.id);
+        });
+
+        const itemIds = new Set();
+        data.items.forEach(item => {
+            if (!item || (typeof item.id !== "string" && typeof item.id !== "number") || itemIds.has(item.id)) {
+                throw new Error("Every menu item must have a unique id.");
+            }
+            itemIds.add(item.id);
+            if (!categoryIds.has(item.categoryId)) {
+                throw new Error(`Menu item ${item.id} references an unknown category.`);
+            }
+            if (!getLocalizedValue(item.name).trim()) {
+                throw new Error(`Menu item ${item.id} is missing a name.`);
+            }
+            if (!Number.isFinite(item.priceMdl) || item.priceMdl < 0) {
+                throw new Error(`Menu item ${item.id} has an invalid price.`);
+            }
+            if (typeof item.weight !== "string" || !item.weight.trim()) {
+                throw new Error(`Menu item ${item.id} is missing its weight.`);
+            }
+        });
     }
 
     fetch("menu.json")
         .then(response => {
-            if (!response.ok) {
-                throw new Error(`Failed to load menu.json: ${response.status}`);
-            }
+            if (!response.ok) throw new Error(`Failed to load menu.json: ${response.status}`);
             return response.json();
         })
         .then(data => {
+            validateMenu(data);
             menuData = data;
-
-            if (!Array.isArray(menuData.categories) || !Array.isArray(menuData.items)) {
-                throw new Error("Invalid menu data structure.");
-            }
-
             activeCategory = menuData.categories[0];
             renderCategories();
             renderItems();
         })
         .catch(error => {
             console.error("Error loading menu:", error);
-            menuList.innerHTML = `<p style="text-align:center; color:#fca5a5; margin-top:20px;">Unable to load the menu.</p>`;
+            showMessage("Unable to load the menu. Please try again later.", true);
         });
 
     closeModal.addEventListener("click", closeModalHandler);
-    modalOverlay.addEventListener("click", (e) => {
-        if (e.target === modalOverlay) {
-            closeModalHandler();
-        }
+    modalOverlay.addEventListener("click", event => {
+        if (event.target === modalOverlay) closeModalHandler();
+    });
+    document.addEventListener("keydown", event => {
+        if (event.key === "Escape") closeModalHandler();
     });
 });
