@@ -149,8 +149,8 @@
           "id": "1-5-platou-cu-carne",
           "name": {
             "ro": "Platou cu carne",
-            "en": "Platter with meat",
-            "ru": "Ассорти с мясо"
+            "en": "Meat platter",
+            "ru": "Мясное ассорти"
           },
           "portion": "250 gr",
           "price": "225",
@@ -271,7 +271,7 @@
           "price": "140",
           "description": {
             "en": "Chicken breast, mushrooms, fresh tomatoes, cucumbers, sweet pepper, herbs, olive oil, celery root, broccoli, green beans, sweet mustard sauce.",
-            "ro": "Piept de pui, ciuperci, roșii proaspete, castraveți, ardei dulce, verdeață, ulei de măsline, rădăcină de țelină, broccoli, păstări, sos dulce de muștar.",
+            "ro": "Piept de pui, ciuperci, roșii proaspete, castraveți, ardei dulce, verdeață, ulei de măsline, rădăcină de țelină, broccoli, păstăi, sos dulce de muștar.",
             "ru": "Куриная грудка, грибы, свежие помидоры, огурцы, сладкий перец, зелень, оливковое масло, корень сельдерея, брокколи, стручковая фасоль, сладкий горчичный соус."
           },
           "allergens": {
@@ -299,7 +299,7 @@
           "name": {
             "ro": "Cu ficat și bacon",
             "en": "With liver and bacon",
-            "ru": "С печень и бекон"
+            "ru": "С печенью и беконом"
           },
           "portion": "250 gr",
           "price": "150",
@@ -332,15 +332,15 @@
           "id": "2-3-din-legume",
           "name": {
             "ro": "Din legume",
-            "en": "From vegetables",
-            "ru": "Из овощи"
+            "en": "Vegetable salad",
+            "ru": "Овощной салат"
           },
           "portion": "230 gr",
           "price": "90",
           "description": {
-            "en": "Tomatoes, cucumbers, sweet pepper, lettuce leaf, onion tomato, oil.",
+            "en": "Tomatoes, cucumbers, sweet pepper, lettuce leaf, red onion, oil.",
             "ro": "Roșii, castraveți, ardei dulce, frunză de salată, ceapă roșie, ulei.",
-            "ru": "Помидоры, огурцы, сладкий перец, лист салата, лук помидор, масло."
+            "ru": "Помидоры, огурцы, сладкий перец, лист салата, красный лук, масло."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -358,7 +358,7 @@
           "name": {
             "ro": "Caesar cu pui",
             "en": "Caesar with chicken",
-            "ru": "Caesar с курица"
+            "ru": "«Цезарь» с курицей"
           },
           "portion": "250 gr",
           "price": "110",
@@ -392,7 +392,7 @@
           "name": {
             "ro": "Caesar cu bacon",
             "en": "Caesar with bacon",
-            "ru": "Caesar с бекон"
+            "ru": "«Цезарь» с беконом"
           },
           "portion": "250 gr",
           "price": "130",
@@ -426,7 +426,7 @@
           "name": {
             "ro": "Caesar cu creveți",
             "en": "Caesar with shrimp",
-            "ru": "Caesar с креветки"
+            "ru": "«Цезарь» с креветками"
           },
           "portion": "250 gr",
           "price": "200",
@@ -487,15 +487,15 @@
           "id": "2-8-greceasca",
           "name": {
             "ro": "„Grecească”",
-            "en": "“Greek”",
-            "ru": "«греческий»"
+            "en": "Greek salad",
+            "ru": "Греческий салат"
           },
           "portion": "280 gr",
           "price": "110",
           "description": {
-            "en": "Lettuce leaf, tomatoes, sweet pepper, cucumbers, onion tomato, feta cheese, olives, lemon, oregano, olive oil.",
+            "en": "Lettuce leaf, tomatoes, sweet pepper, cucumbers, red onion, feta cheese, olives, lemon, oregano, olive oil.",
             "ro": "Frunză de salată, roșii, ardei dulce, castraveți, ceapă roșie, brânză feta, măsline, lămâie, oregano, ulei de măsline.",
-            "ru": "Лист салата, помидоры, сладкий перец, огурцы, лук помидор, сыр фета, оливки, лимон, орегано, оливковое масло."
+            "ru": "Лист салата, помидоры, сладкий перец, огурцы, красный лук, сыр фета, оливки, лимон, орегано, оливковое масло."
           },
           "allergens": {
             "en": [
@@ -518,15 +518,15 @@
           "id": "2-9-salata-rustica-cu-couscous",
           "name": {
             "ro": "Salată rustică cu couscous",
-            "en": "Salad rustic with couscous",
-            "ru": "Салат деревенский с couscous"
+            "en": "Rustic salad with couscous",
+            "ru": "Деревенский салат с кускусом"
           },
           "portion": "500 gr",
           "price": "150",
           "description": {
-            "en": "Couscous, pepper, eggplant, tomatoes, onion, carrot, cauliflower, spinach, yogurt Greek, herbs, cucumbers, avocado, wraps, oil, spices, syrup.",
+            "en": "Couscous, pepper, eggplant, tomatoes, onion, carrot, cauliflower, spinach, Greek yogurt, herbs, cucumbers, avocado, wraps, oil, spices, syrup.",
             "ro": "Couscous, ardei, vânătă, roșii, ceapă, morcov, conopidă, spanac, iaurt grecesc, verdeață, castraveți, avocado, wraps, ulei, condimente, sirop.",
-            "ru": "Кускус, перец, баклажан, помидоры, лук, морковь, цветная капуста, шпинат, йогурт греческий, зелень, огурцы, авокадо, лепёшки, масло, специи, сироп."
+            "ru": "Кускус, перец, баклажан, помидоры, лук, морковь, цветная капуста, шпинат, греческий йогурт, зелень, огурцы, авокадо, лепёшки, масло, специи, сироп."
           },
           "allergens": {
             "en": [
@@ -559,7 +559,7 @@
           "price": "200",
           "description": {
             "en": "Beef, oil, celery root, sweet pepper, carrot, cucumbers, herbs, sesame, rice noodles.",
-            "ro": "Carne de vită, ulei, rădăcină de țelină, ardei dulce, morcov, castraveți, verdeață, susan, fide de orez.",
+            "ro": "Carne de vită, ulei, rădăcină de țelină, ardei dulce, morcov, castraveți, verdeață, susan, fidea de orez.",
             "ru": "Говядина, масло, корень сельдерея, сладкий перец, морковь, огурцы, зелень, кунжут, рисовая лапша."
           },
           "allergens": {
@@ -586,15 +586,15 @@
           "id": "2-11-mix-cu-mozzarella-si-avocado",
           "name": {
             "ro": "Mix cu mozzarella și avocado",
-            "en": "Mix with mozzarella and avocado",
-            "ru": "Mix с моцарелла и avocado"
+            "en": "Mixed salad with mozzarella and avocado",
+            "ru": "Салатный микс с моцареллой и авокадо"
           },
           "portion": "250 gr",
           "price": "150",
           "description": {
-            "en": "Mix salad, mozzarella, avocado, tomatoes, sweet mustard sauce.",
+            "en": "Mixed salad leaves, mozzarella, avocado, tomatoes, sweet mustard sauce.",
             "ro": "Mix salat, mozzarella, avocado, roșii, sos dulce de muștar.",
-            "ru": "Смесь салат, моцарелла, авокадо, помидоры, сладкий горчичный соус."
+            "ru": "Смесь салатных листьев, моцарелла, авокадо, помидоры, сладкий горчичный соус."
           },
           "allergens": {
             "en": [
@@ -636,9 +636,9 @@
           "portion": "300 gr",
           "price": "60",
           "description": {
-            "en": "Carrot, pepper, celery root, noodles, herbs, spices, borscht sour, chicken breast.",
+            "en": "Carrot, pepper, celery root, noodles, herbs, spices, sour fermented bran broth, chicken breast.",
             "ro": "Morcov, ardei, rădăcină de țelină, tăiței, verdeață, condimente, borș acru, piept de pui.",
-            "ru": "Морковь, перец, корень сельдерея, лапша, зелень, специи, борщ кислый, куриная грудка."
+            "ru": "Морковь, перец, корень сельдерея, лапша, зелень, специи, кислый отвар из отрубей, куриная грудка."
           },
           "allergens": {
             "en": [
@@ -664,8 +664,8 @@
           "id": "3-2-supa-crema-de-pui-cu-ciuperci",
           "name": {
             "ro": "Supă cremă de pui cu ciuperci",
-            "en": "Cream soup of chicken with mushrooms",
-            "ru": "Крем-суп курица с грибы"
+            "en": "Creamy chicken and mushroom soup",
+            "ru": "Крем-суп с курицей и грибами"
           },
           "portion": "300 gr",
           "price": "90",
@@ -695,8 +695,8 @@
           "id": "3-3-supa-crema-cu-cartof-si-ciuperci",
           "name": {
             "ro": "Supă cremă cu cartof și ciuperci",
-            "en": "Cream soup with potato and mushrooms",
-            "ru": "Крем-суп с картофель и грибы"
+            "en": "Creamy potato and mushroom soup",
+            "ru": "Крем-суп с картофелем и грибами"
           },
           "portion": "300 gr",
           "price": "70",
@@ -720,8 +720,8 @@
           "id": "3-4-supa-cu-perisoare",
           "name": {
             "ro": "Supă cu perișoare",
-            "en": "Soup with perișoare",
-            "ru": "Суп с perișoare"
+            "en": "Meatball soup",
+            "ru": "Суп с фрикадельками"
           },
           "portion": "300 gr",
           "price": "85",
@@ -751,15 +751,15 @@
           "id": "3-5-bors-cu-carne-de-porc",
           "name": {
             "ro": "Borș cu carne de porc",
-            "en": "Borș with pork",
-            "ru": "Borș со свининой"
+            "en": "Borscht with pork",
+            "ru": "Борщ со свининой"
           },
           "portion": "300 gr",
           "price": "70",
           "description": {
-            "en": "Carrot, celery root, pepper, cabbage, beetroot tomato, potato, spices, pork, tomato paste, herbs.",
+            "en": "Carrot, celery root, pepper, cabbage, beetroot, potato, spices, pork, tomato paste, herbs.",
             "ro": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, carne de porc, pastă de tomate, verdeață.",
-            "ru": "Морковь, корень сельдерея, перец, капуста, свёкла помидор, картофель, специи, свинина, томатная паста, зелень."
+            "ru": "Морковь, корень сельдерея, перец, капуста, свёкла, картофель, специи, свинина, томатная паста, зелень."
           },
           "allergens": {
             "en": [
@@ -783,14 +783,14 @@
           "name": {
             "ro": "Borș cu fasole",
             "en": "Borscht with beans",
-            "ru": "Борщ с фасоль"
+            "ru": "Борщ с фасолью"
           },
           "portion": "300 gr",
           "price": "65",
           "description": {
-            "en": "Carrot, celery root, pepper, cabbage, beetroot tomato, potato, spices, beans, tomato paste, herbs.",
+            "en": "Carrot, celery root, pepper, cabbage, beetroot, potato, spices, beans, tomato paste, herbs.",
             "ro": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, fasole, pastă de tomate, verdeață.",
-            "ru": "Морковь, корень сельдерея, перец, капуста, свёкла помидор, картофель, специи, фасоль, томатная паста, зелень."
+            "ru": "Морковь, корень сельдерея, перец, капуста, свёкла, картофель, специи, фасоль, томатная паста, зелень."
           },
           "allergens": {
             "en": [
@@ -819,9 +819,9 @@
           "portion": "300 gr",
           "price": "75",
           "description": {
-            "en": "Lemon, olives, pickles, onion, assorted of smoked sausages, spices, tomato paste, herbs.",
+            "en": "Lemon, olives, pickles, onion, assorted smoked sausages, spices, tomato paste, herbs.",
             "ro": "Lămâie, măsline, castraveți murați, ceapă, asorti de salamuri afumate, condimente, pastă de tomate, verdeață.",
-            "ru": "Лимон, оливки, маринованные огурцы, лук, ассорти из копчёные колбасы, специи, томатная паста, зелень."
+            "ru": "Лимон, оливки, маринованные огурцы, лук, ассорти копчёных колбас, специи, томатная паста, зелень."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -838,8 +838,8 @@
           "id": "3-8-supa-de-mazare-cu-bacon",
           "name": {
             "ro": "Supă de mazăre cu bacon",
-            "en": "Soup with peas with bacon",
-            "ru": "Суп с горох с бекон"
+            "en": "Pea soup with bacon",
+            "ru": "Гороховый суп с беконом"
           },
           "portion": "300 gr",
           "price": "80",
@@ -863,8 +863,8 @@
           "id": "3-9-supa-de-mazare",
           "name": {
             "ro": "Supă de mazăre",
-            "en": "Soup with peas",
-            "ru": "Суп с горох"
+            "en": "Pea soup",
+            "ru": "Гороховый суп"
           },
           "portion": "300 gr",
           "price": "70",
@@ -889,7 +889,7 @@
           "name": {
             "ro": "Shakshouka",
             "en": "Shakshouka",
-            "ru": "Shakshouka"
+            "ru": "Шакшука"
           },
           "portion": "400 gr",
           "price": "120",
@@ -919,8 +919,8 @@
           "id": "3-11-omleta-cu-sunca-cascaval-si-rosii",
           "name": {
             "ro": "Omletă cu șuncă, cașcaval și roșii",
-            "en": "Omletă with ham, cheese and tomatoes",
-            "ru": "Omletă с ветчина, сыр и помидоры"
+            "en": "Omelette with ham, cheese and tomatoes",
+            "ru": "Омлет с ветчиной, сыром и помидорами"
           },
           "portion": "250 gr",
           "price": "100",
@@ -953,8 +953,8 @@
           "id": "3-12-omleta-cu-cascaval",
           "name": {
             "ro": "Omletă cu cașcaval",
-            "en": "Omletă with cheese",
-            "ru": "Omletă с сыр"
+            "en": "Cheese omelette",
+            "ru": "Омлет с сыром"
           },
           "portion": "250 gr",
           "price": "90",
@@ -987,8 +987,8 @@
           "id": "3-13-scrob-cu-branza",
           "name": {
             "ro": "Scrob cu brânză",
-            "en": "Scrob with cheese",
-            "ru": "Scrob с сыр"
+            "en": "Scrambled eggs with cheese",
+            "ru": "Яичница с сыром"
           },
           "portion": "150 gr",
           "price": "80",
@@ -1031,8 +1031,8 @@
           "id": "4-1-branza-si-verdeata",
           "name": {
             "ro": "Brânză și verdeață",
-            "en": "Cheese and verdeață",
-            "ru": "Сыр и verdeață"
+            "en": "Cheese and herbs",
+            "ru": "Сыр и зелень"
           },
           "portion": "300 gr",
           "price": "50",
@@ -1124,9 +1124,9 @@
           "portion": "300 gr",
           "price": "50",
           "description": {
-            "en": "Cabbage fresh, seasoning, oil.",
+            "en": "Fresh cabbage, seasoning, oil.",
             "ro": "Varză proaspătă, condiment, ulei.",
-            "ru": "Капуста свежая, приправа, масло."
+            "ru": "Свежая капуста, приправа, масло."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -1149,20 +1149,14 @@
           "portion": "300 gr",
           "price": "70",
           "description": {
-            "en": "Sour cherry ice cream, oil, powdered sugar.",
+            "en": "Frozen sour cherries, oil, powdered sugar.",
             "ro": "Vișină înghețată, ulei, zahăr pudră.",
-            "ru": "Вишня мороженое, масло, сахарная пудра."
+            "ru": "Замороженная вишня, масло, сахарная пудра."
           },
           "allergens": {
-            "en": [
-              "Milk"
-            ],
-            "ro": [
-              "Lapte"
-            ],
-            "ru": [
-              "Молоко"
-            ]
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Pies",
@@ -1174,8 +1168,8 @@
           "id": "4-6-mar-bostan",
           "name": {
             "ro": "Măr / bostan",
-            "en": "Apple / bostan",
-            "ru": "Яблоко / bostan"
+            "en": "Apple / pumpkin",
+            "ru": "Яблоко / тыква"
           },
           "portion": "300 gr",
           "price": "50",
@@ -1311,7 +1305,7 @@
           "name": {
             "ro": "Cu cartofi și ciuperci",
             "en": "With potatoes and mushrooms",
-            "ru": "С картофель и грибы"
+            "ru": "С картофелем и грибами"
           },
           "portion": "300 gr",
           "price": "95",
@@ -1341,8 +1335,8 @@
           "id": "4-11-cu-pui-in-sos-de-frisca",
           "name": {
             "ro": "Cu pui în sos de frișcă",
-            "en": "With chicken in sos of frișcă",
-            "ru": "С курица в sos frișcă"
+            "en": "With chicken in cream sauce",
+            "ru": "С курицей в сливочном соусе"
           },
           "portion": "300 gr",
           "price": "120",
@@ -1382,8 +1376,8 @@
           "id": "5-1-crap-prajit-cu-legume",
           "name": {
             "ro": "Crap prăjit cu legume",
-            "en": "Carp fried with vegetables",
-            "ru": "Карп жареный с овощи"
+            "en": "Fried carp with vegetables",
+            "ru": "Жареный карп с овощами"
           },
           "portion": "200 gr",
           "price": "180",
@@ -1413,7 +1407,7 @@
           "id": "5-2-somon-la-grill",
           "name": {
             "ro": "Somon la grill",
-            "en": "Salmon grilled",
+            "en": "Grilled salmon",
             "ru": "Лосось на гриле"
           },
           "portion": "250 gr",
@@ -1445,7 +1439,7 @@
           "name": {
             "ro": "Dorada cu legume",
             "en": "Sea bream with vegetables",
-            "ru": "Дорада с овощи"
+            "ru": "Дорада с овощами"
           },
           "portion": "350 gr",
           "price": "330",
@@ -1475,13 +1469,13 @@
           "id": "5-4-risotto-cu-creveti",
           "name": {
             "ro": "Risotto cu creveți",
-            "en": "Risotto with shrimp",
-            "ru": "Risotto с креветки"
+            "en": "Shrimp risotto",
+            "ru": "Ризотто с креветками"
           },
           "portion": "400 gr",
           "price": "180",
           "description": {
-            "en": "Rice, shrimp, spices, cream, butter, sauce pesto.",
+            "en": "Rice, shrimp, spices, cream, butter, pesto sauce.",
             "ro": "Orez, creveți, condimente, frișcă, unt, sos pesto.",
             "ru": "Рис, креветки, специи, сливки, сливочное масло, соус песто."
           },
@@ -1509,15 +1503,15 @@
           "id": "6-1-piept-de-pui-cu-legume-in-sos-picant",
           "name": {
             "ro": "Piept de pui cu legume în sos picant",
-            "en": "Chicken breast with vegetables in sos picant",
-            "ru": "Куриная грудка с овощи в sos picant"
+            "en": "Chicken breast with vegetables in spicy sauce",
+            "ru": "Куриная грудка с овощами в остром соусе"
           },
           "portion": "300 gr",
           "price": "150",
           "description": {
-            "en": "Chicken breast, eggplant, zucchini, carrot, sauce spicy, herbs.",
+            "en": "Chicken breast, eggplant, zucchini, carrot, spicy sauce, herbs.",
             "ro": "Piept de pui, vânătă, bostănel, morcov, sos picant, verdeață.",
-            "ru": "Куриная грудка, баклажан, кабачок, морковь, соус острый, зелень."
+            "ru": "Куриная грудка, баклажан, кабачок, морковь, острый соус, зелень."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -1534,8 +1528,8 @@
           "id": "6-2-pui-a-la-italia-cu-ciuperci",
           "name": {
             "ro": "Pui a la Italia cu ciuperci",
-            "en": "Chicken a with Italia with mushrooms",
-            "ru": "Курица a с Italia с грибы"
+            "en": "Italian-style chicken with mushrooms",
+            "ru": "Курица по-итальянски с грибами"
           },
           "portion": "300 gr",
           "price": "150",
@@ -1565,15 +1559,15 @@
           "id": "6-3-asorti-grill-la-tigaie",
           "name": {
             "ro": "Asorti grill la tigaie",
-            "en": "Asorti grill skillet",
-            "ru": "Asorti grill на сковороде"
+            "en": "Mixed grill skillet",
+            "ru": "Мясное ассорти на сковороде"
           },
           "portion": "580 gr",
           "price": "400",
           "description": {
-            "en": "Pork, beef, chicken, tomatoes cherry, zucchini, mushrooms, herbs.",
+            "en": "Pork, beef, chicken, cherry tomatoes, zucchini, mushrooms, herbs.",
             "ro": "Carne de porc, vită, pui, roșii cherry, bostănel, ciuperci, verdeață.",
-            "ru": "Свинина, говядина, курица, помидоры вишня, кабачок, грибы, зелень."
+            "ru": "Свинина, говядина, курица, помидоры черри, кабачок, грибы, зелень."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -1590,8 +1584,8 @@
           "id": "6-4-tigaie-cu-cartofi-carne-si-ou",
           "name": {
             "ro": "Tigaie cu cartofi, carne și ou",
-            "en": "Tigaie with potatoes, meat and egg",
-            "ru": "Tigaie с картофель, мясо и яйцо"
+            "en": "Skillet with potatoes, meat and egg",
+            "ru": "Картофель с мясом и яйцом на сковороде"
           },
           "portion": "350 gr",
           "price": "150",
@@ -1624,15 +1618,15 @@
           "id": "6-5-carne-de-vita-cu-legume-in-sos-picant",
           "name": {
             "ro": "Carne de vită cu legume în sos picant",
-            "en": "Beef with vegetables in sos picant",
-            "ru": "Говядина с овощи в sos picant"
+            "en": "Beef with vegetables in spicy sauce",
+            "ru": "Говядина с овощами в остром соусе"
           },
           "portion": "300 gr",
           "price": "160",
           "description": {
-            "en": "Beef, eggplant, zucchini, carrot, sauce spicy, herbs.",
+            "en": "Beef, eggplant, zucchini, carrot, spicy sauce, herbs.",
             "ro": "Carne de vită, vânătă, bostănel, morcov, sos picant, verdeață.",
-            "ru": "Говядина, баклажан, кабачок, морковь, соус острый, зелень."
+            "ru": "Говядина, баклажан, кабачок, морковь, острый соус, зелень."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -1655,9 +1649,9 @@
           "portion": "500 gr",
           "price": "150",
           "description": {
-            "en": "French fries, breast chicken, wraps, onion marinated, spinach, sauce, tartar, spices, oil.",
+            "en": "French fries, chicken breast, wraps, marinated onion, spinach, sauce, tartar, spices, oil.",
             "ro": "Cartofi fri, piept pui, wraps, ceapă marinată, spanac, sos, tartar, condimente, ulei.",
-            "ru": "Картофель фри, грудка курица, лепёшки, лук маринованная, шпинат, соус, тартар, специи, масло."
+            "ru": "Картофель фри, куриная грудка, лепёшки, маринованный лук, шпинат, соус, тартар, специи, масло."
           },
           "allergens": {
             "en": [
@@ -1680,8 +1674,8 @@
           "id": "7-2-steak-de-pui-la-gratar",
           "name": {
             "ro": "Steak de pui la grătar",
-            "en": "Steak of chicken grilled",
-            "ru": "Steak курица на гриле"
+            "en": "Grilled chicken steak",
+            "ru": "Куриный стейк на гриле"
           },
           "portion": "200 gr",
           "price": "150",
@@ -1736,8 +1730,8 @@
           "id": "7-4-frigarui-de-pui",
           "name": {
             "ro": "Frigărui de pui",
-            "en": "Frigărui of chicken",
-            "ru": "Frigărui курица"
+            "en": "Chicken skewers",
+            "ru": "Куриный шашлык"
           },
           "portion": "250 gr",
           "price": "150",
@@ -1761,8 +1755,8 @@
           "id": "7-5-tocana-de-pui-cu-mamaliga",
           "name": {
             "ro": "Tocană de pui cu mămăligă",
-            "en": "Tocană of chicken with polenta",
-            "ru": "Tocană курица с мамалыгой"
+            "en": "Chicken stew with polenta",
+            "ru": "Куриное рагу с мамалыгой"
           },
           "portion": "450 gr",
           "price": "150",
@@ -1792,8 +1786,8 @@
           "id": "8-1-steak-de-vita",
           "name": {
             "ro": "Steak de vită",
-            "en": "Steak of beef",
-            "ru": "Steak говядина"
+            "en": "Beef steak",
+            "ru": "Стейк из говядины"
           },
           "portion": "200 gr",
           "price": "240",
@@ -1817,8 +1811,8 @@
           "id": "8-2-tocana-de-vita-cu-mamaliga",
           "name": {
             "ro": "Tocană de vită cu mămăligă",
-            "en": "Tocană of beef with polenta",
-            "ru": "Tocană говядина с мамалыгой"
+            "en": "Beef stew with polenta",
+            "ru": "Рагу из говядины с мамалыгой"
           },
           "portion": "450 gr",
           "price": "160",
@@ -1848,8 +1842,8 @@
           "id": "9-1-tocana-de-porc-cu-mamaliga",
           "name": {
             "ro": "Tocană de porc cu mămăligă",
-            "en": "Tocană of pork with polenta",
-            "ru": "Tocană свинина с мамалыгой"
+            "en": "Pork stew with polenta",
+            "ru": "Рагу из свинины с мамалыгой"
           },
           "portion": "450 gr",
           "price": "150",
@@ -1879,15 +1873,15 @@
           "id": "9-2-steak-din-ceafa-de-porc",
           "name": {
             "ro": "Steak din ceafă de porc",
-            "en": "Steak from ceafă of pork",
-            "ru": "Steak из ceafă свинина"
+            "en": "Pork neck steak",
+            "ru": "Стейк из свиной шеи"
           },
           "portion": "200 gr",
           "price": "150",
           "description": {
-            "en": "Pork neck of pork, spices.",
+            "en": "Pork neck, spices.",
             "ro": "Ceafă de porc, condimente.",
-            "ru": "Свиная шея из свинина, специи."
+            "ru": "Свиная шея, специи."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -1904,15 +1898,15 @@
           "id": "9-3-costita-la-grill-cu-mujdei",
           "name": {
             "ro": "Costiță la grill cu mujdei",
-            "en": "Costiță grilled with mujdei",
-            "ru": "Costiță на гриле с mujdei"
+            "en": "Grilled ribs with garlic sauce",
+            "ru": "Рёбрышки на гриле с чесночным соусом"
           },
           "portion": "250 gr",
           "price": "150",
           "description": {
-            "en": "Ribs of pork, spices, garlic sauce.",
+            "en": "Pork ribs, spices, garlic sauce.",
             "ro": "Costiță de porc, condimente, mujdei.",
-            "ru": "Рёбрышки из свинина, специи, чесночный соус."
+            "ru": "Свиные рёбрышки, специи, чесночный соус."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -1929,15 +1923,15 @@
           "id": "9-4-picior-ciolan-de-porc-cu-varza-murata",
           "name": {
             "ro": "Picior (ciolan) de porc cu varză murată",
-            "en": "Picior (ciolan) of pork with cabbage murată",
-            "ru": "Picior (ciolan) свинина с капуста murată"
+            "en": "Pork knuckle with pickled cabbage",
+            "ru": "Свиная рулька с квашеной капустой"
           },
           "portion": "1 buc",
           "price": "350",
           "description": {
-            "en": "Pork knuckle of pork, cabbage pickled, spices.",
+            "en": "Pork knuckle, pickled cabbage, spices.",
             "ro": "Ciolan de porc, varză murată, condimente.",
-            "ru": "Свиная рулька из свинина, капуста маринованная, специи."
+            "ru": "Свиная рулька, квашеная капуста, специи."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -2077,7 +2071,7 @@
           "name": {
             "ro": "Mămăligă cu brânză",
             "en": "Polenta with cheese",
-            "ru": "Мамалыга с сыр"
+            "ru": "Мамалыга с сыром"
           },
           "portion": "250 gr",
           "price": "50",
@@ -2132,8 +2126,8 @@
           "id": "10-6-cartofi-umpluti-cu-legume",
           "name": {
             "ro": "Cartofi umpluți cu legume",
-            "en": "Potatoes umpluți with vegetables",
-            "ru": "Картофель umpluți с овощи"
+            "en": "Potatoes stuffed with vegetables",
+            "ru": "Картофель, фаршированный овощами"
           },
           "portion": "280 gr",
           "price": "100",
@@ -2156,15 +2150,15 @@
         {
           "id": "10-7-cartof-cu-ciuperci-pastari",
           "name": {
-            "ro": "Cartof cu ciuperci / păstări",
-            "en": "Potato with mushrooms / păstări",
-            "ru": "Картофель с грибы / păstări"
+            "ro": "Cartof cu ciuperci / păstăi",
+            "en": "Potato with mushrooms / green beans",
+            "ru": "Картофель с грибами / стручковой фасолью"
           },
           "portion": "250 gr",
           "price": "65",
           "description": {
             "en": "Potato, garlic, onion, mushrooms/green beans, spices.",
-            "ro": "Cartof, usturoi, ceapă, ciuperci/păstări, condimente.",
+            "ro": "Cartof, usturoi, ceapă, ciuperci/păstăi, condimente.",
             "ru": "Картофель, чеснок, лук, грибы/стручковая фасоль, специи."
           },
           "allergens": {
@@ -2182,7 +2176,7 @@
           "id": "10-8-legume-la-gratar",
           "name": {
             "ro": "Legume la grătar",
-            "en": "Vegetables grilled",
+            "en": "Grilled vegetables",
             "ru": "Овощи на гриле"
           },
           "portion": "200 gr",
@@ -2218,9 +2212,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2238,9 +2232,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2258,9 +2252,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2278,9 +2272,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2298,9 +2292,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2318,17 +2312,17 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
           "id": "15-7-topping-si-sirop-in-sortiment",
           "name": {
             "ro": "Topping și sirop în sortiment",
-            "en": "Topping and sirop assorted",
-            "ru": "Topping и sirop ассорти"
+            "en": "Assorted toppings and syrups",
+            "ru": "Топпинги и сиропы в ассортименте"
           },
           "portion": "50 gr",
           "price": "30",
@@ -2338,9 +2332,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2358,9 +2352,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Sauces / toppinguri",
+            "en": "Sauces / toppings",
             "ro": "Sosuri / toppinguri",
-            "ru": "Соусы / toppinguri"
+            "ru": "Соусы / топпинги"
           }
         },
         {
@@ -2387,8 +2381,8 @@
           "id": "15-10-ardei-dulce",
           "name": {
             "ro": "Ardei dulce",
-            "en": "Pepper dulce",
-            "ru": "Перец dulce"
+            "en": "Sweet pepper",
+            "ru": "Сладкий перец"
           },
           "portion": "50 gr",
           "price": "10",
@@ -2407,8 +2401,8 @@
           "id": "15-11-ardei-iute",
           "name": {
             "ro": "Ardei iute",
-            "en": "Pepper iute",
-            "ru": "Перец iute"
+            "en": "Hot pepper",
+            "ru": "Острый перец"
           },
           "portion": "50 gr",
           "price": "5",
@@ -2755,7 +2749,7 @@
           "name": {
             "ro": "Tagliatelle cu ciuperci",
             "en": "Tagliatelle with mushrooms",
-            "ru": "Tagliatelle с грибы"
+            "ru": "Тальятелле с грибами"
           },
           "portion": "370 gr",
           "price": "140",
@@ -2822,15 +2816,15 @@
           "id": "12-1-cu-creveti-ceapa-rosie-si-rucola",
           "name": {
             "ro": "Cu creveți, ceapă roșie și rucola",
-            "en": "With shrimp, ceapă roșie and rucola",
-            "ru": "С креветки, ceapă roșie и rucola"
+            "en": "With shrimp, red onion and arugula",
+            "ru": "С креветками, красным луком и рукколой"
           },
           "portion": "420 gr",
           "price": "210",
           "description": {
-            "en": "Sauce, shrimp, onion tomato, cheese, arugula.",
+            "en": "Sauce, shrimp, red onion, cheese, arugula.",
             "ro": "Sos, creveți, ceapă roșie, cașcaval, rucola.",
-            "ru": "Соус, креветки, лук помидор, сыр, руккола."
+            "ru": "Соус, креветки, красный лук, сыр, руккола."
           },
           "allergens": {
             "en": [
@@ -2888,7 +2882,7 @@
           "name": {
             "ro": "Cu șuncă și roșii",
             "en": "With ham and tomatoes",
-            "ru": "С ветчина и помидоры"
+            "ru": "С ветчиной и помидорами"
           },
           "portion": "420 gr",
           "price": "135",
@@ -2919,14 +2913,14 @@
           "name": {
             "ro": "Cu salami",
             "en": "With salami",
-            "ru": "С salami"
+            "ru": "С салями"
           },
           "portion": "350 gr",
           "price": "135",
           "description": {
-            "en": "Sauce, salami, corn canned, sweet pepper, cheese.",
+            "en": "Sauce, salami, canned corn, sweet pepper, cheese.",
             "ro": "Sos, salam, porumb conservat, ardei dulce, cașcaval.",
-            "ru": "Соус, салями, кукуруза консервированный, сладкий перец, сыр."
+            "ru": "Соус, салями, консервированная кукуруза, сладкий перец, сыр."
           },
           "allergens": {
             "en": [
@@ -2950,7 +2944,7 @@
           "name": {
             "ro": "Cu șuncă și măsline",
             "en": "With ham and olives",
-            "ru": "С ветчина и оливки"
+            "ru": "С ветчиной и оливками"
           },
           "portion": "350 gr",
           "price": "135",
@@ -2980,8 +2974,8 @@
           "id": "12-6-cu-sunca-si-vinete",
           "name": {
             "ro": "Cu șuncă și vinete",
-            "en": "With ham and vinete",
-            "ru": "С ветчина и vinete"
+            "en": "With ham and eggplant",
+            "ru": "С ветчиной и баклажанами"
           },
           "portion": "350 gr",
           "price": "135",
@@ -3011,15 +3005,15 @@
           "id": "12-7-cu-sunca-si-ananas",
           "name": {
             "ro": "Cu șuncă și ananas",
-            "en": "With ham and ananas",
-            "ru": "С ветчина и ananas"
+            "en": "With ham and pineapple",
+            "ru": "С ветчиной и ананасом"
           },
           "portion": "420 gr",
           "price": "140",
           "description": {
-            "en": "Sauce, ham, pineapple, onion tomato, cheese.",
+            "en": "Sauce, ham, pineapple, red onion, cheese.",
             "ro": "Sos, șuncă, ananas, ceapă roșie, cașcaval.",
-            "ru": "Соус, ветчина, ананас, лук помидор, сыр."
+            "ru": "Соус, ветчина, ананас, красный лук, сыр."
           },
           "allergens": {
             "en": [
@@ -3043,7 +3037,7 @@
           "name": {
             "ro": "Cu carne de pui și ciuperci",
             "en": "With chicken and mushrooms",
-            "ru": "С курицей и грибы"
+            "ru": "С курицей и грибами"
           },
           "portion": "400 gr",
           "price": "135",
@@ -3073,15 +3067,15 @@
           "id": "12-9-cu-carne-de-pui-si-porumb",
           "name": {
             "ro": "Cu carne de pui și porumb",
-            "en": "With chicken and porumb",
-            "ru": "С курицей и porumb"
+            "en": "With chicken and corn",
+            "ru": "С курицей и кукурузой"
           },
           "portion": "430 gr",
           "price": "135",
           "description": {
-            "en": "Sauce, chicken breast, mushrooms, corn canned, cheese, sweet pepper.",
+            "en": "Sauce, chicken breast, mushrooms, canned corn, cheese, sweet pepper.",
             "ro": "Sos, piept de pui, ciuperci, porumb conservat, cașcaval, ardei dulce.",
-            "ru": "Соус, куриная грудка, грибы, кукуруза консервированный, сыр, сладкий перец."
+            "ru": "Соус, куриная грудка, грибы, консервированная кукуруза, сыр, сладкий перец."
           },
           "allergens": {
             "en": [
@@ -3141,9 +3135,9 @@
           "portion": "380 gr",
           "price": "135",
           "description": {
-            "en": "Sauce, sweet pepper, fresh tomatoes, olives, corn canned, mushrooms, cheese.",
+            "en": "Sauce, sweet pepper, fresh tomatoes, olives, canned corn, mushrooms, cheese.",
             "ro": "Sos, ardei dulce, roșii proaspete, măsline, porumb conservat, ciuperci, cașcaval.",
-            "ru": "Соус, сладкий перец, свежие помидоры, оливки, кукуруза консервированный, грибы, сыр."
+            "ru": "Соус, сладкий перец, свежие помидоры, оливки, консервированная кукуруза, грибы, сыр."
           },
           "allergens": {
             "en": [
@@ -3222,15 +3216,15 @@
           "id": "12-14-salami-porumb-si-ardei-iute",
           "name": {
             "ro": "Salami, porumb și ardei iute",
-            "en": "Salami, porumb and pepper iute",
-            "ru": "Salami, porumb и перец iute"
+            "en": "Salami, corn and hot pepper",
+            "ru": "Салями, кукуруза и острый перец"
           },
           "portion": "450 gr",
           "price": "140",
           "description": {
-            "en": "Sauce, salami, corn canned, hot pepper, cheese.",
+            "en": "Sauce, salami, canned corn, hot pepper, cheese.",
             "ro": "Sos, salami, porumb conservat, ardei iute, cașcaval.",
-            "ru": "Соус, салями, кукуруза консервированный, острый перец, сыр."
+            "ru": "Соус, салями, консервированная кукуруза, острый перец, сыр."
           },
           "allergens": {
             "en": [
@@ -3259,9 +3253,9 @@
           "portion": "850 gr",
           "price": "250",
           "description": {
-            "en": "Sauce, mushrooms, ham, salami, sweet pepper, corn canned, olives, chicken breast, cheese.",
+            "en": "Sauce, mushrooms, ham, salami, sweet pepper, canned corn, olives, chicken breast, cheese.",
             "ro": "Sos, ciuperci, șuncă, salam, ardei dulce, porumb conservat, măsline, piept de pui, cașcaval.",
-            "ru": "Соус, грибы, ветчина, салями, сладкий перец, кукуруза консервированный, оливки, куриная грудка, сыр."
+            "ru": "Соус, грибы, ветчина, салями, сладкий перец, консервированная кукуруза, оливки, куриная грудка, сыр."
           },
           "allergens": {
             "en": [
@@ -3355,9 +3349,9 @@
           "portion": "300 gr",
           "price": "115",
           "description": {
-            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, steak chicken, French fries, ketchup.",
+            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, chicken steak, French fries, ketchup.",
             "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cartofi pai, ketchup.",
-            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, стейк курица, картофель фри, кетчуп."
+            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, куриный стейк, картофель фри, кетчуп."
           },
           "allergens": {
             "en": [
@@ -3383,15 +3377,15 @@
           "id": "13-4-cheese-burger-cu-carne-de-pui",
           "name": {
             "ro": "Cheese Burger cu carne de pui",
-            "en": "Cheese Burger with chicken",
-            "ru": "Cheese Burger с курицей"
+            "en": "Chicken cheeseburger",
+            "ru": "Чизбургер с курицей"
           },
           "portion": "320 gr",
           "price": "125",
           "description": {
-            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, steak chicken, cheese, French fries, ketchup.",
+            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, chicken steak, cheese, French fries, ketchup.",
             "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cașcaval, cartofi pai, ketchup.",
-            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, стейк курица, сыр, картофель фри, кетчуп."
+            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, куриный стейк, сыр, картофель фри, кетчуп."
           },
           "allergens": {
             "en": [
@@ -3420,8 +3414,8 @@
           "id": "13-5-cheese-burger-cu-carne-de-vita",
           "name": {
             "ro": "Cheese Burger cu carne de vită",
-            "en": "Cheese Burger with beef",
-            "ru": "Cheese Burger с говядиной"
+            "en": "Beef cheeseburger",
+            "ru": "Чизбургер с говядиной"
           },
           "portion": "320 gr",
           "price": "140",
@@ -3473,9 +3467,9 @@
           "portion": "250 gr",
           "price": "110",
           "description": {
-            "en": "Ice cream white, egg, cereal, honey, caramel.",
+            "en": "Plain ice cream, egg, cereal, honey, caramel.",
             "ro": "Înghețată albă, ou, cereale, miere, caramelă.",
-            "ru": "Мороженое белая, яйцо, хлопья, мёд, карамель."
+            "ru": "Белое мороженое, яйцо, хлопья, мёд, карамель."
           },
           "allergens": {
             "en": [
@@ -3530,7 +3524,7 @@
           "name": {
             "ro": "Cheesecake",
             "en": "Cheesecake",
-            "ru": "Cheesecake"
+            "ru": "Чизкейк"
           },
           "portion": "200 gr",
           "price": "110",
@@ -3567,7 +3561,7 @@
           "name": {
             "ro": "Tiramisu",
             "en": "Tiramisu",
-            "ru": "Tiramisu"
+            "ru": "Тирамису"
           },
           "portion": "150 gr",
           "price": "100",
@@ -3600,15 +3594,15 @@
           "id": "14-5-prajitura-de-casa-cu-fructe-de-padure-si-inghetata",
           "name": {
             "ro": "Prăjitură de casă cu fructe de pădure și înghețată",
-            "en": "Prăjitură of casă with fruit of pădure and ice cream",
-            "ru": "Prăjitură casă с фрукты pădure и мороженое"
+            "en": "Homemade cake with berries and ice cream",
+            "ru": "Домашний пирог с ягодами и мороженым"
           },
           "portion": "250 gr",
           "price": "100",
           "description": {
-            "en": "Egg, wheat flour, apple, sour cream, jam of fruit, ice cream white, powdered sugar, walnut.",
+            "en": "Egg, wheat flour, apple, sour cream, fruit jam, plain ice cream, powdered sugar, walnut.",
             "ro": "Ou, făină de grâu, măr, smântână, dulceață de fructe, înghețată albă, zahăr pudră, nucă.",
-            "ru": "Яйцо, пшеничная мука, яблоко, сметана, варенье из фрукты, мороженое белая, сахарная пудра, грецкий орех."
+            "ru": "Яйцо, пшеничная мука, яблоко, сметана, фруктовое варенье, белое мороженое, сахарная пудра, грецкий орех."
           },
           "allergens": {
             "en": [
@@ -3640,8 +3634,8 @@
           "id": "14-6-desert-cusma-lui-guguta",
           "name": {
             "ro": "Desert „Cușma lui Guguță”",
-            "en": "Desert “hat lui Guguta”",
-            "ru": "Desert «шапка lui Гугуцэ»"
+            "en": "Guguță's Hat dessert",
+            "ru": "Десерт «Шапка Гугуцэ»"
           },
           "portion": "250 gr",
           "price": "120",
@@ -3671,8 +3665,8 @@
           "id": "14-7-gogoase-cu-visina",
           "name": {
             "ro": "Gogoase cu vișină",
-            "en": "Doughnuts with sour cherry",
-            "ru": "Пончики с вишня"
+            "en": "Doughnuts with sour cherries",
+            "ru": "Пончики с вишней"
           },
           "portion": "160/10 gr",
           "price": "100",
@@ -3710,8 +3704,8 @@
           "id": "14-8-clatite-cu-branza-si-stafide",
           "name": {
             "ro": "Clătite cu brânză și stafide",
-            "en": "Pancakes with cheese and stafide",
-            "ru": "Блины с сыр и stafide"
+            "en": "Pancakes with cheese and raisins",
+            "ru": "Блины с сыром и изюмом"
           },
           "portion": "250 gr",
           "price": "110",
@@ -3741,15 +3735,15 @@
           "id": "14-9-mar-copt-cu-miez-de-nuca",
           "name": {
             "ro": "Măr copt cu miez de nucă",
-            "en": "Apple copt with miez of nucă",
-            "ru": "Яблоко copt с miez nucă"
+            "en": "Baked apple with walnuts",
+            "ru": "Печёное яблоко с грецкими орехами"
           },
           "portion": "250 gr",
           "price": "50",
           "description": {
-            "en": "Apple, walnut kernels, jam of fruit, powdered sugar.",
+            "en": "Apple, walnut kernels, fruit jam, powdered sugar.",
             "ro": "Măr, miez de nucă, dulceață de fructe, zahăr pudră.",
-            "ru": "Яблоко, ядра грецкого ореха, варенье из фрукты, сахарная пудра."
+            "ru": "Яблоко, ядра грецкого ореха, фруктовое варенье, сахарная пудра."
           },
           "allergens": {
             "en": [
@@ -3772,8 +3766,8 @@
           "id": "14-10-salata-de-fructe",
           "name": {
             "ro": "Salată de fructe",
-            "en": "Salad of fruit",
-            "ru": "Салат фрукты"
+            "en": "Fruit salad",
+            "ru": "Фруктовый салат"
           },
           "portion": "250 gr",
           "price": "75",
@@ -3798,14 +3792,14 @@
           "name": {
             "ro": "Înghețată cu fructe",
             "en": "Ice cream with fruit",
-            "ru": "Мороженое с фрукты"
+            "ru": "Мороженое с фруктами"
           },
           "portion": "200 gr",
           "price": "75",
           "description": {
-            "en": "Ice cream white/with chocolate, banana, kiwi, orange, grape.",
+            "en": "Plain or chocolate ice cream, banana, kiwi, orange, grape.",
             "ro": "Înghețată albă/cu ciocolată, banană, kiwi, portocală, strugure.",
-            "ru": "Мороженое белая/с шоколад, банан, киви, апельсин, виноград."
+            "ru": "Белое или шоколадное мороженое, банан, киви, апельсин, виноград."
           },
           "allergens": {
             "en": [
@@ -3828,15 +3822,15 @@
           "id": "14-12-inghetata-in-sortiment-cu-adaosuri",
           "name": {
             "ro": "Înghețată în sortiment cu adaosuri",
-            "en": "Ice cream assorted with extras",
-            "ru": "Мороженое ассорти с добавки"
+            "en": "Assorted ice cream with toppings",
+            "ru": "Мороженое в ассортименте с добавками"
           },
           "portion": "200 gr",
           "price": "75",
           "description": {
-            "en": "Ice cream white/with chocolate, topping (chocolate, caramel, honey, jam of sour cherry).",
+            "en": "Plain or chocolate ice cream, topping (chocolate, caramel, honey, sour cherry jam).",
             "ro": "Înghețată albă/cu ciocolată, topping (ciocolată, caramelă, miere, dulceață de vișină).",
-            "ru": "Мороженое белая/с шоколад, топпинг (шоколад, карамель, мёд, варенье из вишня)."
+            "ru": "Белое или шоколадное мороженое, топпинг (шоколад, карамель, мёд, вишнёвое варенье)."
           },
           "allergens": {
             "en": [
@@ -3859,15 +3853,15 @@
           "id": "14-13-tableta-de-ciocolata-in-sortiment",
           "name": {
             "ro": "Tabletă de ciocolată în sortiment",
-            "en": "Tabletă of ciocolată assorted",
-            "ru": "Tabletă ciocolată ассорти"
+            "en": "Assorted chocolate bars",
+            "ru": "Шоколад в ассортименте"
           },
           "portion": "100 gr",
           "price": "50",
           "description": {
-            "en": "Sugar, cocoa, hazelnuts, fruit, butter of cocoa, fat dairy.",
+            "en": "Sugar, cocoa, hazelnuts, fruit, cocoa butter, milk fat.",
             "ro": "Zahăr, cacao, alune, fructe, unt de cacao, grăsime lactată.",
-            "ru": "Сахар, какао, лесные орехи, фрукты, сливочное масло из какао, жир молочный."
+            "ru": "Сахар, какао, лесные орехи, фрукты, масло какао, молочный жир."
           },
           "allergens": {
             "en": [
@@ -3988,8 +3982,8 @@
           "id": "16-4-suc-fresh",
           "name": {
             "ro": "Suc Fresh",
-            "en": "Suc Fresh",
-            "ru": "Suc Fresh"
+            "en": "Fresh juice",
+            "ru": "Свежевыжатый сок"
           },
           "portion": "0,2 l",
           "price": "60",
@@ -4013,15 +4007,15 @@
           "id": "16-5-suc-orhei-vit",
           "name": {
             "ro": "Suc „Orhei Vit”",
-            "en": "Suc “Orhei Vit”",
-            "ru": "Suc «Orhei Vit»"
+            "en": "Orhei Vit juice",
+            "ru": "Сок «Orhei Vit»"
           },
           "portion": "0,25 l",
           "price": "20",
           "description": {
-            "en": "In assorted.",
+            "en": "Assorted.",
             "ro": "În sortiment.",
-            "ru": "В ассорти."
+            "ru": "В ассортименте."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4058,8 +4052,8 @@
           "id": "18-1-cafea-espresso",
           "name": {
             "ro": "Cafea Espresso",
-            "en": "Coffee espresso",
-            "ru": "Кофе эспрессо"
+            "en": "Espresso",
+            "ru": "Эспрессо"
           },
           "portion": "1 buc",
           "price": "30",
@@ -4078,8 +4072,8 @@
           "id": "18-2-cafea-cappuccino",
           "name": {
             "ro": "Cafea Cappuccino",
-            "en": "Coffee cappuccino",
-            "ru": "Кофе капучино"
+            "en": "Cappuccino",
+            "ru": "Капучино"
           },
           "portion": "250 ml",
           "price": "50",
@@ -4098,8 +4092,8 @@
           "id": "18-3-cafea-latte",
           "name": {
             "ro": "Cafea Latte",
-            "en": "Coffee latte",
-            "ru": "Кофе латте"
+            "en": "Latte",
+            "ru": "Латте"
           },
           "portion": "300 ml",
           "price": "60",
@@ -4118,8 +4112,8 @@
           "id": "18-4-ceai-infuzie",
           "name": {
             "ro": "Ceai infuzie",
-            "en": "Tea infuzie",
-            "ru": "Чай infuzie"
+            "en": "Infused tea",
+            "ru": "Заварной чай"
           },
           "portion": "400 ml",
           "price": "50",
@@ -4138,8 +4132,8 @@
           "id": "18-5-ceai-de-fructe",
           "name": {
             "ro": "Ceai de fructe",
-            "en": "Tea of fruit",
-            "ru": "Чай фрукты"
+            "en": "Fruit tea",
+            "ru": "Фруктовый чай"
           },
           "portion": "600 ml",
           "price": "80",
@@ -4171,7 +4165,7 @@
           "description": {
             "en": "White, red.",
             "ro": "Alb, roșu.",
-            "ru": "Белый, красное."
+            "ru": "Белое, красное."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4204,9 +4198,9 @@
           "portion": "350 ml",
           "price": "70",
           "description": {
-            "en": "Syrup Mojito, mint, lime, sparkling water.",
+            "en": "Mojito syrup, mint, lime, sparkling water.",
             "ro": "Sirop mojito, mentă, lime, apă gazată.",
-            "ru": "Сироп Мохито, мята, лайм, газированная вода."
+            "ru": "Сироп «Мохито», мята, лайм, газированная вода."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4254,9 +4248,9 @@
           "portion": "300 ml",
           "price": "70",
           "description": {
-            "en": "Cream, syrup coconut, pineapple juice.",
+            "en": "Cream, coconut syrup, pineapple juice.",
             "ro": "Frișcă, sirop cocos, suc de ananas.",
-            "ru": "Сливки, сироп кокос, ананасовый сок."
+            "ru": "Сливки, кокосовый сироп, ананасовый сок."
           },
           "allergens": {
             "en": [
@@ -4279,8 +4273,8 @@
           "id": "17-4-ice-tea",
           "name": {
             "ro": "Ice Tea",
-            "en": "Ice Tea",
-            "ru": "Ice Tea"
+            "en": "Iced tea",
+            "ru": "Холодный чай"
           },
           "portion": "300 ml",
           "price": "60",
@@ -4319,8 +4313,8 @@
           "id": "17-6-fruit-shake",
           "name": {
             "ro": "Fruit Shake",
-            "en": "Fruit Shake",
-            "ru": "Fruit Shake"
+            "en": "Fruit shake",
+            "ru": "Фруктовый коктейль"
           },
           "portion": "300 ml",
           "price": "70",
@@ -4370,8 +4364,8 @@
           "id": "17-8-coffee-frappe",
           "name": {
             "ro": "Coffee Frappe",
-            "en": "Coffee Frappe",
-            "ru": "Coffee Frappe"
+            "en": "Coffee frappé",
+            "ru": "Кофе фраппе"
           },
           "portion": "300 ml",
           "price": "70",
@@ -4431,14 +4425,14 @@
           "name": {
             "ro": "Aperol Spritz",
             "en": "Aperol Spritz",
-            "ru": "Апероль Spritz"
+            "ru": "Апероль шприц"
           },
           "portion": "300 ml",
           "price": "100",
           "description": {
-            "en": "Wine sparkling wine, sparkling water, Aperol.",
+            "en": "Sparkling wine, sparkling water, Aperol.",
             "ro": "Vin spumant, apă gazată, aperol.",
-            "ru": "Вино игристое вино, газированная вода, Апероль."
+            "ru": "Игристое вино, газированная вода, Апероль."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4461,9 +4455,9 @@
           "portion": "350 ml",
           "price": "90",
           "description": {
-            "en": "Rum, syrup Mojito, mint, lime, sparkling water.",
+            "en": "Rum, Mojito syrup, mint, lime, sparkling water.",
             "ro": "Rum, sirop mojito, mentă, lime, apă gazată.",
-            "ru": "Ром, сироп Мохито, мята, лайм, газированная вода."
+            "ru": "Ром, сироп «Мохито», мята, лайм, газированная вода."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4486,9 +4480,9 @@
           "portion": "300 ml",
           "price": "80",
           "description": {
-            "en": "Wine red, syrup, juice, orange.",
+            "en": "Red wine, syrup, juice, orange.",
             "ro": "Vin roșu, sirop, suc, portocală.",
-            "ru": "Вино красное, сироп, сок, апельсин."
+            "ru": "Красное вино, сироп, сок, апельсин."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4511,9 +4505,9 @@
           "portion": "130 ml",
           "price": "100",
           "description": {
-            "en": "Tequila, triple sec, juice of lime.",
+            "en": "Tequila, triple sec, lime juice.",
             "ro": "Tequila, triple sec, suc de lime.",
-            "ru": "Текила, трипл-сек, сок из лайм."
+            "ru": "Текила, трипл-сек, сок лайма."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4561,9 +4555,9 @@
           "portion": "300 ml",
           "price": "90",
           "description": {
-            "en": "Rum, Malibu, juice pineapple, syrup coconut.",
+            "en": "Rum, Malibu, pineapple juice, coconut syrup.",
             "ro": "Rum, Malibu, suc ananas, sirop cocos.",
-            "ru": "Ром, Малибу, сок ананас, сироп кокос."
+            "ru": "Ром, Малибу, ананасовый сок, кокосовый сироп."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4611,9 +4605,9 @@
           "portion": "60 ml",
           "price": "80",
           "description": {
-            "en": "Pisang Ambon, juice of lime, tequila.",
+            "en": "Pisang Ambon, lime juice, tequila.",
             "ro": "Pisang Ambon, suc de lime, tequila.",
-            "ru": "Пизанг Амбон, сок из лайм, текила."
+            "ru": "Пизанг Амбон, сок лайма, текила."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4711,9 +4705,9 @@
           "portion": "300 ml",
           "price": "100",
           "description": {
-            "en": "Elderflower, wine sparkling wine, mint, lime.",
+            "en": "Elderflower, sparkling wine, mint, lime.",
             "ro": "Elder flower, vin spumant, mentă, lime.",
-            "ru": "Цветки бузины, вино игристое вино, мята, лайм."
+            "ru": "Цветки бузины, игристое вино, мята, лайм."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4761,9 +4755,9 @@
           "portion": "350 ml",
           "price": "120",
           "description": {
-            "en": "Gin, rum, triple sec, vodka, juice lemon, cola.",
+            "en": "Gin, rum, triple sec, vodka, lemon juice, cola.",
             "ro": "Gin, rum, triple sec, vodka, suc lămâie, cola.",
-            "ru": "Джин, ром, трипл-сек, водка, сок лимон, кола."
+            "ru": "Джин, ром, трипл-сек, водка, лимонный сок, кола."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4836,9 +4830,9 @@
           "portion": "120 ml",
           "price": "100",
           "description": {
-            "en": "Vodka, triple sec, juice lime.",
+            "en": "Vodka, triple sec, lime juice.",
             "ro": "Vodka, triple sec, suc lime.",
-            "ru": "Водка, трипл-сек, сок лайм."
+            "ru": "Водка, трипл-сек, сок лайма."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -4865,8 +4859,8 @@
           "id": "20-1-beermaster-brewery-golden-lager",
           "name": {
             "ro": "Beermaster Brewery — Golden Lager",
-            "en": "Beermaster Brewery — Gold tequilaen Lager",
-            "ru": "Beermaster Brewery — Золотая текилаen Lager"
+            "en": "Beermaster Brewery — Golden Lager",
+            "ru": "Beermaster Brewery — Golden Lager"
           },
           "portion": "0,5/0,3 l",
           "price": "40/35",
@@ -4878,7 +4872,7 @@
           "section": {
             "en": "Draft",
             "ro": "Draft",
-            "ru": "Draft"
+            "ru": "Разливное"
           }
         },
         {
@@ -4898,7 +4892,7 @@
           "section": {
             "en": "Draft",
             "ro": "Draft",
-            "ru": "Draft"
+            "ru": "Разливное"
           }
         },
         {
@@ -4918,7 +4912,7 @@
           "section": {
             "en": "Draft",
             "ro": "Draft",
-            "ru": "Draft"
+            "ru": "Разливное"
           }
         },
         {
@@ -4938,7 +4932,7 @@
           "section": {
             "en": "Draft",
             "ro": "Draft",
-            "ru": "Draft"
+            "ru": "Разливное"
           }
         },
         {
@@ -5173,9 +5167,9 @@
           "portion": "50 gr",
           "price": "70",
           "description": {
-            "en": "Salami raw of beef.",
+            "en": "Raw beef salami.",
             "ro": "Salam crud de vită.",
-            "ru": "Салями сырой из говядина."
+            "ru": "Сырая салями из говядины."
           },
           "allergens": {
             "en": "No common allergens identified in the listed ingredients.",
@@ -5212,15 +5206,15 @@
           "id": "20-17-platou-la-bere-la-friteuza",
           "name": {
             "ro": "Platou la bere la friteuză",
-            "en": "Platter with beer deep-fried",
-            "ru": "Ассорти с пиво во фритюре"
+            "en": "Deep-fried beer snack platter",
+            "ru": "Ассорти закусок к пиву во фритюре"
           },
           "portion": "500 gr",
           "price": "270",
           "description": {
-            "en": "Chicken fingers of chicken breaded, French fries, rings of onion, potatoes balls, tartar sauce, ketchup.",
+            "en": "Breaded chicken fingers, French fries, onion rings, potato balls, tartar sauce, ketchup.",
             "ro": "Degețele de pui pane, cartofi pai, inele de ceapă, cartofi bile, sos tartar, ketchup.",
-            "ru": "Куриные палочки из курица в панировке, картофель фри, кольца из лук, картофель шарики, соус тартар, кетчуп."
+            "ru": "Куриные палочки в панировке, картофель фри, луковые кольца, картофельные шарики, соус тартар, кетчуп."
           },
           "allergens": {
             "en": [
@@ -5243,15 +5237,15 @@
           "id": "20-18-degetele-de-pui-pane",
           "name": {
             "ro": "Degețele de pui pane",
-            "en": "Degețele of chicken pane",
-            "ru": "Degețele курица pane"
+            "en": "Breaded chicken fingers",
+            "ru": "Куриные палочки в панировке"
           },
           "portion": "200 gr",
           "price": "90",
           "description": {
-            "en": "Chicken breast, wheat flour, egg, breadcrumbs ground, sauce tartar-tartar.",
+            "en": "Chicken breast, wheat flour, egg, ground breadcrumbs, tartar sauce.",
             "ro": "Piept de pui, făină de grâu, ou, pesmeți măcinați, sos tar-tar.",
-            "ru": "Куриная грудка, пшеничная мука, яйцо, панировочные сухари молотые, соус тартар-тартар."
+            "ru": "Куриная грудка, пшеничная мука, яйцо, молотые панировочные сухари, соус тартар."
           },
           "allergens": {
             "en": [
@@ -5316,15 +5310,15 @@
           "id": "20-20-urechi-de-porc-la-friteuza",
           "name": {
             "ro": "Urechi de porc la friteuză",
-            "en": "Urechi of pork deep-fried",
-            "ru": "Urechi свинина во фритюре"
+            "en": "Deep-fried pork ears",
+            "ru": "Свиные уши во фритюре"
           },
           "portion": "150 gr",
           "price": "70",
           "description": {
-            "en": "Ears of pork, soy sauce, spices.",
+            "en": "Pork ears, soy sauce, spices.",
             "ro": "Urechi de porc, sos de soia, condimente.",
-            "ru": "Уши из свинина, соевый соус, специи."
+            "ru": "Свиные уши, соевый соус, специи."
           },
           "allergens": {
             "en": [
@@ -5347,15 +5341,15 @@
           "id": "20-21-urechi-de-porc-picante",
           "name": {
             "ro": "Urechi de porc picante",
-            "en": "Urechi of pork picante",
-            "ru": "Urechi свинина picante"
+            "en": "Spicy pork ears",
+            "ru": "Острые свиные уши"
           },
           "portion": "150 gr",
           "price": "75",
           "description": {
-            "en": "Ears of pork, soy sauce, sauce oyster, spices, garlic, carrot Korean-style.",
+            "en": "Pork ears, soy sauce, oyster sauce, spices, garlic, Korean-style carrot.",
             "ro": "Urechi de porc, sos de soia, sos oyster, condimente, usturoi, morcov coreean.",
-            "ru": "Уши из свинина, соевый соус, соус устричный, специи, чеснок, морковь по-корейски."
+            "ru": "Свиные уши, соевый соус, устричный соус, специи, чеснок, морковь по-корейски."
           },
           "allergens": {
             "en": [
@@ -5381,15 +5375,15 @@
           "id": "20-22-creveti-pane",
           "name": {
             "ro": "Creveți pane",
-            "en": "Shrimp pane",
-            "ru": "Креветки pane"
+            "en": "Breaded shrimp",
+            "ru": "Креветки в панировке"
           },
           "portion": "250 gr",
           "price": "210",
           "description": {
-            "en": "Shrimp, wheat flour, egg, breadcrumbs ground, sauce spicy.",
+            "en": "Shrimp, wheat flour, egg, ground breadcrumbs, spicy sauce.",
             "ro": "Creveți, făină de grâu, ou, pesmeți măcinați, sos picant.",
-            "ru": "Креветки, пшеничная мука, яйцо, панировочные сухари молотые, соус острый."
+            "ru": "Креветки, пшеничная мука, яйцо, молотые панировочные сухари, острый соус."
           },
           "allergens": {
             "en": [
@@ -5418,8 +5412,8 @@
           "id": "20-23-platou-la-bere",
           "name": {
             "ro": "Platou la bere",
-            "en": "Platter with beer",
-            "ru": "Ассорти с пиво"
+            "en": "Beer snack platter",
+            "ru": "Ассорти закусок к пиву"
           },
           "portion": "200 gr",
           "price": "250",
@@ -5522,8 +5516,8 @@
           "id": "21-4-la-pahar",
           "name": {
             "ro": "La pahar",
-            "en": "With pahar",
-            "ru": "С pahar"
+            "en": "By the glass",
+            "ru": "Бокал"
           },
           "portion": "200 ml",
           "price": "60",
@@ -5622,8 +5616,8 @@
           "id": "21-9-la-pahar",
           "name": {
             "ro": "La pahar",
-            "en": "With pahar",
-            "ru": "С pahar"
+            "en": "By the glass",
+            "ru": "Бокал"
           },
           "portion": "150 ml",
           "price": "55",
@@ -5713,9 +5707,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Chateau Vartely — categoria “Individo”",
+            "en": "Chateau Vartely — Individo range",
             "ro": "Chateau Vartely — categoria „Individo”",
-            "ru": "Chateau Vartely — categoria «Individo»"
+            "ru": "Chateau Vartely — серия «Individo»"
           }
         },
         {
@@ -5733,9 +5727,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Chateau Vartely — categoria “Individo”",
+            "en": "Chateau Vartely — Individo range",
             "ro": "Chateau Vartely — categoria „Individo”",
-            "ru": "Chateau Vartely — categoria «Individo»"
+            "ru": "Chateau Vartely — серия «Individo»"
           }
         },
         {
@@ -5753,17 +5747,17 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Chateau Vartely — categoria “Individo”",
+            "en": "Chateau Vartely — Individo range",
             "ro": "Chateau Vartely — categoria „Individo”",
-            "ru": "Chateau Vartely — categoria «Individo»"
+            "ru": "Chateau Vartely — серия «Individo»"
           }
         },
         {
           "id": "21-16-la-pahar",
           "name": {
             "ro": "La pahar",
-            "en": "With pahar",
-            "ru": "С pahar"
+            "en": "By the glass",
+            "ru": "Бокал"
           },
           "portion": "200 ml",
           "price": "60",
@@ -5773,9 +5767,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine of marcă",
+            "en": "Vintage wine",
             "ro": "Vin de marcă",
-            "ru": "Вино marcă"
+            "ru": "Марочное вино"
           }
         },
         {
@@ -5793,9 +5787,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine of marcă",
+            "en": "Vintage wine",
             "ro": "Vin de marcă",
-            "ru": "Вино marcă"
+            "ru": "Марочное вино"
           }
         },
         {
@@ -5813,9 +5807,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine of marcă",
+            "en": "Vintage wine",
             "ro": "Vin de marcă",
-            "ru": "Вино marcă"
+            "ru": "Марочное вино"
           }
         },
         {
@@ -5833,9 +5827,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine of marcă",
+            "en": "Vintage wine",
             "ro": "Vin de marcă",
-            "ru": "Вино marcă"
+            "ru": "Марочное вино"
           }
         },
         {
@@ -5853,9 +5847,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine sparkling “Maestro”",
+            "en": "Maestro sparkling wine",
             "ro": "Vin spumant „Maestro”",
-            "ru": "Вино игристое «Maestro»"
+            "ru": "Игристое вино «Maestro»"
           }
         },
         {
@@ -5873,9 +5867,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine sparkling “Maestro”",
+            "en": "Maestro sparkling wine",
             "ro": "Vin spumant „Maestro”",
-            "ru": "Вино игристое «Maestro»"
+            "ru": "Игристое вино «Maestro»"
           }
         },
         {
@@ -5893,9 +5887,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine sparkling “Maestro”",
+            "en": "Maestro sparkling wine",
             "ro": "Vin spumant „Maestro”",
-            "ru": "Вино игристое «Maestro»"
+            "ru": "Игристое вино «Maestro»"
           }
         },
         {
@@ -5913,9 +5907,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Wine sparkling “Maestro”",
+            "en": "Maestro sparkling wine",
             "ro": "Vin spumant „Maestro”",
-            "ru": "Вино игристое «Maestro»"
+            "ru": "Игристое вино «Maestro»"
           }
         }
       ]
@@ -6032,8 +6026,8 @@
           "id": "22-6-luceafarul-10-ani",
           "name": {
             "ro": "Luceafărul 10 ani",
-            "en": "Luceafărul 10 ani",
-            "ru": "Luceafărul 10 ani"
+            "en": "Luceafărul 10 years",
+            "ru": "Luceafărul 10 лет"
           },
           "portion": "50 ml",
           "price": "85",
@@ -6052,8 +6046,8 @@
           "id": "22-7-kvint-10-ani",
           "name": {
             "ro": "Kvint 10 ani",
-            "en": "Kvint 10 ani",
-            "ru": "Kvint 10 ani"
+            "en": "Kvint 10 years",
+            "ru": "Kvint 10 лет"
           },
           "portion": "50 ml",
           "price": "75",
@@ -6072,8 +6066,8 @@
           "id": "22-8-doina-9-ani",
           "name": {
             "ro": "Doina 9 ani",
-            "en": "Doina 9 ani",
-            "ru": "Doina 9 ani"
+            "en": "Doina 9 years",
+            "ru": "Doina 9 лет"
           },
           "portion": "50 ml",
           "price": "60",
@@ -6092,8 +6086,8 @@
           "id": "22-9-calarasi-7-ani",
           "name": {
             "ro": "Călărași 7 ani",
-            "en": "Călărași 7 ani",
-            "ru": "Călărași 7 ani"
+            "en": "Călărași 7 years",
+            "ru": "Călărași 7 лет"
           },
           "portion": "50 ml",
           "price": "50",
@@ -6112,8 +6106,8 @@
           "id": "22-10-bardar-7-ani",
           "name": {
             "ro": "Bardar 7 ani",
-            "en": "Bardar 7 ani",
-            "ru": "Bardar 7 ani"
+            "en": "Bardar 7 years",
+            "ru": "Bardar 7 лет"
           },
           "portion": "50 ml",
           "price": "50",
@@ -6132,8 +6126,8 @@
           "id": "22-11-vartely-5-ani",
           "name": {
             "ro": "Vartely 5 ani",
-            "en": "Vartely 5 ani",
-            "ru": "Vartely 5 ani"
+            "en": "Vartely 5 years",
+            "ru": "Vartely 5 лет"
           },
           "portion": "50 ml",
           "price": "40",
@@ -6152,8 +6146,8 @@
           "id": "22-12-calarasi-5-ani",
           "name": {
             "ro": "Călărași 5 ani",
-            "en": "Călărași 5 ani",
-            "ru": "Călărași 5 ani"
+            "en": "Călărași 5 years",
+            "ru": "Călărași 5 лет"
           },
           "portion": "50 ml",
           "price": "40",
@@ -6172,8 +6166,8 @@
           "id": "22-13-bardar-5-ani",
           "name": {
             "ro": "Bardar 5 ani",
-            "en": "Bardar 5 ani",
-            "ru": "Bardar 5 ani"
+            "en": "Bardar 5 years",
+            "ru": "Bardar 5 лет"
           },
           "portion": "50 ml",
           "price": "40",
@@ -6303,9 +6297,9 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Lichior",
+            "en": "Liqueur",
             "ro": "Lichior",
-            "ru": "Lichior"
+            "ru": "Ликёр"
           }
         },
         {
@@ -6323,17 +6317,17 @@
             "ru": "Состав не указан в исходном меню."
           },
           "section": {
-            "en": "Lichior",
+            "en": "Liqueur",
             "ro": "Lichior",
-            "ru": "Lichior"
+            "ru": "Ликёр"
           }
         },
         {
           "id": "22-21-captain-morgan-spiced-gold",
           "name": {
             "ro": "Captain Morgan Spiced Gold",
-            "en": "Captain Morgan Spiced Gold tequila",
-            "ru": "Captain Morgan Spiced Золотая текила"
+            "en": "Captain Morgan Spiced Gold",
+            "ru": "Captain Morgan Spiced Gold"
           },
           "portion": "50 ml",
           "price": "60",

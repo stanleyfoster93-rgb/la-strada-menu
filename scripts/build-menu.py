@@ -136,8 +136,6 @@ NAME_PHRASES = {
         "retroping pane": "Breaded Retroping",
         "arahide": "Peanuts",
         "pesmeți": "Croutons",
-        "silver": "Silver tequila",
-        "gold": "Gold tequila",
         "caldă „la strada”": "Warm La Strada salad",
         "funcioasă": "Funchoza",
         "„la strada”": "„La Strada”",
@@ -197,8 +195,6 @@ NAME_PHRASES = {
         "retroping pane": "Ретропинг в панировке",
         "arahide": "Арахис",
         "pesmeți": "Сухарики",
-        "silver": "Серебряная текила",
-        "gold": "Золотая текила",
         "caldă „la strada”": "Тёплый салат «Ла Страда»",
         "funcioasă": "Фунчоза",
         "„la strada”": "«Ла Страда»",
@@ -273,6 +269,50 @@ NAME_WORDS = {
 }
 
 DESCRIPTION_PHRASES = {
+    "ceapă roșie": ("red onion", "красный лук"),
+    "sfeclă roșie": ("beetroot", "свёкла"),
+    "roșii cherry": ("cherry tomatoes", "помидоры черри"),
+    "iaurt grecesc": ("Greek yogurt", "греческий йогурт"),
+    "mix salat": ("mixed salad leaves", "смесь салатных листьев"),
+    "borș acru": ("sour fermented bran broth", "кислый отвар из отрубей"),
+    "asorti de salamuri afumate": ("assorted smoked sausages", "ассорти копчёных колбас"),
+    "varză proaspătă": ("fresh cabbage", "свежая капуста"),
+    "vișină înghețată": ("frozen sour cherries", "замороженная вишня"),
+    "sos picant": ("spicy sauce", "острый соус"),
+    "sos pesto": ("pesto sauce", "соус песто"),
+    "piept pui": ("chicken breast", "куриная грудка"),
+    "ceapă marinată": ("marinated onion", "маринованный лук"),
+    "ceafă de porc": ("pork neck", "свиная шея"),
+    "costiță de porc": ("pork ribs", "свиные рёбрышки"),
+    "ciolan de porc": ("pork knuckle", "свиная рулька"),
+    "varză murată": ("pickled cabbage", "квашеная капуста"),
+    "porumb conservat": ("canned corn", "консервированная кукуруза"),
+    "steak pui": ("chicken steak", "куриный стейк"),
+    "înghețată albă/cu ciocolată": ("plain or chocolate ice cream", "белое или шоколадное мороженое"),
+    "înghețată albă": ("plain ice cream", "белое мороженое"),
+    "dulceață de fructe": ("fruit jam", "фруктовое варенье"),
+    "dulceață de vișină": ("sour cherry jam", "вишнёвое варенье"),
+    "unt de cacao": ("cocoa butter", "масло какао"),
+    "grăsime lactată": ("milk fat", "молочный жир"),
+    "în sortiment": ("assorted", "в ассортименте"),
+    "sirop mojito": ("Mojito syrup", "сироп «Мохито»"),
+    "sirop cocos": ("coconut syrup", "кокосовый сироп"),
+    "vin spumant": ("sparkling wine", "игристое вино"),
+    "vin roșu": ("red wine", "красное вино"),
+    "suc de lime": ("lime juice", "сок лайма"),
+    "suc lime": ("lime juice", "сок лайма"),
+    "suc ananas": ("pineapple juice", "ананасовый сок"),
+    "suc lămâie": ("lemon juice", "лимонный сок"),
+    "salam crud de vită": ("raw beef salami", "сырая салями из говядины"),
+    "degețele de pui pane": ("breaded chicken fingers", "куриные палочки в панировке"),
+    "inele de ceapă": ("onion rings", "луковые кольца"),
+    "cartofi bile": ("potato balls", "картофельные шарики"),
+    "pesmeți măcinați": ("ground breadcrumbs", "молотые панировочные сухари"),
+    "sos tar-tar": ("tartar sauce", "соус тартар"),
+    "urechi de porc": ("pork ears", "свиные уши"),
+    "sos oyster": ("oyster sauce", "устричный соус"),
+    "morcov coreean": ("Korean-style carrot", "морковь по-корейски"),
+    "alb, roșu": ("white, red", "белое, красное"),
     "piept de pui": ("chicken breast", "куриная грудка"),
     "carne de vită": ("beef", "говядина"),
     "carne de porc": ("pork", "свинина"),
@@ -323,6 +363,107 @@ DESCRIPTION_PHRASES = {
     "salam crud afumat": ("dry-cured smoked salami", "сырокопчёная салями"),
     "salamuri afumate": ("smoked sausages", "копчёные колбасы"),
     "triple sec": ("triple sec", "трипл-сек"),
+}
+
+NAME_EXACT = {
+    "silver": ("Silver tequila", "Серебряная текила"),
+    "gold": ("Gold tequila", "Золотая текила"),
+    "platou cu carne": ("Meat platter", "Мясное ассорти"),
+    "cu ficat și bacon": ("With liver and bacon", "С печенью и беконом"),
+    "din legume": ("Vegetable salad", "Овощной салат"),
+    "caesar cu pui": ("Caesar with chicken", "«Цезарь» с курицей"),
+    "caesar cu bacon": ("Caesar with bacon", "«Цезарь» с беконом"),
+    "caesar cu creveți": ("Caesar with shrimp", "«Цезарь» с креветками"),
+    "„grecească”": ("Greek salad", "Греческий салат"),
+    "salată rustică cu couscous": ("Rustic salad with couscous", "Деревенский салат с кускусом"),
+    "mix cu mozzarella și avocado": ("Mixed salad with mozzarella and avocado", "Салатный микс с моцареллой и авокадо"),
+    "supă cremă de pui cu ciuperci": ("Creamy chicken and mushroom soup", "Крем-суп с курицей и грибами"),
+    "supă cremă cu cartof și ciuperci": ("Creamy potato and mushroom soup", "Крем-суп с картофелем и грибами"),
+    "supă cu perișoare": ("Meatball soup", "Суп с фрикадельками"),
+    "borș cu carne de porc": ("Borscht with pork", "Борщ со свининой"),
+    "borș cu fasole": ("Borscht with beans", "Борщ с фасолью"),
+    "supă de mazăre cu bacon": ("Pea soup with bacon", "Гороховый суп с беконом"),
+    "supă de mazăre": ("Pea soup", "Гороховый суп"),
+    "shakshouka": ("Shakshouka", "Шакшука"),
+    "omletă cu șuncă, cașcaval și roșii": ("Omelette with ham, cheese and tomatoes", "Омлет с ветчиной, сыром и помидорами"),
+    "omletă cu cașcaval": ("Cheese omelette", "Омлет с сыром"),
+    "scrob cu brânză": ("Scrambled eggs with cheese", "Яичница с сыром"),
+    "brânză și verdeață": ("Cheese and herbs", "Сыр и зелень"),
+    "măr / bostan": ("Apple / pumpkin", "Яблоко / тыква"),
+    "cu cartofi și ciuperci": ("With potatoes and mushrooms", "С картофелем и грибами"),
+    "cu pui în sos de frișcă": ("With chicken in cream sauce", "С курицей в сливочном соусе"),
+    "crap prăjit cu legume": ("Fried carp with vegetables", "Жареный карп с овощами"),
+    "somon la grill": ("Grilled salmon", "Лосось на гриле"),
+    "dorada cu legume": ("Sea bream with vegetables", "Дорада с овощами"),
+    "risotto cu creveți": ("Shrimp risotto", "Ризотто с креветками"),
+    "piept de pui cu legume în sos picant": ("Chicken breast with vegetables in spicy sauce", "Куриная грудка с овощами в остром соусе"),
+    "pui a la italia cu ciuperci": ("Italian-style chicken with mushrooms", "Курица по-итальянски с грибами"),
+    "asorti grill la tigaie": ("Mixed grill skillet", "Мясное ассорти на сковороде"),
+    "tigaie cu cartofi, carne și ou": ("Skillet with potatoes, meat and egg", "Картофель с мясом и яйцом на сковороде"),
+    "carne de vită cu legume în sos picant": ("Beef with vegetables in spicy sauce", "Говядина с овощами в остром соусе"),
+    "steak de pui la grătar": ("Grilled chicken steak", "Куриный стейк на гриле"),
+    "frigărui de pui": ("Chicken skewers", "Куриный шашлык"),
+    "tocană de pui cu mămăligă": ("Chicken stew with polenta", "Куриное рагу с мамалыгой"),
+    "steak de vită": ("Beef steak", "Стейк из говядины"),
+    "tocană de vită cu mămăligă": ("Beef stew with polenta", "Рагу из говядины с мамалыгой"),
+    "tocană de porc cu mămăligă": ("Pork stew with polenta", "Рагу из свинины с мамалыгой"),
+    "steak din ceafă de porc": ("Pork neck steak", "Стейк из свиной шеи"),
+    "costiță la grill cu mujdei": ("Grilled ribs with garlic sauce", "Рёбрышки на гриле с чесночным соусом"),
+    "picior (ciolan) de porc cu varză murată": ("Pork knuckle with pickled cabbage", "Свиная рулька с квашеной капустой"),
+    "mămăligă cu brânză": ("Polenta with cheese", "Мамалыга с сыром"),
+    "cartofi umpluți cu legume": ("Potatoes stuffed with vegetables", "Картофель, фаршированный овощами"),
+    "cartof cu ciuperci / păstări": ("Potato with mushrooms / green beans", "Картофель с грибами / стручковой фасолью"),
+    "legume la grătar": ("Grilled vegetables", "Овощи на гриле"),
+    "tagliatelle cu ciuperci": ("Tagliatelle with mushrooms", "Тальятелле с грибами"),
+    "cu creveți, ceapă roșie și rucola": ("With shrimp, red onion and arugula", "С креветками, красным луком и рукколой"),
+    "cu șuncă și roșii": ("With ham and tomatoes", "С ветчиной и помидорами"),
+    "cu salami": ("With salami", "С салями"),
+    "cu șuncă și măsline": ("With ham and olives", "С ветчиной и оливками"),
+    "cu șuncă și vinete": ("With ham and eggplant", "С ветчиной и баклажанами"),
+    "cu șuncă și ananas": ("With ham and pineapple", "С ветчиной и ананасом"),
+    "cu carne de pui și ciuperci": ("With chicken and mushrooms", "С курицей и грибами"),
+    "cu carne de pui și porumb": ("With chicken and corn", "С курицей и кукурузой"),
+    "salami, porumb și ardei iute": ("Salami, corn and hot pepper", "Салями, кукуруза и острый перец"),
+    "cheese burger cu carne de pui": ("Chicken cheeseburger", "Чизбургер с курицей"),
+    "cheese burger cu carne de vită": ("Beef cheeseburger", "Чизбургер с говядиной"),
+    "cheesecake": ("Cheesecake", "Чизкейк"),
+    "tiramisu": ("Tiramisu", "Тирамису"),
+    "prăjitură de casă cu fructe de pădure și înghețată": ("Homemade cake with berries and ice cream", "Домашний пирог с ягодами и мороженым"),
+    "desert „cușma lui guguță”": ("Guguță's Hat dessert", "Десерт «Шапка Гугуцэ»"),
+    "gogoase cu vișină": ("Doughnuts with sour cherries", "Пончики с вишней"),
+    "clătite cu brânză și stafide": ("Pancakes with cheese and raisins", "Блины с сыром и изюмом"),
+    "măr copt cu miez de nucă": ("Baked apple with walnuts", "Печёное яблоко с грецкими орехами"),
+    "salată de fructe": ("Fruit salad", "Фруктовый салат"),
+    "înghețată cu fructe": ("Ice cream with fruit", "Мороженое с фруктами"),
+    "înghețată în sortiment cu adaosuri": ("Assorted ice cream with toppings", "Мороженое в ассортименте с добавками"),
+    "tabletă de ciocolată în sortiment": ("Assorted chocolate bars", "Шоколад в ассортименте"),
+    "topping și sirop în sortiment": ("Assorted toppings and syrups", "Топпинги и сиропы в ассортименте"),
+    "ardei dulce": ("Sweet pepper", "Сладкий перец"),
+    "ardei iute": ("Hot pepper", "Острый перец"),
+    "suc fresh": ("Fresh juice", "Свежевыжатый сок"),
+    "suc „orhei vit”": ("Orhei Vit juice", "Сок «Orhei Vit»"),
+    "cafea espresso": ("Espresso", "Эспрессо"),
+    "cafea cappuccino": ("Cappuccino", "Капучино"),
+    "cafea latte": ("Latte", "Латте"),
+    "ceai infuzie": ("Infused tea", "Заварной чай"),
+    "ceai de fructe": ("Fruit tea", "Фруктовый чай"),
+    "aperol spritz": ("Aperol Spritz", "Апероль шприц"),
+    "platou la bere la friteuză": ("Deep-fried beer snack platter", "Ассорти закусок к пиву во фритюре"),
+    "degețele de pui pane": ("Breaded chicken fingers", "Куриные палочки в панировке"),
+    "urechi de porc la friteuză": ("Deep-fried pork ears", "Свиные уши во фритюре"),
+    "urechi de porc picante": ("Spicy pork ears", "Острые свиные уши"),
+    "creveți pane": ("Breaded shrimp", "Креветки в панировке"),
+    "platou la bere": ("Beer snack platter", "Ассорти закусок к пиву"),
+    "la pahar": ("By the glass", "Бокал"),
+    "sosuri / toppinguri": ("Sauces / toppings", "Соусы / топпинги"),
+    "chateau vartely — categoria „individo”": ("Chateau Vartely — Individo range", "Chateau Vartely — серия «Individo»"),
+    "vin de marcă": ("Vintage wine", "Марочное вино"),
+    "vin spumant „maestro”": ("Maestro sparkling wine", "Игристое вино «Maestro»"),
+    "draft": ("Draft", "Разливное"),
+    "lichior": ("Liqueur", "Ликёр"),
+    "ice tea": ("Iced tea", "Холодный чай"),
+    "fruit shake": ("Fruit shake", "Фруктовый коктейль"),
+    "coffee frappe": ("Coffee frappé", "Кофе фраппе"),
 }
 
 DESCRIPTION_WORDS = {
@@ -581,7 +722,7 @@ ALLERGEN_LABELS = {
 
 ALLERGEN_PATTERNS = {
     "gluten": r"\b(?:făină(?!\s+de\s+porumb)|pâine|toast|aluat|pesmeți|pesmet|couscous|spaghetti|tagliatelle|paste|tăiței|biscuiți|chiflă|wraps|cereale|bread|flour|breadcrumbs|noodles|bun|wheat)\b",
-    "dairy": r"\b(?:brânză|cașcaval|frișcă|smântână|unt|lapte|iaurt|înghețată|parmezan|mozzarella|camembert|dorblu|feta|mascarpone|cheese|cream|butter|milk|yogurt|dairy)\b",
+    "dairy": r"\b(?:brânză|cașcaval|frișcă|smântână|unt|lapte|iaurt|înghețată|grăsime lactată|parmezan|mozzarella|camembert|dorblu|feta|mascarpone|cheese|cream|butter|milk|yogurt|dairy)\b",
     "eggs": r"\b(?:ou(?:ă)?|ou fiert|maioneză|sos\s+(?:tar[- ]?tar|caesar)|eggs?|mayonnaise)\b",
     "peanuts": r"\b(?:arahide|peanuts?)\b",
     "tree_nuts": r"\b(?:nuci|nucă|alune|miez de nucă|nuts?|hazelnuts?)\b",
@@ -612,12 +753,17 @@ PRICE = re.compile(r"^(\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)?)\s+lei\b", re.I)
 
 
 def translate_name(value, language):
+    exact = NAME_EXACT.get(value.casefold())
+    if exact:
+        return exact[0 if language == "en" else 1]
     result = value
     phrases = NAME_PHRASES[language]
     phrase_replacements = {}
     for source in sorted(phrases, key=len, reverse=True):
         placeholder = f"ZZPHRASE{len(phrase_replacements)}ZZ"
-        result, count = re.subn(re.escape(source), placeholder, result, flags=re.IGNORECASE)
+        result, count = re.subn(
+            rf"(?<!\w){re.escape(source)}(?!\w)", placeholder, result, flags=re.IGNORECASE
+        )
         if count:
             phrase_replacements[placeholder] = phrases[source]
 
@@ -633,6 +779,10 @@ def translate_name(value, language):
     for placeholder, translation in phrase_replacements.items():
         result = result.replace(placeholder, translation)
     if language == "en":
+        result = re.sub(r"\b(\d+) ani\b", r"\1 years", result, flags=re.I)
+    elif language == "ru":
+        result = re.sub(r"\b(\d+) ani\b", r"\1 лет", result, flags=re.I)
+    if language == "en":
         result = result.replace("„", "“")
     elif language == "ru":
         result = result.replace("„", "«").replace("”", "»")
@@ -646,7 +796,9 @@ def translate_description(value, language):
     replacements = {}
     for source in sorted(DESCRIPTION_PHRASES, key=len, reverse=True):
         placeholder = f"ZZINGREDIENT{len(replacements)}ZZ"
-        result, count = re.subn(re.escape(source), placeholder, result, flags=re.IGNORECASE)
+        result, count = re.subn(
+            rf"(?<!\w){re.escape(source)}(?!\w)", placeholder, result, flags=re.IGNORECASE
+        )
         if count:
             replacements[placeholder] = DESCRIPTION_PHRASES[source][language_index]
 
@@ -668,6 +820,7 @@ def infer_allergens(description):
     if not description:
         return ALLERGEN_STATUS["missing"]
 
+    description = re.sub(r"\b(?:vișină înghețată|unt de cacao)\b", "", description, flags=re.I)
     found = [
         allergen_id
         for allergen_id, pattern in ALLERGEN_PATTERNS.items()
@@ -739,7 +892,7 @@ def parse_item(line, section_number, subgroup, index):
     description = re.sub(r"\s*\([^)]*de verificat[^)]*\)\.?", "", description, flags=re.I)
 
     translations = {
-        "ro": name,
+        "ro": re.sub(r"\bpăstări\b", "păstăi", name, flags=re.I),
         "en": translate_name(name, "en"),
         "ru": translate_name(name, "ru"),
     }
@@ -750,9 +903,11 @@ def parse_item(line, section_number, subgroup, index):
         "price": price,
     }
     if description:
+        romanian_description = re.sub(r"\bpăstări\b", "păstăi", description, flags=re.I)
+        romanian_description = re.sub(r"\bfide de orez\b", "fidea de orez", romanian_description, flags=re.I)
         item["description"] = {
             "en": translate_description(description, "en"),
-            "ro": description,
+            "ro": romanian_description,
             "ru": translate_description(description, "ru"),
         }
     item["allergens"] = infer_allergens(description)
