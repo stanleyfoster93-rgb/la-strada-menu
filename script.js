@@ -40,11 +40,15 @@ document.addEventListener("DOMContentLoaded", () => {
             currency: "MDL"
         }
     };
+    const LANGUAGE_NAMES = { en: "English", ro: "Română", ru: "Русский" };
 
     const categoriesNav = document.getElementById("categoriesNav");
     const menuList = document.getElementById("menuList");
-    const languageSelector = document.getElementById("languageSelector");
-    const languageLabel = document.getElementById("languageLabel");
+    const languagePicker = document.getElementById("languagePicker");
+    const languageToggle = document.getElementById("languageToggle");
+    const languageCode = document.getElementById("languageCode");
+    const languageMenu = document.getElementById("languageMenu");
+    const languageOptions = languageMenu.querySelectorAll("[data-language]");
     const subtitle = document.getElementById("subtitle");
     const footerText = document.getElementById("footerText");
     const modalOverlay = document.getElementById("modalOverlay");
@@ -132,8 +136,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateStaticText() {
         document.documentElement.lang = currentLanguage;
-        languageLabel.textContent = languageText("language");
-        languageSelector.value = currentLanguage;
+        languageCode.textContent = currentLanguage.toUpperCase();
+        languageToggle.setAttribute("aria-label", `${languageText("language")}: ${LANGUAGE_NAMES[currentLanguage]}`);
+        languageMenu.setAttribute("aria-label", languageText("language"));
+        languageOptions.forEach((option) => {
+            option.setAttribute("aria-pressed", String(option.dataset.language === currentLanguage));
+        });
         subtitle.textContent = languageText("subtitle");
         footerText.textContent = languageText("footer");
         allergensLabel.textContent = languageText("allergens");
@@ -310,23 +318,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateStaticText();
     modalOverlay.inert = true;
-    languageSelector.value = currentLanguage;
-    languageSelector.addEventListener("change", () => {
-        currentLanguage = languageSelector.value;
-        localStorage.setItem("menu-language", currentLanguage);
-        updateStaticText();
-        if (menuData) {
-            renderCategories();
-            renderItems();
+    languageOptions.forEach((option) => {
+        option.addEventListener("click", () => {
+            currentLanguage = option.dataset.language;
+            if (!Object.hasOwn(TEXT, currentLanguage)) return;
+            localStorage.setItem("menu-language", currentLanguage);
+            updateStaticText();
+            if (menuData) {
+                renderCategories();
+                renderItems();
+            }
+            if (currentItem) updateModal();
+            languagePicker.open = false;
+            languageToggle.focus();
+        });
+    });
+    document.addEventListener("click", (event) => {
+        if (languagePicker.open && !languagePicker.contains(event.target)) {
+            languagePicker.open = false;
         }
-        if (currentItem) updateModal();
     });
     closeModal.addEventListener("click", closeModalHandler);
     modalOverlay.addEventListener("click", (event) => {
         if (event.target === modalOverlay) closeModalHandler();
     });
     document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") closeModalHandler();
+        if (event.key === "Escape" && languagePicker.open) {
+            languagePicker.open = false;
+            languageToggle.focus();
+        } else if (event.key === "Escape") {
+            closeModalHandler();
+        }
     });
 
     fetch("menu.json")

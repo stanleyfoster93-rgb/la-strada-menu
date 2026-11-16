@@ -16,14 +16,17 @@
                     <h1 class="header-title">La Strada</h1>
                     <p class="subtitle" id="subtitle">Tourist menu · Tap a dish for details</p>
                 </div>
-                <label class="language-picker">
-                    <span class="visually-hidden" id="languageLabel">Language</span>
-                    <select id="languageSelector" aria-labelledby="languageLabel">
-                        <option value="en">English</option>
-                        <option value="ro">Română</option>
-                        <option value="ru">Русский</option>
-                    </select>
-                </label>
+                <details class="language-picker" id="languagePicker">
+                    <summary class="language-toggle" id="languageToggle" aria-label="Language: English">
+                        <span id="languageCode">EN</span>
+                        <span class="language-chevron" aria-hidden="true">⌄</span>
+                    </summary>
+                    <div class="language-menu" id="languageMenu" role="group" aria-label="Choose language">
+                        <button class="language-option" type="button" data-language="en" aria-pressed="true">English</button>
+                        <button class="language-option" type="button" data-language="ro" aria-pressed="false">Română</button>
+                        <button class="language-option" type="button" data-language="ru" aria-pressed="false">Русский</button>
+                    </div>
+                </details>
             </div>
         </header>
 
