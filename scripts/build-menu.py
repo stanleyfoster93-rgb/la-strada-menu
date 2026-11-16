@@ -415,7 +415,7 @@ NAME_EXACT = {
     "steak din ceafă de porc": ("Pork neck steak", "Стейк из свиной шеи"),
     "costiță la grill cu mujdei": ("Grilled ribs with garlic sauce", "Костица с соусом «Муждей»"),
     "picior (ciolan) de porc cu varză murată": ("Pork knuckle with pickled cabbage", "Свиная рулька с квашеной капустой"),
-    "mămăligă cu brânză": ("Polenta with cheese", "Мамалыга с сыром"),
+    "mămăligă cu brânză": ("Polenta with cheese", "Мамалыга с брынзой"),
     "cartofi umpluți cu legume": ("Potatoes stuffed with vegetables", "Картофель, фаршированный овощами"),
     "cartof cu ciuperci / păstări": ("Potato with mushrooms / green beans", "Картофель с грибами / стручковой фасолью"),
     "legume la grătar": ("Grilled vegetables", "Овощи на гриле"),
