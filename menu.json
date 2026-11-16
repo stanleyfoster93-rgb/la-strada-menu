@@ -1,42 +1,276 @@
 {
-  "currency": "lei",
-  "sourceLanguage": "ro",
+  "currency": "MDL",
   "categories": [
-    {"id":"starters","en":"Starters & salads","ro":"Gustări și salate","ru":"Закуски и салаты","items":[
-      ["Gustare Haiduc","310 g","110","Roșii, ardei dulce, castraveți, brânză"],["Gustare boierească la rachiu","750 g","250","Pâine, cartofi fierți, scrumbie, slănină, murături, măsline, ceapă, muștar"],["Platou cu cașcaval","250 g","230","Miere, fructe, nuci, snackuri, dorblu, mozzarella, camembert"],["Pateu de ficat","200 g","120","Pâine toast, pateu din ficat de pui, ceapă, morcov, unt, frișcă, ulei"],["Platou cu carne","250 g","225","Șuncă, bacon, salam, salam crud afumat, prosciutto"],["Gustare de vânătă","300 g","110","Pâine toast, vânătă, ceapă, ardei dulce, condimente"],["Bruschetta cu avocado și roșii","140 g","120","Roșii, avocado, oregano, condimente, ulei"],["Bruschetta cu somon și brânză","150 g","160","Somon, brânză cu verdeață, avocado"],["Caldă La Strada","300 g","140","Pui, ciuperci, roșii, castraveți, broccoli, verdeață, sos dulce de muștar"],["Cu ficat și bacon","250 g","150","Ficat de pui, bacon, roșii, salată, ou fiert"],["Din legume","230 g","90","Roșii, castraveți, ardei dulce, salată, ceapă roșie"],["Caesar cu pui","250 g","110","Pui, roșii, pesmeți, oregano, sos Caesar"],["Caesar cu bacon","250 g","130","Bacon, roșii, pesmeți, oregano, sos Caesar"],["Caesar cu creveți","250 g","200","Creveți, roșii, pesmeți, oregano, sos Caesar"],["Vitamin","250 g","70","Varză, morcov, mărar, ulei, oțet"],["Grecească","280 g","110","Roșii, ardei, castraveți, feta, măsline, lămâie, oregano"],["Salată rustică cu couscous","500 g","150","Couscous, legume, spanac, iaurt grecesc, avocado"],["Funcioasă cu carne de vită","350 g","200","Vită, legume, susan, fide de orez"],["Mix cu mozzarella și avocado","250 g","150","Mix salat, mozzarella, avocado, roșii, sos dulce de muștar"]
-    ]},
-    {"id":"soups-eggs","en":"Soups & eggs","ro":"Supe și bucate din ouă","ru":"Супы и блюда из яиц","items":[
-      ["Zeamă","300 g","60","Legume, tăiței, borș acru, piept de pui"],["Supă cremă de pui cu ciuperci","300 g","90","Ceapă, ciuperci, frișcă, piept de pui"],["Supă cremă cu cartof și ciuperci","300 g","70","Ceapă, cartof, ciuperci"],["Supă cu perișoare","300 g","85","Legume, orez, perișoare, cartof"],["Borș cu carne de porc","300 g","70","Legume, porc, pastă de tomate"],["Borș cu fasole","300 g","65","Legume, fasole, pastă de tomate"],["Soleancă","300 g","75","Lămâie, măsline, murături, salamuri afumate"],["Supă de mazăre cu bacon","300 g","80","Mazăre, legume, bacon"],["Supă de mazăre","300 g","70","Mazăre, legume, cartof"],["Shakshouka","400 g","120","Ouă, legume, usturoi"],["Omletă cu șuncă, cașcaval și roșii","250 g","100","Ouă, șuncă, roșii, cașcaval, smântână"],["Omletă cu cașcaval","250 g","90","Ouă, cașcaval, smântână"],["Scrob cu brânză","150 g","80","Ouă, brânză de oi"]
-    ]},
-    {"id":"mains","en":"Main courses","ro":"Feluri principale","ru":"Основные блюда","items":[
-      ["Kebab mix plate","500 g","150","Cartofi pai, pui, wraps, ceapă marinată, spanac, sos tartar"],["Steak de pui la grătar","200 g","150","Piept de pui, bostănel, ciuperci"],["Piept de pui cu cartof în ulcică","500 g","160","Pui, cartofi, ceapă, morcov, ardei, cașcaval, frișcă"],["Frigărui de pui","250 g","150","Piept de pui, bostănel, ardei, ketchup"],["Tocană de pui cu mămăligă","450 g","150","Pui, mămăligă, brânză de oi, smântână"],["Steak de vită","200 g","240","Carne de vită, ulei, condimente"],["Tocană de vită cu mămăligă","450 g","160","Vită, mămăligă, brânză de oi, smântână"],["Tocană de porc cu mămăligă","450 g","150","Porc, mămăligă, brânză de oi, smântână"],["Steak din ceafă de porc","200 g","150","Ceafă de porc, condimente"],["Costiță la grill cu mujdei","250 g","150","Costiță de porc, mujdei"],["Picior de porc cu varză murată","1 buc","350","Ciolan de porc, varză murată"],["Carne de porc cu cartof în ulcică","500 g","160","Porc, cartofi, ceapă, ardei, cașcaval, morcov"],["Crap prăjit cu legume","200 g","180","Crap, ciuperci, bostănel, măsline, lămâie"],["Somon la grill","250 g","350","Somon, bostănel, ciuperci, măsline, lămâie"],["Dorada cu legume","350 g","330","Dorada, bostănel, ciuperci, măsline, lămâie"],["Risotto cu creveți","400 g","180","Orez, creveți, frișcă, unt, sos pesto"],["Piept de pui cu legume în sos picant","300 g","150","Pui, vânătă, bostănel, morcov, sos picant"],["Pui a la Italia cu ciuperci","300 g","150","Pui, ciuperci, cașcaval, frișcă, mazăre, oregano"],["Asorti grill la tigaie","580 g","400","Porc, vită, pui, roșii cherry, bostănel, ciuperci"],["Tigaie cu cartofi, carne și ou","350 g","150","Cartofi, porc, ou, cașcaval, mărar"],["Carne de vită cu legume în sos picant","300 g","160","Vită, vânătă, bostănel, morcov, sos picant"]
-    ]},
-    {"id":"pasta-pizza-burgers","en":"Pasta, pizza & burgers","ro":"Paste, pizza și burgeri","ru":"Паста, пицца и бургеры","items":[
-      ["Spaghetti cu sos bolognese","370 g","140","Spaghetti, carne tocată de vită și porc, sos de tomate, parmezan"],["Tagliatelle cu ciuperci","370 g","140","Tagliatelle, ciuperci, frișcă, parmezan"],["Spaghetti carbonara","400 g","140","Spaghetti, frișcă, bacon, parmezan, usturoi"],["Pizza cu creveți, ceapă roșie și rucola","420 g","210","Sos, creveți, ceapă roșie, cașcaval, rucola"],["Pizza La Strada","420 g","150","Salam, șuncă, bacon, ciuperci, ardei, cașcaval"],["Pizza cu șuncă și roșii","420 g","135","Șuncă, ciuperci, roșii, cașcaval"],["Pizza cu salami","350 g","135","Salam, porumb, ardei dulce, cașcaval"],["Pizza cu șuncă și măsline","350 g","135","Șuncă, măsline, ciuperci, cașcaval"],["Pizza cu șuncă și vinete","350 g","135","Șuncă, brânză, vinete, usturoi, cașcaval"],["Pizza cu șuncă și ananas","420 g","140","Șuncă, ananas, ceapă roșie, cașcaval"],["Pizza cu pui și ciuperci","400 g","135","Pui, ciuperci, ardei dulce, cașcaval"],["Pizza cu pui și porumb","430 g","135","Pui, ciuperci, porumb, cașcaval"],["Quattro Formaggi","370 g","180","Frișcă, dorblu, mozzarella, parmezan"],["Pizza vegetariană","380 g","135","Ardei, roșii, măsline, porumb, ciuperci, cașcaval"],["Focaccia","180 g","80","Oregano, sare de mare, ulei de măsline"],["Margherita","350 g","100","Sos, cașcaval"],["Pizza salami, porumb și ardei iute","450 g","140","Salam, porumb, ardei iute, cașcaval"],["Four Seasons","850 g","250","Ciuperci, șuncă, salam, ardei, porumb, măsline, pui, cașcaval"],["Burger vegetarian","300 g","100","Chiflă, ketchup, salată, pârjoală de legume, cartofi pai"],["Burger cu carne de vită","300 g","130","Vită, salată, murături, roșii, cartofi pai"],["Burger cu carne de pui","300 g","115","Pui, salată, murături, roșii, cartofi pai"],["Cheese Burger cu pui","320 g","125","Pui, cașcaval, salată, murături, cartofi pai"],["Cheese Burger cu vită","320 g","140","Vită, cașcaval, salată, murături, cartofi pai"]
-    ]},
-    {"id":"pies","en":"Placinte, khachapuri & pancakes","ro":"Plăcinte, khachapuri și clătite","ru":"Плацинды, хачапури и блины","items":[
-      ["Plăcintă cu brânză și verdeață","300 g","50","Brânză, verdeață, ulei"],["Plăcintă cu cașcaval","300 g","70","Cașcaval, ulei"],["Plăcintă cu cartofi","300 g","50","Cartofi, condimente, ulei"],["Plăcintă cu varză","300 g","50","Varză proaspătă, condimente, ulei"],["Plăcintă cu vișină","300 g","70","Vișină, zahăr pudră"],["Plăcintă cu măr / bostan","300 g","50","Măr sau bostan, zahăr pudră"],["Khachapuri cu vită și porc","500 g","315","Aluat, carne tocată, cașcaval, ou, smântână, parmezan"],["Khachapuri cu brânză","500 g","235","Aluat, brânză, verdeață, ou, cașcaval"],["Khachapuri cu cartofi","500 g","190","Aluat, cartofi, ceapă, ou, cașcaval"],["Clătite cu cartofi și ciuperci","300 g","95","Cartofi, ciuperci, smântână"],["Clătite cu pui în sos de frișcă","300 g","120","Pui, ciuperci, cașcaval, frișcă"]
-    ]},
-    {"id":"sides","en":"Sides & extras","ro":"Garnituri și adaosuri","ru":"Гарниры и добавки","items":[
-      ["Piure de cartofi","250 g","50","Cartof, unt, condimente"],["Cartofi ca acasă","200 g","50","Cartof, usturoi, ceapă"],["Cartofi pai","150 g","50","Cartof, condimente"],["Mămăligă cu brânză","250 g","50","Mămăligă, brânză de oi, smântână"],["Orez cu legume","200 g","60","Orez, morcov, bostănel, ardei, porumb"],["Cartofi umpluți cu legume","280 g","100","Cartof, păstăi, ardei, morcov"],["Cartof cu ciuperci / păstări","250 g","65","Cartof, usturoi, ceapă, ciuperci sau păstări"],["Legume la grătar","200 g","80","Ardei, ciuperci, bostănel, roșii, broccoli"],["Ketchup","50 g","10"],["Maioneză","50 g","10"],["Sos Tartar","50 g","25"],["Muștar","50 g","15"],["Adjică","50 g","20"],["Miere","50 g","20"],["Topping și sirop în sortiment","50 g","30"],["Dulceață","50 g","30"],["Roșii","50 g","10"],["Ardei dulce","50 g","10"],["Ardei iute","50 g","5"],["Ciuperci","50 g","15"],["Usturoi","50 g","15"],["Porumb conservat","50 g","10"],["Măsline","50 g","30"],["Olive","50 g","30"],["Castraveți murați","50 g","20"],["Lămâie","50 g","20"],["Portocală","50 g","20"],["Bacon","50 g","30"],["Salam","50 g","30"],["Șuncă","50 g","30"],["Parmezan","50 g","40"],["Cașcaval","50 g","30"],["Smântână","50 g","10"]
-    ]},
-    {"id":"desserts","en":"Desserts","ro":"Deserturi","ru":"Десерты","items":[
-      ["Înghețată prăjită","250 g","110","Înghețată, ou, cereale, miere, caramelă"],["Platou cu fructe","1 kg","250","Ananas, banană, portocale, struguri, grapefruit"],["Cheesecake","200 g","110","Ou, cream cheese, unt, biscuiți"],["Tiramisu","150 g","100","Frișcă, ou, cafea, rum, cacao, mascarpone"],["Prăjitură de casă cu fructe de pădure și înghețată","250 g","100","Ou, făină, măr, smântână, fructe, înghețată, nucă"],["Cușma lui Guguță","250 g","120","Clătite, vișină, frișcă, ciocolată"],["Gogoase cu vișină","160/10 g?","100","Brânză, ou, vișină, miere, zahăr pudră; cantitatea trebuie verificată"],["Clătite cu brânză și stafide","250 g","110","Brânză, stafide, caramelă, zahăr pudră"],["Măr copt cu miez de nucă","250 g","50","Măr, miez de nucă, dulceață"],["Salată de fructe","250 g","75","Banană, portocală, strugure, kiwi, miere"],["Înghețată cu fructe","200 g","75","Înghețată, banană, kiwi, portocală, strugure"],["Înghețată în sortiment cu adaosuri","200 g","75","Topping: ciocolată, caramelă, miere, dulceață de vișină"],["Tabletă de ciocolată în sortiment","100 g","50","Zahăr, cacao, alune, fructe, unt de cacao"],["Ciocolată fierbinte","150 ml","60"]
-    ]},
-    {"id":"soft-drinks","en":"Soft & hot drinks","ro":"Băuturi răcoritoare și calde","ru":"Безалкогольные и горячие напитки","items":[
-      ["Borjomi","0.33 l","50"],["Dorna","0.5 l","25"],["Coca-Cola / Fanta / Sprite / Schweppes","0.25 l?","25","Volumul/prețul pentru acest grup trebuie confirmat"],["Suc Fresh","0.2 l","60","Portocală, grapefruit"],["Suc Orhei Vit","0.25 l","20","În sortiment"],["Red Bull","0.25 l","70"],["Cafea Espresso","1 buc","30"],["Cafea Cappuccino","250 ml","50"],["Cafea Latte","300 ml","60"],["Ceai infuzie","400 ml","50"],["Ceai de fructe","600 ml","80","Ghimbir, cătină, exotic"],["Glintwein","300 ml","65","Alb sau roșu"]
-    ]},
-    {"id":"cocktails","en":"Cocktails","ro":"Cocktailuri","ru":"Коктейли","items":[
-      ["Mojito fără alcool","350 ml","70","Sirop mojito, mentă, lime, apă gazată"],["Sangria fără alcool","300 ml","80","Suc, sirop, portocală"],["Pina Colada fără alcool","300 ml","70","Frișcă, sirop cocos, suc ananas"],["Ice Tea","300 ml","60"],["Fruit Limonadă","350 ml","70"],["Fruit Shake","300 ml","70","Lapte, înghețată, sirop"],["Cream Soda","350 ml","70"],["Coffee Frappe","300 ml","70"],["Pure Passion","350 ml","70"],["Bumblebee","300 ml","80"],["Aperol Spritz","300 ml","100","Vin spumant, apă gazată, aperol"],["Mojito","350 ml","90","Rum, sirop mojito, mentă, lime, apă gazată"],["Sangria","300 ml","80","Vin roșu, sirop, suc, portocală"],["Margarita","130 ml","100","Tequila, triple sec, lime"],["Cuba Libre","350 ml","90","Rum, cola"],["Pina Colada","300 ml","90","Rum, Malibu, suc de ananas, sirop cocos"],["Blue Lagoon","300 ml","80","Blue curacao, vodka, Sprite"],["Green Mexican","60 ml","80","Pisang Ambon, lime, tequila"],["Paradise","160 ml","150","Tequila, vodka, rum, absinth, energizant"],["BMW","60 ml","80","Baileys, Malibu, whisky"],["B-52","60 ml","80","Kahlua, Baileys, triple sec"],["Sweet Hugo","300 ml","100","Elder flower, vin spumant, mentă, lime"],["Sex on the Beach","300 ml","90","Vodka, suc, peach liqueur"],["Long Island Ice Tea","350 ml","120","Gin, rum, triple sec, vodka, suc lămâie, cola"],["Gin Tonic","350 ml","90","Gin, tonic, lime"],["Martini Fiero Tonic","200 ml","100","Martini, tonic, grapefruit"],["Cosmopolitan","120 ml","100","Vodka, triple sec, suc lime"]
-    ]},
-    {"id":"beer-snacks","en":"Beer & beer snacks","ro":"Bere și gustări la bere","ru":"Пиво и закуски к пиву","items":[
-      ["Beermaster Golden Lager draft","0.5 / 0.3 l","40 / 35","Beermaster Brewery"],["Beermaster IPA draft","0.5 / 0.3 l","50 / 45","Beermaster Brewery"],["Chișinău Draft","0.5 / 0.3 l","30 / 25","Efes Vitanta Moldova Brewery"],["Efes draft","0.5 / 0.3 l","40 / 35"],["Bud","0.33 l","70"],["Efes Pilsner","0.5 l","50"],["Efes Pilsner fără alcool","0.5 l","50"],["Franziskaner","0.5 l","80"],["Spaten","0.5 l","80"],["Corona Extra","0.35 l","70"],["Velkopopovicky Kozel","0.5 l","50"],["Chișinău Blondă","0.5 l","35"],["Arahide","100 g","40","Arahide, sare"],["Pesmeți","100 g","40","Pâine toast, usturoi, condimente"],["Sudjuk","50 g","70","Salam crud de vită"],["Basturma","50 g","80"],["Platou la bere la friteuză","500 g","270","Degețele de pui, cartofi pai, inele de ceapă, sos tartar, ketchup"],["Degețele de pui pane","200 g","90","Piept de pui, făină, ou, pesmeți, sos tar-tar"],["Retroping pane?","160 g","80","Denumirea exactă trebuie verificată; retropina, făină, sos de soia"],["Urechi de porc la friteuză","150 g","70","Urechi de porc, sos de soia, condimente"],["Urechi de porc picante","150 g","75","Sos de soia, sos oyster, usturoi, morcov coreean"],["Creveți pane","250 g","210","Creveți, făină, ou, pesmeți, sos picant"],["Platou la bere","200 g","250","Basturma, sudjuk, arahide, cașcaval afumat, snacksuri"]
-    ]},
-    {"id":"wine","en":"Wine & vermouth","ro":"Vin și vermouth","ru":"Вино и вермут","items":[
-      ["Fetească Neagră Prestige, Cricova","750 ml","330"],["Fetească Regală Prestige, Cricova","750 ml","330"],["Codru Prestige, Cricova","750 ml","330"],["Vin la pahar, Cricova Vintage","200 ml","60"],["Cabernet Vintage, Cricova","750 ml","160"],["Dionis Vintage, Cricova","750 ml","160"],["Chardonnay Vintage, Cricova","750 ml","160"],["Sauvignon Vintage, Cricova","750 ml","160"],["Cricova Original la pahar","150 ml","55"],["Cricova Original","750 ml","140"],["Cricova Lacrima Dulce","750 ml","210"],["Cricova Brut","750 ml","330"],["Merlot & Cabernet Sauvignon Individo, Chateau Vartely","750 ml","270"],["Fetească Regală & Riesling Individo, Chateau Vartely","750 ml","270"],["Cabernet Sauvignon & Merlot rosé Individo, Chateau Vartely","750 ml","270"],["Vin de marcă la pahar","200 ml","60"],["Cabernet Sauvignon","750 ml","160"],["Chardonnay","750 ml","160"],["Sauvignon Blanc","750 ml","160"],["Muscat Suave Maestro","750 ml","300"],["Viorica Maestro","750 ml","330"],["Prosecco Maestro","750 ml","330"],["Vermouth Martini","50 ml","60"]
-    ]},
-    {"id":"spirits","en":"Spirits","ro":"Băuturi spirtoase","ru":"Крепкий алкоголь","items":[
-      ["Beluga vodka","50 ml","100"],["Absolut Vodka","50 ml","40"],["Finlandia","50 ml","35"],["Hortița Platinum","50 ml","35"],["Țuică Vartely","50 ml","40"],["Luceafărul 10 ani divin","50 ml","85"],["Kvint 10 ani divin","50 ml","75"],["Doina 9 ani divin","50 ml","60"],["Călărași 7 ani divin","50 ml","50"],["Bardar 7 ani divin","50 ml","50"],["Vartely 5 ani divin","50 ml","40"],["Călărași 5 ani divin","50 ml","40"],["Bardar 5 ani divin","50 ml","40"],["Chivas Regal 12 Y.O.","50 ml","100"],["Johnnie Walker Red Label","50 ml","60"],["Jack Daniel’s","50 ml","60"],["Jameson","50 ml","60"],["Jim Beam","50 ml","60"],["Sambuca Molinari","50 ml","65"],["Baileys","50 ml","65"],["Captain Morgan Spiced Gold","50 ml","60"],["Bacardi Black","50 ml","60"],["Bacardi Spiced","50 ml","60"],["Bickens Gin","50 ml","70"],["Jagermeister","50 ml","70"],["Tequila Silver","50 ml","80"],["Tequila Gold","50 ml","80"],["Absinthe","50 ml","80"]
-    ]}
+    {
+      "id": "starters-salads",
+      "en": "Starters & salads",
+      "items": [
+        {
+          "id": "haiduc-starter",
+          "name": "Haiduc starter",
+          "portion": "310 g",
+          "price": 110,
+          "description": "Tomatoes, sweet pepper, cucumber, cheese.",
+          "allergens": ["Dairy"],
+          "badge": "Popular"
+        },
+        {
+          "id": "ceasar-chicken",
+          "name": "Chicken Caesar",
+          "portion": "250 g",
+          "price": 110,
+          "description": "Salad leaves, chicken, tomatoes, croutons, Caesar dressing.",
+          "allergens": ["Gluten", "Egg", "Sesame"]
+        },
+        {
+          "id": "veg-salad",
+          "name": "Garden salad",
+          "portion": "230 g",
+          "price": 90,
+          "description": "Tomatoes, cucumber, pepper, salad leaves, red onion, olive oil.",
+          "allergens": ["None"]
+        }
+      ]
+    },
+    {
+      "id": "soups-eggs",
+      "en": "Soups & eggs",
+      "items": [
+        {
+          "id": "vegetable-soup",
+          "name": "Classic vegetable soup",
+          "portion": "300 g",
+          "price": 60,
+          "description": "Vegetables, noodles, sour borscht, chicken breast.",
+          "allergens": ["Gluten"]
+        },
+        {
+          "id": "shakshuka",
+          "name": "Shakshuka",
+          "portion": "400 g",
+          "price": 120,
+          "description": "Eggs, pepper, carrots, tomatoes, garlic, olive oil, herbs.",
+          "allergens": ["Egg"]
+        },
+        {
+          "id": "omelette",
+          "name": "Ham and cheese omelette",
+          "portion": "250 g",
+          "price": 100,
+          "description": "Eggs, ham, tomatoes, cheese, cream.",
+          "allergens": ["Egg", "Dairy"]
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "en": "Main courses",
+      "items": [
+        {
+          "id": "grilled-chicken",
+          "name": "Grilled chicken steak",
+          "portion": "200 g",
+          "price": 150,
+          "description": "Chicken breast, mushrooms, herbs, grilled vegetables.",
+          "allergens": ["None"]
+        },
+        {
+          "id": "beef-steak",
+          "name": "Beef steak",
+          "portion": "200 g",
+          "price": 240,
+          "description": "Tender beef, olive oil, herbs and spices.",
+          "allergens": ["None"]
+        },
+        {
+          "id": "kebab-mix",
+          "name": "Kebab mix plate",
+          "portion": "500 g",
+          "price": 150,
+          "description": "French fries, chicken, wraps, marinated onion, spinach, tartar sauce.",
+          "allergens": ["Gluten", "Egg", "Dairy"]
+        }
+      ]
+    },
+    {
+      "id": "pasta-pizza-burgers",
+      "en": "Pasta, pizza & burgers",
+      "items": [
+        {
+          "id": "bolognese",
+          "name": "Spaghetti bolognese",
+          "portion": "370 g",
+          "price": 140,
+          "description": "Spaghetti, beef and pork mince, tomato sauce, parmesan.",
+          "allergens": ["Gluten", "Dairy"]
+        },
+        {
+          "id": "margherita",
+          "name": "Margherita pizza",
+          "portion": "350 g",
+          "price": 100,
+          "description": "Tomato sauce, mozzarella, basil.",
+          "allergens": ["Gluten", "Dairy"]
+        },
+        {
+          "id": "classic-burger",
+          "name": "Classic burger",
+          "portion": "300 g",
+          "price": 130,
+          "description": "Beef patty, salad, pickles, tomato, tartar sauce, fries.",
+          "allergens": ["Gluten", "Egg", "Dairy"]
+        }
+      ]
+    },
+    {
+      "id": "pies",
+      "en": "Pies & pastries",
+      "items": [
+        {
+          "id": "cheese-pie",
+          "name": "Cheese pie",
+          "portion": "300 g",
+          "price": 70,
+          "description": "Cheese, herbs, pastry, vegetable oil.",
+          "allergens": ["Gluten", "Dairy"]
+        },
+        {
+          "id": "potato-pie",
+          "name": "Potato pie",
+          "portion": "300 g",
+          "price": 50,
+          "description": "Potatoes, herbs, pastry.",
+          "allergens": ["Gluten"]
+        },
+        {
+          "id": "khachapuri",
+          "name": "Khachapuri",
+          "portion": "500 g",
+          "price": 235,
+          "description": "Pastry, cheese, herbs, egg, sour cream.",
+          "allergens": ["Gluten", "Egg", "Dairy"]
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "en": "Sides & extras",
+      "items": [
+        {
+          "id": "mashed-potatoes",
+          "name": "Mashed potatoes",
+          "portion": "250 g",
+          "price": 50,
+          "description": "Potatoes, butter, herbs.",
+          "allergens": ["Dairy"]
+        },
+        {
+          "id": "fried-potatoes",
+          "name": "French fries",
+          "portion": "150 g",
+          "price": 50,
+          "description": "Potatoes, spices.",
+          "allergens": ["None"]
+        },
+        {
+          "id": "rice-veg",
+          "name": "Rice with vegetables",
+          "portion": "200 g",
+          "price": 60,
+          "description": "Rice, carrots, peppers, corn, herbs.",
+          "allergens": ["None"]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "en": "Desserts",
+      "items": [
+        {
+          "id": "fried-ice-cream",
+          "name": "Fried ice cream",
+          "portion": "250 g",
+          "price": 110,
+          "description": "Ice cream, egg, cereal, honey, caramel.",
+          "allergens": ["Egg", "Dairy"]
+        },
+        {
+          "id": "cheesecake",
+          "name": "Cheesecake",
+          "portion": "200 g",
+          "price": 110,
+          "description": "Cream cheese, biscuits, butter, eggs.",
+          "allergens": ["Gluten", "Egg", "Dairy"]
+        },
+        {
+          "id": "fruit-platter",
+          "name": "Fruit platter",
+          "portion": "1 kg",
+          "price": 250,
+          "description": "Pineapple, banana, orange, grapes, grapefruit.",
+          "allergens": ["None"]
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "en": "Soft & hot drinks",
+      "items": [
+        {
+          "id": "borjomi",
+          "name": "Borjomi",
+          "portion": "0.33 l",
+          "price": 50,
+          "description": "Sparkling mineral water.",
+          "allergens": ["None"]
+        },
+        {
+          "id": "coke",
+          "name": "Coca-Cola / Fanta / Sprite / Schweppes",
+          "portion": "0.25 l",
+          "price": 25,
+          "description": "Assorted soft drinks.",
+          "allergens": ["None"]
+        },
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "portion": "1 cup",
+          "price": 30,
+          "description": "Freshly brewed coffee.",
+          "allergens": ["None"]
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "en": "Beer & beer snacks",
+      "items": [
+        {
+          "id": "beermaster-gold",
+          "name": "Beermaster Golden Lager",
+          "portion": "0.5 / 0.3 l",
+          "price": "40 / 35",
+          "description": "Draft beer, house selection.",
+          "allergens": ["Gluten"]
+        },
+        {
+          "id": "beermaster-ipa",
+          "name": "Beermaster IPA",
+          "portion": "0.5 / 0.3 l",
+          "price": "50 / 45",
+          "description": "Crisp draft beer with a hoppy finish.",
+          "allergens": ["Gluten"]
+        },
+        {
+          "id": "nuts",
+          "name": "Roasted peanuts",
+          "portion": "100 g",
+          "price": 40,
+          "description": "Peanuts, salt.",
+          "allergens": ["Peanuts"]
+        }
+      ]
+    }
   ]
 }
