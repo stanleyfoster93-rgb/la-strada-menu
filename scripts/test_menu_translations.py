@@ -32,6 +32,17 @@ class MenuTranslationTests(unittest.TestCase):
         self.assertEqual(infer("Vișină înghețată, unt de cacao."), MENU["ALLERGEN_STATUS"]["none"])
         self.assertEqual(infer("Unt de cacao, grăsime lactată.")["ru"], ["Молоко"])
 
+    def test_tocana_names_in_generated_menu(self):
+        data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
+        items = {item["id"]: item for category in data["categories"] for item in category["items"]}
+        for item_id, name in {
+            "7-5-tocana-de-pui-cu-mamaliga": "Токана из курицы с мамалыгой",
+            "8-2-tocana-de-vita-cu-mamaliga": "Токана из говядины с мамалыгой",
+            "9-1-tocana-de-porc-cu-mamaliga": "Токана из свинины с мамалыгой",
+        }.items():
+            with self.subTest(item_id=item_id):
+                self.assertEqual(items[item_id]["name"]["ru"], name)
+
     def test_generated_data_includes_corrected_text(self):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
         items = {item["id"]: item for category in data["categories"] for item in category["items"]}

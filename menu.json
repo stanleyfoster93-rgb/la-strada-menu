@@ -1756,7 +1756,7 @@
           "name": {
             "ro": "Tocană de pui cu mămăligă",
             "en": "Chicken stew with polenta",
-            "ru": "Куриное рагу с мамалыгой"
+            "ru": "Токана из курицы с мамалыгой"
           },
           "portion": "450 gr",
           "price": "150",
@@ -1812,7 +1812,7 @@
           "name": {
             "ro": "Tocană de vită cu mămăligă",
             "en": "Beef stew with polenta",
-            "ru": "Рагу из говядины с мамалыгой"
+            "ru": "Токана из говядины с мамалыгой"
           },
           "portion": "450 gr",
           "price": "160",
@@ -1843,7 +1843,7 @@
           "name": {
             "ro": "Tocană de porc cu mămăligă",
             "en": "Pork stew with polenta",
-            "ru": "Рагу из свинины с мамалыгой"
+            "ru": "Токана из свинины с мамалыгой"
           },
           "portion": "450 gr",
           "price": "150",
