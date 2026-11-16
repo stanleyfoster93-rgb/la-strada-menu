@@ -331,6 +331,7 @@ DESCRIPTION_PHRASES = {
     "făină de grâu": ("wheat flour", "пшеничная мука"),
     "făină de porumb": ("cornmeal", "кукурузная мука"),
     "pâine toast": ("toast", "тостовый хлеб"),
+    "brânză de vaci": ("cottage cheese", "творог"),
     "brânză de oi": ("sheep's cheese", "овечий сыр"),
     "brânză feta": ("feta cheese", "сыр фета"),
     "brânză cu verdeață": ("herbed cheese", "сыр с зеленью"),
@@ -369,6 +370,10 @@ NAME_EXACT = {
     "silver": ("Silver tequila", "Серебряная текила"),
     "gold": ("Gold tequila", "Золотая текила"),
     "platou cu carne": ("Meat platter", "Мясное ассорти"),
+    "plăcintă cu brânză de vaci și verdeață": (
+        "Pie with cottage cheese and herbs",
+        "Плацинда с творогом и зеленью",
+    ),
     "cu ficat și bacon": ("With liver and bacon", "С печенью и беконом"),
     "din legume": ("Vegetable salad", "Овощной салат"),
     "caesar cu pui": ("Caesar with chicken", "«Цезарь» с курицей"),

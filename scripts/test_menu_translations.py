@@ -42,6 +42,12 @@ class MenuTranslationTests(unittest.TestCase):
         pie = items["4-5-visina"]
         self.assertEqual(pie["allergens"], MENU["ALLERGEN_STATUS"]["none"])
         self.assertIn("păstăi", items["10-7-cartof-cu-ciuperci-pastari"]["name"]["ro"])
+        cheese_pie = items["4-1-placinta-cu-branza-de-vaci-si-verdeata"]
+        self.assertEqual(cheese_pie["name"]["ro"], "Plăcintă cu brânză de vaci și verdeață")
+        self.assertEqual(cheese_pie["name"]["en"], "Pie with cottage cheese and herbs")
+        self.assertEqual(cheese_pie["name"]["ru"], "Плацинда с творогом и зеленью")
+        self.assertIn("cottage cheese", cheese_pie["description"]["en"].casefold())
+        self.assertIn("творог", cheese_pie["description"]["ru"].casefold())
 
 
 if __name__ == "__main__":

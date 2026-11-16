@@ -1028,18 +1028,18 @@
       },
       "items": [
         {
-          "id": "4-1-branza-si-verdeata",
+          "id": "4-1-placinta-cu-branza-de-vaci-si-verdeata",
           "name": {
-            "ro": "Brânză și verdeață",
-            "en": "Cheese and herbs",
-            "ru": "Сыр и зелень"
+            "ro": "Plăcintă cu brânză de vaci și verdeață",
+            "en": "Pie with cottage cheese and herbs",
+            "ru": "Плацинда с творогом и зеленью"
           },
           "portion": "300 gr",
           "price": "50",
           "description": {
-            "en": "Cheese, herbs, oil.",
-            "ro": "Brânză, verdeață, ulei.",
-            "ru": "Сыр, зелень, масло."
+            "en": "Cottage cheese, herbs, oil.",
+            "ro": "Brânză de vaci, verdeață, ulei.",
+            "ru": "Творог, зелень, масло."
           },
           "allergens": {
             "en": [
