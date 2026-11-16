@@ -2,55 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#121212">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafenea La Strada — Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="phone-frame">
         <header class="header">
-            <div class="header-topline">
-                <div class="brand-mark" aria-hidden="true">LS</div>
-                <div class="language-switch" role="group" aria-label="Choose language" id="languageSwitch">
-                    <button class="language-btn" type="button" data-lang="en" aria-pressed="true">EN</button>
-                    <button class="language-btn" type="button" data-lang="ro" aria-pressed="false">RO</button>
-                    <button class="language-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+            <div class="brand-row">
+                <div class="brand-mark" aria-hidden="true">L</div>
+                <div class="header-copy">
+                    <div class="header-title">Meniu</div>
+                    <p class="subtitle" id="subtitle">Tourist Menu • Tap any dish for details</p>
+                </div>
+                <div class="header-tools">
+                    <button class="lang-toggle" id="languageSwitch" type="button" aria-label="Choose language">EN</button>
+                    <button class="menu-toggle" type="button" aria-label="Menu actions">☰</button>
                 </div>
             </div>
-            <h1>Cafenea La Strada</h1>
-            <p class="subtitle" id="subtitle">Tourist Menu · Tap any dish for details</p>
         </header>
 
         <nav class="categories-nav" id="categoriesNav" aria-label="Menu categories"></nav>
-        <main class="menu-list" id="menuList" aria-live="polite"></main>
+
+        <main class="menu-list" id="menuList"></main>
 
         <footer class="footer">
-            <p id="footerText">Please call your waiter to place an order.</p>
+            <div class="footer-bar">
+                <p id="footerText">Please call your waiter to place an order.</p>
+                <div class="socials" aria-label="Social links">
+                    <span>◫</span>
+                    <span>♡</span>
+                    <span>◌</span>
+                    <span>↗</span>
+                </div>
+            </div>
         </footer>
 
-        <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle" tabindex="-1" inert>
-            <div class="modal-card" id="modalCard">
+        <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+            <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
                 <button class="close-btn" id="closeModal" type="button" aria-label="Close dish details">&times;</button>
-                <div class="modal-img-container">
-                    <img id="modalImg" alt="">
-                    <span id="modalBadge" class="modal-badge" hidden></span>
+                <div class="modal-img-wrap">
+                    <img id="modalImg" src="" alt="Dish image">
+                    <span id="modalBadge" class="modal-badge" style="display:none;">Popular</span>
                 </div>
                 <div class="modal-body">
-                    <h2 id="modalTitle"></h2>
-                    <div class="modal-meta">
-                        <span id="modalWeight"></span>
-                        <span id="modalPrice" class="modal-price"></span>
+                    <div class="modal-header">
+                        <h2 id="modalTitle" class="modal-title">Dish title</h2>
                     </div>
-                    <p id="modalDesc"></p>
-                    <div class="allergens-section">
-                        <strong id="allergensLabel">Allergens:</strong> <span id="modalAllergens"></span>
+                    <div class="modal-meta">
+                        <span id="modalWeight" class="modal-weight">Weight</span>
+                        <span id="modalPrice" class="modal-price">0 lei</span>
+                    </div>
+                    <p id="modalDesc" class="modal-desc"></p>
+                    <div class="allergens-box">
+                        <strong id="allergensLabel">Allergens:</strong>
+                        <span id="modalAllergens">Not specified</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
