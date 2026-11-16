@@ -75,6 +75,7 @@ button:focus-visible, select:focus-visible, summary:focus-visible { outline: 3px
 .modal-desc { margin-bottom: 14px; color: rgba(32,28,25,.86); font-size: .91rem; line-height: 1.5; }
 .allergens-box { color: rgba(32,28,25,.8); font-size: .83rem; line-height: 1.45; }
 .allergens-box strong { margin-right: 4px; }
+.allergen-note { display: block; margin-top: 6px; color: var(--muted); font-size: .72rem; }
 
 @media (max-width: 360px) {
     .header { padding: 12px; }

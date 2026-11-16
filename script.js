@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
             footer: "Please call your waiter to place an order.",
             portion: "Portion",
             allergens: "Allergens:",
-            unspecified: "Not specified",
+            allergenNote: "Based on listed ingredients only; recipes and cross-contact may add risks. Please confirm with staff.",
+            unspecified: "Ingredients not specified in the source menu.",
             noItems: "No items in this category yet.",
             loadError: "Unable to load the menu. Please try again later.",
             close: "Close dish details",
@@ -19,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             footer: "Pentru comandă, vă rugăm să chemați chelnerul.",
             portion: "Porție",
             allergens: "Alergeni:",
+            allergenNote: "Evaluare doar după ingredientele indicate; rețeta și contaminarea încrucișată pot adăuga riscuri. Confirmați cu personalul.",
             unspecified: "Nespecificat",
             noItems: "Nu există încă preparate în această categorie.",
             loadError: "Meniul nu poate fi încărcat. Încercați din nou mai târziu.",
@@ -32,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             footer: "Чтобы сделать заказ, позовите официанта.",
             portion: "Порция",
             allergens: "Аллергены:",
+            allergenNote: "Оценка только по указанному составу; рецепт и перекрёстный контакт могут добавить риски. Уточните у персонала.",
             unspecified: "Не указано",
             noItems: "В этой категории пока нет блюд.",
             loadError: "Не удалось загрузить меню. Попробуйте позже.",
@@ -63,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const allergensLabel = document.getElementById("allergensLabel");
     const modalAllergens = document.getElementById("modalAllergens");
     const allergensBox = document.getElementById("allergensBox");
+    const allergenNote = document.getElementById("allergenNote");
 
     let menuData = null;
     let activeCategoryId = null;
@@ -103,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
             portion: entry.portion ?? entry.weight ?? "",
             price: entry.price ?? entry.priceMdl ?? entry.priceLabel ?? "",
             description: entry.description ?? "",
-            allergens: Array.isArray(entry.allergens) ? entry.allergens : [],
+            allergens: entry.allergens ?? [],
             image: entry.image ?? "",
             badge: entry.badge ?? ""
         };
@@ -120,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (value && typeof value === "object") {
-            const translated = value.en ?? value.ro ?? value.ru ?? value.name;
+            const translated = value[currentLanguage] ?? value.en ?? value.ro ?? value.ru ?? value.name;
             return Array.isArray(translated) ? translated.join(", ") : (translated || "");
         }
 
@@ -145,6 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
         subtitle.textContent = languageText("subtitle");
         footerText.textContent = languageText("footer");
         allergensLabel.textContent = languageText("allergens");
+        allergenNote.textContent = languageText("allergenNote");
         closeModal.setAttribute("aria-label", languageText("close"));
     }
 
@@ -267,7 +272,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const allergens = allergenText(currentItem.allergens);
         modalAllergens.textContent = allergens || languageText("unspecified");
-        allergensBox.hidden = !allergens;
+        allergensBox.hidden = false;
     }
 
     function openModal(item, trigger) {

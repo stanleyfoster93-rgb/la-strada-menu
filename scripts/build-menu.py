@@ -564,6 +564,49 @@ DESCRIPTION_WORDS = {
     "caesar": ("Caesar", "«Цезарь»"),
 }
 
+ALLERGEN_LABELS = {
+    "gluten": {"en": "Gluten", "ro": "Gluten", "ru": "Глютен"},
+    "dairy": {"en": "Milk", "ro": "Lapte", "ru": "Молоко"},
+    "eggs": {"en": "Eggs", "ro": "Ouă", "ru": "Яйца"},
+    "peanuts": {"en": "Peanuts", "ro": "Arahide", "ru": "Арахис"},
+    "tree_nuts": {"en": "Tree nuts", "ro": "Fructe cu coajă lemnoasă", "ru": "Орехи"},
+    "fish": {"en": "Fish", "ro": "Pește", "ru": "Рыба"},
+    "crustaceans": {"en": "Crustaceans", "ro": "Crustacee", "ru": "Ракообразные"},
+    "molluscs": {"en": "Molluscs", "ro": "Moluște", "ru": "Моллюски"},
+    "soy": {"en": "Soy", "ro": "Soia", "ru": "Соя"},
+    "sesame": {"en": "Sesame", "ro": "Susan", "ru": "Кунжут"},
+    "mustard": {"en": "Mustard", "ro": "Muștar", "ru": "Горчица"},
+    "celery": {"en": "Celery", "ro": "Țelină", "ru": "Сельдерей"},
+}
+
+ALLERGEN_PATTERNS = {
+    "gluten": r"\b(?:făină(?!\s+de\s+porumb)|pâine|toast|aluat|pesmeți|pesmet|couscous|spaghetti|tagliatelle|paste|tăiței|biscuiți|chiflă|wraps|cereale|bread|flour|breadcrumbs|noodles|bun|wheat)\b",
+    "dairy": r"\b(?:brânză|cașcaval|frișcă|smântână|unt|lapte|iaurt|înghețată|parmezan|mozzarella|camembert|dorblu|feta|mascarpone|cheese|cream|butter|milk|yogurt|dairy)\b",
+    "eggs": r"\b(?:ou(?:ă)?|ou fiert|maioneză|sos\s+(?:tar[- ]?tar|caesar)|eggs?|mayonnaise)\b",
+    "peanuts": r"\b(?:arahide|peanuts?)\b",
+    "tree_nuts": r"\b(?:nuci|nucă|alune|miez de nucă|nuts?|hazelnuts?)\b",
+    "fish": r"\b(?:pește|scrumbie|somon|crap|dorada|fish|salmon|herring|carp)\b",
+    "crustaceans": r"\b(?:creveți|shrimp|prawns?|crab|crabs|lobster)\b",
+    "molluscs": r"\b(?:oyster|stridii|midii|scoici|calamar|squid|mussels?)\b",
+    "soy": r"\b(?:soia|soy)\b",
+    "sesame": r"\b(?:susan|sesame)\b",
+    "mustard": r"\b(?:muștar|mustard)\b",
+    "celery": r"\b(?:țelină|celery)\b",
+}
+
+ALLERGEN_STATUS = {
+    "none": {
+        "en": "No common allergens identified in the listed ingredients.",
+        "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+        "ru": "В указанных ингредиентах распространённые аллергены не выявлены.",
+    },
+    "missing": {
+        "en": "Ingredients are not listed in the source menu.",
+        "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+        "ru": "Состав не указан в исходном меню.",
+    },
+}
+
 PORTION = re.compile(r"^(?:\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)?\s*(?:gr|g|kg|ml|l|buc)|\d+\s*buc)$", re.I)
 PRICE = re.compile(r"^(\d+(?:[.,]\d+)?(?:/\d+(?:[.,]\d+)?)?)\s+lei\b", re.I)
 
@@ -619,6 +662,23 @@ def translate_description(value, language):
         result = result.replace(placeholder, translation)
     result = re.sub(r"\s+", " ", result).strip()
     return result[:1].upper() + result[1:]
+
+
+def infer_allergens(description):
+    if not description:
+        return ALLERGEN_STATUS["missing"]
+
+    found = [
+        allergen_id
+        for allergen_id, pattern in ALLERGEN_PATTERNS.items()
+        if re.search(pattern, description, flags=re.IGNORECASE)
+    ]
+    if not found:
+        return ALLERGEN_STATUS["none"]
+    return {
+        language: [ALLERGEN_LABELS[allergen_id][language] for allergen_id in found]
+        for language in ("en", "ro", "ru")
+    }
 
 
 def category_for(section_number):
@@ -695,6 +755,7 @@ def parse_item(line, section_number, subgroup, index):
             "ro": description,
             "ru": translate_description(description, "ru"),
         }
+    item["allergens"] = infer_allergens(description)
     if subgroup:
         item["section"] = {
             "en": translate_name(subgroup, "en"),

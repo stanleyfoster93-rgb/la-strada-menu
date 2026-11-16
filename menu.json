@@ -23,6 +23,17 @@
             "ro": "Roșii, ardei dulce, castraveți, brânză.",
             "ru": "Помидоры, сладкий перец, огурцы, сыр."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -42,6 +53,23 @@
             "en": "Bread, boiled potatoes, herring, bacon, pickles, olives, onion, mustard.",
             "ro": "Pâine, cartofi fierți, scrumbie, slănină, murături, măsline, ceapă, muștar.",
             "ru": "Хлеб, отварной картофель, сельдь, сало, соленья, оливки, лук, горчица."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Fish",
+              "Mustard"
+            ],
+            "ro": [
+              "Gluten",
+              "Pește",
+              "Muștar"
+            ],
+            "ru": [
+              "Глютен",
+              "Рыба",
+              "Горчица"
+            ]
           },
           "section": {
             "en": "Cold starters",
@@ -63,6 +91,20 @@
             "ro": "Miere, fructe, nuci, snackuri, cașcaval dorblu, mozzarella, cașcaval camembert.",
             "ru": "Мёд, фрукты, орехи, закуски, сыр дорблю, моцарелла, сыр камамбер."
           },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Tree nuts"
+            ],
+            "ro": [
+              "Lapte",
+              "Fructe cu coajă lemnoasă"
+            ],
+            "ru": [
+              "Молоко",
+              "Орехи"
+            ]
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -82,6 +124,20 @@
             "en": "Toast, pâté (chicken liver), onion, carrot, butter, cream, oil.",
             "ro": "Pâine toast, pateu (ficat de pui), ceapă, morcov, unt, frișcă, ulei.",
             "ru": "Тостовый хлеб, паштет (куриная печень), лук, морковь, сливочное масло, сливки, масло."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Cold starters",
@@ -103,6 +159,11 @@
             "ro": "Șuncă, bacon, salam, salam crud afumat, prosciutto.",
             "ru": "Ветчина, бекон, салями, сырокопчёная салями, прошутто."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -122,6 +183,17 @@
             "en": "Toast, eggplant, onion, sweet pepper, spices.",
             "ro": "Pâine toast, vânătă, ceapă, ardei dulce, condimente.",
             "ru": "Тостовый хлеб, баклажан, лук, сладкий перец, специи."
+          },
+          "allergens": {
+            "en": [
+              "Gluten"
+            ],
+            "ro": [
+              "Gluten"
+            ],
+            "ru": [
+              "Глютен"
+            ]
           },
           "section": {
             "en": "Cold starters",
@@ -143,6 +215,11 @@
             "ro": "Bruschetta, roșii, avocado, oregano, condimente, ulei.",
             "ru": "Брускетта, помидоры, авокадо, орегано, специи, масло."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -162,6 +239,20 @@
             "en": "Bruschetta, salmon, herbed cheese, avocado.",
             "ro": "Bruschetta, somon, brânză cu verdeață, avocado.",
             "ru": "Брускетта, лосось, сыр с зеленью, авокадо."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Fish"
+            ],
+            "ro": [
+              "Lapte",
+              "Pește"
+            ],
+            "ru": [
+              "Молоко",
+              "Рыба"
+            ]
           },
           "section": {
             "en": "Cold starters",
@@ -183,6 +274,20 @@
             "ro": "Piept de pui, ciuperci, roșii proaspete, castraveți, ardei dulce, verdeață, ulei de măsline, rădăcină de țelină, broccoli, păstări, sos dulce de muștar.",
             "ru": "Куриная грудка, грибы, свежие помидоры, огурцы, сладкий перец, зелень, оливковое масло, корень сельдерея, брокколи, стручковая фасоль, сладкий горчичный соус."
           },
+          "allergens": {
+            "en": [
+              "Mustard",
+              "Celery"
+            ],
+            "ro": [
+              "Muștar",
+              "Țelină"
+            ],
+            "ru": [
+              "Горчица",
+              "Сельдерей"
+            ]
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -202,6 +307,20 @@
             "en": "Chicken liver, bacon, fresh tomatoes, lettuce leaf, boiled egg, sweet mustard sauce.",
             "ro": "Ficat de pui, bacon, roșii proaspete, frunză de salată, ou fiert, sos dulce de muștar.",
             "ru": "Куриная печень, бекон, свежие помидоры, лист салата, варёное яйцо, сладкий горчичный соус."
+          },
+          "allergens": {
+            "en": [
+              "Eggs",
+              "Mustard"
+            ],
+            "ro": [
+              "Ouă",
+              "Muștar"
+            ],
+            "ru": [
+              "Яйца",
+              "Горчица"
+            ]
           },
           "section": {
             "en": "Salads",
@@ -223,6 +342,11 @@
             "ro": "Roșii, castraveți, ardei dulce, frunză de salată, ceapă roșie, ulei.",
             "ru": "Помидоры, огурцы, сладкий перец, лист салата, лук помидор, масло."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -242,6 +366,20 @@
             "en": "Lettuce leaf, chicken breast, tomatoes, breadcrumbs, oregano, Caesar dressing.",
             "ro": "Frunză de salată, piept de pui, roșii, pesmeți, oregano, sos caesar.",
             "ru": "Лист салата, куриная грудка, помидоры, панировочные сухари, орегано, соус «Цезарь»."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Salads",
@@ -263,6 +401,20 @@
             "ro": "Frunză de salată, bacon, roșii, pesmeți, oregano, sos caesar.",
             "ru": "Лист салата, бекон, помидоры, панировочные сухари, орегано, соус «Цезарь»."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -282,6 +434,23 @@
             "en": "Lettuce leaf, shrimp, tomatoes, breadcrumbs, oregano, Caesar dressing.",
             "ro": "Frunză de salată, creveți, roșii, pesmeți, oregano, sos caesar.",
             "ru": "Лист салата, креветки, помидоры, панировочные сухари, орегано, соус «Цезарь»."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs",
+              "Crustaceans"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă",
+              "Crustacee"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца",
+              "Ракообразные"
+            ]
           },
           "section": {
             "en": "Salads",
@@ -303,6 +472,11 @@
             "ro": "Varză, morcov, mărar, ulei, oțet, sare.",
             "ru": "Капуста, морковь, укроп, масло, уксус, соль."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -322,6 +496,17 @@
             "en": "Lettuce leaf, tomatoes, sweet pepper, cucumbers, onion tomato, feta cheese, olives, lemon, oregano, olive oil.",
             "ro": "Frunză de salată, roșii, ardei dulce, castraveți, ceapă roșie, brânză feta, măsline, lămâie, oregano, ulei de măsline.",
             "ru": "Лист салата, помидоры, сладкий перец, огурцы, лук помидор, сыр фета, оливки, лимон, орегано, оливковое масло."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Salads",
@@ -343,6 +528,20 @@
             "ro": "Couscous, ardei, vânătă, roșii, ceapă, morcov, conopidă, spanac, iaurt grecesc, verdeață, castraveți, avocado, wraps, ulei, condimente, sirop.",
             "ru": "Кускус, перец, баклажан, помидоры, лук, морковь, цветная капуста, шпинат, йогурт греческий, зелень, огурцы, авокадо, лепёшки, масло, специи, сироп."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -363,6 +562,20 @@
             "ro": "Carne de vită, ulei, rădăcină de țelină, ardei dulce, morcov, castraveți, verdeață, susan, fide de orez.",
             "ru": "Говядина, масло, корень сельдерея, сладкий перец, морковь, огурцы, зелень, кунжут, рисовая лапша."
           },
+          "allergens": {
+            "en": [
+              "Sesame",
+              "Celery"
+            ],
+            "ro": [
+              "Susan",
+              "Țelină"
+            ],
+            "ru": [
+              "Кунжут",
+              "Сельдерей"
+            ]
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -382,6 +595,20 @@
             "en": "Mix salad, mozzarella, avocado, tomatoes, sweet mustard sauce.",
             "ro": "Mix salat, mozzarella, avocado, roșii, sos dulce de muștar.",
             "ru": "Смесь салат, моцарелла, авокадо, помидоры, сладкий горчичный соус."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Mustard"
+            ],
+            "ro": [
+              "Lapte",
+              "Muștar"
+            ],
+            "ru": [
+              "Молоко",
+              "Горчица"
+            ]
           },
           "section": {
             "en": "Salads",
@@ -413,6 +640,20 @@
             "ro": "Morcov, ardei, rădăcină de țelină, tăiței, verdeață, condimente, borș acru, piept de pui.",
             "ru": "Морковь, перец, корень сельдерея, лапша, зелень, специи, борщ кислый, куриная грудка."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Celery"
+            ],
+            "ro": [
+              "Gluten",
+              "Țelină"
+            ],
+            "ru": [
+              "Глютен",
+              "Сельдерей"
+            ]
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -432,6 +673,17 @@
             "en": "Onion, mushrooms, spices, oil, cream, chicken breast.",
             "ro": "Ceapă, ciuperci, condimente, ulei, frișcă, piept de pui.",
             "ru": "Лук, грибы, специи, масло, сливки, куриная грудка."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Soups & egg dishes",
@@ -453,6 +705,11 @@
             "ro": "Ceapă, cartof, ciuperci, condimente.",
             "ru": "Лук, картофель, грибы, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -472,6 +729,17 @@
             "en": "Carrot, pepper, celery root, rice, meatballs, potato, spices.",
             "ro": "Morcov, ardei, rădăcină de țelină, orez, perișoare, cartof, condimente.",
             "ru": "Морковь, перец, корень сельдерея, рис, фрикадельки, картофель, специи."
+          },
+          "allergens": {
+            "en": [
+              "Celery"
+            ],
+            "ro": [
+              "Țelină"
+            ],
+            "ru": [
+              "Сельдерей"
+            ]
           },
           "section": {
             "en": "Soups & egg dishes",
@@ -493,6 +761,17 @@
             "ro": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, carne de porc, pastă de tomate, verdeață.",
             "ru": "Морковь, корень сельдерея, перец, капуста, свёкла помидор, картофель, специи, свинина, томатная паста, зелень."
           },
+          "allergens": {
+            "en": [
+              "Celery"
+            ],
+            "ro": [
+              "Țelină"
+            ],
+            "ru": [
+              "Сельдерей"
+            ]
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -512,6 +791,17 @@
             "en": "Carrot, celery root, pepper, cabbage, beetroot tomato, potato, spices, beans, tomato paste, herbs.",
             "ro": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, fasole, pastă de tomate, verdeață.",
             "ru": "Морковь, корень сельдерея, перец, капуста, свёкла помидор, картофель, специи, фасоль, томатная паста, зелень."
+          },
+          "allergens": {
+            "en": [
+              "Celery"
+            ],
+            "ro": [
+              "Țelină"
+            ],
+            "ru": [
+              "Сельдерей"
+            ]
           },
           "section": {
             "en": "Soups & egg dishes",
@@ -533,6 +823,11 @@
             "ro": "Lămâie, măsline, castraveți murați, ceapă, asorti de salamuri afumate, condimente, pastă de tomate, verdeață.",
             "ru": "Лимон, оливки, маринованные огурцы, лук, ассорти из копчёные колбасы, специи, томатная паста, зелень."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -552,6 +847,11 @@
             "en": "Peas, carrot, pepper, onion, bacon, herbs, spices.",
             "ro": "Mazăre, morcov, ardei, ceapă, bacon, verdeață, condimente.",
             "ru": "Горох, морковь, перец, лук, бекон, зелень, специи."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Soups & egg dishes",
@@ -573,6 +873,11 @@
             "ro": "Mazăre, morcov, ardei, ceapă, cartof, verdeață, condimente.",
             "ru": "Горох, морковь, перец, лук, картофель, зелень, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -592,6 +897,17 @@
             "en": "Eggs, zucchini, carrot, tomatoes, pepper, garlic, oil, spices.",
             "ro": "Ouă, bostănel, morcov, roșii, ardei, usturoi, ulei, condimente.",
             "ru": "Яйца, кабачок, морковь, помидоры, перец, чеснок, масло, специи."
+          },
+          "allergens": {
+            "en": [
+              "Eggs"
+            ],
+            "ro": [
+              "Ouă"
+            ],
+            "ru": [
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Soups & egg dishes",
@@ -613,6 +929,20 @@
             "ro": "Ouă, șuncă, roșii, cașcaval, condimente, smântână.",
             "ru": "Яйца, ветчина, помидоры, сыр, специи, сметана."
           },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -633,6 +963,20 @@
             "ro": "Ouă, cașcaval, condimente, smântână.",
             "ru": "Яйца, сыр, специи, сметана."
           },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -652,6 +996,20 @@
             "en": "Eggs, spices, sheep's cheese.",
             "ro": "Ouă, condimente, brânză de oi.",
             "ru": "Яйца, специи, овечий сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Молоко",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Soups & egg dishes",
@@ -683,6 +1041,17 @@
             "ro": "Brânză, verdeață, ulei.",
             "ru": "Сыр, зелень, масло."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -702,6 +1071,17 @@
             "en": "Cheese, oil.",
             "ro": "Cașcaval, ulei.",
             "ru": "Сыр, масло."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pies",
@@ -723,6 +1103,11 @@
             "ro": "Cartofi, condimente, ulei.",
             "ru": "Картофель, специи, масло."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -742,6 +1127,11 @@
             "en": "Cabbage fresh, seasoning, oil.",
             "ro": "Varză proaspătă, condiment, ulei.",
             "ru": "Капуста свежая, приправа, масло."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Pies",
@@ -763,6 +1153,17 @@
             "ro": "Vișină înghețată, ulei, zahăr pudră.",
             "ru": "Вишня мороженое, масло, сахарная пудра."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -782,6 +1183,11 @@
             "en": "Apple / pumpkin, oil, powdered sugar.",
             "ro": "Măr / bostan, ulei, zahăr pudră.",
             "ru": "Яблоко / тыква, масло, сахарная пудра."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Pies",
@@ -803,6 +1209,23 @@
             "ro": "Aluat, carne tocată, cașcaval, ou, smântână, parmezan, ceapă, condimente, usturoi.",
             "ru": "Тесто, мясной фарш, сыр, яйцо, сметана, пармезан, лук, специи, чеснок."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Khachapuri",
             "ro": "Khachapuri",
@@ -822,6 +1245,23 @@
             "en": "Dough, cheese, herbs, oil, egg, cheese, sour cream, Parmesan.",
             "ro": "Aluat, brânză, verdeață, ulei, ou, cașcaval, smântână, parmezan.",
             "ru": "Тесто, сыр, зелень, масло, яйцо, сыр, сметана, пармезан."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Khachapuri",
@@ -843,6 +1283,23 @@
             "ro": "Aluat, cartofi fierți, ceapă, ulei, ou, smântână, cașcaval, parmezan.",
             "ru": "Тесто, отварной картофель, лук, масло, яйцо, сметана, сыр, пармезан."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Khachapuri",
             "ro": "Khachapuri",
@@ -863,6 +1320,17 @@
             "ro": "Clătite, cartof, ciuperci, condimente, smântână.",
             "ru": "Блины, картофель, грибы, специи, сметана."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pancakes",
             "ro": "Clătite",
@@ -882,6 +1350,17 @@
             "en": "Pancakes, chicken breast, mushrooms, cheese, spices, cream.",
             "ro": "Clătite, piept de pui, ciuperci, cașcaval, condimente, frișcă.",
             "ru": "Блины, куриная грудка, грибы, сыр, специи, сливки."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pancakes",
@@ -913,6 +1392,17 @@
             "ro": "Ciuperci, bostănel, măsline, lămâie, crap, făină de porumb, condimente.",
             "ru": "Грибы, кабачок, оливки, лимон, карп, кукурузная мука, специи."
           },
+          "allergens": {
+            "en": [
+              "Fish"
+            ],
+            "ro": [
+              "Pește"
+            ],
+            "ru": [
+              "Рыба"
+            ]
+          },
           "section": {
             "en": "Fish dishes",
             "ro": "Preparate din pește",
@@ -932,6 +1422,17 @@
             "en": "Zucchini, mushrooms, olives, lemon, spices, salmon.",
             "ro": "Bostănel, ciuperci, măsline, lămâie, condimente, somon.",
             "ru": "Кабачок, грибы, оливки, лимон, специи, лосось."
+          },
+          "allergens": {
+            "en": [
+              "Fish"
+            ],
+            "ro": [
+              "Pește"
+            ],
+            "ru": [
+              "Рыба"
+            ]
           },
           "section": {
             "en": "Fish dishes",
@@ -953,6 +1454,17 @@
             "ro": "Bostănel, ciuperci, măsline, lămâie, dorada, condimente.",
             "ru": "Кабачок, грибы, оливки, лимон, дорада, специи."
           },
+          "allergens": {
+            "en": [
+              "Fish"
+            ],
+            "ro": [
+              "Pește"
+            ],
+            "ru": [
+              "Рыба"
+            ]
+          },
           "section": {
             "en": "Fish dishes",
             "ro": "Preparate din pește",
@@ -972,6 +1484,20 @@
             "en": "Rice, shrimp, spices, cream, butter, sauce pesto.",
             "ro": "Orez, creveți, condimente, frișcă, unt, sos pesto.",
             "ru": "Рис, креветки, специи, сливки, сливочное масло, соус песто."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Crustaceans"
+            ],
+            "ro": [
+              "Lapte",
+              "Crustacee"
+            ],
+            "ru": [
+              "Молоко",
+              "Ракообразные"
+            ]
           },
           "section": {
             "en": "Fish dishes",
@@ -993,6 +1519,11 @@
             "ro": "Piept de pui, vânătă, bostănel, morcov, sos picant, verdeață.",
             "ru": "Куриная грудка, баклажан, кабачок, морковь, соус острый, зелень."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -1012,6 +1543,17 @@
             "en": "Chicken breast, mushrooms, spices, cheese, cream, peas, oregano.",
             "ro": "Piept de pui, ciuperci, condimente, cașcaval, frișcă, mazăre, oregano.",
             "ru": "Куриная грудка, грибы, специи, сыр, сливки, горох, орегано."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Skillet dishes",
@@ -1033,6 +1575,11 @@
             "ro": "Carne de porc, vită, pui, roșii cherry, bostănel, ciuperci, verdeață.",
             "ru": "Свинина, говядина, курица, помидоры вишня, кабачок, грибы, зелень."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -1052,6 +1599,20 @@
             "en": "Potatoes, pork, egg, spices, cheese, dill.",
             "ro": "Cartofi, carne de porc, ou, condimente, cașcaval, mărar.",
             "ru": "Картофель, свинина, яйцо, специи, сыр, укроп."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Молоко",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Skillet dishes",
@@ -1073,6 +1634,11 @@
             "ro": "Carne de vită, vânătă, bostănel, morcov, sos picant, verdeață.",
             "ru": "Говядина, баклажан, кабачок, морковь, соус острый, зелень."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -1092,6 +1658,17 @@
             "en": "French fries, breast chicken, wraps, onion marinated, spinach, sauce, tartar, spices, oil.",
             "ro": "Cartofi fri, piept pui, wraps, ceapă marinată, spanac, sos, tartar, condimente, ulei.",
             "ru": "Картофель фри, грудка курица, лепёшки, лук маринованная, шпинат, соус, тартар, специи, масло."
+          },
+          "allergens": {
+            "en": [
+              "Gluten"
+            ],
+            "ro": [
+              "Gluten"
+            ],
+            "ru": [
+              "Глютен"
+            ]
           },
           "section": {
             "en": "Chicken dishes",
@@ -1113,6 +1690,11 @@
             "ro": "Piept de pui, bostănel, ciuperci, condimente.",
             "ru": "Куриная грудка, кабачок, грибы, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -1132,6 +1714,17 @@
             "en": "Chicken breast, potatoes, onion, carrot, sweet pepper, cheese, cream, spices, herbs.",
             "ro": "Piept de pui, cartofi, ceapă, morcov, ardei dulce, cașcaval, frișcă, condimente, verdeață.",
             "ru": "Куриная грудка, картофель, лук, морковь, сладкий перец, сыр, сливки, специи, зелень."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Chicken dishes",
@@ -1153,6 +1746,11 @@
             "ro": "Piept de pui, bostănel, ardei, condimente, ketchup.",
             "ru": "Куриная грудка, кабачок, перец, специи, кетчуп."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -1172,6 +1770,17 @@
             "en": "Polenta (butter, oil, salt, cornmeal), sheep's cheese, scrambled eggs, sour cream, chicken, onion.",
             "ro": "Mămăligă (unt, ulei, sare, făină de porumb), brânză de oi, scrob, smântână, carne de pui, ceapă.",
             "ru": "Мамалыга (сливочное масло, масло, соль, кукурузная мука), овечий сыр, яичница, сметана, курица, лук."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Chicken dishes",
@@ -1193,6 +1802,11 @@
             "ro": "Carne de vită, ulei, condimente.",
             "ru": "Говядина, масло, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Beef dishes",
             "ro": "Preparate din vită",
@@ -1212,6 +1826,17 @@
             "en": "Polenta, sheep's cheese, scrambled eggs, sour cream, beef, onion.",
             "ro": "Mămăligă, brânză de oi, scrob, smântână, carne de vită, ceapă.",
             "ru": "Мамалыга, овечий сыр, яичница, сметана, говядина, лук."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Beef dishes",
@@ -1233,6 +1858,17 @@
             "ro": "Mămăligă, brânză de oi, smântână, carne de porc, ceapă, scrob.",
             "ru": "Мамалыга, овечий сыр, сметана, свинина, лук, яичница."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1252,6 +1888,11 @@
             "en": "Pork neck of pork, spices.",
             "ro": "Ceafă de porc, condimente.",
             "ru": "Свиная шея из свинина, специи."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Pork dishes",
@@ -1273,6 +1914,11 @@
             "ro": "Costiță de porc, condimente, mujdei.",
             "ru": "Рёбрышки из свинина, специи, чесночный соус."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1293,6 +1939,11 @@
             "ro": "Ciolan de porc, varză murată, condimente.",
             "ru": "Свиная рулька из свинина, капуста маринованная, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1312,6 +1963,17 @@
             "en": "Pork, potatoes, onion, sweet pepper, cheese, carrot, cream, spices.",
             "ro": "Carne de porc, cartofi, ceapă, ardei dulce, cașcaval, morcov, frișcă, condimente.",
             "ru": "Свинина, картофель, лук, сладкий перец, сыр, морковь, сливки, специи."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pork dishes",
@@ -1343,6 +2005,17 @@
             "ro": "Cartof, unt, condimente.",
             "ru": "Картофель, сливочное масло, специи."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1362,6 +2035,11 @@
             "en": "Potato, garlic, onion, spices.",
             "ro": "Cartof, usturoi, ceapă, condimente.",
             "ru": "Картофель, чеснок, лук, специи."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Side dishes",
@@ -1383,6 +2061,11 @@
             "ro": "Cartof, condimente.",
             "ru": "Картофель, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1402,6 +2085,17 @@
             "en": "Polenta (oil, butter, salt, cornmeal), sheep's cheese, sour cream.",
             "ro": "Mămăligă (ulei, unt, sare, făină de porumb), brânză de oi, smântână.",
             "ru": "Мамалыга (масло, сливочное масло, соль, кукурузная мука), овечий сыр, сметана."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Side dishes",
@@ -1423,6 +2117,11 @@
             "ro": "Orez, morcov, bostănel, ardei dulce, porumb, condimente.",
             "ru": "Рис, морковь, кабачок, сладкий перец, кукуруза, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1442,6 +2141,11 @@
             "en": "Potato, green beans, sweet pepper, carrot, spices.",
             "ro": "Cartof, păstăi, ardei dulce, morcov, condimente.",
             "ru": "Картофель, стручковая фасоль, сладкий перец, морковь, специи."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Side dishes",
@@ -1463,6 +2167,11 @@
             "ro": "Cartof, usturoi, ceapă, ciuperci/păstări, condimente.",
             "ru": "Картофель, чеснок, лук, грибы/стручковая фасоль, специи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1483,6 +2192,11 @@
             "ro": "Ardei, ciuperci, bostănel, roșii, ceapă, broccoli.",
             "ru": "Перец, грибы, кабачок, помидоры, лук, брокколи."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1498,6 +2212,11 @@
           },
           "portion": "50 gr",
           "price": "10",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1513,6 +2232,11 @@
           },
           "portion": "50 gr",
           "price": "10",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1528,6 +2252,11 @@
           },
           "portion": "50 gr",
           "price": "25",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1543,6 +2272,11 @@
           },
           "portion": "50 gr",
           "price": "15",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1558,6 +2292,11 @@
           },
           "portion": "50 gr",
           "price": "20",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1573,6 +2312,11 @@
           },
           "portion": "50 gr",
           "price": "20",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1588,6 +2332,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1603,6 +2352,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Sauces / toppinguri",
             "ro": "Sosuri / toppinguri",
@@ -1618,6 +2372,11 @@
           },
           "portion": "50 gr",
           "price": "10",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1633,6 +2392,11 @@
           },
           "portion": "50 gr",
           "price": "10",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1648,6 +2412,11 @@
           },
           "portion": "50 gr",
           "price": "5",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1663,6 +2432,11 @@
           },
           "portion": "50 gr",
           "price": "15",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1678,6 +2452,11 @@
           },
           "portion": "50 gr",
           "price": "15",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1693,6 +2472,11 @@
           },
           "portion": "50 gr",
           "price": "10",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1708,6 +2492,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1723,6 +2512,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1738,6 +2532,11 @@
           },
           "portion": "50 gr",
           "price": "20",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1753,6 +2552,11 @@
           },
           "portion": "50 gr",
           "price": "20",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1768,6 +2572,11 @@
           },
           "portion": "50 gr",
           "price": "20",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1783,6 +2592,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1798,6 +2612,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1813,6 +2632,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1828,6 +2652,11 @@
           },
           "portion": "50 gr",
           "price": "40",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1843,6 +2672,11 @@
           },
           "portion": "50 gr",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1858,6 +2692,11 @@
           },
           "portion": "50 gr",
           "price": "10",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Extras",
             "ro": "Adaosuri",
@@ -1888,6 +2727,23 @@
             "ro": "Spaghetti, carne tocată (vită, porc), rădăcină de țelină, condimente, pastă de tomate, parmezan.",
             "ru": "Спагетти, мясной фарш (говядина, свинина), корень сельдерея, специи, томатная паста, пармезан."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Celery"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Țelină"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Сельдерей"
+            ]
+          },
           "section": {
             "en": "Pasta",
             "ro": "Paste",
@@ -1907,6 +2763,20 @@
             "en": "Tagliatelle, mushrooms, cream, spices, Parmesan.",
             "ro": "Tagliatelle, ciuperci, frișcă, condimente, parmezan.",
             "ru": "Тальятелле, грибы, сливки, специи, пармезан."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pasta",
@@ -1928,6 +2798,20 @@
             "ro": "Spaghetti, frișcă, bacon, parmezan, usturoi, condimente.",
             "ru": "Спагетти, сливки, бекон, пармезан, чеснок, специи."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pasta",
             "ro": "Paste",
@@ -1947,6 +2831,20 @@
             "en": "Sauce, shrimp, onion tomato, cheese, arugula.",
             "ro": "Sos, creveți, ceapă roșie, cașcaval, rucola.",
             "ru": "Соус, креветки, лук помидор, сыр, руккола."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Crustaceans"
+            ],
+            "ro": [
+              "Lapte",
+              "Crustacee"
+            ],
+            "ru": [
+              "Молоко",
+              "Ракообразные"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -1968,6 +2866,17 @@
             "ro": "Sos, salam, șuncă, bacon, ciuperci, ardei dulce, cașcaval.",
             "ru": "Соус, салями, ветчина, бекон, грибы, сладкий перец, сыр."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1987,6 +2896,17 @@
             "en": "Sauce, ham, mushrooms, fresh tomatoes, cheese.",
             "ro": "Sos, șuncă, ciuperci, roșii proaspete, cașcaval.",
             "ru": "Соус, ветчина, грибы, свежие помидоры, сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2008,6 +2928,17 @@
             "ro": "Sos, salam, porumb conservat, ardei dulce, cașcaval.",
             "ru": "Соус, салями, кукуруза консервированный, сладкий перец, сыр."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -2027,6 +2958,17 @@
             "en": "Sauce, ham, olives, mushrooms, cheese.",
             "ro": "Sos, șuncă, măsline, ciuperci, cașcaval.",
             "ru": "Соус, ветчина, оливки, грибы, сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2048,6 +2990,17 @@
             "ro": "Sos, șuncă, brânză, vinete, usturoi, cașcaval.",
             "ru": "Соус, ветчина, сыр, баклажаны, чеснок, сыр."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -2067,6 +3020,17 @@
             "en": "Sauce, ham, pineapple, onion tomato, cheese.",
             "ro": "Sos, șuncă, ananas, ceapă roșie, cașcaval.",
             "ru": "Соус, ветчина, ананас, лук помидор, сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2088,6 +3052,17 @@
             "ro": "Sos, ardei dulce, ciuperci, piept de pui, cașcaval.",
             "ru": "Соус, сладкий перец, грибы, куриная грудка, сыр."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -2107,6 +3082,17 @@
             "en": "Sauce, chicken breast, mushrooms, corn canned, cheese, sweet pepper.",
             "ro": "Sos, piept de pui, ciuperci, porumb conservat, cașcaval, ardei dulce.",
             "ru": "Соус, куриная грудка, грибы, кукуруза консервированный, сыр, сладкий перец."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2128,6 +3114,17 @@
             "ro": "Frișcă, cașcaval dorblu, mozzarella, parmezan.",
             "ru": "Сливки, сыр дорблю, моцарелла, пармезан."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -2147,6 +3144,17 @@
             "en": "Sauce, sweet pepper, fresh tomatoes, olives, corn canned, mushrooms, cheese.",
             "ro": "Sos, ardei dulce, roșii proaspete, măsline, porumb conservat, ciuperci, cașcaval.",
             "ru": "Соус, сладкий перец, свежие помидоры, оливки, кукуруза консервированный, грибы, сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2168,6 +3176,11 @@
             "ro": "Oregano, sare de mare, ulei de măsline.",
             "ru": "Орегано, морская соль, оливковое масло."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -2187,6 +3200,17 @@
             "en": "Sauce, cheese.",
             "ro": "Sos, cașcaval.",
             "ru": "Соус, сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2208,6 +3232,17 @@
             "ro": "Sos, salami, porumb conservat, ardei iute, cașcaval.",
             "ru": "Соус, салями, кукуруза консервированный, острый перец, сыр."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -2227,6 +3262,17 @@
             "en": "Sauce, mushrooms, ham, salami, sweet pepper, corn canned, olives, chicken breast, cheese.",
             "ro": "Sos, ciuperci, șuncă, salam, ardei dulce, porumb conservat, măsline, piept de pui, cașcaval.",
             "ru": "Соус, грибы, ветчина, салями, сладкий перец, кукуруза консервированный, оливки, куриная грудка, сыр."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Pizza",
@@ -2248,6 +3294,17 @@
             "ro": "Chiflă, ketchup, frunză de salată, pârjoală (morcov, cartof, bostănel), cartofi pai.",
             "ru": "Булочка, кетчуп, лист салата, котлета (морковь, картофель, кабачок), картофель фри."
           },
+          "allergens": {
+            "en": [
+              "Gluten"
+            ],
+            "ro": [
+              "Gluten"
+            ],
+            "ru": [
+              "Глютен"
+            ]
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -2267,6 +3324,20 @@
             "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, patty, French fries, ketchup.",
             "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cartofi pai, ketchup.",
             "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, котлета, картофель фри, кетчуп."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Burgers",
@@ -2288,6 +3359,20 @@
             "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cartofi pai, ketchup.",
             "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, стейк курица, картофель фри, кетчуп."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -2308,6 +3393,23 @@
             "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cașcaval, cartofi pai, ketchup.",
             "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, стейк курица, сыр, картофель фри, кетчуп."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -2327,6 +3429,23 @@
             "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, patty, cheese, French fries, ketchup.",
             "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cașcaval, cartofi pai, ketchup.",
             "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, котлета, сыр, картофель фри, кетчуп."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Burgers",
@@ -2358,6 +3477,23 @@
             "ro": "Înghețată albă, ou, cereale, miere, caramelă.",
             "ru": "Мороженое белая, яйцо, хлопья, мёд, карамель."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2377,6 +3513,11 @@
             "en": "Pineapple, banana, oranges, grapes, grapefruit.",
             "ro": "Ananas, banană, portocale, struguri, grapefruit.",
             "ru": "Ананас, банан, апельсины, виноград, грейпфрут."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Desserts",
@@ -2398,6 +3539,23 @@
             "ro": "Ou, cream cheese, unt, biscuiți.",
             "ru": "Яйцо, сливочный сыр, сливочное масло, печенье."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2417,6 +3575,20 @@
             "en": "Cream, egg, coffee, rum, cocoa, mascarpone, sugar, ladyfinger biscuit.",
             "ro": "Frișcă, ou, cafea, rum, cacao, mascarpone, zahăr, pișcot.",
             "ru": "Сливки, яйцо, кофе, ром, какао, маскарпоне, сахар, печенье савоярди."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Молоко",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Desserts",
@@ -2438,6 +3610,26 @@
             "ro": "Ou, făină de grâu, măr, smântână, dulceață de fructe, înghețată albă, zahăr pudră, nucă.",
             "ru": "Яйцо, пшеничная мука, яблоко, сметана, варенье из фрукты, мороженое белая, сахарная пудра, грецкий орех."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Milk",
+              "Eggs",
+              "Tree nuts"
+            ],
+            "ro": [
+              "Gluten",
+              "Lapte",
+              "Ouă",
+              "Fructe cu coajă lemnoasă"
+            ],
+            "ru": [
+              "Глютен",
+              "Молоко",
+              "Яйца",
+              "Орехи"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2458,6 +3650,17 @@
             "ro": "Clătite, vișină, frișcă, ciocolată.",
             "ru": "Блины, вишня, сливки, шоколад."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2477,6 +3680,20 @@
             "en": "Cheese, egg, sour cherry, honey, powdered sugar.",
             "ro": "Brânză, ou, vișină, miere, zahăr pudră.",
             "ru": "Сыр, яйцо, вишня, мёд, сахарная пудра."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Eggs"
+            ],
+            "ro": [
+              "Lapte",
+              "Ouă"
+            ],
+            "ru": [
+              "Молоко",
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Desserts",
@@ -2503,6 +3720,17 @@
             "ro": "Clătite, brânză, stafide, caramelă, zahăr pudră.",
             "ru": "Блины, сыр, изюм, карамель, сахарная пудра."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2522,6 +3750,17 @@
             "en": "Apple, walnut kernels, jam of fruit, powdered sugar.",
             "ro": "Măr, miez de nucă, dulceață de fructe, zahăr pudră.",
             "ru": "Яблоко, ядра грецкого ореха, варенье из фрукты, сахарная пудра."
+          },
+          "allergens": {
+            "en": [
+              "Tree nuts"
+            ],
+            "ro": [
+              "Fructe cu coajă lemnoasă"
+            ],
+            "ru": [
+              "Орехи"
+            ]
           },
           "section": {
             "en": "Desserts",
@@ -2543,6 +3782,11 @@
             "ro": "Banană, portocală, strugure, kiwi, miere.",
             "ru": "Банан, апельсин, виноград, киви, мёд."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2562,6 +3806,17 @@
             "en": "Ice cream white/with chocolate, banana, kiwi, orange, grape.",
             "ro": "Înghețată albă/cu ciocolată, banană, kiwi, portocală, strugure.",
             "ru": "Мороженое белая/с шоколад, банан, киви, апельсин, виноград."
+          },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
           },
           "section": {
             "en": "Desserts",
@@ -2583,6 +3838,17 @@
             "ro": "Înghețată albă/cu ciocolată, topping (ciocolată, caramelă, miere, dulceață de vișină).",
             "ru": "Мороженое белая/с шоколад, топпинг (шоколад, карамель, мёд, варенье из вишня)."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2603,6 +3869,20 @@
             "ro": "Zahăr, cacao, alune, fructe, unt de cacao, grăsime lactată.",
             "ru": "Сахар, какао, лесные орехи, фрукты, сливочное масло из какао, жир молочный."
           },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Tree nuts"
+            ],
+            "ro": [
+              "Lapte",
+              "Fructe cu coajă lemnoasă"
+            ],
+            "ru": [
+              "Молоко",
+              "Орехи"
+            ]
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2618,6 +3898,11 @@
           },
           "portion": "150 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2643,6 +3928,11 @@
           },
           "portion": "0,33 l",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2658,6 +3948,11 @@
           },
           "portion": "0,5 l",
           "price": "25",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2673,6 +3968,11 @@
           },
           "portion": "0,25 l",
           "price": "25",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2698,6 +3998,11 @@
             "ro": "Portocală, grapefruit.",
             "ru": "Апельсин, грейпфрут."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2718,6 +4023,11 @@
             "ro": "În sortiment.",
             "ru": "В ассорти."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2733,6 +4043,11 @@
           },
           "portion": "0,25 l",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2748,6 +4063,11 @@
           },
           "portion": "1 buc",
           "price": "30",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2763,6 +4083,11 @@
           },
           "portion": "250 ml",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2778,6 +4103,11 @@
           },
           "portion": "300 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2793,6 +4123,11 @@
           },
           "portion": "400 ml",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2813,6 +4148,11 @@
             "ro": "Ghimbir, cătină, exotic.",
             "ru": "Имбирь, облепиха, экзотический."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2832,6 +4172,11 @@
             "en": "White, red.",
             "ro": "Alb, roșu.",
             "ru": "Белый, красное."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Hot drinks",
@@ -2863,6 +4208,11 @@
             "ro": "Sirop mojito, mentă, lime, apă gazată.",
             "ru": "Сироп Мохито, мята, лайм, газированная вода."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2882,6 +4232,11 @@
             "en": "Juice, syrup, orange.",
             "ro": "Suc, sirop, portocală.",
             "ru": "Сок, сироп, апельсин."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Non-alcoholic cocktails",
@@ -2903,6 +4258,17 @@
             "ro": "Frișcă, sirop cocos, suc de ananas.",
             "ru": "Сливки, сироп кокос, ананасовый сок."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2918,6 +4284,11 @@
           },
           "portion": "300 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2933,6 +4304,11 @@
           },
           "portion": "350 ml",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2953,6 +4329,17 @@
             "ro": "Lapte, înghețată, sirop.",
             "ru": "Молоко, мороженое, сироп."
           },
+          "allergens": {
+            "en": [
+              "Milk"
+            ],
+            "ro": [
+              "Lapte"
+            ],
+            "ru": [
+              "Молоко"
+            ]
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2968,6 +4355,11 @@
           },
           "portion": "350 ml",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2983,6 +4375,11 @@
           },
           "portion": "300 ml",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2998,6 +4395,11 @@
           },
           "portion": "350 ml",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -3013,6 +4415,11 @@
           },
           "portion": "300 ml",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -3032,6 +4439,11 @@
             "en": "Wine sparkling wine, sparkling water, Aperol.",
             "ro": "Vin spumant, apă gazată, aperol.",
             "ru": "Вино игристое вино, газированная вода, Апероль."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3053,6 +4465,11 @@
             "ro": "Rum, sirop mojito, mentă, lime, apă gazată.",
             "ru": "Ром, сироп Мохито, мята, лайм, газированная вода."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3072,6 +4489,11 @@
             "en": "Wine red, syrup, juice, orange.",
             "ro": "Vin roșu, sirop, suc, portocală.",
             "ru": "Вино красное, сироп, сок, апельсин."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3093,6 +4515,11 @@
             "ro": "Tequila, triple sec, suc de lime.",
             "ru": "Текила, трипл-сек, сок из лайм."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3112,6 +4539,11 @@
             "en": "Rum, cola.",
             "ro": "Rum, cola.",
             "ru": "Ром, кола."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3133,6 +4565,11 @@
             "ro": "Rum, Malibu, suc ananas, sirop cocos.",
             "ru": "Ром, Малибу, сок ананас, сироп кокос."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3152,6 +4589,11 @@
             "en": "Blue Curaçao, vodka, Sprite.",
             "ro": "Blue curacao, vodka, Sprite.",
             "ru": "Блю кюрасао, водка, Спрайт."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3173,6 +4615,11 @@
             "ro": "Pisang Ambon, suc de lime, tequila.",
             "ru": "Пизанг Амбон, сок из лайм, текила."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3192,6 +4639,11 @@
             "en": "Tequila, vodka, rum, absinthe, energy drink.",
             "ro": "Tequila, vodka, rum, absinth, energizant.",
             "ru": "Текила, водка, ром, абсент, энергетический напиток."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3213,6 +4665,11 @@
             "ro": "Baileys, Malibu, whisky.",
             "ru": "Бейлис, Малибу, виски."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3232,6 +4689,11 @@
             "en": "Kahlúa, Baileys, triple sec.",
             "ro": "Kahlua, Baileys, triple sec.",
             "ru": "Калуа, Бейлис, трипл-сек."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3253,6 +4715,11 @@
             "ro": "Elder flower, vin spumant, mentă, lime.",
             "ru": "Цветки бузины, вино игристое вино, мята, лайм."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3272,6 +4739,11 @@
             "en": "Vodka, juice, peach liqueur.",
             "ro": "Vodka, suc, peach liqueur.",
             "ru": "Водка, сок, персиковый ликёр."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3293,6 +4765,11 @@
             "ro": "Gin, rum, triple sec, vodka, suc lămâie, cola.",
             "ru": "Джин, ром, трипл-сек, водка, сок лимон, кола."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3312,6 +4789,11 @@
             "en": "Gin, tonic, lime.",
             "ro": "Gin, tonic, lime.",
             "ru": "Джин, тоник, лайм."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3333,6 +4815,11 @@
             "ro": "Martini, tonic, grapefruit.",
             "ru": "Мартини, тоник, грейпфрут."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3352,6 +4839,11 @@
             "en": "Vodka, triple sec, juice lime.",
             "ro": "Vodka, triple sec, suc lime.",
             "ru": "Водка, трипл-сек, сок лайм."
+          },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
           },
           "section": {
             "en": "Alcoholic cocktails",
@@ -3378,6 +4870,11 @@
           },
           "portion": "0,5/0,3 l",
           "price": "40/35",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Draft",
             "ro": "Draft",
@@ -3393,6 +4890,11 @@
           },
           "portion": "0,5/0,3 l",
           "price": "50/45",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Draft",
             "ro": "Draft",
@@ -3408,6 +4910,11 @@
           },
           "portion": "0,5/0,3 l",
           "price": "30/25",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Draft",
             "ro": "Draft",
@@ -3423,6 +4930,11 @@
           },
           "portion": "0,5/0,3 l",
           "price": "40/35",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Draft",
             "ro": "Draft",
@@ -3438,6 +4950,11 @@
           },
           "portion": "0,33 l",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3453,6 +4970,11 @@
           },
           "portion": "0,5 l",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3468,6 +4990,11 @@
           },
           "portion": "0,5 l",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3483,6 +5010,11 @@
           },
           "portion": "0,5 l",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3498,6 +5030,11 @@
           },
           "portion": "0,5 l",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3513,6 +5050,11 @@
           },
           "portion": "0,35 l",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3528,6 +5070,11 @@
           },
           "portion": "0,5 l",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3543,6 +5090,11 @@
           },
           "portion": "0,5 l",
           "price": "35",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Bottled",
             "ro": "La sticlă",
@@ -3562,6 +5114,17 @@
             "en": "Peanuts, salt.",
             "ro": "Arahide, sare.",
             "ru": "Арахис, соль."
+          },
+          "allergens": {
+            "en": [
+              "Peanuts"
+            ],
+            "ro": [
+              "Arahide"
+            ],
+            "ru": [
+              "Арахис"
+            ]
           },
           "section": {
             "en": "Beer snacks",
@@ -3583,6 +5146,17 @@
             "ro": "Pâine toast, usturoi, condimente.",
             "ru": "Тостовый хлеб, чеснок, специи."
           },
+          "allergens": {
+            "en": [
+              "Gluten"
+            ],
+            "ro": [
+              "Gluten"
+            ],
+            "ru": [
+              "Глютен"
+            ]
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3603,6 +5177,11 @@
             "ro": "Salam crud de vită.",
             "ru": "Салями сырой из говядина."
           },
+          "allergens": {
+            "en": "No common allergens identified in the listed ingredients.",
+            "ro": "Nu au fost identificați alergeni comuni în ingredientele indicate.",
+            "ru": "В указанных ингредиентах распространённые аллергены не выявлены."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3618,6 +5197,11 @@
           },
           "portion": "50 gr",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3637,6 +5221,17 @@
             "en": "Chicken fingers of chicken breaded, French fries, rings of onion, potatoes balls, tartar sauce, ketchup.",
             "ro": "Degețele de pui pane, cartofi pai, inele de ceapă, cartofi bile, sos tartar, ketchup.",
             "ru": "Куриные палочки из курица в панировке, картофель фри, кольца из лук, картофель шарики, соус тартар, кетчуп."
+          },
+          "allergens": {
+            "en": [
+              "Eggs"
+            ],
+            "ro": [
+              "Ouă"
+            ],
+            "ru": [
+              "Яйца"
+            ]
           },
           "section": {
             "en": "Beer snacks",
@@ -3658,6 +5253,20 @@
             "ro": "Piept de pui, făină de grâu, ou, pesmeți măcinați, sos tar-tar.",
             "ru": "Куриная грудка, пшеничная мука, яйцо, панировочные сухари молотые, соус тартар-тартар."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца"
+            ]
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3677,6 +5286,20 @@
             "en": "Retropina, wheat flour, soy sauce.",
             "ro": " Retropina, făină de grâu, sos de soia.",
             "ru": "Retropina, пшеничная мука, соевый соус."
+          },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Soy"
+            ],
+            "ro": [
+              "Gluten",
+              "Soia"
+            ],
+            "ru": [
+              "Глютен",
+              "Соя"
+            ]
           },
           "section": {
             "en": "Beer snacks",
@@ -3703,6 +5326,17 @@
             "ro": "Urechi de porc, sos de soia, condimente.",
             "ru": "Уши из свинина, соевый соус, специи."
           },
+          "allergens": {
+            "en": [
+              "Soy"
+            ],
+            "ro": [
+              "Soia"
+            ],
+            "ru": [
+              "Соя"
+            ]
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3722,6 +5356,20 @@
             "en": "Ears of pork, soy sauce, sauce oyster, spices, garlic, carrot Korean-style.",
             "ro": "Urechi de porc, sos de soia, sos oyster, condimente, usturoi, morcov coreean.",
             "ru": "Уши из свинина, соевый соус, соус устричный, специи, чеснок, морковь по-корейски."
+          },
+          "allergens": {
+            "en": [
+              "Molluscs",
+              "Soy"
+            ],
+            "ro": [
+              "Moluște",
+              "Soia"
+            ],
+            "ru": [
+              "Моллюски",
+              "Соя"
+            ]
           },
           "section": {
             "en": "Beer snacks",
@@ -3743,6 +5391,23 @@
             "ro": "Creveți, făină de grâu, ou, pesmeți măcinați, sos picant.",
             "ru": "Креветки, пшеничная мука, яйцо, панировочные сухари молотые, соус острый."
           },
+          "allergens": {
+            "en": [
+              "Gluten",
+              "Eggs",
+              "Crustaceans"
+            ],
+            "ro": [
+              "Gluten",
+              "Ouă",
+              "Crustacee"
+            ],
+            "ru": [
+              "Глютен",
+              "Яйца",
+              "Ракообразные"
+            ]
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3762,6 +5427,20 @@
             "en": "Basturma, sujuk, peanuts, smoked cheese, snacks.",
             "ro": "Basturma, sudjuk, arahide, cașcaval afumat, snacksuri.",
             "ru": "Бастурма, суджук, арахис, копчёный сыр, закуски."
+          },
+          "allergens": {
+            "en": [
+              "Milk",
+              "Peanuts"
+            ],
+            "ro": [
+              "Lapte",
+              "Arahide"
+            ],
+            "ru": [
+              "Молоко",
+              "Арахис"
+            ]
           },
           "section": {
             "en": "Beer snacks",
@@ -3788,6 +5467,11 @@
           },
           "portion": "750 ml",
           "price": "330",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Prestige”",
             "ro": "Cricova — seria „Prestige”",
@@ -3803,6 +5487,11 @@
           },
           "portion": "750 ml",
           "price": "330",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Prestige”",
             "ro": "Cricova — seria „Prestige”",
@@ -3818,6 +5507,11 @@
           },
           "portion": "750 ml",
           "price": "330",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Prestige”",
             "ro": "Cricova — seria „Prestige”",
@@ -3833,6 +5527,11 @@
           },
           "portion": "200 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Vintage”",
             "ro": "Cricova — seria „Vintage”",
@@ -3848,6 +5547,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Vintage”",
             "ro": "Cricova — seria „Vintage”",
@@ -3863,6 +5567,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Vintage”",
             "ro": "Cricova — seria „Vintage”",
@@ -3878,6 +5587,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Vintage”",
             "ro": "Cricova — seria „Vintage”",
@@ -3893,6 +5607,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova — series “Vintage”",
             "ro": "Cricova — seria „Vintage”",
@@ -3908,6 +5627,11 @@
           },
           "portion": "150 ml",
           "price": "55",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova Original",
             "ro": "Cricova Original",
@@ -3923,6 +5647,11 @@
           },
           "portion": "750 ml",
           "price": "140",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova Original",
             "ro": "Cricova Original",
@@ -3938,6 +5667,11 @@
           },
           "portion": "750 ml",
           "price": "210",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova Original",
             "ro": "Cricova Original",
@@ -3953,6 +5687,11 @@
           },
           "portion": "750 ml",
           "price": "330",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Cricova Original",
             "ro": "Cricova Original",
@@ -3968,6 +5707,11 @@
           },
           "portion": "750 ml",
           "price": "270",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Chateau Vartely — categoria “Individo”",
             "ro": "Chateau Vartely — categoria „Individo”",
@@ -3983,6 +5727,11 @@
           },
           "portion": "750 ml",
           "price": "270",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Chateau Vartely — categoria “Individo”",
             "ro": "Chateau Vartely — categoria „Individo”",
@@ -3998,6 +5747,11 @@
           },
           "portion": "750 ml",
           "price": "270",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Chateau Vartely — categoria “Individo”",
             "ro": "Chateau Vartely — categoria „Individo”",
@@ -4013,6 +5767,11 @@
           },
           "portion": "200 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine of marcă",
             "ro": "Vin de marcă",
@@ -4028,6 +5787,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine of marcă",
             "ro": "Vin de marcă",
@@ -4043,6 +5807,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine of marcă",
             "ro": "Vin de marcă",
@@ -4058,6 +5827,11 @@
           },
           "portion": "750 ml",
           "price": "160",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine of marcă",
             "ro": "Vin de marcă",
@@ -4073,6 +5847,11 @@
           },
           "portion": "750 ml",
           "price": "300",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine sparkling “Maestro”",
             "ro": "Vin spumant „Maestro”",
@@ -4088,6 +5867,11 @@
           },
           "portion": "750 ml",
           "price": "330",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine sparkling “Maestro”",
             "ro": "Vin spumant „Maestro”",
@@ -4103,6 +5887,11 @@
           },
           "portion": "750 ml",
           "price": "330",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine sparkling “Maestro”",
             "ro": "Vin spumant „Maestro”",
@@ -4118,6 +5907,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Wine sparkling “Maestro”",
             "ro": "Vin spumant „Maestro”",
@@ -4143,6 +5937,11 @@
           },
           "portion": "50 ml",
           "price": "100",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Vodka",
             "ro": "Vodka",
@@ -4158,6 +5957,11 @@
           },
           "portion": "50 ml",
           "price": "40",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Vodka",
             "ro": "Vodka",
@@ -4173,6 +5977,11 @@
           },
           "portion": "50 ml",
           "price": "35",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Vodka",
             "ro": "Vodka",
@@ -4188,6 +5997,11 @@
           },
           "portion": "50 ml",
           "price": "35",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Vodka",
             "ro": "Vodka",
@@ -4203,6 +6017,11 @@
           },
           "portion": "50 ml",
           "price": "40",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Vodka",
             "ro": "Vodka",
@@ -4218,6 +6037,11 @@
           },
           "portion": "50 ml",
           "price": "85",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4233,6 +6057,11 @@
           },
           "portion": "50 ml",
           "price": "75",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4248,6 +6077,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4263,6 +6097,11 @@
           },
           "portion": "50 ml",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4278,6 +6117,11 @@
           },
           "portion": "50 ml",
           "price": "50",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4293,6 +6137,11 @@
           },
           "portion": "50 ml",
           "price": "40",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4308,6 +6157,11 @@
           },
           "portion": "50 ml",
           "price": "40",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4323,6 +6177,11 @@
           },
           "portion": "50 ml",
           "price": "40",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Divin",
             "ro": "Divin",
@@ -4338,6 +6197,11 @@
           },
           "portion": "50 ml",
           "price": "100",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Whisky",
             "ro": "Whisky",
@@ -4353,6 +6217,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Whisky",
             "ro": "Whisky",
@@ -4368,6 +6237,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Whisky",
             "ro": "Whisky",
@@ -4383,6 +6257,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Whisky",
             "ro": "Whisky",
@@ -4398,6 +6277,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Whisky",
             "ro": "Whisky",
@@ -4413,6 +6297,11 @@
           },
           "portion": "50 ml",
           "price": "65",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Lichior",
             "ro": "Lichior",
@@ -4428,6 +6317,11 @@
           },
           "portion": "50 ml",
           "price": "65",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Lichior",
             "ro": "Lichior",
@@ -4443,6 +6337,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Rum",
             "ro": "Rum",
@@ -4458,6 +6357,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Rum",
             "ro": "Rum",
@@ -4473,6 +6377,11 @@
           },
           "portion": "50 ml",
           "price": "60",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Rum",
             "ro": "Rum",
@@ -4488,6 +6397,11 @@
           },
           "portion": "50 ml",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Gin",
             "ro": "Gin",
@@ -4503,6 +6417,11 @@
           },
           "portion": "50 ml",
           "price": "70",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Digestive",
             "ro": "Digestive",
@@ -4518,6 +6437,11 @@
           },
           "portion": "50 ml",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Tequila",
             "ro": "Tequila",
@@ -4533,6 +6457,11 @@
           },
           "portion": "50 ml",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Tequila",
             "ro": "Tequila",
@@ -4548,6 +6477,11 @@
           },
           "portion": "50 ml",
           "price": "80",
+          "allergens": {
+            "en": "Ingredients are not listed in the source menu.",
+            "ro": "Ingredientele nu sunt indicate în meniul-sursă.",
+            "ru": "Состав не указан в исходном меню."
+          },
           "section": {
             "en": "Absinthe",
             "ro": "Absinthe",
