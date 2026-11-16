@@ -392,7 +392,7 @@ NAME_EXACT = {
     "shakshouka": ("Shakshouka", "Шакшука"),
     "omletă cu șuncă, cașcaval și roșii": ("Omelette with ham, cheese and tomatoes", "Омлет с ветчиной, сыром и помидорами"),
     "omletă cu cașcaval": ("Cheese omelette", "Омлет с сыром"),
-    "scrob cu brânză": ("Scrambled eggs with cheese", "Яичница с сыром"),
+    "scrob cu brânză": ("Scrambled eggs with cheese", "Скроб с брынзой"),
     "brânză și verdeață": ("Cheese and herbs", "Сыр и зелень"),
     "măr / bostan": ("Apple / pumpkin", "Яблоко / тыква"),
     "cu cartofi și ciuperci": ("With potatoes and mushrooms", "С картофелем и грибами"),

@@ -42,6 +42,7 @@ class MenuTranslationTests(unittest.TestCase):
         }.items():
             with self.subTest(item_id=item_id):
                 self.assertEqual(items[item_id]["name"]["ru"], name)
+        self.assertEqual(items["3-13-scrob-cu-branza"]["name"]["ru"], "Скроб с брынзой")
 
     def test_generated_data_includes_corrected_text(self):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
