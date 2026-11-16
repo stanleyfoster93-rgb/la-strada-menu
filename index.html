@@ -9,28 +9,29 @@
 </head>
 <body>
     <div class="phone-frame">
-        <header class="header">
-            <div class="brand-row">
-                <div class="brand-mark" aria-hidden="true">L</div>
-                <div class="header-copy">
-                    <h1 class="header-title">La Strada</h1>
-                    <p class="subtitle" id="subtitle">Tourist menu · Tap a dish for details</p>
-                </div>
-                <details class="language-picker" id="languagePicker">
-                    <summary class="language-toggle" id="languageToggle" aria-label="Language: English">
-                        <span id="languageCode">EN</span>
-                        <span class="language-chevron" aria-hidden="true">⌄</span>
-                    </summary>
-                    <div class="language-menu" id="languageMenu" role="group" aria-label="Choose language">
-                        <button class="language-option" type="button" data-language="en" aria-pressed="true">English</button>
-                        <button class="language-option" type="button" data-language="ro" aria-pressed="false">Română</button>
-                        <button class="language-option" type="button" data-language="ru" aria-pressed="false">Русский</button>
+        <div class="sticky-header">
+            <header class="header">
+                <div class="brand-row">
+                    <div class="brand-mark" aria-hidden="true">L</div>
+                    <div class="header-copy">
+                        <h1 class="header-title">La Strada</h1>
+                        <p class="subtitle" id="subtitle">Tourist menu · Tap a dish for details</p>
                     </div>
-                </details>
-            </div>
-        </header>
-
-        <nav class="categories-nav" id="categoriesNav" aria-label="Menu categories"></nav>
+                    <details class="language-picker" id="languagePicker">
+                        <summary class="language-toggle" id="languageToggle" aria-label="Language: English">
+                            <span id="languageCode">EN</span>
+                            <span class="language-chevron" aria-hidden="true">⌄</span>
+                        </summary>
+                        <div class="language-menu" id="languageMenu" role="group" aria-label="Choose language">
+                            <button class="language-option" type="button" data-language="en" aria-pressed="true">English</button>
+                            <button class="language-option" type="button" data-language="ro" aria-pressed="false">Română</button>
+                            <button class="language-option" type="button" data-language="ru" aria-pressed="false">Русский</button>
+                        </div>
+                    </details>
+                </div>
+            </header>
+            <nav class="categories-nav" id="categoriesNav" aria-label="Menu categories"></nav>
+        </div>
         <main class="menu-list" id="menuList" aria-live="polite"></main>
 
         <footer class="footer">

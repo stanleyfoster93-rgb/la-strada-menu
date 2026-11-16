@@ -154,6 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function renderCategories() {
+        const scrollLeft = categoriesNav.scrollLeft;
         categoriesNav.replaceChildren();
 
         menuData.categories.forEach((category) => {
@@ -166,12 +167,17 @@ document.addEventListener("DOMContentLoaded", () => {
             button.setAttribute("aria-pressed", String(isActive));
             button.addEventListener("click", () => {
                 activeCategoryId = category.id;
-                renderCategories();
+                categoriesNav.querySelectorAll(".cat-btn").forEach((categoryButton) => {
+                    const selected = categoryButton === button;
+                    categoryButton.classList.toggle("active", selected);
+                    categoryButton.setAttribute("aria-pressed", String(selected));
+                });
                 renderItems();
             });
 
             categoriesNav.appendChild(button);
         });
+        categoriesNav.scrollLeft = scrollLeft;
     }
 
     function renderItems() {
