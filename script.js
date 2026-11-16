@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const subtitle = document.getElementById("subtitle");
     const footerText = document.getElementById("footerText");
     const modalOverlay = document.getElementById("modalOverlay");
-    const modalCard = document.getElementById("modalCard");
     const closeModal = document.getElementById("closeModal");
     const modalImageWrap = document.getElementById("modalImageWrap");
     const modalImg = document.getElementById("modalImg");
@@ -49,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentItem = null;
     let lastFocusedElement = null;
     let language = getSavedLanguage();
-
     languageSelect.value = language;
 
     function getSavedLanguage() {
@@ -61,26 +59,18 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Accept localized objects, plain strings, and legacy menu rows.
     function localized(value, fallback = "") {
         if (typeof value === "string") return value;
+        if (typeof value === "number") return String(value);
         if (!value || typeof value !== "object" || Array.isArray(value)) return fallback;
         return value[language] || value.ro || value.en || value.ru || fallback;
     }
 
     function normalizeItem(entry, categoryId, index) {
+        // Legacy rows are supported for gradual migration, but object entries are recommended.
         if (Array.isArray(entry)) {
             const [name = "", portion = "", price = "", description = ""] = entry;
-            return {
-                id: `${categoryId}-${index + 1}`,
-                name,
-                portion,
-                price,
-                description,
-                allergens: [],
-                image: "",
-                badge: ""
-            };
+            return { id: `${categoryId}-${index + 1}`, name, portion, price, description, allergens: [], image: "", badge: "" };
         }
         return {
             ...entry,
