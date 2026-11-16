@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e8e1d7">
     <title>Cafenea La Strada — Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,57 +13,51 @@
             <div class="brand-row">
                 <div class="brand-mark" aria-hidden="true">L</div>
                 <div class="header-copy">
-                    <div class="header-title">Meniu</div>
-                    <p class="subtitle" id="subtitle">Tourist Menu • Tap any dish for details</p>
+                    <h1 class="header-title">Cafenea La Strada</h1>
+                    <p class="subtitle" id="subtitle">Tourist Menu · Tap any dish for details</p>
                 </div>
-                <div class="header-tools">
-                    <button class="lang-toggle" id="languageSwitch" type="button" aria-label="Choose language">EN</button>
-                    <button class="menu-toggle" type="button" aria-label="Menu actions">☰</button>
-                </div>
+                <label class="language-picker">
+                    <span class="visually-hidden" id="languageLabel">Language</span>
+                    <select id="languageSelect" aria-labelledby="languageLabel">
+                        <option value="en">EN</option>
+                        <option value="ro">RO</option>
+                        <option value="ru">RU</option>
+                    </select>
+                </label>
             </div>
         </header>
 
         <nav class="categories-nav" id="categoriesNav" aria-label="Menu categories"></nav>
-
-        <main class="menu-list" id="menuList"></main>
+        <main class="menu-list" id="menuList" aria-live="polite"></main>
 
         <footer class="footer">
             <div class="footer-bar">
                 <p id="footerText">Please call your waiter to place an order.</p>
-                <div class="socials" aria-label="Social links">
-                    <span>◫</span>
-                    <span>♡</span>
-                    <span>◌</span>
-                    <span>↗</span>
-                </div>
             </div>
         </footer>
 
-        <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
-            <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-overlay" id="modalOverlay" aria-hidden="true" inert>
+            <section class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
                 <button class="close-btn" id="closeModal" type="button" aria-label="Close dish details">&times;</button>
-                <div class="modal-img-wrap">
-                    <img id="modalImg" src="" alt="Dish image">
-                    <span id="modalBadge" class="modal-badge" style="display:none;">Popular</span>
+                <div class="modal-img-wrap" id="modalImageWrap" hidden>
+                    <img id="modalImg" alt="">
+                    <span id="modalBadge" class="modal-badge" hidden></span>
                 </div>
                 <div class="modal-body">
-                    <div class="modal-header">
-                        <h2 id="modalTitle" class="modal-title">Dish title</h2>
-                    </div>
+                    <h2 id="modalTitle" class="modal-title"></h2>
                     <div class="modal-meta">
-                        <span id="modalWeight" class="modal-weight">Weight</span>
-                        <span id="modalPrice" class="modal-price">0 lei</span>
+                        <span id="modalWeight" class="modal-weight"></span>
+                        <span id="modalPrice" class="modal-price"></span>
                     </div>
                     <p id="modalDesc" class="modal-desc"></p>
-                    <div class="allergens-box">
+                    <div class="allergens-box" id="allergensBox">
                         <strong id="allergensLabel">Allergens:</strong>
-                        <span id="modalAllergens">Not specified</span>
+                        <span id="modalAllergens"></span>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
-
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

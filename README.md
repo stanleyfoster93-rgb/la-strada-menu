@@ -1,20 +1,26 @@
-# Cafenea La Strada — Menu
+# La Strada Menu
 
-Mobile-first tourist menu for Cafenea La Strada with English, Romanian, and Russian language support. The selected language is saved in the browser and restored on the next visit.
+Mobile-first restaurant menu. The static site is built from `index.html`, `style.css`, `script.js`, and `menu.json`.
 
 ## Run locally
 
-Because the page uses `fetch()` to load `menu.json`, serve the repository over HTTP instead of opening `index.html` directly with a `file://` URL. For example, with Python installed:
+Serve the repository root with any static HTTP server (the browser `fetch()` API does not work reliably from `file://`). For example:
 
-```bash
+```sh
 python3 -m http.server 8000
 ```
 
-Then open <http://localhost:8000> in your browser.
+Then open `http://localhost:8000`.
 
-## Files
+## Edit the menu
 
-- `index.html` — page structure, language picker, and accessible dish-details dialog.
-- `style.css` — responsive, iPhone-friendly mobile-first styling with safe-area support.
-- `script.js` — menu loading, validation, language switching, and dialog behavior.
-- `menu.json` — categories and menu data translated into EN, RO, and RU.
+Edit `menu.json`:
+
+- Categories live in `categories` and have `id`, localized labels (`en`, `ro`, `ru`), and an `items` array.
+- Each item can be an object with `id`, localized `name`, `portion`, numeric `price`, localized `description`, localized `allergens`, optional `image`, and optional `badge`.
+- Legacy rows `[name, portion, price, description]` are still accepted for gradual migration. These rows only contain Romanian text, so that text remains Romanian after changing the interface language until translations are added.
+- Currency is configured by the top-level `currency` property.
+
+To add a language, add its text to category/item localization objects and to the `TEXT` dictionary in `script.js`.
+
+The language selector supports English, Romanian, and Russian. Language choice is saved in local storage. Cards keep the compact name/description/portion/price layout; tapping a card opens details.
