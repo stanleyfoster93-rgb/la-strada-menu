@@ -3,272 +3,3984 @@
   "categories": [
     {
       "id": "starters-salads",
-      "en": "Starters & salads",
+      "name": {
+        "en": "Starters & salads",
+        "ro": "Gustări și salate",
+        "ru": "Закуски и салаты"
+      },
       "items": [
         {
-          "id": "haiduc-starter",
-          "name": "Haiduc starter",
-          "portion": "310 g",
-          "price": 110,
-          "description": "Tomatoes, sweet pepper, cucumber, cheese.",
-          "allergens": ["Dairy"],
-          "badge": "Popular"
+          "id": "1-1-gustare-haiduc",
+          "name": {
+            "ro": "Gustare „Haiduc”",
+            "en": "Haiduc appetizer",
+            "ru": "Закуска «Хайдук»"
+          },
+          "portion": "310 gr",
+          "price": "110",
+          "description": "Roșii, ardei dulce, castraveți, brânză.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
         },
         {
-          "id": "ceasar-chicken",
-          "name": "Chicken Caesar",
-          "portion": "250 g",
-          "price": 110,
-          "description": "Salad leaves, chicken, tomatoes, croutons, Caesar dressing.",
-          "allergens": ["Gluten", "Egg", "Sesame"]
+          "id": "1-2-gustare-boiereasca-la-rachiu",
+          "name": {
+            "ro": "Gustare boierească la rachiu",
+            "en": "Traditional brandy snack platter",
+            "ru": "Закуска по-боярски к ракии"
+          },
+          "portion": "750 gr",
+          "price": "250",
+          "description": "Pâine, cartofi fierți, scrumbie, slănină, murături, măsline, ceapă, muștar.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
         },
         {
-          "id": "veg-salad",
-          "name": "Garden salad",
-          "portion": "230 g",
-          "price": 90,
-          "description": "Tomatoes, cucumber, pepper, salad leaves, red onion, olive oil.",
-          "allergens": ["None"]
+          "id": "1-3-platou-cu-cascaval",
+          "name": {
+            "ro": "Platou cu cașcaval",
+            "en": "Cheese platter",
+            "ru": "Сырная тарелка"
+          },
+          "portion": "250 gr",
+          "price": "230",
+          "description": "Miere, fructe, nuci, snackuri, cașcaval dorblu, mozzarella, cașcaval camembert.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
+        },
+        {
+          "id": "1-4-pateu-de-ficat",
+          "name": {
+            "ro": "Pateu de ficat",
+            "en": "Liver pâté",
+            "ru": "Печёночный паштет"
+          },
+          "portion": "200 gr",
+          "price": "120",
+          "description": "Pâine toast, pateu (ficat de pui), ceapă, morcov, unt, frișcă, ulei.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
+        },
+        {
+          "id": "1-5-platou-cu-carne",
+          "name": {
+            "ro": "Platou cu carne",
+            "en": "Platter with meat",
+            "ru": "Ассорти с мясо"
+          },
+          "portion": "250 gr",
+          "price": "225",
+          "description": "Șuncă, bacon, salam, salam crud afumat, prosciutto.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
+        },
+        {
+          "id": "1-6-gustare-de-vanata",
+          "name": {
+            "ro": "Gustare de vânătă",
+            "en": "Eggplant appetizer",
+            "ru": "Закуска из баклажанов"
+          },
+          "portion": "300 gr",
+          "price": "110",
+          "description": "Pâine toast, vânătă, ceapă, ardei dulce, condimente.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
+        },
+        {
+          "id": "1-7-bruschetta-cu-avocado-si-rosii",
+          "name": {
+            "ro": "Bruschetta cu avocado și roșii",
+            "en": "Avocado and tomato bruschetta",
+            "ru": "Брускетта с авокадо и помидорами"
+          },
+          "portion": "140 gr",
+          "price": "120",
+          "description": "Bruschetta, roșii, avocado, oregano, condimente, ulei.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
+        },
+        {
+          "id": "1-8-bruschetta-cu-somon-si-branza",
+          "name": {
+            "ro": "Bruschetta cu somon și brânză",
+            "en": "Salmon and cheese bruschetta",
+            "ru": "Брускетта с лососем и сыром"
+          },
+          "portion": "150 gr",
+          "price": "160",
+          "description": "Bruschetta, somon, brânză cu verdeață, avocado.",
+          "section": {
+            "en": "Cold starters",
+            "ro": "Gustări reci",
+            "ru": "Холодные закуски"
+          }
+        },
+        {
+          "id": "2-1-calda-la-strada",
+          "name": {
+            "ro": "Caldă „La Strada”",
+            "en": "Warm La Strada salad",
+            "ru": "Тёплый салат «Ла Страда»"
+          },
+          "portion": "300 gr",
+          "price": "140",
+          "description": "Piept de pui, ciuperci, roșii proaspete, castraveți, ardei dulce, verdeață, ulei de măsline, rădăcină de țelină, broccoli, păstări, sos dulce de muștar.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-2-cu-ficat-si-bacon",
+          "name": {
+            "ro": "Cu ficat și bacon",
+            "en": "With liver and bacon",
+            "ru": "С печень и бекон"
+          },
+          "portion": "250 gr",
+          "price": "150",
+          "description": "Ficat de pui, bacon, roșii proaspete, frunză de salată, ou fiert, sos dulce de muștar.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-3-din-legume",
+          "name": {
+            "ro": "Din legume",
+            "en": "From vegetables",
+            "ru": "Из овощи"
+          },
+          "portion": "230 gr",
+          "price": "90",
+          "description": "Roșii, castraveți, ardei dulce, frunză de salată, ceapă roșie, ulei.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-4-caesar-cu-pui",
+          "name": {
+            "ro": "Caesar cu pui",
+            "en": "Caesar with chicken",
+            "ru": "Caesar с курица"
+          },
+          "portion": "250 gr",
+          "price": "110",
+          "description": "Frunză de salată, piept de pui, roșii, pesmeți, oregano, sos caesar.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-5-caesar-cu-bacon",
+          "name": {
+            "ro": "Caesar cu bacon",
+            "en": "Caesar with bacon",
+            "ru": "Caesar с бекон"
+          },
+          "portion": "250 gr",
+          "price": "130",
+          "description": "Frunză de salată, bacon, roșii, pesmeți, oregano, sos caesar.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-6-caesar-cu-creveti",
+          "name": {
+            "ro": "Caesar cu creveți",
+            "en": "Caesar with shrimp",
+            "ru": "Caesar с креветки"
+          },
+          "portion": "250 gr",
+          "price": "200",
+          "description": "Frunză de salată, creveți, roșii, pesmeți, oregano, sos caesar.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-7-vitamin",
+          "name": {
+            "ro": "„Vitamin”",
+            "en": "“Vitamin”",
+            "ru": "«Витаминный»"
+          },
+          "portion": "250 gr",
+          "price": "70",
+          "description": "Varză, morcov, mărar, ulei, oțet, sare.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-8-greceasca",
+          "name": {
+            "ro": "„Grecească”",
+            "en": "“Greek”",
+            "ru": "«греческий»"
+          },
+          "portion": "280 gr",
+          "price": "110",
+          "description": "Frunză de salată, roșii, ardei dulce, castraveți, ceapă roșie, brânză feta, măsline, lămâie, oregano, ulei de măsline.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-9-salata-rustica-cu-couscous",
+          "name": {
+            "ro": "Salată rustică cu couscous",
+            "en": "Salad rustic with couscous",
+            "ru": "Салат деревенский с couscous"
+          },
+          "portion": "500 gr",
+          "price": "150",
+          "description": "Couscous, ardei, vânătă, roșii, ceapă, morcov, conopidă, spanac, iaurt grecesc, verdeață, castraveți, avocado, wraps, ulei, condimente, sirop.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-10-funcioasa-cu-carne-de-vita",
+          "name": {
+            "ro": "„Funcioasă” cu carne de vită",
+            "en": "“Funchoza” with beef",
+            "ru": "«Фунчоза» с говядиной"
+          },
+          "portion": "350 gr",
+          "price": "200",
+          "description": "Carne de vită, ulei, rădăcină de țelină, ardei dulce, morcov, castraveți, verdeață, susan, fide de orez.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
+        },
+        {
+          "id": "2-11-mix-cu-mozzarella-si-avocado",
+          "name": {
+            "ro": "Mix cu mozzarella și avocado",
+            "en": "Mix with mozzarella and avocado",
+            "ru": "Mix с моцарелла и avocado"
+          },
+          "portion": "250 gr",
+          "price": "150",
+          "description": "Mix salat, mozzarella, avocado, roșii, sos dulce de muștar.",
+          "section": {
+            "en": "Salads",
+            "ro": "Salate",
+            "ru": "Салаты"
+          }
         }
       ]
     },
     {
       "id": "soups-eggs",
-      "en": "Soups & eggs",
+      "name": {
+        "en": "Soups & eggs",
+        "ro": "Supe și bucate din ouă",
+        "ru": "Супы и блюда из яиц"
+      },
       "items": [
         {
-          "id": "vegetable-soup",
-          "name": "Classic vegetable soup",
-          "portion": "300 g",
-          "price": 60,
-          "description": "Vegetables, noodles, sour borscht, chicken breast.",
-          "allergens": ["Gluten"]
+          "id": "3-1-zeama",
+          "name": {
+            "ro": "Zeamă",
+            "en": "Chicken soup",
+            "ru": "Зама"
+          },
+          "portion": "300 gr",
+          "price": "60",
+          "description": "Morcov, ardei, rădăcină de țelină, tăiței, verdeață, condimente, borș acru, piept de pui.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
         },
         {
-          "id": "shakshuka",
-          "name": "Shakshuka",
-          "portion": "400 g",
-          "price": 120,
-          "description": "Eggs, pepper, carrots, tomatoes, garlic, olive oil, herbs.",
-          "allergens": ["Egg"]
+          "id": "3-2-supa-crema-de-pui-cu-ciuperci",
+          "name": {
+            "ro": "Supă cremă de pui cu ciuperci",
+            "en": "Cream soup of chicken with mushrooms",
+            "ru": "Крем-суп курица с грибы"
+          },
+          "portion": "300 gr",
+          "price": "90",
+          "description": "Ceapă, ciuperci, condimente, ulei, frișcă, piept de pui.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
         },
         {
-          "id": "omelette",
-          "name": "Ham and cheese omelette",
-          "portion": "250 g",
-          "price": 100,
-          "description": "Eggs, ham, tomatoes, cheese, cream.",
-          "allergens": ["Egg", "Dairy"]
+          "id": "3-3-supa-crema-cu-cartof-si-ciuperci",
+          "name": {
+            "ro": "Supă cremă cu cartof și ciuperci",
+            "en": "Cream soup with potato and mushrooms",
+            "ru": "Крем-суп с картофель и грибы"
+          },
+          "portion": "300 gr",
+          "price": "70",
+          "description": "Ceapă, cartof, ciuperci, condimente.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-4-supa-cu-perisoare",
+          "name": {
+            "ro": "Supă cu perișoare",
+            "en": "Soup with perișoare",
+            "ru": "Суп с perișoare"
+          },
+          "portion": "300 gr",
+          "price": "85",
+          "description": "Morcov, ardei, rădăcină de țelină, orez, perișoare, cartof, condimente.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-5-bors-cu-carne-de-porc",
+          "name": {
+            "ro": "Borș cu carne de porc",
+            "en": "Borș with pork",
+            "ru": "Borș со свининой"
+          },
+          "portion": "300 gr",
+          "price": "70",
+          "description": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, carne de porc, pastă de tomate, verdeață.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-6-bors-cu-fasole",
+          "name": {
+            "ro": "Borș cu fasole",
+            "en": "Borscht with beans",
+            "ru": "Борщ с фасоль"
+          },
+          "portion": "300 gr",
+          "price": "65",
+          "description": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, fasole, pastă de tomate, verdeață.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-7-soleanca",
+          "name": {
+            "ro": "Soleancă",
+            "en": "Solyanka",
+            "ru": "Солянка"
+          },
+          "portion": "300 gr",
+          "price": "75",
+          "description": "Lămâie, măsline, castraveți murați, ceapă, asorti de salamuri afumate, condimente, pastă de tomate, verdeață.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-8-supa-de-mazare-cu-bacon",
+          "name": {
+            "ro": "Supă de mazăre cu bacon",
+            "en": "Soup with peas with bacon",
+            "ru": "Суп с горох с бекон"
+          },
+          "portion": "300 gr",
+          "price": "80",
+          "description": "Mazăre, morcov, ardei, ceapă, bacon, verdeață, condimente.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-9-supa-de-mazare",
+          "name": {
+            "ro": "Supă de mazăre",
+            "en": "Soup with peas",
+            "ru": "Суп с горох"
+          },
+          "portion": "300 gr",
+          "price": "70",
+          "description": "Mazăre, morcov, ardei, ceapă, cartof, verdeață, condimente.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-10-shakshouka",
+          "name": {
+            "ro": "Shakshouka",
+            "en": "Shakshouka",
+            "ru": "Shakshouka"
+          },
+          "portion": "400 gr",
+          "price": "120",
+          "description": "Ouă, bostănel, morcov, roșii, ardei, usturoi, ulei, condimente.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-11-omleta-cu-sunca-cascaval-si-rosii",
+          "name": {
+            "ro": "Omletă cu șuncă, cașcaval și roșii",
+            "en": "Omletă with ham, cheese and tomatoes",
+            "ru": "Omletă с ветчина, сыр и помидоры"
+          },
+          "portion": "250 gr",
+          "price": "100",
+          "description": "Ouă, șuncă, roșii, cașcaval, condimente, smântână.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-12-omleta-cu-cascaval",
+          "name": {
+            "ro": "Omletă cu cașcaval",
+            "en": "Omletă with cheese",
+            "ru": "Omletă с сыр"
+          },
+          "portion": "250 gr",
+          "price": "90",
+          "description": "Ouă, cașcaval, condimente, smântână.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        },
+        {
+          "id": "3-13-scrob-cu-branza",
+          "name": {
+            "ro": "Scrob cu brânză",
+            "en": "Scrob with cheese",
+            "ru": "Scrob с сыр"
+          },
+          "portion": "150 gr",
+          "price": "80",
+          "description": "Ouă, condimente, brânză de oi.",
+          "section": {
+            "en": "Soups & egg dishes",
+            "ro": "Supe și bucate din ouă",
+            "ru": "Супы и блюда из яиц"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pies-pastries",
+      "name": {
+        "en": "Pies & pastries",
+        "ro": "Plăcinte, khachapuri și clătite",
+        "ru": "Плацинды, хачапури и блины"
+      },
+      "items": [
+        {
+          "id": "4-1-branza-si-verdeata",
+          "name": {
+            "ro": "Brânză și verdeață",
+            "en": "Cheese and verdeață",
+            "ru": "Сыр и verdeață"
+          },
+          "portion": "300 gr",
+          "price": "50",
+          "description": "Brânză, verdeață, ulei.",
+          "section": {
+            "en": "Pies",
+            "ro": "Plăcinte",
+            "ru": "Плацинды"
+          }
+        },
+        {
+          "id": "4-2-cascaval",
+          "name": {
+            "ro": "Cașcaval",
+            "en": "Cheese",
+            "ru": "Сыр"
+          },
+          "portion": "300 gr",
+          "price": "70",
+          "description": "Cașcaval, ulei.",
+          "section": {
+            "en": "Pies",
+            "ro": "Plăcinte",
+            "ru": "Плацинды"
+          }
+        },
+        {
+          "id": "4-3-cartofi",
+          "name": {
+            "ro": "Cartofi",
+            "en": "Potatoes",
+            "ru": "Картофель"
+          },
+          "portion": "300 gr",
+          "price": "50",
+          "description": "Cartofi, condimente, ulei.",
+          "section": {
+            "en": "Pies",
+            "ro": "Plăcinte",
+            "ru": "Плацинды"
+          }
+        },
+        {
+          "id": "4-4-varza",
+          "name": {
+            "ro": "Varză",
+            "en": "Cabbage",
+            "ru": "Капуста"
+          },
+          "portion": "300 gr",
+          "price": "50",
+          "description": "Varză proaspătă, condiment, ulei.",
+          "section": {
+            "en": "Pies",
+            "ro": "Plăcinte",
+            "ru": "Плацинды"
+          }
+        },
+        {
+          "id": "4-5-visina",
+          "name": {
+            "ro": "Vișină",
+            "en": "Sour cherry",
+            "ru": "Вишня"
+          },
+          "portion": "300 gr",
+          "price": "70",
+          "description": "Vișină înghețată, ulei, zahăr pudră.",
+          "section": {
+            "en": "Pies",
+            "ro": "Plăcinte",
+            "ru": "Плацинды"
+          }
+        },
+        {
+          "id": "4-6-mar-bostan",
+          "name": {
+            "ro": "Măr / bostan",
+            "en": "Apple / bostan",
+            "ru": "Яблоко / bostan"
+          },
+          "portion": "300 gr",
+          "price": "50",
+          "description": "Măr / bostan, ulei, zahăr pudră.",
+          "section": {
+            "en": "Pies",
+            "ro": "Plăcinte",
+            "ru": "Плацинды"
+          }
+        },
+        {
+          "id": "4-7-vita-si-porc",
+          "name": {
+            "ro": "Vită și porc",
+            "en": "Beef and pork",
+            "ru": "Говядина и свинина"
+          },
+          "portion": "500 gr",
+          "price": "315",
+          "description": "Aluat, carne tocată, cașcaval, ou, smântână, parmezan, ceapă, condimente, usturoi.",
+          "section": {
+            "en": "Khachapuri",
+            "ro": "Khachapuri",
+            "ru": "Хачапури"
+          }
+        },
+        {
+          "id": "4-8-branza",
+          "name": {
+            "ro": "Brânză",
+            "en": "Cheese",
+            "ru": "Сыр"
+          },
+          "portion": "500 gr",
+          "price": "235",
+          "description": "Aluat, brânză, verdeață, ulei, ou, cașcaval, smântână, parmezan.",
+          "section": {
+            "en": "Khachapuri",
+            "ro": "Khachapuri",
+            "ru": "Хачапури"
+          }
+        },
+        {
+          "id": "4-9-cartofi",
+          "name": {
+            "ro": "Cartofi",
+            "en": "Potatoes",
+            "ru": "Картофель"
+          },
+          "portion": "500 gr",
+          "price": "190",
+          "description": "Aluat, cartofi fierți, ceapă, ulei, ou, smântână, cașcaval, parmezan.",
+          "section": {
+            "en": "Khachapuri",
+            "ro": "Khachapuri",
+            "ru": "Хачапури"
+          }
+        },
+        {
+          "id": "4-10-cu-cartofi-si-ciuperci",
+          "name": {
+            "ro": "Cu cartofi și ciuperci",
+            "en": "With potatoes and mushrooms",
+            "ru": "С картофель и грибы"
+          },
+          "portion": "300 gr",
+          "price": "95",
+          "description": "Clătite, cartof, ciuperci, condimente, smântână.",
+          "section": {
+            "en": "Pancakes",
+            "ro": "Clătite",
+            "ru": "Блины"
+          }
+        },
+        {
+          "id": "4-11-cu-pui-in-sos-de-frisca",
+          "name": {
+            "ro": "Cu pui în sos de frișcă",
+            "en": "With chicken in sos of frișcă",
+            "ru": "С курица в sos frișcă"
+          },
+          "portion": "300 gr",
+          "price": "120",
+          "description": "Clătite, piept de pui, ciuperci, cașcaval, condimente, frișcă.",
+          "section": {
+            "en": "Pancakes",
+            "ro": "Clătite",
+            "ru": "Блины"
+          }
         }
       ]
     },
     {
       "id": "mains",
-      "en": "Main courses",
+      "name": {
+        "en": "Main courses",
+        "ro": "Preparate principale",
+        "ru": "Основные блюда"
+      },
       "items": [
         {
-          "id": "grilled-chicken",
-          "name": "Grilled chicken steak",
-          "portion": "200 g",
-          "price": 150,
-          "description": "Chicken breast, mushrooms, herbs, grilled vegetables.",
-          "allergens": ["None"]
+          "id": "5-1-crap-prajit-cu-legume",
+          "name": {
+            "ro": "Crap prăjit cu legume",
+            "en": "Carp fried with vegetables",
+            "ru": "Карп жареный с овощи"
+          },
+          "portion": "200 gr",
+          "price": "180",
+          "description": "Ciuperci, bostănel, măsline, lămâie, crap, făină de porumb, condimente.",
+          "section": {
+            "en": "Fish dishes",
+            "ro": "Preparate din pește",
+            "ru": "Рыбные блюда"
+          }
         },
         {
-          "id": "beef-steak",
-          "name": "Beef steak",
-          "portion": "200 g",
-          "price": 240,
-          "description": "Tender beef, olive oil, herbs and spices.",
-          "allergens": ["None"]
+          "id": "5-2-somon-la-grill",
+          "name": {
+            "ro": "Somon la grill",
+            "en": "Salmon grilled",
+            "ru": "Лосось на гриле"
+          },
+          "portion": "250 gr",
+          "price": "350",
+          "description": "Bostănel, ciuperci, măsline, lămâie, condimente, somon.",
+          "section": {
+            "en": "Fish dishes",
+            "ro": "Preparate din pește",
+            "ru": "Рыбные блюда"
+          }
         },
         {
-          "id": "kebab-mix",
-          "name": "Kebab mix plate",
-          "portion": "500 g",
-          "price": 150,
-          "description": "French fries, chicken, wraps, marinated onion, spinach, tartar sauce.",
-          "allergens": ["Gluten", "Egg", "Dairy"]
+          "id": "5-3-dorada-cu-legume",
+          "name": {
+            "ro": "Dorada cu legume",
+            "en": "Sea bream with vegetables",
+            "ru": "Дорада с овощи"
+          },
+          "portion": "350 gr",
+          "price": "330",
+          "description": "Bostănel, ciuperci, măsline, lămâie, dorada, condimente.",
+          "section": {
+            "en": "Fish dishes",
+            "ro": "Preparate din pește",
+            "ru": "Рыбные блюда"
+          }
+        },
+        {
+          "id": "5-4-risotto-cu-creveti",
+          "name": {
+            "ro": "Risotto cu creveți",
+            "en": "Risotto with shrimp",
+            "ru": "Risotto с креветки"
+          },
+          "portion": "400 gr",
+          "price": "180",
+          "description": "Orez, creveți, condimente, frișcă, unt, sos pesto.",
+          "section": {
+            "en": "Fish dishes",
+            "ro": "Preparate din pește",
+            "ru": "Рыбные блюда"
+          }
+        },
+        {
+          "id": "6-1-piept-de-pui-cu-legume-in-sos-picant",
+          "name": {
+            "ro": "Piept de pui cu legume în sos picant",
+            "en": "Chicken breast with vegetables in sos picant",
+            "ru": "Куриная грудка с овощи в sos picant"
+          },
+          "portion": "300 gr",
+          "price": "150",
+          "description": "Piept de pui, vânătă, bostănel, morcov, sos picant, verdeață.",
+          "section": {
+            "en": "Skillet dishes",
+            "ro": "Preparate la tigaie",
+            "ru": "Блюда на сковороде"
+          }
+        },
+        {
+          "id": "6-2-pui-a-la-italia-cu-ciuperci",
+          "name": {
+            "ro": "Pui a la Italia cu ciuperci",
+            "en": "Chicken a with Italia with mushrooms",
+            "ru": "Курица a с Italia с грибы"
+          },
+          "portion": "300 gr",
+          "price": "150",
+          "description": "Piept de pui, ciuperci, condimente, cașcaval, frișcă, mazăre, oregano.",
+          "section": {
+            "en": "Skillet dishes",
+            "ro": "Preparate la tigaie",
+            "ru": "Блюда на сковороде"
+          }
+        },
+        {
+          "id": "6-3-asorti-grill-la-tigaie",
+          "name": {
+            "ro": "Asorti grill la tigaie",
+            "en": "Asorti grill skillet",
+            "ru": "Asorti grill на сковороде"
+          },
+          "portion": "580 gr",
+          "price": "400",
+          "description": "Carne de porc, vită, pui, roșii cherry, bostănel, ciuperci, verdeață.",
+          "section": {
+            "en": "Skillet dishes",
+            "ro": "Preparate la tigaie",
+            "ru": "Блюда на сковороде"
+          }
+        },
+        {
+          "id": "6-4-tigaie-cu-cartofi-carne-si-ou",
+          "name": {
+            "ro": "Tigaie cu cartofi, carne și ou",
+            "en": "Tigaie with potatoes, meat and egg",
+            "ru": "Tigaie с картофель, мясо и яйцо"
+          },
+          "portion": "350 gr",
+          "price": "150",
+          "description": "Cartofi, carne de porc, ou, condimente, cașcaval, mărar.",
+          "section": {
+            "en": "Skillet dishes",
+            "ro": "Preparate la tigaie",
+            "ru": "Блюда на сковороде"
+          }
+        },
+        {
+          "id": "6-5-carne-de-vita-cu-legume-in-sos-picant",
+          "name": {
+            "ro": "Carne de vită cu legume în sos picant",
+            "en": "Beef with vegetables in sos picant",
+            "ru": "Говядина с овощи в sos picant"
+          },
+          "portion": "300 gr",
+          "price": "160",
+          "description": "Carne de vită, vânătă, bostănel, morcov, sos picant, verdeață.",
+          "section": {
+            "en": "Skillet dishes",
+            "ro": "Preparate la tigaie",
+            "ru": "Блюда на сковороде"
+          }
+        },
+        {
+          "id": "7-1-kebab-mix-plate",
+          "name": {
+            "ro": "Kebab mix plate",
+            "en": "Kebab platter",
+            "ru": "Ассорти кебаб"
+          },
+          "portion": "500 gr",
+          "price": "150",
+          "description": "Cartofi fri, piept pui, wraps, ceapă marinată, spanac, sos, tartar, condimente, ulei.",
+          "section": {
+            "en": "Chicken dishes",
+            "ro": "Preparate din pui",
+            "ru": "Блюда из курицы"
+          }
+        },
+        {
+          "id": "7-2-steak-de-pui-la-gratar",
+          "name": {
+            "ro": "Steak de pui la grătar",
+            "en": "Steak of chicken grilled",
+            "ru": "Steak курица на гриле"
+          },
+          "portion": "200 gr",
+          "price": "150",
+          "description": "Piept de pui, bostănel, ciuperci, condimente.",
+          "section": {
+            "en": "Chicken dishes",
+            "ro": "Preparate din pui",
+            "ru": "Блюда из курицы"
+          }
+        },
+        {
+          "id": "7-3-piept-de-pui-cu-cartof-in-ulcica",
+          "name": {
+            "ro": "Piept de pui cu cartof în ulcică",
+            "en": "Chicken breast with potatoes in a clay pot",
+            "ru": "Куриная грудка с картофелем в горшочке"
+          },
+          "portion": "500 gr",
+          "price": "160",
+          "description": "Piept de pui, cartofi, ceapă, morcov, ardei dulce, cașcaval, frișcă, condimente, verdeață.",
+          "section": {
+            "en": "Chicken dishes",
+            "ro": "Preparate din pui",
+            "ru": "Блюда из курицы"
+          }
+        },
+        {
+          "id": "7-4-frigarui-de-pui",
+          "name": {
+            "ro": "Frigărui de pui",
+            "en": "Frigărui of chicken",
+            "ru": "Frigărui курица"
+          },
+          "portion": "250 gr",
+          "price": "150",
+          "description": "Piept de pui, bostănel, ardei, condimente, ketchup.",
+          "section": {
+            "en": "Chicken dishes",
+            "ro": "Preparate din pui",
+            "ru": "Блюда из курицы"
+          }
+        },
+        {
+          "id": "7-5-tocana-de-pui-cu-mamaliga",
+          "name": {
+            "ro": "Tocană de pui cu mămăligă",
+            "en": "Tocană of chicken with polenta",
+            "ru": "Tocană курица с мамалыгой"
+          },
+          "portion": "450 gr",
+          "price": "150",
+          "description": "Mămăligă (unt, ulei, sare, făină de porumb), brânză de oi, scrob, smântână, carne de pui, ceapă.",
+          "section": {
+            "en": "Chicken dishes",
+            "ro": "Preparate din pui",
+            "ru": "Блюда из курицы"
+          }
+        },
+        {
+          "id": "8-1-steak-de-vita",
+          "name": {
+            "ro": "Steak de vită",
+            "en": "Steak of beef",
+            "ru": "Steak говядина"
+          },
+          "portion": "200 gr",
+          "price": "240",
+          "description": "Carne de vită, ulei, condimente.",
+          "section": {
+            "en": "Beef dishes",
+            "ro": "Preparate din vită",
+            "ru": "Блюда из говядины"
+          }
+        },
+        {
+          "id": "8-2-tocana-de-vita-cu-mamaliga",
+          "name": {
+            "ro": "Tocană de vită cu mămăligă",
+            "en": "Tocană of beef with polenta",
+            "ru": "Tocană говядина с мамалыгой"
+          },
+          "portion": "450 gr",
+          "price": "160",
+          "description": "Mămăligă, brânză de oi, scrob, smântână, carne de vită, ceapă.",
+          "section": {
+            "en": "Beef dishes",
+            "ro": "Preparate din vită",
+            "ru": "Блюда из говядины"
+          }
+        },
+        {
+          "id": "9-1-tocana-de-porc-cu-mamaliga",
+          "name": {
+            "ro": "Tocană de porc cu mămăligă",
+            "en": "Tocană of pork with polenta",
+            "ru": "Tocană свинина с мамалыгой"
+          },
+          "portion": "450 gr",
+          "price": "150",
+          "description": "Mămăligă, brânză de oi, smântână, carne de porc, ceapă, scrob.",
+          "section": {
+            "en": "Pork dishes",
+            "ro": "Preparate din porc",
+            "ru": "Блюда из свинины"
+          }
+        },
+        {
+          "id": "9-2-steak-din-ceafa-de-porc",
+          "name": {
+            "ro": "Steak din ceafă de porc",
+            "en": "Steak from ceafă of pork",
+            "ru": "Steak из ceafă свинина"
+          },
+          "portion": "200 gr",
+          "price": "150",
+          "description": "Ceafă de porc, condimente.",
+          "section": {
+            "en": "Pork dishes",
+            "ro": "Preparate din porc",
+            "ru": "Блюда из свинины"
+          }
+        },
+        {
+          "id": "9-3-costita-la-grill-cu-mujdei",
+          "name": {
+            "ro": "Costiță la grill cu mujdei",
+            "en": "Costiță grilled with mujdei",
+            "ru": "Costiță на гриле с mujdei"
+          },
+          "portion": "250 gr",
+          "price": "150",
+          "description": "Costiță de porc, condimente, mujdei.",
+          "section": {
+            "en": "Pork dishes",
+            "ro": "Preparate din porc",
+            "ru": "Блюда из свинины"
+          }
+        },
+        {
+          "id": "9-4-picior-ciolan-de-porc-cu-varza-murata",
+          "name": {
+            "ro": "Picior (ciolan) de porc cu varză murată",
+            "en": "Picior (ciolan) of pork with cabbage murată",
+            "ru": "Picior (ciolan) свинина с капуста murată"
+          },
+          "portion": "1 buc",
+          "price": "350",
+          "description": "Ciolan de porc, varză murată, condimente.",
+          "section": {
+            "en": "Pork dishes",
+            "ro": "Preparate din porc",
+            "ru": "Блюда из свинины"
+          }
+        },
+        {
+          "id": "9-5-carne-de-porc-cu-cartof-in-ulcica",
+          "name": {
+            "ro": "Carne de porc cu cartof în ulcică",
+            "en": "Pork with potatoes in a clay pot",
+            "ru": "Свинина с картофелем в горшочке"
+          },
+          "portion": "500 gr",
+          "price": "160",
+          "description": "Carne de porc, cartofi, ceapă, ardei dulce, cașcaval, morcov, frișcă, condimente.",
+          "section": {
+            "en": "Pork dishes",
+            "ro": "Preparate din porc",
+            "ru": "Блюда из свинины"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sides-extras",
+      "name": {
+        "en": "Sides & extras",
+        "ro": "Garnituri și adaosuri",
+        "ru": "Гарниры и добавки"
+      },
+      "items": [
+        {
+          "id": "10-1-piure-de-cartofi",
+          "name": {
+            "ro": "Piure de cartofi",
+            "en": "Mashed potatoes",
+            "ru": "Картофельное пюре"
+          },
+          "portion": "250 gr",
+          "price": "50",
+          "description": "Cartof, unt, condimente.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-2-cartofi-ca-acasa",
+          "name": {
+            "ro": "Cartofi ca acasă",
+            "en": "Home-style potatoes",
+            "ru": "Картофель по-домашнему"
+          },
+          "portion": "200 gr",
+          "price": "50",
+          "description": "Cartof, usturoi, ceapă, condimente.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-3-cartofi-pai",
+          "name": {
+            "ro": "Cartofi pai",
+            "en": "French fries",
+            "ru": "Картофель фри"
+          },
+          "portion": "150 gr",
+          "price": "50",
+          "description": "Cartof, condimente.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-4-mamaliga-cu-branza",
+          "name": {
+            "ro": "Mămăligă cu brânză",
+            "en": "Polenta with cheese",
+            "ru": "Мамалыга с сыр"
+          },
+          "portion": "250 gr",
+          "price": "50",
+          "description": "Mămăligă (ulei, unt, sare, făină de porumb), brânză de oi, smântână.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-5-orez-cu-legume",
+          "name": {
+            "ro": "Orez cu legume",
+            "en": "Rice with vegetables",
+            "ru": "Рис с овощами"
+          },
+          "portion": "200 gr",
+          "price": "60",
+          "description": "Orez, morcov, bostănel, ardei dulce, porumb, condimente.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-6-cartofi-umpluti-cu-legume",
+          "name": {
+            "ro": "Cartofi umpluți cu legume",
+            "en": "Potatoes umpluți with vegetables",
+            "ru": "Картофель umpluți с овощи"
+          },
+          "portion": "280 gr",
+          "price": "100",
+          "description": "Cartof, păstăi, ardei dulce, morcov, condimente.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-7-cartof-cu-ciuperci-pastari",
+          "name": {
+            "ro": "Cartof cu ciuperci / păstări",
+            "en": "Potato with mushrooms / păstări",
+            "ru": "Картофель с грибы / păstări"
+          },
+          "portion": "250 gr",
+          "price": "65",
+          "description": "Cartof, usturoi, ceapă, ciuperci/păstări, condimente.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "10-8-legume-la-gratar",
+          "name": {
+            "ro": "Legume la grătar",
+            "en": "Vegetables grilled",
+            "ru": "Овощи на гриле"
+          },
+          "portion": "200 gr",
+          "price": "80",
+          "description": "Ardei, ciuperci, bostănel, roșii, ceapă, broccoli.",
+          "section": {
+            "en": "Side dishes",
+            "ro": "Garnituri",
+            "ru": "Гарниры"
+          }
+        },
+        {
+          "id": "15-1-ketchup",
+          "name": {
+            "ro": "Ketchup",
+            "en": "Ketchup",
+            "ru": "Кетчуп"
+          },
+          "portion": "50 gr",
+          "price": "10",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-2-maioneza",
+          "name": {
+            "ro": "Maioneză",
+            "en": "Mayonnaise",
+            "ru": "Майонез"
+          },
+          "portion": "50 gr",
+          "price": "10",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-3-sos-tartar",
+          "name": {
+            "ro": "Sos Tartar",
+            "en": "Tartar sauce",
+            "ru": "Соус тартар"
+          },
+          "portion": "50 gr",
+          "price": "25",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-4-mustar",
+          "name": {
+            "ro": "Muștar",
+            "en": "Mustard",
+            "ru": "Горчица"
+          },
+          "portion": "50 gr",
+          "price": "15",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-5-adjica",
+          "name": {
+            "ro": "Adjică",
+            "en": "Adjika",
+            "ru": "Аджика"
+          },
+          "portion": "50 gr",
+          "price": "20",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-6-miere",
+          "name": {
+            "ro": "Miere",
+            "en": "Honey",
+            "ru": "Мёд"
+          },
+          "portion": "50 gr",
+          "price": "20",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-7-topping-si-sirop-in-sortiment",
+          "name": {
+            "ro": "Topping și sirop în sortiment",
+            "en": "Topping and sirop assorted",
+            "ru": "Topping и sirop ассорти"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-8-dulceata",
+          "name": {
+            "ro": "Dulceață",
+            "en": "Jam",
+            "ru": "Варенье"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Sauces / toppinguri",
+            "ro": "Sosuri / toppinguri",
+            "ru": "Соусы / toppinguri"
+          }
+        },
+        {
+          "id": "15-9-rosii",
+          "name": {
+            "ro": "Roșii",
+            "en": "Tomatoes",
+            "ru": "Помидоры"
+          },
+          "portion": "50 gr",
+          "price": "10",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-10-ardei-dulce",
+          "name": {
+            "ro": "Ardei dulce",
+            "en": "Pepper dulce",
+            "ru": "Перец dulce"
+          },
+          "portion": "50 gr",
+          "price": "10",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-11-ardei-iute",
+          "name": {
+            "ro": "Ardei iute",
+            "en": "Pepper iute",
+            "ru": "Перец iute"
+          },
+          "portion": "50 gr",
+          "price": "5",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-12-ciuperci",
+          "name": {
+            "ro": "Ciuperci",
+            "en": "Mushrooms",
+            "ru": "Грибы"
+          },
+          "portion": "50 gr",
+          "price": "15",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-13-usturoi",
+          "name": {
+            "ro": "Usturoi",
+            "en": "Garlic",
+            "ru": "Чеснок"
+          },
+          "portion": "50 gr",
+          "price": "15",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-14-porumb-conservat",
+          "name": {
+            "ro": "Porumb conservat",
+            "en": "Canned corn",
+            "ru": "Консервированная кукуруза"
+          },
+          "portion": "50 gr",
+          "price": "10",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-15-masline",
+          "name": {
+            "ro": "Măsline",
+            "en": "Olives",
+            "ru": "Оливки"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-16-olive",
+          "name": {
+            "ro": "Olive",
+            "en": "Olives",
+            "ru": "Оливки"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-17-castraveti-murati",
+          "name": {
+            "ro": "Castraveți murați",
+            "en": "Pickles",
+            "ru": "Солёные огурцы"
+          },
+          "portion": "50 gr",
+          "price": "20",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-18-lamaie",
+          "name": {
+            "ro": "Lămâie",
+            "en": "Lemon",
+            "ru": "Лимон"
+          },
+          "portion": "50 gr",
+          "price": "20",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-19-portocala",
+          "name": {
+            "ro": "Portocală",
+            "en": "Orange",
+            "ru": "Апельсин"
+          },
+          "portion": "50 gr",
+          "price": "20",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-20-bacon",
+          "name": {
+            "ro": "Bacon",
+            "en": "Bacon",
+            "ru": "Бекон"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-21-salam",
+          "name": {
+            "ro": "Salam",
+            "en": "Salami",
+            "ru": "Салями"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-22-sunca",
+          "name": {
+            "ro": "Șuncă",
+            "en": "Ham",
+            "ru": "Ветчина"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-23-parmezan",
+          "name": {
+            "ro": "Parmezan",
+            "en": "Parmesan",
+            "ru": "Пармезан"
+          },
+          "portion": "50 gr",
+          "price": "40",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-24-cascaval",
+          "name": {
+            "ro": "Cașcaval",
+            "en": "Cheese",
+            "ru": "Сыр"
+          },
+          "portion": "50 gr",
+          "price": "30",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
+        },
+        {
+          "id": "15-25-smantana",
+          "name": {
+            "ro": "Smântână",
+            "en": "Sour cream",
+            "ru": "Сметана"
+          },
+          "portion": "50 gr",
+          "price": "10",
+          "section": {
+            "en": "Extras",
+            "ro": "Adaosuri",
+            "ru": "Добавки"
+          }
         }
       ]
     },
     {
       "id": "pasta-pizza-burgers",
-      "en": "Pasta, pizza & burgers",
+      "name": {
+        "en": "Pasta, pizza & burgers",
+        "ro": "Paste, pizza și burgeri",
+        "ru": "Паста, пицца и бургеры"
+      },
       "items": [
         {
-          "id": "bolognese",
-          "name": "Spaghetti bolognese",
-          "portion": "370 g",
-          "price": 140,
-          "description": "Spaghetti, beef and pork mince, tomato sauce, parmesan.",
-          "allergens": ["Gluten", "Dairy"]
+          "id": "11-1-spaghetti-cu-sos-bolognese",
+          "name": {
+            "ro": "Spaghetti cu sos bolognese",
+            "en": "Spaghetti Bolognese",
+            "ru": "Спагетти болоньезе"
+          },
+          "portion": "370 gr",
+          "price": "140",
+          "description": "Spaghetti, carne tocată (vită, porc), rădăcină de țelină, condimente, pastă de tomate, parmezan.",
+          "section": {
+            "en": "Pasta",
+            "ro": "Paste",
+            "ru": "Паста"
+          }
         },
         {
-          "id": "margherita",
-          "name": "Margherita pizza",
-          "portion": "350 g",
-          "price": 100,
-          "description": "Tomato sauce, mozzarella, basil.",
-          "allergens": ["Gluten", "Dairy"]
+          "id": "11-2-tagliatelle-cu-ciuperci",
+          "name": {
+            "ro": "Tagliatelle cu ciuperci",
+            "en": "Tagliatelle with mushrooms",
+            "ru": "Tagliatelle с грибы"
+          },
+          "portion": "370 gr",
+          "price": "140",
+          "description": "Tagliatelle, ciuperci, frișcă, condimente, parmezan.",
+          "section": {
+            "en": "Pasta",
+            "ro": "Paste",
+            "ru": "Паста"
+          }
         },
         {
-          "id": "classic-burger",
-          "name": "Classic burger",
-          "portion": "300 g",
-          "price": 130,
-          "description": "Beef patty, salad, pickles, tomato, tartar sauce, fries.",
-          "allergens": ["Gluten", "Egg", "Dairy"]
-        }
-      ]
-    },
-    {
-      "id": "pies",
-      "en": "Pies & pastries",
-      "items": [
-        {
-          "id": "cheese-pie",
-          "name": "Cheese pie",
-          "portion": "300 g",
-          "price": 70,
-          "description": "Cheese, herbs, pastry, vegetable oil.",
-          "allergens": ["Gluten", "Dairy"]
+          "id": "11-3-spaghetti-carbonara",
+          "name": {
+            "ro": "Spaghetti carbonara",
+            "en": "Spaghetti Carbonara",
+            "ru": "Спагетти карбонара"
+          },
+          "portion": "400 gr",
+          "price": "140",
+          "description": "Spaghetti, frișcă, bacon, parmezan, usturoi, condimente.",
+          "section": {
+            "en": "Pasta",
+            "ro": "Paste",
+            "ru": "Паста"
+          }
         },
         {
-          "id": "potato-pie",
-          "name": "Potato pie",
-          "portion": "300 g",
-          "price": 50,
-          "description": "Potatoes, herbs, pastry.",
-          "allergens": ["Gluten"]
+          "id": "12-1-cu-creveti-ceapa-rosie-si-rucola",
+          "name": {
+            "ro": "Cu creveți, ceapă roșie și rucola",
+            "en": "With shrimp, ceapă roșie and rucola",
+            "ru": "С креветки, ceapă roșie и rucola"
+          },
+          "portion": "420 gr",
+          "price": "210",
+          "description": "Sos, creveți, ceapă roșie, cașcaval, rucola.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
         },
         {
-          "id": "khachapuri",
-          "name": "Khachapuri",
-          "portion": "500 g",
-          "price": 235,
-          "description": "Pastry, cheese, herbs, egg, sour cream.",
-          "allergens": ["Gluten", "Egg", "Dairy"]
-        }
-      ]
-    },
-    {
-      "id": "sides",
-      "en": "Sides & extras",
-      "items": [
-        {
-          "id": "mashed-potatoes",
-          "name": "Mashed potatoes",
-          "portion": "250 g",
-          "price": 50,
-          "description": "Potatoes, butter, herbs.",
-          "allergens": ["Dairy"]
+          "id": "12-2-la-strada",
+          "name": {
+            "ro": "„La Strada”",
+            "en": "“La Strada”",
+            "ru": "«Ла Страда»"
+          },
+          "portion": "420 gr",
+          "price": "150",
+          "description": "Sos, salam, șuncă, bacon, ciuperci, ardei dulce, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
         },
         {
-          "id": "fried-potatoes",
-          "name": "French fries",
-          "portion": "150 g",
-          "price": 50,
-          "description": "Potatoes, spices.",
-          "allergens": ["None"]
+          "id": "12-3-cu-sunca-si-rosii",
+          "name": {
+            "ro": "Cu șuncă și roșii",
+            "en": "With ham and tomatoes",
+            "ru": "С ветчина и помидоры"
+          },
+          "portion": "420 gr",
+          "price": "135",
+          "description": "Sos, șuncă, ciuperci, roșii proaspete, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
         },
         {
-          "id": "rice-veg",
-          "name": "Rice with vegetables",
-          "portion": "200 g",
-          "price": 60,
-          "description": "Rice, carrots, peppers, corn, herbs.",
-          "allergens": ["None"]
+          "id": "12-4-cu-salami",
+          "name": {
+            "ro": "Cu salami",
+            "en": "With salami",
+            "ru": "С salami"
+          },
+          "portion": "350 gr",
+          "price": "135",
+          "description": "Sos, salam, porumb conservat, ardei dulce, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-5-cu-sunca-si-masline",
+          "name": {
+            "ro": "Cu șuncă și măsline",
+            "en": "With ham and olives",
+            "ru": "С ветчина и оливки"
+          },
+          "portion": "350 gr",
+          "price": "135",
+          "description": "Sos, șuncă, măsline, ciuperci, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-6-cu-sunca-si-vinete",
+          "name": {
+            "ro": "Cu șuncă și vinete",
+            "en": "With ham and vinete",
+            "ru": "С ветчина и vinete"
+          },
+          "portion": "350 gr",
+          "price": "135",
+          "description": "Sos, șuncă, brânză, vinete, usturoi, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-7-cu-sunca-si-ananas",
+          "name": {
+            "ro": "Cu șuncă și ananas",
+            "en": "With ham and ananas",
+            "ru": "С ветчина и ananas"
+          },
+          "portion": "420 gr",
+          "price": "140",
+          "description": "Sos, șuncă, ananas, ceapă roșie, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-8-cu-carne-de-pui-si-ciuperci",
+          "name": {
+            "ro": "Cu carne de pui și ciuperci",
+            "en": "With chicken and mushrooms",
+            "ru": "С курицей и грибы"
+          },
+          "portion": "400 gr",
+          "price": "135",
+          "description": "Sos, ardei dulce, ciuperci, piept de pui, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-9-cu-carne-de-pui-si-porumb",
+          "name": {
+            "ro": "Cu carne de pui și porumb",
+            "en": "With chicken and porumb",
+            "ru": "С курицей и porumb"
+          },
+          "portion": "430 gr",
+          "price": "135",
+          "description": "Sos, piept de pui, ciuperci, porumb conservat, cașcaval, ardei dulce.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-10-quattro-formaggi",
+          "name": {
+            "ro": "Quattro Formaggi",
+            "en": "Four-cheese pizza",
+            "ru": "Пицца «Четыре сыра»"
+          },
+          "portion": "370 gr",
+          "price": "180",
+          "description": "Frișcă, cașcaval dorblu, mozzarella, parmezan.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-11-vegetariana",
+          "name": {
+            "ro": "Vegetariană",
+            "en": "Vegetarian",
+            "ru": "Вегетарианская"
+          },
+          "portion": "380 gr",
+          "price": "135",
+          "description": "Sos, ardei dulce, roșii proaspete, măsline, porumb conservat, ciuperci, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-12-focaccia",
+          "name": {
+            "ro": "Focaccia",
+            "en": "Focaccia",
+            "ru": "Фокачча"
+          },
+          "portion": "180 gr",
+          "price": "80",
+          "description": "Oregano, sare de mare, ulei de măsline.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-13-margherita",
+          "name": {
+            "ro": "Margherita",
+            "en": "Margherita pizza",
+            "ru": "Пицца «Маргарита»"
+          },
+          "portion": "350 gr",
+          "price": "100",
+          "description": "Sos, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-14-salami-porumb-si-ardei-iute",
+          "name": {
+            "ro": "Salami, porumb și ardei iute",
+            "en": "Salami, porumb and pepper iute",
+            "ru": "Salami, porumb и перец iute"
+          },
+          "portion": "450 gr",
+          "price": "140",
+          "description": "Sos, salami, porumb conservat, ardei iute, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "12-15-four-seasons",
+          "name": {
+            "ro": "„Four Seasons”",
+            "en": "Four Seasons pizza",
+            "ru": "Пицца «Четыре сезона»"
+          },
+          "portion": "850 gr",
+          "price": "250",
+          "description": "Sos, ciuperci, șuncă, salam, ardei dulce, porumb conservat, măsline, piept de pui, cașcaval.",
+          "section": {
+            "en": "Pizza",
+            "ro": "Pizza",
+            "ru": "Пицца"
+          }
+        },
+        {
+          "id": "13-1-vegetarian",
+          "name": {
+            "ro": "Vegetarian",
+            "en": "Vegetarian",
+            "ru": "Вегетарианский"
+          },
+          "portion": "300 gr",
+          "price": "100",
+          "description": "Chiflă, ketchup, frunză de salată, pârjoală (morcov, cartof, bostănel), cartofi pai.",
+          "section": {
+            "en": "Burgers",
+            "ro": "Burgeri",
+            "ru": "Бургеры"
+          }
+        },
+        {
+          "id": "13-2-cu-carne-de-vita",
+          "name": {
+            "ro": "Cu carne de vită",
+            "en": "With beef",
+            "ru": "С говядиной"
+          },
+          "portion": "300 gr",
+          "price": "130",
+          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cartofi pai, ketchup.",
+          "section": {
+            "en": "Burgers",
+            "ro": "Burgeri",
+            "ru": "Бургеры"
+          }
+        },
+        {
+          "id": "13-3-cu-carne-de-pui",
+          "name": {
+            "ro": "Cu carne de pui",
+            "en": "With chicken",
+            "ru": "С курицей"
+          },
+          "portion": "300 gr",
+          "price": "115",
+          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cartofi pai, ketchup.",
+          "section": {
+            "en": "Burgers",
+            "ro": "Burgeri",
+            "ru": "Бургеры"
+          }
+        },
+        {
+          "id": "13-4-cheese-burger-cu-carne-de-pui",
+          "name": {
+            "ro": "Cheese Burger cu carne de pui",
+            "en": "Cheese Burger with chicken",
+            "ru": "Cheese Burger с курицей"
+          },
+          "portion": "320 gr",
+          "price": "125",
+          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cașcaval, cartofi pai, ketchup.",
+          "section": {
+            "en": "Burgers",
+            "ro": "Burgeri",
+            "ru": "Бургеры"
+          }
+        },
+        {
+          "id": "13-5-cheese-burger-cu-carne-de-vita",
+          "name": {
+            "ro": "Cheese Burger cu carne de vită",
+            "en": "Cheese Burger with beef",
+            "ru": "Cheese Burger с говядиной"
+          },
+          "portion": "320 gr",
+          "price": "140",
+          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cașcaval, cartofi pai, ketchup.",
+          "section": {
+            "en": "Burgers",
+            "ro": "Burgeri",
+            "ru": "Бургеры"
+          }
         }
       ]
     },
     {
       "id": "desserts",
-      "en": "Desserts",
+      "name": {
+        "en": "Desserts",
+        "ro": "Deserturi",
+        "ru": "Десерты"
+      },
       "items": [
         {
-          "id": "fried-ice-cream",
-          "name": "Fried ice cream",
-          "portion": "250 g",
-          "price": 110,
-          "description": "Ice cream, egg, cereal, honey, caramel.",
-          "allergens": ["Egg", "Dairy"]
+          "id": "14-1-inghetata-prajita",
+          "name": {
+            "ro": "Înghețată prăjită",
+            "en": "Fried ice cream",
+            "ru": "Жареное мороженое"
+          },
+          "portion": "250 gr",
+          "price": "110",
+          "description": "Înghețată albă, ou, cereale, miere, caramelă.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
         },
         {
-          "id": "cheesecake",
-          "name": "Cheesecake",
-          "portion": "200 g",
-          "price": 110,
-          "description": "Cream cheese, biscuits, butter, eggs.",
-          "allergens": ["Gluten", "Egg", "Dairy"]
-        },
-        {
-          "id": "fruit-platter",
-          "name": "Fruit platter",
+          "id": "14-2-platou-cu-fructe",
+          "name": {
+            "ro": "Platou cu fructe",
+            "en": "Fruit platter",
+            "ru": "Фруктовая тарелка"
+          },
           "portion": "1 kg",
-          "price": 250,
-          "description": "Pineapple, banana, orange, grapes, grapefruit.",
-          "allergens": ["None"]
+          "price": "250",
+          "description": "Ananas, banană, portocale, struguri, grapefruit.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-3-cheesecake",
+          "name": {
+            "ro": "Cheesecake",
+            "en": "Cheesecake",
+            "ru": "Cheesecake"
+          },
+          "portion": "200 gr",
+          "price": "110",
+          "description": "Ou, cream cheese, unt, biscuiți.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-4-tiramisu",
+          "name": {
+            "ro": "Tiramisu",
+            "en": "Tiramisu",
+            "ru": "Tiramisu"
+          },
+          "portion": "150 gr",
+          "price": "100",
+          "description": "Frișcă, ou, cafea, rum, cacao, mascarpone, zahăr, pișcot.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-5-prajitura-de-casa-cu-fructe-de-padure-si-inghetata",
+          "name": {
+            "ro": "Prăjitură de casă cu fructe de pădure și înghețată",
+            "en": "Prăjitură of casă with fruit of pădure and ice cream",
+            "ru": "Prăjitură casă с фрукты pădure и мороженое"
+          },
+          "portion": "250 gr",
+          "price": "100",
+          "description": "Ou, făină de grâu, măr, smântână, dulceață de fructe, înghețată albă, zahăr pudră, nucă.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-6-desert-cusma-lui-guguta",
+          "name": {
+            "ro": "Desert „Cușma lui Guguță”",
+            "en": "Desert “hat lui Guguta”",
+            "ru": "Desert «шапка lui Гугуцэ»"
+          },
+          "portion": "250 gr",
+          "price": "120",
+          "description": "Clătite, vișină, frișcă, ciocolată.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-7-gogoase-cu-visina",
+          "name": {
+            "ro": "Gogoase cu vișină",
+            "en": "Doughnuts with sour cherry",
+            "ru": "Пончики с вишня"
+          },
+          "portion": "160/10 gr",
+          "price": "100",
+          "description": "Brânză, ou, vișină, miere, zahăr pudră.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          },
+          "badge": {
+            "en": "Details to verify",
+            "ro": "Detalii de verificat",
+            "ru": "Данные требуют проверки"
+          }
+        },
+        {
+          "id": "14-8-clatite-cu-branza-si-stafide",
+          "name": {
+            "ro": "Clătite cu brânză și stafide",
+            "en": "Pancakes with cheese and stafide",
+            "ru": "Блины с сыр и stafide"
+          },
+          "portion": "250 gr",
+          "price": "110",
+          "description": "Clătite, brânză, stafide, caramelă, zahăr pudră.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-9-mar-copt-cu-miez-de-nuca",
+          "name": {
+            "ro": "Măr copt cu miez de nucă",
+            "en": "Apple copt with miez of nucă",
+            "ru": "Яблоко copt с miez nucă"
+          },
+          "portion": "250 gr",
+          "price": "50",
+          "description": "Măr, miez de nucă, dulceață de fructe, zahăr pudră.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-10-salata-de-fructe",
+          "name": {
+            "ro": "Salată de fructe",
+            "en": "Salad of fruit",
+            "ru": "Салат фрукты"
+          },
+          "portion": "250 gr",
+          "price": "75",
+          "description": "Banană, portocală, strugure, kiwi, miere.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-11-inghetata-cu-fructe",
+          "name": {
+            "ro": "Înghețată cu fructe",
+            "en": "Ice cream with fruit",
+            "ru": "Мороженое с фрукты"
+          },
+          "portion": "200 gr",
+          "price": "75",
+          "description": "Înghețată albă/cu ciocolată, banană, kiwi, portocală, strugure.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-12-inghetata-in-sortiment-cu-adaosuri",
+          "name": {
+            "ro": "Înghețată în sortiment cu adaosuri",
+            "en": "Ice cream assorted with extras",
+            "ru": "Мороженое ассорти с добавки"
+          },
+          "portion": "200 gr",
+          "price": "75",
+          "description": "Înghețată albă/cu ciocolată, topping (ciocolată, caramelă, miere, dulceață de vișină).",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-13-tableta-de-ciocolata-in-sortiment",
+          "name": {
+            "ro": "Tabletă de ciocolată în sortiment",
+            "en": "Tabletă of ciocolată assorted",
+            "ru": "Tabletă ciocolată ассорти"
+          },
+          "portion": "100 gr",
+          "price": "50",
+          "description": "Zahăr, cacao, alune, fructe, unt de cacao, grăsime lactată.",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
+        },
+        {
+          "id": "14-14-ciocolata-fierbinte",
+          "name": {
+            "ro": "Ciocolată fierbinte",
+            "en": "Hot chocolate",
+            "ru": "Горячий шоколад"
+          },
+          "portion": "150 ml",
+          "price": "60",
+          "section": {
+            "en": "Desserts",
+            "ro": "Deserturi",
+            "ru": "Десерты"
+          }
         }
       ]
     },
     {
       "id": "drinks",
-      "en": "Soft & hot drinks",
+      "name": {
+        "en": "Soft & hot drinks",
+        "ro": "Băuturi răcoritoare și calde",
+        "ru": "Безалкогольные и горячие напитки"
+      },
       "items": [
         {
-          "id": "borjomi",
-          "name": "Borjomi",
-          "portion": "0.33 l",
-          "price": 50,
-          "description": "Sparkling mineral water.",
-          "allergens": ["None"]
+          "id": "16-1-borjomi",
+          "name": {
+            "ro": "Borjomi",
+            "en": "Borjomi",
+            "ru": "Borjomi"
+          },
+          "portion": "0,33 l",
+          "price": "50",
+          "section": {
+            "en": "Soft drinks",
+            "ro": "Băuturi răcoritoare",
+            "ru": "Прохладительные напитки"
+          }
         },
         {
-          "id": "coke",
-          "name": "Coca-Cola / Fanta / Sprite / Schweppes",
-          "portion": "0.25 l",
-          "price": 25,
-          "description": "Assorted soft drinks.",
-          "allergens": ["None"]
+          "id": "16-2-dorna",
+          "name": {
+            "ro": "Dorna",
+            "en": "Dorna",
+            "ru": "Dorna"
+          },
+          "portion": "0,5 l",
+          "price": "25",
+          "section": {
+            "en": "Soft drinks",
+            "ro": "Băuturi răcoritoare",
+            "ru": "Прохладительные напитки"
+          }
         },
         {
-          "id": "espresso",
-          "name": "Espresso",
-          "portion": "1 cup",
-          "price": 30,
-          "description": "Freshly brewed coffee.",
-          "allergens": ["None"]
+          "id": "16-3-coca-cola-fanta-sprite-schweppes",
+          "name": {
+            "ro": "Coca-Cola, Fanta, Sprite, Schweppes",
+            "en": "Coca-Cola, Fanta, Sprite, Schweppes",
+            "ru": "Coca-Cola, Fanta, Sprite, Schweppes"
+          },
+          "portion": "0,25 l",
+          "price": "25",
+          "section": {
+            "en": "Soft drinks",
+            "ro": "Băuturi răcoritoare",
+            "ru": "Прохладительные напитки"
+          },
+          "badge": {
+            "en": "Details to verify",
+            "ro": "Detalii de verificat",
+            "ru": "Данные требуют проверки"
+          }
+        },
+        {
+          "id": "16-4-suc-fresh",
+          "name": {
+            "ro": "Suc Fresh",
+            "en": "Suc Fresh",
+            "ru": "Suc Fresh"
+          },
+          "portion": "0,2 l",
+          "price": "60",
+          "description": "Portocală, grapefruit.",
+          "section": {
+            "en": "Soft drinks",
+            "ro": "Băuturi răcoritoare",
+            "ru": "Прохладительные напитки"
+          }
+        },
+        {
+          "id": "16-5-suc-orhei-vit",
+          "name": {
+            "ro": "Suc „Orhei Vit”",
+            "en": "Suc “Orhei Vit”",
+            "ru": "Suc «Orhei Vit»"
+          },
+          "portion": "0,25 l",
+          "price": "20",
+          "description": "În sortiment.",
+          "section": {
+            "en": "Soft drinks",
+            "ro": "Băuturi răcoritoare",
+            "ru": "Прохладительные напитки"
+          }
+        },
+        {
+          "id": "16-6-red-bull",
+          "name": {
+            "ro": "Red Bull",
+            "en": "Red Bull",
+            "ru": "Red Bull"
+          },
+          "portion": "0,25 l",
+          "price": "70",
+          "section": {
+            "en": "Soft drinks",
+            "ro": "Băuturi răcoritoare",
+            "ru": "Прохладительные напитки"
+          }
+        },
+        {
+          "id": "18-1-cafea-espresso",
+          "name": {
+            "ro": "Cafea Espresso",
+            "en": "Coffee espresso",
+            "ru": "Кофе эспрессо"
+          },
+          "portion": "1 buc",
+          "price": "30",
+          "section": {
+            "en": "Hot drinks",
+            "ro": "Băuturi fierbinți",
+            "ru": "Горячие напитки"
+          }
+        },
+        {
+          "id": "18-2-cafea-cappuccino",
+          "name": {
+            "ro": "Cafea Cappuccino",
+            "en": "Coffee cappuccino",
+            "ru": "Кофе капучино"
+          },
+          "portion": "250 ml",
+          "price": "50",
+          "section": {
+            "en": "Hot drinks",
+            "ro": "Băuturi fierbinți",
+            "ru": "Горячие напитки"
+          }
+        },
+        {
+          "id": "18-3-cafea-latte",
+          "name": {
+            "ro": "Cafea Latte",
+            "en": "Coffee latte",
+            "ru": "Кофе латте"
+          },
+          "portion": "300 ml",
+          "price": "60",
+          "section": {
+            "en": "Hot drinks",
+            "ro": "Băuturi fierbinți",
+            "ru": "Горячие напитки"
+          }
+        },
+        {
+          "id": "18-4-ceai-infuzie",
+          "name": {
+            "ro": "Ceai infuzie",
+            "en": "Tea infuzie",
+            "ru": "Чай infuzie"
+          },
+          "portion": "400 ml",
+          "price": "50",
+          "section": {
+            "en": "Hot drinks",
+            "ro": "Băuturi fierbinți",
+            "ru": "Горячие напитки"
+          }
+        },
+        {
+          "id": "18-5-ceai-de-fructe",
+          "name": {
+            "ro": "Ceai de fructe",
+            "en": "Tea of fruit",
+            "ru": "Чай фрукты"
+          },
+          "portion": "600 ml",
+          "price": "80",
+          "description": "Ghimbir, cătină, exotic.",
+          "section": {
+            "en": "Hot drinks",
+            "ro": "Băuturi fierbinți",
+            "ru": "Горячие напитки"
+          }
+        },
+        {
+          "id": "18-6-glintwein",
+          "name": {
+            "ro": "Glintwein",
+            "en": "Mulled wine",
+            "ru": "Глинтвейн"
+          },
+          "portion": "300 ml",
+          "price": "65",
+          "description": "Alb, roșu.",
+          "section": {
+            "en": "Hot drinks",
+            "ro": "Băuturi fierbinți",
+            "ru": "Горячие напитки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "name": {
+        "en": "Cocktails",
+        "ro": "Cocktailuri",
+        "ru": "Коктейли"
+      },
+      "items": [
+        {
+          "id": "17-1-mojito",
+          "name": {
+            "ro": "Mojito",
+            "en": "Mojito",
+            "ru": "Mojito"
+          },
+          "portion": "350 ml",
+          "price": "70",
+          "description": "Sirop mojito, mentă, lime, apă gazată.",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-2-sangria",
+          "name": {
+            "ro": "Sangria",
+            "en": "Sangria",
+            "ru": "Sangria"
+          },
+          "portion": "300 ml",
+          "price": "80",
+          "description": "Suc, sirop, portocală.",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-3-pina-colada",
+          "name": {
+            "ro": "Pina Colada",
+            "en": "Pina Colada",
+            "ru": "Pina Colada"
+          },
+          "portion": "300 ml",
+          "price": "70",
+          "description": "Frișcă, sirop cocos, suc de ananas.",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-4-ice-tea",
+          "name": {
+            "ro": "Ice Tea",
+            "en": "Ice Tea",
+            "ru": "Ice Tea"
+          },
+          "portion": "300 ml",
+          "price": "60",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-5-fruit-limonada",
+          "name": {
+            "ro": "Fruit Limonadă",
+            "en": "Fruit lemonade",
+            "ru": "Фруктовый лимонад"
+          },
+          "portion": "350 ml",
+          "price": "70",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-6-fruit-shake",
+          "name": {
+            "ro": "Fruit Shake",
+            "en": "Fruit Shake",
+            "ru": "Fruit Shake"
+          },
+          "portion": "300 ml",
+          "price": "70",
+          "description": "Lapte, înghețată, sirop.",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-7-cream-soda",
+          "name": {
+            "ro": "Cream Soda",
+            "en": "Cream Soda",
+            "ru": "Cream Soda"
+          },
+          "portion": "350 ml",
+          "price": "70",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-8-coffee-frappe",
+          "name": {
+            "ro": "Coffee Frappe",
+            "en": "Coffee Frappe",
+            "ru": "Coffee Frappe"
+          },
+          "portion": "300 ml",
+          "price": "70",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-9-pure-passion",
+          "name": {
+            "ro": "Pure Passion",
+            "en": "Pure Passion",
+            "ru": "Pure Passion"
+          },
+          "portion": "350 ml",
+          "price": "70",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "17-10-bumblebee",
+          "name": {
+            "ro": "Bumblebee",
+            "en": "Bumblebee",
+            "ru": "Bumblebee"
+          },
+          "portion": "300 ml",
+          "price": "80",
+          "section": {
+            "en": "Non-alcoholic cocktails",
+            "ro": "Cocktailuri nealcoolice",
+            "ru": "Безалкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-1-aperol-spritz",
+          "name": {
+            "ro": "Aperol Spritz",
+            "en": "Aperol Spritz",
+            "ru": "Апероль Spritz"
+          },
+          "portion": "300 ml",
+          "price": "100",
+          "description": "Vin spumant, apă gazată, aperol.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-2-mojito",
+          "name": {
+            "ro": "Mojito",
+            "en": "Mojito",
+            "ru": "Mojito"
+          },
+          "portion": "350 ml",
+          "price": "90",
+          "description": "Rum, sirop mojito, mentă, lime, apă gazată.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-3-sangria",
+          "name": {
+            "ro": "Sangria",
+            "en": "Sangria",
+            "ru": "Sangria"
+          },
+          "portion": "300 ml",
+          "price": "80",
+          "description": "Vin roșu, sirop, suc, portocală.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-4-margarita",
+          "name": {
+            "ro": "Margarita",
+            "en": "Margarita",
+            "ru": "Margarita"
+          },
+          "portion": "130 ml",
+          "price": "100",
+          "description": "Tequila, triple sec, suc de lime.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-5-cuba-libre",
+          "name": {
+            "ro": "Cuba Libre",
+            "en": "Cuba Libre",
+            "ru": "Cuba Libre"
+          },
+          "portion": "350 ml",
+          "price": "90",
+          "description": "Rum, cola.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-6-pina-colada",
+          "name": {
+            "ro": "Pina Colada",
+            "en": "Pina Colada",
+            "ru": "Pina Colada"
+          },
+          "portion": "300 ml",
+          "price": "90",
+          "description": "Rum, Malibu, suc ananas, sirop cocos.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-7-blue-lagoon",
+          "name": {
+            "ro": "Blue Lagoon",
+            "en": "Blue Lagoon",
+            "ru": "Blue Lagoon"
+          },
+          "portion": "300 ml",
+          "price": "80",
+          "description": "Blue curacao, vodka, Sprite.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-8-green-mexican",
+          "name": {
+            "ro": "Green Mexican",
+            "en": "Green Mexican",
+            "ru": "Green Mexican"
+          },
+          "portion": "60 ml",
+          "price": "80",
+          "description": "Pisang Ambon, suc de lime, tequila.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-9-paradise",
+          "name": {
+            "ro": "Paradise",
+            "en": "Paradise",
+            "ru": "Paradise"
+          },
+          "portion": "160 ml",
+          "price": "150",
+          "description": "Tequila, vodka, rum, absinth, energizant.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-10-bmw",
+          "name": {
+            "ro": "BMW",
+            "en": "BMW",
+            "ru": "BMW"
+          },
+          "portion": "60 ml",
+          "price": "80",
+          "description": "Baileys, Malibu, whisky.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-11-b-52",
+          "name": {
+            "ro": "B-52",
+            "en": "B-52",
+            "ru": "B-52"
+          },
+          "portion": "60 ml",
+          "price": "80",
+          "description": "Kahlua, Baileys, triple sec.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-12-sweet-hugo",
+          "name": {
+            "ro": "Sweet Hugo",
+            "en": "Sweet Hugo",
+            "ru": "Sweet Hugo"
+          },
+          "portion": "300 ml",
+          "price": "100",
+          "description": "Elder flower, vin spumant, mentă, lime.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-13-sex-on-the-beach",
+          "name": {
+            "ro": "Sex on the Beach",
+            "en": "Sex on the Beach",
+            "ru": "Sex on the Beach"
+          },
+          "portion": "300 ml",
+          "price": "90",
+          "description": "Vodka, suc, peach liqueur.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-14-long-island-ice-tea",
+          "name": {
+            "ro": "Long Island Ice Tea",
+            "en": "Long Island Ice Tea",
+            "ru": "Long Island Ice Tea"
+          },
+          "portion": "350 ml",
+          "price": "120",
+          "description": "Gin, rum, triple sec, vodka, suc lămâie, cola.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-15-gin-tonic",
+          "name": {
+            "ro": "Gin Tonic",
+            "en": "Gin Tonic",
+            "ru": "Gin Tonic"
+          },
+          "portion": "350 ml",
+          "price": "90",
+          "description": "Gin, tonic, lime.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-16-martini-fiero-tonic",
+          "name": {
+            "ro": "Martini Fiero Tonic",
+            "en": "Martini Fiero Tonic",
+            "ru": "Martini Fiero Tonic"
+          },
+          "portion": "200 ml",
+          "price": "100",
+          "description": "Martini, tonic, grapefruit.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
+        },
+        {
+          "id": "19-17-cosmopolitan",
+          "name": {
+            "ro": "Cosmopolitan",
+            "en": "Cosmopolitan",
+            "ru": "Cosmopolitan"
+          },
+          "portion": "120 ml",
+          "price": "100",
+          "description": "Vodka, triple sec, suc lime.",
+          "section": {
+            "en": "Alcoholic cocktails",
+            "ro": "Cocktailuri alcoolice",
+            "ru": "Алкогольные коктейли"
+          }
         }
       ]
     },
     {
       "id": "beer",
-      "en": "Beer & beer snacks",
+      "name": {
+        "en": "Beer & snacks",
+        "ro": "Bere și gustări",
+        "ru": "Пиво и закуски"
+      },
       "items": [
         {
-          "id": "beermaster-gold",
-          "name": "Beermaster Golden Lager",
-          "portion": "0.5 / 0.3 l",
-          "price": "40 / 35",
-          "description": "Draft beer, house selection.",
-          "allergens": ["Gluten"]
+          "id": "20-1-beermaster-brewery-golden-lager",
+          "name": {
+            "ro": "Beermaster Brewery — Golden Lager",
+            "en": "Beermaster Brewery — Gold tequilaen Lager",
+            "ru": "Beermaster Brewery — Золотая текилаen Lager"
+          },
+          "portion": "0,5/0,3 l",
+          "price": "40/35",
+          "section": {
+            "en": "Draft",
+            "ro": "Draft",
+            "ru": "Draft"
+          }
         },
         {
-          "id": "beermaster-ipa",
-          "name": "Beermaster IPA",
-          "portion": "0.5 / 0.3 l",
-          "price": "50 / 45",
-          "description": "Crisp draft beer with a hoppy finish.",
-          "allergens": ["Gluten"]
+          "id": "20-2-beermaster-brewery-ipa",
+          "name": {
+            "ro": "Beermaster Brewery — IPA",
+            "en": "Beermaster Brewery — IPA",
+            "ru": "Beermaster Brewery — IPA"
+          },
+          "portion": "0,5/0,3 l",
+          "price": "50/45",
+          "section": {
+            "en": "Draft",
+            "ro": "Draft",
+            "ru": "Draft"
+          }
         },
         {
-          "id": "nuts",
-          "name": "Roasted peanuts",
-          "portion": "100 g",
-          "price": 40,
-          "description": "Peanuts, salt.",
-          "allergens": ["Peanuts"]
+          "id": "20-3-efes-vitanta-moldova-brewery-chisinau-draft",
+          "name": {
+            "ro": "Efes Vitanta Moldova Brewery — Chișinău Draft",
+            "en": "Efes Vitanta Moldova Brewery — Chișinău Draft",
+            "ru": "Efes Vitanta Moldova Brewery — Chișinău Draft"
+          },
+          "portion": "0,5/0,3 l",
+          "price": "30/25",
+          "section": {
+            "en": "Draft",
+            "ro": "Draft",
+            "ru": "Draft"
+          }
+        },
+        {
+          "id": "20-4-efes",
+          "name": {
+            "ro": "Efes",
+            "en": "Efes",
+            "ru": "Efes"
+          },
+          "portion": "0,5/0,3 l",
+          "price": "40/35",
+          "section": {
+            "en": "Draft",
+            "ro": "Draft",
+            "ru": "Draft"
+          }
+        },
+        {
+          "id": "20-5-bud",
+          "name": {
+            "ro": "Bud",
+            "en": "Bud",
+            "ru": "Bud"
+          },
+          "portion": "0,33 l",
+          "price": "70",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-6-efes-pilsner",
+          "name": {
+            "ro": "Efes Pilsner",
+            "en": "Efes Pilsner",
+            "ru": "Efes Pilsner"
+          },
+          "portion": "0,5 l",
+          "price": "50",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-7-efes-pilsner-f-a",
+          "name": {
+            "ro": "Efes Pilsner f/a",
+            "en": "Efes Pilsner f/a",
+            "ru": "Efes Pilsner f/a"
+          },
+          "portion": "0,5 l",
+          "price": "50",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-8-franziskaner",
+          "name": {
+            "ro": "Franziskaner",
+            "en": "Franziskaner",
+            "ru": "Franziskaner"
+          },
+          "portion": "0,5 l",
+          "price": "80",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-9-spaten",
+          "name": {
+            "ro": "Spaten",
+            "en": "Spaten",
+            "ru": "Spaten"
+          },
+          "portion": "0,5 l",
+          "price": "80",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-10-corona-extra",
+          "name": {
+            "ro": "Corona Extra",
+            "en": "Corona Extra",
+            "ru": "Corona Extra"
+          },
+          "portion": "0,35 l",
+          "price": "70",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-11-velkopopovicky-kozel",
+          "name": {
+            "ro": "Velkopopovicky Kozel",
+            "en": "Velkopopovicky Kozel",
+            "ru": "Velkopopovicky Kozel"
+          },
+          "portion": "0,5 l",
+          "price": "50",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-12-chisinau-blonda",
+          "name": {
+            "ro": "Chișinău Blondă",
+            "en": "Chișinău Blondă",
+            "ru": "Chișinău Blondă"
+          },
+          "portion": "0,5 l",
+          "price": "35",
+          "section": {
+            "en": "Bottled",
+            "ro": "La sticlă",
+            "ru": "Бутылочное"
+          }
+        },
+        {
+          "id": "20-13-arahide",
+          "name": {
+            "ro": "Arahide",
+            "en": "Peanuts",
+            "ru": "Арахис"
+          },
+          "portion": "100 gr",
+          "price": "40",
+          "description": "Arahide, sare.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-14-pesmeti",
+          "name": {
+            "ro": "Pesmeți",
+            "en": "Croutons",
+            "ru": "Сухарики"
+          },
+          "portion": "100 gr",
+          "price": "40",
+          "description": "Pâine toast, usturoi, condimente.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-15-sudjuk",
+          "name": {
+            "ro": "Sudjuk",
+            "en": "Sudjuk",
+            "ru": "Sudjuk"
+          },
+          "portion": "50 gr",
+          "price": "70",
+          "description": "Salam crud de vită.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-16-basturma",
+          "name": {
+            "ro": "Basturma",
+            "en": "Basturma",
+            "ru": "Basturma"
+          },
+          "portion": "50 gr",
+          "price": "80",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-17-platou-la-bere-la-friteuza",
+          "name": {
+            "ro": "Platou la bere la friteuză",
+            "en": "Platter with beer deep-fried",
+            "ru": "Ассорти с пиво во фритюре"
+          },
+          "portion": "500 gr",
+          "price": "270",
+          "description": "Degețele de pui pane, cartofi pai, inele de ceapă, cartofi bile, sos tartar, ketchup.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-18-degetele-de-pui-pane",
+          "name": {
+            "ro": "Degețele de pui pane",
+            "en": "Degețele of chicken pane",
+            "ru": "Degețele курица pane"
+          },
+          "portion": "200 gr",
+          "price": "90",
+          "description": "Piept de pui, făină de grâu, ou, pesmeți măcinați, sos tar-tar.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-19-retroping-pane",
+          "name": {
+            "ro": "Retroping pane",
+            "en": "Breaded Retroping",
+            "ru": "Ретропинг в панировке"
+          },
+          "portion": "160 gr",
+          "price": "80",
+          "description": " Retropina, făină de grâu, sos de soia.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          },
+          "badge": {
+            "en": "Details to verify",
+            "ro": "Detalii de verificat",
+            "ru": "Данные требуют проверки"
+          }
+        },
+        {
+          "id": "20-20-urechi-de-porc-la-friteuza",
+          "name": {
+            "ro": "Urechi de porc la friteuză",
+            "en": "Urechi of pork deep-fried",
+            "ru": "Urechi свинина во фритюре"
+          },
+          "portion": "150 gr",
+          "price": "70",
+          "description": "Urechi de porc, sos de soia, condimente.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-21-urechi-de-porc-picante",
+          "name": {
+            "ro": "Urechi de porc picante",
+            "en": "Urechi of pork picante",
+            "ru": "Urechi свинина picante"
+          },
+          "portion": "150 gr",
+          "price": "75",
+          "description": "Urechi de porc, sos de soia, sos oyster, condimente, usturoi, morcov coreean.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-22-creveti-pane",
+          "name": {
+            "ro": "Creveți pane",
+            "en": "Shrimp pane",
+            "ru": "Креветки pane"
+          },
+          "portion": "250 gr",
+          "price": "210",
+          "description": "Creveți, făină de grâu, ou, pesmeți măcinați, sos picant.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        },
+        {
+          "id": "20-23-platou-la-bere",
+          "name": {
+            "ro": "Platou la bere",
+            "en": "Platter with beer",
+            "ru": "Ассорти с пиво"
+          },
+          "portion": "200 gr",
+          "price": "250",
+          "description": "Basturma, sudjuk, arahide, cașcaval afumat, snacksuri.",
+          "section": {
+            "en": "Beer snacks",
+            "ro": "Gustări la bere",
+            "ru": "Закуски к пиву"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "name": {
+        "en": "Wine & sparkling wine",
+        "ro": "Vin și vin spumant",
+        "ru": "Вино и игристое"
+      },
+      "items": [
+        {
+          "id": "21-1-feteasca-neagra",
+          "name": {
+            "ro": "Fetească Neagră",
+            "en": "Fetească Neagră",
+            "ru": "Fetească Neagră"
+          },
+          "portion": "750 ml",
+          "price": "330",
+          "section": {
+            "en": "Cricova — series “Prestige”",
+            "ro": "Cricova — seria „Prestige”",
+            "ru": "Cricova — серия «Prestige»"
+          }
+        },
+        {
+          "id": "21-2-feteasca-regala",
+          "name": {
+            "ro": "Fetească Regală",
+            "en": "Fetească Regală",
+            "ru": "Fetească Regală"
+          },
+          "portion": "750 ml",
+          "price": "330",
+          "section": {
+            "en": "Cricova — series “Prestige”",
+            "ro": "Cricova — seria „Prestige”",
+            "ru": "Cricova — серия «Prestige»"
+          }
+        },
+        {
+          "id": "21-3-codru",
+          "name": {
+            "ro": "Codru",
+            "en": "Codru",
+            "ru": "Codru"
+          },
+          "portion": "750 ml",
+          "price": "330",
+          "section": {
+            "en": "Cricova — series “Prestige”",
+            "ro": "Cricova — seria „Prestige”",
+            "ru": "Cricova — серия «Prestige»"
+          }
+        },
+        {
+          "id": "21-4-la-pahar",
+          "name": {
+            "ro": "La pahar",
+            "en": "With pahar",
+            "ru": "С pahar"
+          },
+          "portion": "200 ml",
+          "price": "60",
+          "section": {
+            "en": "Cricova — series “Vintage”",
+            "ro": "Cricova — seria „Vintage”",
+            "ru": "Cricova — серия «Vintage»"
+          }
+        },
+        {
+          "id": "21-5-cabernet",
+          "name": {
+            "ro": "Cabernet",
+            "en": "Cabernet",
+            "ru": "Cabernet"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Cricova — series “Vintage”",
+            "ro": "Cricova — seria „Vintage”",
+            "ru": "Cricova — серия «Vintage»"
+          }
+        },
+        {
+          "id": "21-6-dionis",
+          "name": {
+            "ro": "Dionis",
+            "en": "Dionis",
+            "ru": "Dionis"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Cricova — series “Vintage”",
+            "ro": "Cricova — seria „Vintage”",
+            "ru": "Cricova — серия «Vintage»"
+          }
+        },
+        {
+          "id": "21-7-chardonnay",
+          "name": {
+            "ro": "Chardonnay",
+            "en": "Chardonnay",
+            "ru": "Chardonnay"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Cricova — series “Vintage”",
+            "ro": "Cricova — seria „Vintage”",
+            "ru": "Cricova — серия «Vintage»"
+          }
+        },
+        {
+          "id": "21-8-sauvignon",
+          "name": {
+            "ro": "Sauvignon",
+            "en": "Sauvignon",
+            "ru": "Sauvignon"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Cricova — series “Vintage”",
+            "ro": "Cricova — seria „Vintage”",
+            "ru": "Cricova — серия «Vintage»"
+          }
+        },
+        {
+          "id": "21-9-la-pahar",
+          "name": {
+            "ro": "La pahar",
+            "en": "With pahar",
+            "ru": "С pahar"
+          },
+          "portion": "150 ml",
+          "price": "55",
+          "section": {
+            "en": "Cricova Original",
+            "ro": "Cricova Original",
+            "ru": "Cricova Original"
+          }
+        },
+        {
+          "id": "21-10-cricova-original",
+          "name": {
+            "ro": "Cricova Original",
+            "en": "Cricova Original",
+            "ru": "Cricova Original"
+          },
+          "portion": "750 ml",
+          "price": "140",
+          "section": {
+            "en": "Cricova Original",
+            "ro": "Cricova Original",
+            "ru": "Cricova Original"
+          }
+        },
+        {
+          "id": "21-11-cricova-lacrima-dulce",
+          "name": {
+            "ro": "Cricova Lacrima Dulce",
+            "en": "Cricova Lacrima Dulce",
+            "ru": "Cricova Lacrima Dulce"
+          },
+          "portion": "750 ml",
+          "price": "210",
+          "section": {
+            "en": "Cricova Original",
+            "ro": "Cricova Original",
+            "ru": "Cricova Original"
+          }
+        },
+        {
+          "id": "21-12-cricova-brut",
+          "name": {
+            "ro": "Cricova Brut",
+            "en": "Cricova Brut",
+            "ru": "Cricova Brut"
+          },
+          "portion": "750 ml",
+          "price": "330",
+          "section": {
+            "en": "Cricova Original",
+            "ro": "Cricova Original",
+            "ru": "Cricova Original"
+          }
+        },
+        {
+          "id": "21-13-merlot-cabernet-sauvignon",
+          "name": {
+            "ro": "Merlot & Cabernet Sauvignon",
+            "en": "Merlot & Cabernet Sauvignon",
+            "ru": "Merlot & Cabernet Sauvignon"
+          },
+          "portion": "750 ml",
+          "price": "270",
+          "section": {
+            "en": "Chateau Vartely — categoria “Individo”",
+            "ro": "Chateau Vartely — categoria „Individo”",
+            "ru": "Chateau Vartely — categoria «Individo»"
+          }
+        },
+        {
+          "id": "21-14-feteasca-regala-riesling",
+          "name": {
+            "ro": "Fetească Regală & Riesling",
+            "en": "Fetească Regală & Riesling",
+            "ru": "Fetească Regală & Riesling"
+          },
+          "portion": "750 ml",
+          "price": "270",
+          "section": {
+            "en": "Chateau Vartely — categoria “Individo”",
+            "ro": "Chateau Vartely — categoria „Individo”",
+            "ru": "Chateau Vartely — categoria «Individo»"
+          }
+        },
+        {
+          "id": "21-15-cabernet-sauvignon-merlot-rose",
+          "name": {
+            "ro": "Cabernet Sauvignon & Merlot rose",
+            "en": "Cabernet Sauvignon & Merlot rose",
+            "ru": "Cabernet Sauvignon & Merlot rose"
+          },
+          "portion": "750 ml",
+          "price": "270",
+          "section": {
+            "en": "Chateau Vartely — categoria “Individo”",
+            "ro": "Chateau Vartely — categoria „Individo”",
+            "ru": "Chateau Vartely — categoria «Individo»"
+          }
+        },
+        {
+          "id": "21-16-la-pahar",
+          "name": {
+            "ro": "La pahar",
+            "en": "With pahar",
+            "ru": "С pahar"
+          },
+          "portion": "200 ml",
+          "price": "60",
+          "section": {
+            "en": "Wine of marcă",
+            "ro": "Vin de marcă",
+            "ru": "Вино marcă"
+          }
+        },
+        {
+          "id": "21-17-cabernet-sauvignon",
+          "name": {
+            "ro": "Cabernet Sauvignon",
+            "en": "Cabernet Sauvignon",
+            "ru": "Cabernet Sauvignon"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Wine of marcă",
+            "ro": "Vin de marcă",
+            "ru": "Вино marcă"
+          }
+        },
+        {
+          "id": "21-18-chardonnay",
+          "name": {
+            "ro": "Chardonnay",
+            "en": "Chardonnay",
+            "ru": "Chardonnay"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Wine of marcă",
+            "ro": "Vin de marcă",
+            "ru": "Вино marcă"
+          }
+        },
+        {
+          "id": "21-19-sauvignon-blanc",
+          "name": {
+            "ro": "Sauvignon Blanc",
+            "en": "Sauvignon Blanc",
+            "ru": "Sauvignon Blanc"
+          },
+          "portion": "750 ml",
+          "price": "160",
+          "section": {
+            "en": "Wine of marcă",
+            "ro": "Vin de marcă",
+            "ru": "Вино marcă"
+          }
+        },
+        {
+          "id": "21-20-muscat-suave",
+          "name": {
+            "ro": "Muscat Suave",
+            "en": "Muscat Suave",
+            "ru": "Muscat Suave"
+          },
+          "portion": "750 ml",
+          "price": "300",
+          "section": {
+            "en": "Wine sparkling “Maestro”",
+            "ro": "Vin spumant „Maestro”",
+            "ru": "Вино игристое «Maestro»"
+          }
+        },
+        {
+          "id": "21-21-viorica",
+          "name": {
+            "ro": "Viorica",
+            "en": "Viorica",
+            "ru": "Viorica"
+          },
+          "portion": "750 ml",
+          "price": "330",
+          "section": {
+            "en": "Wine sparkling “Maestro”",
+            "ro": "Vin spumant „Maestro”",
+            "ru": "Вино игристое «Maestro»"
+          }
+        },
+        {
+          "id": "21-22-prosecco",
+          "name": {
+            "ro": "Prosecco",
+            "en": "Prosecco",
+            "ru": "Prosecco"
+          },
+          "portion": "750 ml",
+          "price": "330",
+          "section": {
+            "en": "Wine sparkling “Maestro”",
+            "ro": "Vin spumant „Maestro”",
+            "ru": "Вино игристое «Maestro»"
+          }
+        },
+        {
+          "id": "21-23-vermouth-martini",
+          "name": {
+            "ro": "Vermouth Martini",
+            "en": "Vermouth Martini",
+            "ru": "Vermouth Martini"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Wine sparkling “Maestro”",
+            "ro": "Vin spumant „Maestro”",
+            "ru": "Вино игристое «Maestro»"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spirits",
+      "name": {
+        "en": "Spirits",
+        "ro": "Băuturi spirtoase",
+        "ru": "Крепкий алкоголь"
+      },
+      "items": [
+        {
+          "id": "22-1-beluga",
+          "name": {
+            "ro": "Beluga",
+            "en": "Beluga",
+            "ru": "Beluga"
+          },
+          "portion": "50 ml",
+          "price": "100",
+          "section": {
+            "en": "Vodka",
+            "ro": "Vodka",
+            "ru": "Vodka"
+          }
+        },
+        {
+          "id": "22-2-absolut-vodka",
+          "name": {
+            "ro": "Absolut Vodka",
+            "en": "Absolut Vodka",
+            "ru": "Absolut Vodka"
+          },
+          "portion": "50 ml",
+          "price": "40",
+          "section": {
+            "en": "Vodka",
+            "ro": "Vodka",
+            "ru": "Vodka"
+          }
+        },
+        {
+          "id": "22-3-finlandia",
+          "name": {
+            "ro": "Finlandia",
+            "en": "Finlandia",
+            "ru": "Finlandia"
+          },
+          "portion": "50 ml",
+          "price": "35",
+          "section": {
+            "en": "Vodka",
+            "ro": "Vodka",
+            "ru": "Vodka"
+          }
+        },
+        {
+          "id": "22-4-hortita-platinum",
+          "name": {
+            "ro": "Hortița Platinum",
+            "en": "Hortița Platinum",
+            "ru": "Hortița Platinum"
+          },
+          "portion": "50 ml",
+          "price": "35",
+          "section": {
+            "en": "Vodka",
+            "ro": "Vodka",
+            "ru": "Vodka"
+          }
+        },
+        {
+          "id": "22-5-tuica-vartely",
+          "name": {
+            "ro": "Țuică Vartely",
+            "en": "Țuică Vartely",
+            "ru": "Țuică Vartely"
+          },
+          "portion": "50 ml",
+          "price": "40",
+          "section": {
+            "en": "Vodka",
+            "ro": "Vodka",
+            "ru": "Vodka"
+          }
+        },
+        {
+          "id": "22-6-luceafarul-10-ani",
+          "name": {
+            "ro": "Luceafărul 10 ani",
+            "en": "Luceafărul 10 ani",
+            "ru": "Luceafărul 10 ani"
+          },
+          "portion": "50 ml",
+          "price": "85",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-7-kvint-10-ani",
+          "name": {
+            "ro": "Kvint 10 ani",
+            "en": "Kvint 10 ani",
+            "ru": "Kvint 10 ani"
+          },
+          "portion": "50 ml",
+          "price": "75",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-8-doina-9-ani",
+          "name": {
+            "ro": "Doina 9 ani",
+            "en": "Doina 9 ani",
+            "ru": "Doina 9 ani"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-9-calarasi-7-ani",
+          "name": {
+            "ro": "Călărași 7 ani",
+            "en": "Călărași 7 ani",
+            "ru": "Călărași 7 ani"
+          },
+          "portion": "50 ml",
+          "price": "50",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-10-bardar-7-ani",
+          "name": {
+            "ro": "Bardar 7 ani",
+            "en": "Bardar 7 ani",
+            "ru": "Bardar 7 ani"
+          },
+          "portion": "50 ml",
+          "price": "50",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-11-vartely-5-ani",
+          "name": {
+            "ro": "Vartely 5 ani",
+            "en": "Vartely 5 ani",
+            "ru": "Vartely 5 ani"
+          },
+          "portion": "50 ml",
+          "price": "40",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-12-calarasi-5-ani",
+          "name": {
+            "ro": "Călărași 5 ani",
+            "en": "Călărași 5 ani",
+            "ru": "Călărași 5 ani"
+          },
+          "portion": "50 ml",
+          "price": "40",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-13-bardar-5-ani",
+          "name": {
+            "ro": "Bardar 5 ani",
+            "en": "Bardar 5 ani",
+            "ru": "Bardar 5 ani"
+          },
+          "portion": "50 ml",
+          "price": "40",
+          "section": {
+            "en": "Divin",
+            "ro": "Divin",
+            "ru": "Divin"
+          }
+        },
+        {
+          "id": "22-14-chivas-regal-12-y-o",
+          "name": {
+            "ro": "Chivas Regal 12 Y.O.",
+            "en": "Chivas Regal 12 Y.O",
+            "ru": "Chivas Regal 12 Y.O"
+          },
+          "portion": "50 ml",
+          "price": "100",
+          "section": {
+            "en": "Whisky",
+            "ro": "Whisky",
+            "ru": "Whisky"
+          }
+        },
+        {
+          "id": "22-15-johnnie-walker-red-label",
+          "name": {
+            "ro": "Johnnie Walker Red Label",
+            "en": "Johnnie Walker Red Label",
+            "ru": "Johnnie Walker Red Label"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Whisky",
+            "ro": "Whisky",
+            "ru": "Whisky"
+          }
+        },
+        {
+          "id": "22-16-jack-daniels",
+          "name": {
+            "ro": "Jack Daniel’s",
+            "en": "Jack Daniel’s",
+            "ru": "Jack Daniel’s"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Whisky",
+            "ro": "Whisky",
+            "ru": "Whisky"
+          }
+        },
+        {
+          "id": "22-17-jameson",
+          "name": {
+            "ro": "Jameson",
+            "en": "Jameson",
+            "ru": "Jameson"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Whisky",
+            "ro": "Whisky",
+            "ru": "Whisky"
+          }
+        },
+        {
+          "id": "22-18-jim-beam",
+          "name": {
+            "ro": "Jim Beam",
+            "en": "Jim Beam",
+            "ru": "Jim Beam"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Whisky",
+            "ro": "Whisky",
+            "ru": "Whisky"
+          }
+        },
+        {
+          "id": "22-19-sambuca-molinari",
+          "name": {
+            "ro": "Sambuca Molinari",
+            "en": "Sambuca Molinari",
+            "ru": "Sambuca Molinari"
+          },
+          "portion": "50 ml",
+          "price": "65",
+          "section": {
+            "en": "Lichior",
+            "ro": "Lichior",
+            "ru": "Lichior"
+          }
+        },
+        {
+          "id": "22-20-baileys",
+          "name": {
+            "ro": "Baileys",
+            "en": "Baileys",
+            "ru": "Baileys"
+          },
+          "portion": "50 ml",
+          "price": "65",
+          "section": {
+            "en": "Lichior",
+            "ro": "Lichior",
+            "ru": "Lichior"
+          }
+        },
+        {
+          "id": "22-21-captain-morgan-spiced-gold",
+          "name": {
+            "ro": "Captain Morgan Spiced Gold",
+            "en": "Captain Morgan Spiced Gold tequila",
+            "ru": "Captain Morgan Spiced Золотая текила"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Rum",
+            "ro": "Rum",
+            "ru": "Rum"
+          }
+        },
+        {
+          "id": "22-22-bacardi-black",
+          "name": {
+            "ro": "Bacardi Black",
+            "en": "Bacardi Black",
+            "ru": "Bacardi Black"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Rum",
+            "ro": "Rum",
+            "ru": "Rum"
+          }
+        },
+        {
+          "id": "22-23-bacardi-spiced",
+          "name": {
+            "ro": "Bacardi Spiced",
+            "en": "Bacardi Spiced",
+            "ru": "Bacardi Spiced"
+          },
+          "portion": "50 ml",
+          "price": "60",
+          "section": {
+            "en": "Rum",
+            "ro": "Rum",
+            "ru": "Rum"
+          }
+        },
+        {
+          "id": "22-24-bickens-gin",
+          "name": {
+            "ro": "Bickens Gin",
+            "en": "Bickens Gin",
+            "ru": "Bickens Gin"
+          },
+          "portion": "50 ml",
+          "price": "70",
+          "section": {
+            "en": "Gin",
+            "ro": "Gin",
+            "ru": "Gin"
+          }
+        },
+        {
+          "id": "22-25-jagermeister",
+          "name": {
+            "ro": "Jagermeister",
+            "en": "Jagermeister",
+            "ru": "Jagermeister"
+          },
+          "portion": "50 ml",
+          "price": "70",
+          "section": {
+            "en": "Digestive",
+            "ro": "Digestive",
+            "ru": "Digestive"
+          }
+        },
+        {
+          "id": "22-26-silver",
+          "name": {
+            "ro": "Silver",
+            "en": "Silver tequila",
+            "ru": "Серебряная текила"
+          },
+          "portion": "50 ml",
+          "price": "80",
+          "section": {
+            "en": "Tequila",
+            "ro": "Tequila",
+            "ru": "Tequila"
+          }
+        },
+        {
+          "id": "22-27-gold",
+          "name": {
+            "ro": "Gold",
+            "en": "Gold tequila",
+            "ru": "Золотая текила"
+          },
+          "portion": "50 ml",
+          "price": "80",
+          "section": {
+            "en": "Tequila",
+            "ro": "Tequila",
+            "ru": "Tequila"
+          }
+        },
+        {
+          "id": "22-28-absinthe",
+          "name": {
+            "ro": "Absinthe",
+            "en": "Absinthe",
+            "ru": "Absinthe"
+          },
+          "portion": "50 ml",
+          "price": "80",
+          "section": {
+            "en": "Absinthe",
+            "ro": "Absinthe",
+            "ru": "Absinthe"
+          }
         }
       ]
     }

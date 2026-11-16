@@ -14,13 +14,12 @@ Then open `http://localhost:8000`.
 
 ## Edit the menu
 
-Edit `menu.json`:
+The full menu is generated from `menu-analysis.txt`:
 
-- Categories live in `categories` and have `id`, localized labels (`en`, `ro`, `ru`), and an `items` array.
-- Each item can be an object with `id`, localized `name`, `portion`, numeric `price`, localized `description`, localized `allergens`, optional `image`, and optional `badge`.
-- Legacy rows `[name, portion, price, description]` are still accepted for gradual migration. These rows only contain Romanian text, so that text remains Romanian after changing the interface language until translations are added.
-- Currency is configured by the top-level `currency` property.
+```sh
+python3 scripts/build-menu.py
+```
 
-To add a language, add its text to category/item localization objects and to the `TEXT` dictionary in `script.js`.
+This imports the transcribed items, portions, prices, and ingredient descriptions into `menu.json`, grouped into 12 mobile-friendly categories. The analysis file notes a few source details that still need verification; these appear as badges in the menu.
 
-The language selector supports English, Romanian, and Russian. Language choice is saved in local storage. Cards keep the compact name/description/portion/price layout; tapping a card opens details.
+Dish and category names and interface labels are available in English, Romanian, and Russian. Ingredient descriptions remain in Romanian because that is the language of the source transcription. Review translated dish names before publication, especially regional dishes and brand names. The language selector saves the choice in local storage. Cards keep the compact name/description/portion/price layout; tapping a card opens details.
