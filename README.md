@@ -1,6 +1,6 @@
 # Cafenea La Strada — Menu
 
-Mobile-first tourist menu for Cafenea La Strada. Menu items are loaded from `menu.json`; the interface displays the English text for visitors.
+Mobile-first tourist menu for Cafenea La Strada with English, Romanian, and Russian language support. The selected language is saved in the browser and restored on the next visit.
 
 ## Run locally
 
@@ -14,7 +14,7 @@ Then open <http://localhost:8000> in your browser.
 
 ## Files
 
-- `index.html` — page structure and accessible dish-details dialog.
-- `style.css` — responsive mobile-first styling.
-- `script.js` — menu loading, validation, rendering, and dialog behavior.
-- `menu.json` — categories and menu data.
+- `index.html` — page structure, language picker, and accessible dish-details dialog.
+- `style.css` — responsive, iPhone-friendly mobile-first styling with safe-area support.
+- `script.js` — menu loading, validation, language switching, and dialog behavior.
+- `menu.json` — categories and menu data translated into EN, RO, and RU.

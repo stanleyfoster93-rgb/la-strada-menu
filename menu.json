@@ -1,9 +1,9 @@
 {
   "categories": [
-    { "id": "local", "en": "Local Hits", "ro": "Hituri Locale" },
-    { "id": "starters", "en": "Starters", "ro": "Gustări" },
-    { "id": "mains", "en": "Mains", "ro": "Feluri Principale" },
-    { "id": "drinks", "en": "Drinks", "ro": "Băuturi" }
+    { "id": "local", "en": "Local Hits", "ro": "Hituri Locale", "ru": "Местные хиты" },
+    { "id": "starters", "en": "Starters", "ro": "Gustări", "ru": "Закуски" },
+    { "id": "mains", "en": "Mains", "ro": "Feluri Principale", "ru": "Основные блюда" },
+    { "id": "drinks", "en": "Drinks", "ro": "Băuturi", "ru": "Напитки" }
   ],
   "items": [
     {
@@ -11,63 +11,66 @@
       "categoryId": "local",
       "name": {
         "en": "Traditional Placinta with Sheep Cheese",
-        "ro": "Plăcintă tradițională cu brânză de oi"
+        "ro": "Plăcintă tradițională cu brânză de oi",
+        "ru": "Традиционная плацинда с овечьим сыром"
       },
       "priceMdl": 65,
       "weight": "200g",
       "description": {
         "en": "Flaky golden pastry filled with traditional savory sheep cheese, baked until golden brown.",
-        "ro": "Plăcintă rumenă și crocantă umplută cu brânză de oi tradițională, coaptă la cuptor."
+        "ro": "Plăcintă rumenă și crocantă umplută cu brânză de oi tradițională, coaptă la cuptor.",
+        "ru": "Румяная слоёная выпечка с традиционной солёной овечьей брынзой, запечённая до золотистой корочки."
       },
       "allergens": {
         "en": ["Gluten", "Dairy"],
-        "ro": ["Gluten", "Lactate"]
+        "ro": ["Gluten", "Lactate"],
+        "ru": ["Глютен", "Молочные продукты"]
       },
       "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80",
-      "badge": {
-        "en": "Local Hit",
-        "ro": "Hit Local"
-      }
+      "badge": { "en": "Local Hit", "ro": "Hit Local", "ru": "Местный хит" }
     },
     {
       "id": 2,
       "categoryId": "local",
       "name": {
         "en": "Mămăligă with Stewed Pork & Brânză",
-        "ro": "Mămăligă cu tocăniță de porc și brânză"
+        "ro": "Mămăligă cu tocăniță de porc și brânză",
+        "ru": "Мамалыга с тушёной свининой и брынзой"
       },
       "priceMdl": 120,
       "weight": "350g",
       "description": {
         "en": "Traditional yellow cornmeal polenta served with tender slow-cooked pork, grated brânză cheese, and sour cream.",
-        "ro": "Mămăligă aburindă servită cu carne de porc fragedă înăbușită, brânză rasă și smântână."
+        "ro": "Mămăligă aburindă servită cu carne de porc fragedă înăbușită, brânză rasă și smântână.",
+        "ru": "Традиционная горячая мамалыга из кукурузной муки с мягкой томлёной свининой, тёртой брынзой и сметаной."
       },
       "allergens": {
         "en": ["Dairy"],
-        "ro": ["Lactate"]
+        "ro": ["Lactate"],
+        "ru": ["Молочные продукты"]
       },
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
-      "badge": {
-        "en": "Local Hit",
-        "ro": "Hit Local"
-      }
+      "badge": { "en": "Local Hit", "ro": "Hit Local", "ru": "Местный хит" }
     },
     {
       "id": 3,
       "categoryId": "starters",
       "name": {
         "en": "Crispy Garlic Bread Sticks",
-        "ro": "Bețișoare crocante de pâine cu usturoi"
+        "ro": "Bețișoare crocante de pâine cu usturoi",
+        "ru": "Хрустящие хлебные палочки с чесноком"
       },
       "priceMdl": 45,
       "weight": "180g",
       "description": {
         "en": "Freshly baked artisan bread sticks rubbed with garlic, olive oil, and fresh herbs, served with herb dip.",
-        "ro": "Bețișoare de pâine artizanală proaspăt coapte, frecate cu usturoi, ulei de măsline și ierburi aromate."
+        "ro": "Bețișoare de pâine artizanală proaspăt coapte, frecate cu usturoi, ulei de măsline și ierburi aromate.",
+        "ru": "Свежие хлебные палочки с чесноком, оливковым маслом и ароматными травами. Подаются с соусом из зелени."
       },
       "allergens": {
         "en": ["Gluten"],
-        "ro": ["Gluten"]
+        "ro": ["Gluten"],
+        "ru": ["Глютен"]
       },
       "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
     },
@@ -76,17 +79,20 @@
       "categoryId": "mains",
       "name": {
         "en": "Craft Bar Burger with Fries",
-        "ro": "Burger Craft cu cartofi prăjiți"
+        "ro": "Burger Craft cu cartofi prăjiți",
+        "ru": "Крафтовый бургер с картофелем фри"
       },
       "priceMdl": 140,
       "weight": "420g",
       "description": {
         "en": "Juicy beef patty in a brioche bun with cheddar cheese, crispy bacon, lettuce, pickles, and signature sauce. Served with fries.",
-        "ro": "Chiftea suculentă de vită în chiflă brioche cu cașcaval cheddar, bacon crocant, salată, castraveți murați și sos propriu."
+        "ro": "Chiftea suculentă de vită în chiflă brioche cu cașcaval cheddar, bacon crocant, salată, castraveți murați și sos propriu.",
+        "ru": "Сочная говяжья котлета в булочке бриошь с чеддером, хрустящим беконом, салатом, маринованными огурцами и фирменным соусом. Подаётся с картофелем фри."
       },
       "allergens": {
         "en": ["Gluten", "Dairy", "Eggs"],
-        "ro": ["Gluten", "Lactate", "Ouă"]
+        "ro": ["Gluten", "Lactate", "Ouă"],
+        "ru": ["Глютен", "Молочные продукты", "Яйца"]
       },
       "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
     },
@@ -95,17 +101,20 @@
       "categoryId": "drinks",
       "name": {
         "en": "Local Draft Craft Beer",
-        "ro": "Bere craft la draft locală"
+        "ro": "Bere craft la draft locală",
+        "ru": "Местное разливное крафтовое пиво"
       },
       "priceMdl": 50,
       "weight": "400ml",
       "description": {
         "en": "Refreshing unfiltered local craft beer with a crisp citrus finish and balanced malt profile.",
-        "ro": "Bere craft nefiltrată răcoritoare, cu note subtile citrice și profil malț echilibrat."
+        "ro": "Bere craft nefiltrată răcoritoare, cu note subtile citrice și profil malț echilibrat.",
+        "ru": "Освежающее местное нефильтрованное крафтовое пиво с лёгкими цитрусовыми нотами и сбалансированным солодовым вкусом."
       },
       "allergens": {
         "en": ["Gluten"],
-        "ro": ["Gluten"]
+        "ro": ["Gluten"],
+        "ru": ["Глютен"]
       },
       "image": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=600&q=80"
     }
