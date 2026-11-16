@@ -18,7 +18,11 @@
           },
           "portion": "310 gr",
           "price": "110",
-          "description": "Roșii, ardei dulce, castraveți, brânză.",
+          "description": {
+            "en": "Tomatoes, sweet pepper, cucumbers, cheese.",
+            "ro": "Roșii, ardei dulce, castraveți, brânză.",
+            "ru": "Помидоры, сладкий перец, огурцы, сыр."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -34,7 +38,11 @@
           },
           "portion": "750 gr",
           "price": "250",
-          "description": "Pâine, cartofi fierți, scrumbie, slănină, murături, măsline, ceapă, muștar.",
+          "description": {
+            "en": "Bread, boiled potatoes, herring, bacon, pickles, olives, onion, mustard.",
+            "ro": "Pâine, cartofi fierți, scrumbie, slănină, murături, măsline, ceapă, muștar.",
+            "ru": "Хлеб, отварной картофель, сельдь, сало, соленья, оливки, лук, горчица."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -50,7 +58,11 @@
           },
           "portion": "250 gr",
           "price": "230",
-          "description": "Miere, fructe, nuci, snackuri, cașcaval dorblu, mozzarella, cașcaval camembert.",
+          "description": {
+            "en": "Honey, fruit, nuts, snacks, Dorblu cheese, mozzarella, Camembert cheese.",
+            "ro": "Miere, fructe, nuci, snackuri, cașcaval dorblu, mozzarella, cașcaval camembert.",
+            "ru": "Мёд, фрукты, орехи, закуски, сыр дорблю, моцарелла, сыр камамбер."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -66,7 +78,11 @@
           },
           "portion": "200 gr",
           "price": "120",
-          "description": "Pâine toast, pateu (ficat de pui), ceapă, morcov, unt, frișcă, ulei.",
+          "description": {
+            "en": "Toast, pâté (chicken liver), onion, carrot, butter, cream, oil.",
+            "ro": "Pâine toast, pateu (ficat de pui), ceapă, morcov, unt, frișcă, ulei.",
+            "ru": "Тостовый хлеб, паштет (куриная печень), лук, морковь, сливочное масло, сливки, масло."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -82,7 +98,11 @@
           },
           "portion": "250 gr",
           "price": "225",
-          "description": "Șuncă, bacon, salam, salam crud afumat, prosciutto.",
+          "description": {
+            "en": "Ham, bacon, salami, dry-cured smoked salami, prosciutto.",
+            "ro": "Șuncă, bacon, salam, salam crud afumat, prosciutto.",
+            "ru": "Ветчина, бекон, салями, сырокопчёная салями, прошутто."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -98,7 +118,11 @@
           },
           "portion": "300 gr",
           "price": "110",
-          "description": "Pâine toast, vânătă, ceapă, ardei dulce, condimente.",
+          "description": {
+            "en": "Toast, eggplant, onion, sweet pepper, spices.",
+            "ro": "Pâine toast, vânătă, ceapă, ardei dulce, condimente.",
+            "ru": "Тостовый хлеб, баклажан, лук, сладкий перец, специи."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -114,7 +138,11 @@
           },
           "portion": "140 gr",
           "price": "120",
-          "description": "Bruschetta, roșii, avocado, oregano, condimente, ulei.",
+          "description": {
+            "en": "Bruschetta, tomatoes, avocado, oregano, spices, oil.",
+            "ro": "Bruschetta, roșii, avocado, oregano, condimente, ulei.",
+            "ru": "Брускетта, помидоры, авокадо, орегано, специи, масло."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -130,7 +158,11 @@
           },
           "portion": "150 gr",
           "price": "160",
-          "description": "Bruschetta, somon, brânză cu verdeață, avocado.",
+          "description": {
+            "en": "Bruschetta, salmon, herbed cheese, avocado.",
+            "ro": "Bruschetta, somon, brânză cu verdeață, avocado.",
+            "ru": "Брускетта, лосось, сыр с зеленью, авокадо."
+          },
           "section": {
             "en": "Cold starters",
             "ro": "Gustări reci",
@@ -146,7 +178,11 @@
           },
           "portion": "300 gr",
           "price": "140",
-          "description": "Piept de pui, ciuperci, roșii proaspete, castraveți, ardei dulce, verdeață, ulei de măsline, rădăcină de țelină, broccoli, păstări, sos dulce de muștar.",
+          "description": {
+            "en": "Chicken breast, mushrooms, fresh tomatoes, cucumbers, sweet pepper, herbs, olive oil, celery root, broccoli, green beans, sweet mustard sauce.",
+            "ro": "Piept de pui, ciuperci, roșii proaspete, castraveți, ardei dulce, verdeață, ulei de măsline, rădăcină de țelină, broccoli, păstări, sos dulce de muștar.",
+            "ru": "Куриная грудка, грибы, свежие помидоры, огурцы, сладкий перец, зелень, оливковое масло, корень сельдерея, брокколи, стручковая фасоль, сладкий горчичный соус."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -162,7 +198,11 @@
           },
           "portion": "250 gr",
           "price": "150",
-          "description": "Ficat de pui, bacon, roșii proaspete, frunză de salată, ou fiert, sos dulce de muștar.",
+          "description": {
+            "en": "Chicken liver, bacon, fresh tomatoes, lettuce leaf, boiled egg, sweet mustard sauce.",
+            "ro": "Ficat de pui, bacon, roșii proaspete, frunză de salată, ou fiert, sos dulce de muștar.",
+            "ru": "Куриная печень, бекон, свежие помидоры, лист салата, варёное яйцо, сладкий горчичный соус."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -178,7 +218,11 @@
           },
           "portion": "230 gr",
           "price": "90",
-          "description": "Roșii, castraveți, ardei dulce, frunză de salată, ceapă roșie, ulei.",
+          "description": {
+            "en": "Tomatoes, cucumbers, sweet pepper, lettuce leaf, onion tomato, oil.",
+            "ro": "Roșii, castraveți, ardei dulce, frunză de salată, ceapă roșie, ulei.",
+            "ru": "Помидоры, огурцы, сладкий перец, лист салата, лук помидор, масло."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -194,7 +238,11 @@
           },
           "portion": "250 gr",
           "price": "110",
-          "description": "Frunză de salată, piept de pui, roșii, pesmeți, oregano, sos caesar.",
+          "description": {
+            "en": "Lettuce leaf, chicken breast, tomatoes, breadcrumbs, oregano, Caesar dressing.",
+            "ro": "Frunză de salată, piept de pui, roșii, pesmeți, oregano, sos caesar.",
+            "ru": "Лист салата, куриная грудка, помидоры, панировочные сухари, орегано, соус «Цезарь»."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -210,7 +258,11 @@
           },
           "portion": "250 gr",
           "price": "130",
-          "description": "Frunză de salată, bacon, roșii, pesmeți, oregano, sos caesar.",
+          "description": {
+            "en": "Lettuce leaf, bacon, tomatoes, breadcrumbs, oregano, Caesar dressing.",
+            "ro": "Frunză de salată, bacon, roșii, pesmeți, oregano, sos caesar.",
+            "ru": "Лист салата, бекон, помидоры, панировочные сухари, орегано, соус «Цезарь»."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -226,7 +278,11 @@
           },
           "portion": "250 gr",
           "price": "200",
-          "description": "Frunză de salată, creveți, roșii, pesmeți, oregano, sos caesar.",
+          "description": {
+            "en": "Lettuce leaf, shrimp, tomatoes, breadcrumbs, oregano, Caesar dressing.",
+            "ro": "Frunză de salată, creveți, roșii, pesmeți, oregano, sos caesar.",
+            "ru": "Лист салата, креветки, помидоры, панировочные сухари, орегано, соус «Цезарь»."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -242,7 +298,11 @@
           },
           "portion": "250 gr",
           "price": "70",
-          "description": "Varză, morcov, mărar, ulei, oțet, sare.",
+          "description": {
+            "en": "Cabbage, carrot, dill, oil, vinegar, salt.",
+            "ro": "Varză, morcov, mărar, ulei, oțet, sare.",
+            "ru": "Капуста, морковь, укроп, масло, уксус, соль."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -258,7 +318,11 @@
           },
           "portion": "280 gr",
           "price": "110",
-          "description": "Frunză de salată, roșii, ardei dulce, castraveți, ceapă roșie, brânză feta, măsline, lămâie, oregano, ulei de măsline.",
+          "description": {
+            "en": "Lettuce leaf, tomatoes, sweet pepper, cucumbers, onion tomato, feta cheese, olives, lemon, oregano, olive oil.",
+            "ro": "Frunză de salată, roșii, ardei dulce, castraveți, ceapă roșie, brânză feta, măsline, lămâie, oregano, ulei de măsline.",
+            "ru": "Лист салата, помидоры, сладкий перец, огурцы, лук помидор, сыр фета, оливки, лимон, орегано, оливковое масло."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -274,7 +338,11 @@
           },
           "portion": "500 gr",
           "price": "150",
-          "description": "Couscous, ardei, vânătă, roșii, ceapă, morcov, conopidă, spanac, iaurt grecesc, verdeață, castraveți, avocado, wraps, ulei, condimente, sirop.",
+          "description": {
+            "en": "Couscous, pepper, eggplant, tomatoes, onion, carrot, cauliflower, spinach, yogurt Greek, herbs, cucumbers, avocado, wraps, oil, spices, syrup.",
+            "ro": "Couscous, ardei, vânătă, roșii, ceapă, morcov, conopidă, spanac, iaurt grecesc, verdeață, castraveți, avocado, wraps, ulei, condimente, sirop.",
+            "ru": "Кускус, перец, баклажан, помидоры, лук, морковь, цветная капуста, шпинат, йогурт греческий, зелень, огурцы, авокадо, лепёшки, масло, специи, сироп."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -290,7 +358,11 @@
           },
           "portion": "350 gr",
           "price": "200",
-          "description": "Carne de vită, ulei, rădăcină de țelină, ardei dulce, morcov, castraveți, verdeață, susan, fide de orez.",
+          "description": {
+            "en": "Beef, oil, celery root, sweet pepper, carrot, cucumbers, herbs, sesame, rice noodles.",
+            "ro": "Carne de vită, ulei, rădăcină de țelină, ardei dulce, morcov, castraveți, verdeață, susan, fide de orez.",
+            "ru": "Говядина, масло, корень сельдерея, сладкий перец, морковь, огурцы, зелень, кунжут, рисовая лапша."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -306,7 +378,11 @@
           },
           "portion": "250 gr",
           "price": "150",
-          "description": "Mix salat, mozzarella, avocado, roșii, sos dulce de muștar.",
+          "description": {
+            "en": "Mix salad, mozzarella, avocado, tomatoes, sweet mustard sauce.",
+            "ro": "Mix salat, mozzarella, avocado, roșii, sos dulce de muștar.",
+            "ru": "Смесь салат, моцарелла, авокадо, помидоры, сладкий горчичный соус."
+          },
           "section": {
             "en": "Salads",
             "ro": "Salate",
@@ -332,7 +408,11 @@
           },
           "portion": "300 gr",
           "price": "60",
-          "description": "Morcov, ardei, rădăcină de țelină, tăiței, verdeață, condimente, borș acru, piept de pui.",
+          "description": {
+            "en": "Carrot, pepper, celery root, noodles, herbs, spices, borscht sour, chicken breast.",
+            "ro": "Morcov, ardei, rădăcină de țelină, tăiței, verdeață, condimente, borș acru, piept de pui.",
+            "ru": "Морковь, перец, корень сельдерея, лапша, зелень, специи, борщ кислый, куриная грудка."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -348,7 +428,11 @@
           },
           "portion": "300 gr",
           "price": "90",
-          "description": "Ceapă, ciuperci, condimente, ulei, frișcă, piept de pui.",
+          "description": {
+            "en": "Onion, mushrooms, spices, oil, cream, chicken breast.",
+            "ro": "Ceapă, ciuperci, condimente, ulei, frișcă, piept de pui.",
+            "ru": "Лук, грибы, специи, масло, сливки, куриная грудка."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -364,7 +448,11 @@
           },
           "portion": "300 gr",
           "price": "70",
-          "description": "Ceapă, cartof, ciuperci, condimente.",
+          "description": {
+            "en": "Onion, potato, mushrooms, spices.",
+            "ro": "Ceapă, cartof, ciuperci, condimente.",
+            "ru": "Лук, картофель, грибы, специи."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -380,7 +468,11 @@
           },
           "portion": "300 gr",
           "price": "85",
-          "description": "Morcov, ardei, rădăcină de țelină, orez, perișoare, cartof, condimente.",
+          "description": {
+            "en": "Carrot, pepper, celery root, rice, meatballs, potato, spices.",
+            "ro": "Morcov, ardei, rădăcină de țelină, orez, perișoare, cartof, condimente.",
+            "ru": "Морковь, перец, корень сельдерея, рис, фрикадельки, картофель, специи."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -396,7 +488,11 @@
           },
           "portion": "300 gr",
           "price": "70",
-          "description": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, carne de porc, pastă de tomate, verdeață.",
+          "description": {
+            "en": "Carrot, celery root, pepper, cabbage, beetroot tomato, potato, spices, pork, tomato paste, herbs.",
+            "ro": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, carne de porc, pastă de tomate, verdeață.",
+            "ru": "Морковь, корень сельдерея, перец, капуста, свёкла помидор, картофель, специи, свинина, томатная паста, зелень."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -412,7 +508,11 @@
           },
           "portion": "300 gr",
           "price": "65",
-          "description": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, fasole, pastă de tomate, verdeață.",
+          "description": {
+            "en": "Carrot, celery root, pepper, cabbage, beetroot tomato, potato, spices, beans, tomato paste, herbs.",
+            "ro": "Morcov, rădăcină de țelină, ardei, varză, sfeclă roșie, cartof, condimente, fasole, pastă de tomate, verdeață.",
+            "ru": "Морковь, корень сельдерея, перец, капуста, свёкла помидор, картофель, специи, фасоль, томатная паста, зелень."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -428,7 +528,11 @@
           },
           "portion": "300 gr",
           "price": "75",
-          "description": "Lămâie, măsline, castraveți murați, ceapă, asorti de salamuri afumate, condimente, pastă de tomate, verdeață.",
+          "description": {
+            "en": "Lemon, olives, pickles, onion, assorted of smoked sausages, spices, tomato paste, herbs.",
+            "ro": "Lămâie, măsline, castraveți murați, ceapă, asorti de salamuri afumate, condimente, pastă de tomate, verdeață.",
+            "ru": "Лимон, оливки, маринованные огурцы, лук, ассорти из копчёные колбасы, специи, томатная паста, зелень."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -444,7 +548,11 @@
           },
           "portion": "300 gr",
           "price": "80",
-          "description": "Mazăre, morcov, ardei, ceapă, bacon, verdeață, condimente.",
+          "description": {
+            "en": "Peas, carrot, pepper, onion, bacon, herbs, spices.",
+            "ro": "Mazăre, morcov, ardei, ceapă, bacon, verdeață, condimente.",
+            "ru": "Горох, морковь, перец, лук, бекон, зелень, специи."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -460,7 +568,11 @@
           },
           "portion": "300 gr",
           "price": "70",
-          "description": "Mazăre, morcov, ardei, ceapă, cartof, verdeață, condimente.",
+          "description": {
+            "en": "Peas, carrot, pepper, onion, potato, herbs, spices.",
+            "ro": "Mazăre, morcov, ardei, ceapă, cartof, verdeață, condimente.",
+            "ru": "Горох, морковь, перец, лук, картофель, зелень, специи."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -476,7 +588,11 @@
           },
           "portion": "400 gr",
           "price": "120",
-          "description": "Ouă, bostănel, morcov, roșii, ardei, usturoi, ulei, condimente.",
+          "description": {
+            "en": "Eggs, zucchini, carrot, tomatoes, pepper, garlic, oil, spices.",
+            "ro": "Ouă, bostănel, morcov, roșii, ardei, usturoi, ulei, condimente.",
+            "ru": "Яйца, кабачок, морковь, помидоры, перец, чеснок, масло, специи."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -492,7 +608,11 @@
           },
           "portion": "250 gr",
           "price": "100",
-          "description": "Ouă, șuncă, roșii, cașcaval, condimente, smântână.",
+          "description": {
+            "en": "Eggs, ham, tomatoes, cheese, spices, sour cream.",
+            "ro": "Ouă, șuncă, roșii, cașcaval, condimente, smântână.",
+            "ru": "Яйца, ветчина, помидоры, сыр, специи, сметана."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -508,7 +628,11 @@
           },
           "portion": "250 gr",
           "price": "90",
-          "description": "Ouă, cașcaval, condimente, smântână.",
+          "description": {
+            "en": "Eggs, cheese, spices, sour cream.",
+            "ro": "Ouă, cașcaval, condimente, smântână.",
+            "ru": "Яйца, сыр, специи, сметана."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -524,7 +648,11 @@
           },
           "portion": "150 gr",
           "price": "80",
-          "description": "Ouă, condimente, brânză de oi.",
+          "description": {
+            "en": "Eggs, spices, sheep's cheese.",
+            "ro": "Ouă, condimente, brânză de oi.",
+            "ru": "Яйца, специи, овечий сыр."
+          },
           "section": {
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
@@ -550,7 +678,11 @@
           },
           "portion": "300 gr",
           "price": "50",
-          "description": "Brânză, verdeață, ulei.",
+          "description": {
+            "en": "Cheese, herbs, oil.",
+            "ro": "Brânză, verdeață, ulei.",
+            "ru": "Сыр, зелень, масло."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -566,7 +698,11 @@
           },
           "portion": "300 gr",
           "price": "70",
-          "description": "Cașcaval, ulei.",
+          "description": {
+            "en": "Cheese, oil.",
+            "ro": "Cașcaval, ulei.",
+            "ru": "Сыр, масло."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -582,7 +718,11 @@
           },
           "portion": "300 gr",
           "price": "50",
-          "description": "Cartofi, condimente, ulei.",
+          "description": {
+            "en": "Potatoes, spices, oil.",
+            "ro": "Cartofi, condimente, ulei.",
+            "ru": "Картофель, специи, масло."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -598,7 +738,11 @@
           },
           "portion": "300 gr",
           "price": "50",
-          "description": "Varză proaspătă, condiment, ulei.",
+          "description": {
+            "en": "Cabbage fresh, seasoning, oil.",
+            "ro": "Varză proaspătă, condiment, ulei.",
+            "ru": "Капуста свежая, приправа, масло."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -614,7 +758,11 @@
           },
           "portion": "300 gr",
           "price": "70",
-          "description": "Vișină înghețată, ulei, zahăr pudră.",
+          "description": {
+            "en": "Sour cherry ice cream, oil, powdered sugar.",
+            "ro": "Vișină înghețată, ulei, zahăr pudră.",
+            "ru": "Вишня мороженое, масло, сахарная пудра."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -630,7 +778,11 @@
           },
           "portion": "300 gr",
           "price": "50",
-          "description": "Măr / bostan, ulei, zahăr pudră.",
+          "description": {
+            "en": "Apple / pumpkin, oil, powdered sugar.",
+            "ro": "Măr / bostan, ulei, zahăr pudră.",
+            "ru": "Яблоко / тыква, масло, сахарная пудра."
+          },
           "section": {
             "en": "Pies",
             "ro": "Plăcinte",
@@ -646,7 +798,11 @@
           },
           "portion": "500 gr",
           "price": "315",
-          "description": "Aluat, carne tocată, cașcaval, ou, smântână, parmezan, ceapă, condimente, usturoi.",
+          "description": {
+            "en": "Dough, minced meat, cheese, egg, sour cream, Parmesan, onion, spices, garlic.",
+            "ro": "Aluat, carne tocată, cașcaval, ou, smântână, parmezan, ceapă, condimente, usturoi.",
+            "ru": "Тесто, мясной фарш, сыр, яйцо, сметана, пармезан, лук, специи, чеснок."
+          },
           "section": {
             "en": "Khachapuri",
             "ro": "Khachapuri",
@@ -662,7 +818,11 @@
           },
           "portion": "500 gr",
           "price": "235",
-          "description": "Aluat, brânză, verdeață, ulei, ou, cașcaval, smântână, parmezan.",
+          "description": {
+            "en": "Dough, cheese, herbs, oil, egg, cheese, sour cream, Parmesan.",
+            "ro": "Aluat, brânză, verdeață, ulei, ou, cașcaval, smântână, parmezan.",
+            "ru": "Тесто, сыр, зелень, масло, яйцо, сыр, сметана, пармезан."
+          },
           "section": {
             "en": "Khachapuri",
             "ro": "Khachapuri",
@@ -678,7 +838,11 @@
           },
           "portion": "500 gr",
           "price": "190",
-          "description": "Aluat, cartofi fierți, ceapă, ulei, ou, smântână, cașcaval, parmezan.",
+          "description": {
+            "en": "Dough, boiled potatoes, onion, oil, egg, sour cream, cheese, Parmesan.",
+            "ro": "Aluat, cartofi fierți, ceapă, ulei, ou, smântână, cașcaval, parmezan.",
+            "ru": "Тесто, отварной картофель, лук, масло, яйцо, сметана, сыр, пармезан."
+          },
           "section": {
             "en": "Khachapuri",
             "ro": "Khachapuri",
@@ -694,7 +858,11 @@
           },
           "portion": "300 gr",
           "price": "95",
-          "description": "Clătite, cartof, ciuperci, condimente, smântână.",
+          "description": {
+            "en": "Pancakes, potato, mushrooms, spices, sour cream.",
+            "ro": "Clătite, cartof, ciuperci, condimente, smântână.",
+            "ru": "Блины, картофель, грибы, специи, сметана."
+          },
           "section": {
             "en": "Pancakes",
             "ro": "Clătite",
@@ -710,7 +878,11 @@
           },
           "portion": "300 gr",
           "price": "120",
-          "description": "Clătite, piept de pui, ciuperci, cașcaval, condimente, frișcă.",
+          "description": {
+            "en": "Pancakes, chicken breast, mushrooms, cheese, spices, cream.",
+            "ro": "Clătite, piept de pui, ciuperci, cașcaval, condimente, frișcă.",
+            "ru": "Блины, куриная грудка, грибы, сыр, специи, сливки."
+          },
           "section": {
             "en": "Pancakes",
             "ro": "Clătite",
@@ -736,7 +908,11 @@
           },
           "portion": "200 gr",
           "price": "180",
-          "description": "Ciuperci, bostănel, măsline, lămâie, crap, făină de porumb, condimente.",
+          "description": {
+            "en": "Mushrooms, zucchini, olives, lemon, carp, cornmeal, spices.",
+            "ro": "Ciuperci, bostănel, măsline, lămâie, crap, făină de porumb, condimente.",
+            "ru": "Грибы, кабачок, оливки, лимон, карп, кукурузная мука, специи."
+          },
           "section": {
             "en": "Fish dishes",
             "ro": "Preparate din pește",
@@ -752,7 +928,11 @@
           },
           "portion": "250 gr",
           "price": "350",
-          "description": "Bostănel, ciuperci, măsline, lămâie, condimente, somon.",
+          "description": {
+            "en": "Zucchini, mushrooms, olives, lemon, spices, salmon.",
+            "ro": "Bostănel, ciuperci, măsline, lămâie, condimente, somon.",
+            "ru": "Кабачок, грибы, оливки, лимон, специи, лосось."
+          },
           "section": {
             "en": "Fish dishes",
             "ro": "Preparate din pește",
@@ -768,7 +948,11 @@
           },
           "portion": "350 gr",
           "price": "330",
-          "description": "Bostănel, ciuperci, măsline, lămâie, dorada, condimente.",
+          "description": {
+            "en": "Zucchini, mushrooms, olives, lemon, sea bream, spices.",
+            "ro": "Bostănel, ciuperci, măsline, lămâie, dorada, condimente.",
+            "ru": "Кабачок, грибы, оливки, лимон, дорада, специи."
+          },
           "section": {
             "en": "Fish dishes",
             "ro": "Preparate din pește",
@@ -784,7 +968,11 @@
           },
           "portion": "400 gr",
           "price": "180",
-          "description": "Orez, creveți, condimente, frișcă, unt, sos pesto.",
+          "description": {
+            "en": "Rice, shrimp, spices, cream, butter, sauce pesto.",
+            "ro": "Orez, creveți, condimente, frișcă, unt, sos pesto.",
+            "ru": "Рис, креветки, специи, сливки, сливочное масло, соус песто."
+          },
           "section": {
             "en": "Fish dishes",
             "ro": "Preparate din pește",
@@ -800,7 +988,11 @@
           },
           "portion": "300 gr",
           "price": "150",
-          "description": "Piept de pui, vânătă, bostănel, morcov, sos picant, verdeață.",
+          "description": {
+            "en": "Chicken breast, eggplant, zucchini, carrot, sauce spicy, herbs.",
+            "ro": "Piept de pui, vânătă, bostănel, morcov, sos picant, verdeață.",
+            "ru": "Куриная грудка, баклажан, кабачок, морковь, соус острый, зелень."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -816,7 +1008,11 @@
           },
           "portion": "300 gr",
           "price": "150",
-          "description": "Piept de pui, ciuperci, condimente, cașcaval, frișcă, mazăre, oregano.",
+          "description": {
+            "en": "Chicken breast, mushrooms, spices, cheese, cream, peas, oregano.",
+            "ro": "Piept de pui, ciuperci, condimente, cașcaval, frișcă, mazăre, oregano.",
+            "ru": "Куриная грудка, грибы, специи, сыр, сливки, горох, орегано."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -832,7 +1028,11 @@
           },
           "portion": "580 gr",
           "price": "400",
-          "description": "Carne de porc, vită, pui, roșii cherry, bostănel, ciuperci, verdeață.",
+          "description": {
+            "en": "Pork, beef, chicken, tomatoes cherry, zucchini, mushrooms, herbs.",
+            "ro": "Carne de porc, vită, pui, roșii cherry, bostănel, ciuperci, verdeață.",
+            "ru": "Свинина, говядина, курица, помидоры вишня, кабачок, грибы, зелень."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -848,7 +1048,11 @@
           },
           "portion": "350 gr",
           "price": "150",
-          "description": "Cartofi, carne de porc, ou, condimente, cașcaval, mărar.",
+          "description": {
+            "en": "Potatoes, pork, egg, spices, cheese, dill.",
+            "ro": "Cartofi, carne de porc, ou, condimente, cașcaval, mărar.",
+            "ru": "Картофель, свинина, яйцо, специи, сыр, укроп."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -864,7 +1068,11 @@
           },
           "portion": "300 gr",
           "price": "160",
-          "description": "Carne de vită, vânătă, bostănel, morcov, sos picant, verdeață.",
+          "description": {
+            "en": "Beef, eggplant, zucchini, carrot, sauce spicy, herbs.",
+            "ro": "Carne de vită, vânătă, bostănel, morcov, sos picant, verdeață.",
+            "ru": "Говядина, баклажан, кабачок, морковь, соус острый, зелень."
+          },
           "section": {
             "en": "Skillet dishes",
             "ro": "Preparate la tigaie",
@@ -880,7 +1088,11 @@
           },
           "portion": "500 gr",
           "price": "150",
-          "description": "Cartofi fri, piept pui, wraps, ceapă marinată, spanac, sos, tartar, condimente, ulei.",
+          "description": {
+            "en": "French fries, breast chicken, wraps, onion marinated, spinach, sauce, tartar, spices, oil.",
+            "ro": "Cartofi fri, piept pui, wraps, ceapă marinată, spanac, sos, tartar, condimente, ulei.",
+            "ru": "Картофель фри, грудка курица, лепёшки, лук маринованная, шпинат, соус, тартар, специи, масло."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -896,7 +1108,11 @@
           },
           "portion": "200 gr",
           "price": "150",
-          "description": "Piept de pui, bostănel, ciuperci, condimente.",
+          "description": {
+            "en": "Chicken breast, zucchini, mushrooms, spices.",
+            "ro": "Piept de pui, bostănel, ciuperci, condimente.",
+            "ru": "Куриная грудка, кабачок, грибы, специи."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -912,7 +1128,11 @@
           },
           "portion": "500 gr",
           "price": "160",
-          "description": "Piept de pui, cartofi, ceapă, morcov, ardei dulce, cașcaval, frișcă, condimente, verdeață.",
+          "description": {
+            "en": "Chicken breast, potatoes, onion, carrot, sweet pepper, cheese, cream, spices, herbs.",
+            "ro": "Piept de pui, cartofi, ceapă, morcov, ardei dulce, cașcaval, frișcă, condimente, verdeață.",
+            "ru": "Куриная грудка, картофель, лук, морковь, сладкий перец, сыр, сливки, специи, зелень."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -928,7 +1148,11 @@
           },
           "portion": "250 gr",
           "price": "150",
-          "description": "Piept de pui, bostănel, ardei, condimente, ketchup.",
+          "description": {
+            "en": "Chicken breast, zucchini, pepper, spices, ketchup.",
+            "ro": "Piept de pui, bostănel, ardei, condimente, ketchup.",
+            "ru": "Куриная грудка, кабачок, перец, специи, кетчуп."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -944,7 +1168,11 @@
           },
           "portion": "450 gr",
           "price": "150",
-          "description": "Mămăligă (unt, ulei, sare, făină de porumb), brânză de oi, scrob, smântână, carne de pui, ceapă.",
+          "description": {
+            "en": "Polenta (butter, oil, salt, cornmeal), sheep's cheese, scrambled eggs, sour cream, chicken, onion.",
+            "ro": "Mămăligă (unt, ulei, sare, făină de porumb), brânză de oi, scrob, smântână, carne de pui, ceapă.",
+            "ru": "Мамалыга (сливочное масло, масло, соль, кукурузная мука), овечий сыр, яичница, сметана, курица, лук."
+          },
           "section": {
             "en": "Chicken dishes",
             "ro": "Preparate din pui",
@@ -960,7 +1188,11 @@
           },
           "portion": "200 gr",
           "price": "240",
-          "description": "Carne de vită, ulei, condimente.",
+          "description": {
+            "en": "Beef, oil, spices.",
+            "ro": "Carne de vită, ulei, condimente.",
+            "ru": "Говядина, масло, специи."
+          },
           "section": {
             "en": "Beef dishes",
             "ro": "Preparate din vită",
@@ -976,7 +1208,11 @@
           },
           "portion": "450 gr",
           "price": "160",
-          "description": "Mămăligă, brânză de oi, scrob, smântână, carne de vită, ceapă.",
+          "description": {
+            "en": "Polenta, sheep's cheese, scrambled eggs, sour cream, beef, onion.",
+            "ro": "Mămăligă, brânză de oi, scrob, smântână, carne de vită, ceapă.",
+            "ru": "Мамалыга, овечий сыр, яичница, сметана, говядина, лук."
+          },
           "section": {
             "en": "Beef dishes",
             "ro": "Preparate din vită",
@@ -992,7 +1228,11 @@
           },
           "portion": "450 gr",
           "price": "150",
-          "description": "Mămăligă, brânză de oi, smântână, carne de porc, ceapă, scrob.",
+          "description": {
+            "en": "Polenta, sheep's cheese, sour cream, pork, onion, scrambled eggs.",
+            "ro": "Mămăligă, brânză de oi, smântână, carne de porc, ceapă, scrob.",
+            "ru": "Мамалыга, овечий сыр, сметана, свинина, лук, яичница."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1008,7 +1248,11 @@
           },
           "portion": "200 gr",
           "price": "150",
-          "description": "Ceafă de porc, condimente.",
+          "description": {
+            "en": "Pork neck of pork, spices.",
+            "ro": "Ceafă de porc, condimente.",
+            "ru": "Свиная шея из свинина, специи."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1024,7 +1268,11 @@
           },
           "portion": "250 gr",
           "price": "150",
-          "description": "Costiță de porc, condimente, mujdei.",
+          "description": {
+            "en": "Ribs of pork, spices, garlic sauce.",
+            "ro": "Costiță de porc, condimente, mujdei.",
+            "ru": "Рёбрышки из свинина, специи, чесночный соус."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1040,7 +1288,11 @@
           },
           "portion": "1 buc",
           "price": "350",
-          "description": "Ciolan de porc, varză murată, condimente.",
+          "description": {
+            "en": "Pork knuckle of pork, cabbage pickled, spices.",
+            "ro": "Ciolan de porc, varză murată, condimente.",
+            "ru": "Свиная рулька из свинина, капуста маринованная, специи."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1056,7 +1308,11 @@
           },
           "portion": "500 gr",
           "price": "160",
-          "description": "Carne de porc, cartofi, ceapă, ardei dulce, cașcaval, morcov, frișcă, condimente.",
+          "description": {
+            "en": "Pork, potatoes, onion, sweet pepper, cheese, carrot, cream, spices.",
+            "ro": "Carne de porc, cartofi, ceapă, ardei dulce, cașcaval, morcov, frișcă, condimente.",
+            "ru": "Свинина, картофель, лук, сладкий перец, сыр, морковь, сливки, специи."
+          },
           "section": {
             "en": "Pork dishes",
             "ro": "Preparate din porc",
@@ -1082,7 +1338,11 @@
           },
           "portion": "250 gr",
           "price": "50",
-          "description": "Cartof, unt, condimente.",
+          "description": {
+            "en": "Potato, butter, spices.",
+            "ro": "Cartof, unt, condimente.",
+            "ru": "Картофель, сливочное масло, специи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1098,7 +1358,11 @@
           },
           "portion": "200 gr",
           "price": "50",
-          "description": "Cartof, usturoi, ceapă, condimente.",
+          "description": {
+            "en": "Potato, garlic, onion, spices.",
+            "ro": "Cartof, usturoi, ceapă, condimente.",
+            "ru": "Картофель, чеснок, лук, специи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1114,7 +1378,11 @@
           },
           "portion": "150 gr",
           "price": "50",
-          "description": "Cartof, condimente.",
+          "description": {
+            "en": "Potato, spices.",
+            "ro": "Cartof, condimente.",
+            "ru": "Картофель, специи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1130,7 +1398,11 @@
           },
           "portion": "250 gr",
           "price": "50",
-          "description": "Mămăligă (ulei, unt, sare, făină de porumb), brânză de oi, smântână.",
+          "description": {
+            "en": "Polenta (oil, butter, salt, cornmeal), sheep's cheese, sour cream.",
+            "ro": "Mămăligă (ulei, unt, sare, făină de porumb), brânză de oi, smântână.",
+            "ru": "Мамалыга (масло, сливочное масло, соль, кукурузная мука), овечий сыр, сметана."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1146,7 +1418,11 @@
           },
           "portion": "200 gr",
           "price": "60",
-          "description": "Orez, morcov, bostănel, ardei dulce, porumb, condimente.",
+          "description": {
+            "en": "Rice, carrot, zucchini, sweet pepper, corn, spices.",
+            "ro": "Orez, morcov, bostănel, ardei dulce, porumb, condimente.",
+            "ru": "Рис, морковь, кабачок, сладкий перец, кукуруза, специи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1162,7 +1438,11 @@
           },
           "portion": "280 gr",
           "price": "100",
-          "description": "Cartof, păstăi, ardei dulce, morcov, condimente.",
+          "description": {
+            "en": "Potato, green beans, sweet pepper, carrot, spices.",
+            "ro": "Cartof, păstăi, ardei dulce, morcov, condimente.",
+            "ru": "Картофель, стручковая фасоль, сладкий перец, морковь, специи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1178,7 +1458,11 @@
           },
           "portion": "250 gr",
           "price": "65",
-          "description": "Cartof, usturoi, ceapă, ciuperci/păstări, condimente.",
+          "description": {
+            "en": "Potato, garlic, onion, mushrooms/green beans, spices.",
+            "ro": "Cartof, usturoi, ceapă, ciuperci/păstări, condimente.",
+            "ru": "Картофель, чеснок, лук, грибы/стручковая фасоль, специи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1194,7 +1478,11 @@
           },
           "portion": "200 gr",
           "price": "80",
-          "description": "Ardei, ciuperci, bostănel, roșii, ceapă, broccoli.",
+          "description": {
+            "en": "Pepper, mushrooms, zucchini, tomatoes, onion, broccoli.",
+            "ro": "Ardei, ciuperci, bostănel, roșii, ceapă, broccoli.",
+            "ru": "Перец, грибы, кабачок, помидоры, лук, брокколи."
+          },
           "section": {
             "en": "Side dishes",
             "ro": "Garnituri",
@@ -1595,7 +1883,11 @@
           },
           "portion": "370 gr",
           "price": "140",
-          "description": "Spaghetti, carne tocată (vită, porc), rădăcină de țelină, condimente, pastă de tomate, parmezan.",
+          "description": {
+            "en": "Spaghetti, minced meat (beef, pork), celery root, spices, tomato paste, Parmesan.",
+            "ro": "Spaghetti, carne tocată (vită, porc), rădăcină de țelină, condimente, pastă de tomate, parmezan.",
+            "ru": "Спагетти, мясной фарш (говядина, свинина), корень сельдерея, специи, томатная паста, пармезан."
+          },
           "section": {
             "en": "Pasta",
             "ro": "Paste",
@@ -1611,7 +1903,11 @@
           },
           "portion": "370 gr",
           "price": "140",
-          "description": "Tagliatelle, ciuperci, frișcă, condimente, parmezan.",
+          "description": {
+            "en": "Tagliatelle, mushrooms, cream, spices, Parmesan.",
+            "ro": "Tagliatelle, ciuperci, frișcă, condimente, parmezan.",
+            "ru": "Тальятелле, грибы, сливки, специи, пармезан."
+          },
           "section": {
             "en": "Pasta",
             "ro": "Paste",
@@ -1627,7 +1923,11 @@
           },
           "portion": "400 gr",
           "price": "140",
-          "description": "Spaghetti, frișcă, bacon, parmezan, usturoi, condimente.",
+          "description": {
+            "en": "Spaghetti, cream, bacon, Parmesan, garlic, spices.",
+            "ro": "Spaghetti, frișcă, bacon, parmezan, usturoi, condimente.",
+            "ru": "Спагетти, сливки, бекон, пармезан, чеснок, специи."
+          },
           "section": {
             "en": "Pasta",
             "ro": "Paste",
@@ -1643,7 +1943,11 @@
           },
           "portion": "420 gr",
           "price": "210",
-          "description": "Sos, creveți, ceapă roșie, cașcaval, rucola.",
+          "description": {
+            "en": "Sauce, shrimp, onion tomato, cheese, arugula.",
+            "ro": "Sos, creveți, ceapă roșie, cașcaval, rucola.",
+            "ru": "Соус, креветки, лук помидор, сыр, руккола."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1659,7 +1963,11 @@
           },
           "portion": "420 gr",
           "price": "150",
-          "description": "Sos, salam, șuncă, bacon, ciuperci, ardei dulce, cașcaval.",
+          "description": {
+            "en": "Sauce, salami, ham, bacon, mushrooms, sweet pepper, cheese.",
+            "ro": "Sos, salam, șuncă, bacon, ciuperci, ardei dulce, cașcaval.",
+            "ru": "Соус, салями, ветчина, бекон, грибы, сладкий перец, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1675,7 +1983,11 @@
           },
           "portion": "420 gr",
           "price": "135",
-          "description": "Sos, șuncă, ciuperci, roșii proaspete, cașcaval.",
+          "description": {
+            "en": "Sauce, ham, mushrooms, fresh tomatoes, cheese.",
+            "ro": "Sos, șuncă, ciuperci, roșii proaspete, cașcaval.",
+            "ru": "Соус, ветчина, грибы, свежие помидоры, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1691,7 +2003,11 @@
           },
           "portion": "350 gr",
           "price": "135",
-          "description": "Sos, salam, porumb conservat, ardei dulce, cașcaval.",
+          "description": {
+            "en": "Sauce, salami, corn canned, sweet pepper, cheese.",
+            "ro": "Sos, salam, porumb conservat, ardei dulce, cașcaval.",
+            "ru": "Соус, салями, кукуруза консервированный, сладкий перец, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1707,7 +2023,11 @@
           },
           "portion": "350 gr",
           "price": "135",
-          "description": "Sos, șuncă, măsline, ciuperci, cașcaval.",
+          "description": {
+            "en": "Sauce, ham, olives, mushrooms, cheese.",
+            "ro": "Sos, șuncă, măsline, ciuperci, cașcaval.",
+            "ru": "Соус, ветчина, оливки, грибы, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1723,7 +2043,11 @@
           },
           "portion": "350 gr",
           "price": "135",
-          "description": "Sos, șuncă, brânză, vinete, usturoi, cașcaval.",
+          "description": {
+            "en": "Sauce, ham, cheese, eggplant, garlic, cheese.",
+            "ro": "Sos, șuncă, brânză, vinete, usturoi, cașcaval.",
+            "ru": "Соус, ветчина, сыр, баклажаны, чеснок, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1739,7 +2063,11 @@
           },
           "portion": "420 gr",
           "price": "140",
-          "description": "Sos, șuncă, ananas, ceapă roșie, cașcaval.",
+          "description": {
+            "en": "Sauce, ham, pineapple, onion tomato, cheese.",
+            "ro": "Sos, șuncă, ananas, ceapă roșie, cașcaval.",
+            "ru": "Соус, ветчина, ананас, лук помидор, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1755,7 +2083,11 @@
           },
           "portion": "400 gr",
           "price": "135",
-          "description": "Sos, ardei dulce, ciuperci, piept de pui, cașcaval.",
+          "description": {
+            "en": "Sauce, sweet pepper, mushrooms, chicken breast, cheese.",
+            "ro": "Sos, ardei dulce, ciuperci, piept de pui, cașcaval.",
+            "ru": "Соус, сладкий перец, грибы, куриная грудка, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1771,7 +2103,11 @@
           },
           "portion": "430 gr",
           "price": "135",
-          "description": "Sos, piept de pui, ciuperci, porumb conservat, cașcaval, ardei dulce.",
+          "description": {
+            "en": "Sauce, chicken breast, mushrooms, corn canned, cheese, sweet pepper.",
+            "ro": "Sos, piept de pui, ciuperci, porumb conservat, cașcaval, ardei dulce.",
+            "ru": "Соус, куриная грудка, грибы, кукуруза консервированный, сыр, сладкий перец."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1787,7 +2123,11 @@
           },
           "portion": "370 gr",
           "price": "180",
-          "description": "Frișcă, cașcaval dorblu, mozzarella, parmezan.",
+          "description": {
+            "en": "Cream, Dorblu cheese, mozzarella, Parmesan.",
+            "ro": "Frișcă, cașcaval dorblu, mozzarella, parmezan.",
+            "ru": "Сливки, сыр дорблю, моцарелла, пармезан."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1803,7 +2143,11 @@
           },
           "portion": "380 gr",
           "price": "135",
-          "description": "Sos, ardei dulce, roșii proaspete, măsline, porumb conservat, ciuperci, cașcaval.",
+          "description": {
+            "en": "Sauce, sweet pepper, fresh tomatoes, olives, corn canned, mushrooms, cheese.",
+            "ro": "Sos, ardei dulce, roșii proaspete, măsline, porumb conservat, ciuperci, cașcaval.",
+            "ru": "Соус, сладкий перец, свежие помидоры, оливки, кукуруза консервированный, грибы, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1819,7 +2163,11 @@
           },
           "portion": "180 gr",
           "price": "80",
-          "description": "Oregano, sare de mare, ulei de măsline.",
+          "description": {
+            "en": "Oregano, sea salt, olive oil.",
+            "ro": "Oregano, sare de mare, ulei de măsline.",
+            "ru": "Орегано, морская соль, оливковое масло."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1835,7 +2183,11 @@
           },
           "portion": "350 gr",
           "price": "100",
-          "description": "Sos, cașcaval.",
+          "description": {
+            "en": "Sauce, cheese.",
+            "ro": "Sos, cașcaval.",
+            "ru": "Соус, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1851,7 +2203,11 @@
           },
           "portion": "450 gr",
           "price": "140",
-          "description": "Sos, salami, porumb conservat, ardei iute, cașcaval.",
+          "description": {
+            "en": "Sauce, salami, corn canned, hot pepper, cheese.",
+            "ro": "Sos, salami, porumb conservat, ardei iute, cașcaval.",
+            "ru": "Соус, салями, кукуруза консервированный, острый перец, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1867,7 +2223,11 @@
           },
           "portion": "850 gr",
           "price": "250",
-          "description": "Sos, ciuperci, șuncă, salam, ardei dulce, porumb conservat, măsline, piept de pui, cașcaval.",
+          "description": {
+            "en": "Sauce, mushrooms, ham, salami, sweet pepper, corn canned, olives, chicken breast, cheese.",
+            "ro": "Sos, ciuperci, șuncă, salam, ardei dulce, porumb conservat, măsline, piept de pui, cașcaval.",
+            "ru": "Соус, грибы, ветчина, салями, сладкий перец, кукуруза консервированный, оливки, куриная грудка, сыр."
+          },
           "section": {
             "en": "Pizza",
             "ro": "Pizza",
@@ -1883,7 +2243,11 @@
           },
           "portion": "300 gr",
           "price": "100",
-          "description": "Chiflă, ketchup, frunză de salată, pârjoală (morcov, cartof, bostănel), cartofi pai.",
+          "description": {
+            "en": "Bun, ketchup, lettuce leaf, patty (carrot, potato, zucchini), French fries.",
+            "ro": "Chiflă, ketchup, frunză de salată, pârjoală (morcov, cartof, bostănel), cartofi pai.",
+            "ru": "Булочка, кетчуп, лист салата, котлета (морковь, картофель, кабачок), картофель фри."
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -1899,7 +2263,11 @@
           },
           "portion": "300 gr",
           "price": "130",
-          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cartofi pai, ketchup.",
+          "description": {
+            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, patty, French fries, ketchup.",
+            "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cartofi pai, ketchup.",
+            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, котлета, картофель фри, кетчуп."
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -1915,7 +2283,11 @@
           },
           "portion": "300 gr",
           "price": "115",
-          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cartofi pai, ketchup.",
+          "description": {
+            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, steak chicken, French fries, ketchup.",
+            "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cartofi pai, ketchup.",
+            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, стейк курица, картофель фри, кетчуп."
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -1931,7 +2303,11 @@
           },
           "portion": "320 gr",
           "price": "125",
-          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cașcaval, cartofi pai, ketchup.",
+          "description": {
+            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, steak chicken, cheese, French fries, ketchup.",
+            "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, steak pui, cașcaval, cartofi pai, ketchup.",
+            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, стейк курица, сыр, картофель фри, кетчуп."
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -1947,7 +2323,11 @@
           },
           "portion": "320 gr",
           "price": "140",
-          "description": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cașcaval, cartofi pai, ketchup.",
+          "description": {
+            "en": "Bun, tartar sauce, lettuce leaf, pickles, tomatoes, patty, cheese, French fries, ketchup.",
+            "ro": "Chiflă, sos tartar, frunză de salată, castraveți murați, roșii, pârjoală, cașcaval, cartofi pai, ketchup.",
+            "ru": "Булочка, соус тартар, лист салата, маринованные огурцы, помидоры, котлета, сыр, картофель фри, кетчуп."
+          },
           "section": {
             "en": "Burgers",
             "ro": "Burgeri",
@@ -1973,7 +2353,11 @@
           },
           "portion": "250 gr",
           "price": "110",
-          "description": "Înghețată albă, ou, cereale, miere, caramelă.",
+          "description": {
+            "en": "Ice cream white, egg, cereal, honey, caramel.",
+            "ro": "Înghețată albă, ou, cereale, miere, caramelă.",
+            "ru": "Мороженое белая, яйцо, хлопья, мёд, карамель."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -1989,7 +2373,11 @@
           },
           "portion": "1 kg",
           "price": "250",
-          "description": "Ananas, banană, portocale, struguri, grapefruit.",
+          "description": {
+            "en": "Pineapple, banana, oranges, grapes, grapefruit.",
+            "ro": "Ananas, banană, portocale, struguri, grapefruit.",
+            "ru": "Ананас, банан, апельсины, виноград, грейпфрут."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2005,7 +2393,11 @@
           },
           "portion": "200 gr",
           "price": "110",
-          "description": "Ou, cream cheese, unt, biscuiți.",
+          "description": {
+            "en": "Egg, cream cheese, butter, biscuits.",
+            "ro": "Ou, cream cheese, unt, biscuiți.",
+            "ru": "Яйцо, сливочный сыр, сливочное масло, печенье."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2021,7 +2413,11 @@
           },
           "portion": "150 gr",
           "price": "100",
-          "description": "Frișcă, ou, cafea, rum, cacao, mascarpone, zahăr, pișcot.",
+          "description": {
+            "en": "Cream, egg, coffee, rum, cocoa, mascarpone, sugar, ladyfinger biscuit.",
+            "ro": "Frișcă, ou, cafea, rum, cacao, mascarpone, zahăr, pișcot.",
+            "ru": "Сливки, яйцо, кофе, ром, какао, маскарпоне, сахар, печенье савоярди."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2037,7 +2433,11 @@
           },
           "portion": "250 gr",
           "price": "100",
-          "description": "Ou, făină de grâu, măr, smântână, dulceață de fructe, înghețată albă, zahăr pudră, nucă.",
+          "description": {
+            "en": "Egg, wheat flour, apple, sour cream, jam of fruit, ice cream white, powdered sugar, walnut.",
+            "ro": "Ou, făină de grâu, măr, smântână, dulceață de fructe, înghețată albă, zahăr pudră, nucă.",
+            "ru": "Яйцо, пшеничная мука, яблоко, сметана, варенье из фрукты, мороженое белая, сахарная пудра, грецкий орех."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2053,7 +2453,11 @@
           },
           "portion": "250 gr",
           "price": "120",
-          "description": "Clătite, vișină, frișcă, ciocolată.",
+          "description": {
+            "en": "Pancakes, sour cherry, cream, chocolate.",
+            "ro": "Clătite, vișină, frișcă, ciocolată.",
+            "ru": "Блины, вишня, сливки, шоколад."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2069,7 +2473,11 @@
           },
           "portion": "160/10 gr",
           "price": "100",
-          "description": "Brânză, ou, vișină, miere, zahăr pudră.",
+          "description": {
+            "en": "Cheese, egg, sour cherry, honey, powdered sugar.",
+            "ro": "Brânză, ou, vișină, miere, zahăr pudră.",
+            "ru": "Сыр, яйцо, вишня, мёд, сахарная пудра."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2090,7 +2498,11 @@
           },
           "portion": "250 gr",
           "price": "110",
-          "description": "Clătite, brânză, stafide, caramelă, zahăr pudră.",
+          "description": {
+            "en": "Pancakes, cheese, raisins, caramel, powdered sugar.",
+            "ro": "Clătite, brânză, stafide, caramelă, zahăr pudră.",
+            "ru": "Блины, сыр, изюм, карамель, сахарная пудра."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2106,7 +2518,11 @@
           },
           "portion": "250 gr",
           "price": "50",
-          "description": "Măr, miez de nucă, dulceață de fructe, zahăr pudră.",
+          "description": {
+            "en": "Apple, walnut kernels, jam of fruit, powdered sugar.",
+            "ro": "Măr, miez de nucă, dulceață de fructe, zahăr pudră.",
+            "ru": "Яблоко, ядра грецкого ореха, варенье из фрукты, сахарная пудра."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2122,7 +2538,11 @@
           },
           "portion": "250 gr",
           "price": "75",
-          "description": "Banană, portocală, strugure, kiwi, miere.",
+          "description": {
+            "en": "Banana, orange, grape, kiwi, honey.",
+            "ro": "Banană, portocală, strugure, kiwi, miere.",
+            "ru": "Банан, апельсин, виноград, киви, мёд."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2138,7 +2558,11 @@
           },
           "portion": "200 gr",
           "price": "75",
-          "description": "Înghețată albă/cu ciocolată, banană, kiwi, portocală, strugure.",
+          "description": {
+            "en": "Ice cream white/with chocolate, banana, kiwi, orange, grape.",
+            "ro": "Înghețată albă/cu ciocolată, banană, kiwi, portocală, strugure.",
+            "ru": "Мороженое белая/с шоколад, банан, киви, апельсин, виноград."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2154,7 +2578,11 @@
           },
           "portion": "200 gr",
           "price": "75",
-          "description": "Înghețată albă/cu ciocolată, topping (ciocolată, caramelă, miere, dulceață de vișină).",
+          "description": {
+            "en": "Ice cream white/with chocolate, topping (chocolate, caramel, honey, jam of sour cherry).",
+            "ro": "Înghețată albă/cu ciocolată, topping (ciocolată, caramelă, miere, dulceață de vișină).",
+            "ru": "Мороженое белая/с шоколад, топпинг (шоколад, карамель, мёд, варенье из вишня)."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2170,7 +2598,11 @@
           },
           "portion": "100 gr",
           "price": "50",
-          "description": "Zahăr, cacao, alune, fructe, unt de cacao, grăsime lactată.",
+          "description": {
+            "en": "Sugar, cocoa, hazelnuts, fruit, butter of cocoa, fat dairy.",
+            "ro": "Zahăr, cacao, alune, fructe, unt de cacao, grăsime lactată.",
+            "ru": "Сахар, какао, лесные орехи, фрукты, сливочное масло из какао, жир молочный."
+          },
           "section": {
             "en": "Desserts",
             "ro": "Deserturi",
@@ -2261,7 +2693,11 @@
           },
           "portion": "0,2 l",
           "price": "60",
-          "description": "Portocală, grapefruit.",
+          "description": {
+            "en": "Orange, grapefruit.",
+            "ro": "Portocală, grapefruit.",
+            "ru": "Апельсин, грейпфрут."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2277,7 +2713,11 @@
           },
           "portion": "0,25 l",
           "price": "20",
-          "description": "În sortiment.",
+          "description": {
+            "en": "In assorted.",
+            "ro": "În sortiment.",
+            "ru": "В ассорти."
+          },
           "section": {
             "en": "Soft drinks",
             "ro": "Băuturi răcoritoare",
@@ -2368,7 +2808,11 @@
           },
           "portion": "600 ml",
           "price": "80",
-          "description": "Ghimbir, cătină, exotic.",
+          "description": {
+            "en": "Ginger, sea buckthorn, exotic.",
+            "ro": "Ghimbir, cătină, exotic.",
+            "ru": "Имбирь, облепиха, экзотический."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2384,7 +2828,11 @@
           },
           "portion": "300 ml",
           "price": "65",
-          "description": "Alb, roșu.",
+          "description": {
+            "en": "White, red.",
+            "ro": "Alb, roșu.",
+            "ru": "Белый, красное."
+          },
           "section": {
             "en": "Hot drinks",
             "ro": "Băuturi fierbinți",
@@ -2410,7 +2858,11 @@
           },
           "portion": "350 ml",
           "price": "70",
-          "description": "Sirop mojito, mentă, lime, apă gazată.",
+          "description": {
+            "en": "Syrup Mojito, mint, lime, sparkling water.",
+            "ro": "Sirop mojito, mentă, lime, apă gazată.",
+            "ru": "Сироп Мохито, мята, лайм, газированная вода."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2426,7 +2878,11 @@
           },
           "portion": "300 ml",
           "price": "80",
-          "description": "Suc, sirop, portocală.",
+          "description": {
+            "en": "Juice, syrup, orange.",
+            "ro": "Suc, sirop, portocală.",
+            "ru": "Сок, сироп, апельсин."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2442,7 +2898,11 @@
           },
           "portion": "300 ml",
           "price": "70",
-          "description": "Frișcă, sirop cocos, suc de ananas.",
+          "description": {
+            "en": "Cream, syrup coconut, pineapple juice.",
+            "ro": "Frișcă, sirop cocos, suc de ananas.",
+            "ru": "Сливки, сироп кокос, ананасовый сок."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2488,7 +2948,11 @@
           },
           "portion": "300 ml",
           "price": "70",
-          "description": "Lapte, înghețată, sirop.",
+          "description": {
+            "en": "Milk, ice cream, syrup.",
+            "ro": "Lapte, înghețată, sirop.",
+            "ru": "Молоко, мороженое, сироп."
+          },
           "section": {
             "en": "Non-alcoholic cocktails",
             "ro": "Cocktailuri nealcoolice",
@@ -2564,7 +3028,11 @@
           },
           "portion": "300 ml",
           "price": "100",
-          "description": "Vin spumant, apă gazată, aperol.",
+          "description": {
+            "en": "Wine sparkling wine, sparkling water, Aperol.",
+            "ro": "Vin spumant, apă gazată, aperol.",
+            "ru": "Вино игристое вино, газированная вода, Апероль."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2580,7 +3048,11 @@
           },
           "portion": "350 ml",
           "price": "90",
-          "description": "Rum, sirop mojito, mentă, lime, apă gazată.",
+          "description": {
+            "en": "Rum, syrup Mojito, mint, lime, sparkling water.",
+            "ro": "Rum, sirop mojito, mentă, lime, apă gazată.",
+            "ru": "Ром, сироп Мохито, мята, лайм, газированная вода."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2596,7 +3068,11 @@
           },
           "portion": "300 ml",
           "price": "80",
-          "description": "Vin roșu, sirop, suc, portocală.",
+          "description": {
+            "en": "Wine red, syrup, juice, orange.",
+            "ro": "Vin roșu, sirop, suc, portocală.",
+            "ru": "Вино красное, сироп, сок, апельсин."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2612,7 +3088,11 @@
           },
           "portion": "130 ml",
           "price": "100",
-          "description": "Tequila, triple sec, suc de lime.",
+          "description": {
+            "en": "Tequila, triple sec, juice of lime.",
+            "ro": "Tequila, triple sec, suc de lime.",
+            "ru": "Текила, трипл-сек, сок из лайм."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2628,7 +3108,11 @@
           },
           "portion": "350 ml",
           "price": "90",
-          "description": "Rum, cola.",
+          "description": {
+            "en": "Rum, cola.",
+            "ro": "Rum, cola.",
+            "ru": "Ром, кола."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2644,7 +3128,11 @@
           },
           "portion": "300 ml",
           "price": "90",
-          "description": "Rum, Malibu, suc ananas, sirop cocos.",
+          "description": {
+            "en": "Rum, Malibu, juice pineapple, syrup coconut.",
+            "ro": "Rum, Malibu, suc ananas, sirop cocos.",
+            "ru": "Ром, Малибу, сок ананас, сироп кокос."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2660,7 +3148,11 @@
           },
           "portion": "300 ml",
           "price": "80",
-          "description": "Blue curacao, vodka, Sprite.",
+          "description": {
+            "en": "Blue Curaçao, vodka, Sprite.",
+            "ro": "Blue curacao, vodka, Sprite.",
+            "ru": "Блю кюрасао, водка, Спрайт."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2676,7 +3168,11 @@
           },
           "portion": "60 ml",
           "price": "80",
-          "description": "Pisang Ambon, suc de lime, tequila.",
+          "description": {
+            "en": "Pisang Ambon, juice of lime, tequila.",
+            "ro": "Pisang Ambon, suc de lime, tequila.",
+            "ru": "Пизанг Амбон, сок из лайм, текила."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2692,7 +3188,11 @@
           },
           "portion": "160 ml",
           "price": "150",
-          "description": "Tequila, vodka, rum, absinth, energizant.",
+          "description": {
+            "en": "Tequila, vodka, rum, absinthe, energy drink.",
+            "ro": "Tequila, vodka, rum, absinth, energizant.",
+            "ru": "Текила, водка, ром, абсент, энергетический напиток."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2708,7 +3208,11 @@
           },
           "portion": "60 ml",
           "price": "80",
-          "description": "Baileys, Malibu, whisky.",
+          "description": {
+            "en": "Baileys, Malibu, whisky.",
+            "ro": "Baileys, Malibu, whisky.",
+            "ru": "Бейлис, Малибу, виски."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2724,7 +3228,11 @@
           },
           "portion": "60 ml",
           "price": "80",
-          "description": "Kahlua, Baileys, triple sec.",
+          "description": {
+            "en": "Kahlúa, Baileys, triple sec.",
+            "ro": "Kahlua, Baileys, triple sec.",
+            "ru": "Калуа, Бейлис, трипл-сек."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2740,7 +3248,11 @@
           },
           "portion": "300 ml",
           "price": "100",
-          "description": "Elder flower, vin spumant, mentă, lime.",
+          "description": {
+            "en": "Elderflower, wine sparkling wine, mint, lime.",
+            "ro": "Elder flower, vin spumant, mentă, lime.",
+            "ru": "Цветки бузины, вино игристое вино, мята, лайм."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2756,7 +3268,11 @@
           },
           "portion": "300 ml",
           "price": "90",
-          "description": "Vodka, suc, peach liqueur.",
+          "description": {
+            "en": "Vodka, juice, peach liqueur.",
+            "ro": "Vodka, suc, peach liqueur.",
+            "ru": "Водка, сок, персиковый ликёр."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2772,7 +3288,11 @@
           },
           "portion": "350 ml",
           "price": "120",
-          "description": "Gin, rum, triple sec, vodka, suc lămâie, cola.",
+          "description": {
+            "en": "Gin, rum, triple sec, vodka, juice lemon, cola.",
+            "ro": "Gin, rum, triple sec, vodka, suc lămâie, cola.",
+            "ru": "Джин, ром, трипл-сек, водка, сок лимон, кола."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2788,7 +3308,11 @@
           },
           "portion": "350 ml",
           "price": "90",
-          "description": "Gin, tonic, lime.",
+          "description": {
+            "en": "Gin, tonic, lime.",
+            "ro": "Gin, tonic, lime.",
+            "ru": "Джин, тоник, лайм."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2804,7 +3328,11 @@
           },
           "portion": "200 ml",
           "price": "100",
-          "description": "Martini, tonic, grapefruit.",
+          "description": {
+            "en": "Martini, tonic, grapefruit.",
+            "ro": "Martini, tonic, grapefruit.",
+            "ru": "Мартини, тоник, грейпфрут."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -2820,7 +3348,11 @@
           },
           "portion": "120 ml",
           "price": "100",
-          "description": "Vodka, triple sec, suc lime.",
+          "description": {
+            "en": "Vodka, triple sec, juice lime.",
+            "ro": "Vodka, triple sec, suc lime.",
+            "ru": "Водка, трипл-сек, сок лайм."
+          },
           "section": {
             "en": "Alcoholic cocktails",
             "ro": "Cocktailuri alcoolice",
@@ -3026,7 +3558,11 @@
           },
           "portion": "100 gr",
           "price": "40",
-          "description": "Arahide, sare.",
+          "description": {
+            "en": "Peanuts, salt.",
+            "ro": "Arahide, sare.",
+            "ru": "Арахис, соль."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3042,7 +3578,11 @@
           },
           "portion": "100 gr",
           "price": "40",
-          "description": "Pâine toast, usturoi, condimente.",
+          "description": {
+            "en": "Toast, garlic, spices.",
+            "ro": "Pâine toast, usturoi, condimente.",
+            "ru": "Тостовый хлеб, чеснок, специи."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3058,7 +3598,11 @@
           },
           "portion": "50 gr",
           "price": "70",
-          "description": "Salam crud de vită.",
+          "description": {
+            "en": "Salami raw of beef.",
+            "ro": "Salam crud de vită.",
+            "ru": "Салями сырой из говядина."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3089,7 +3633,11 @@
           },
           "portion": "500 gr",
           "price": "270",
-          "description": "Degețele de pui pane, cartofi pai, inele de ceapă, cartofi bile, sos tartar, ketchup.",
+          "description": {
+            "en": "Chicken fingers of chicken breaded, French fries, rings of onion, potatoes balls, tartar sauce, ketchup.",
+            "ro": "Degețele de pui pane, cartofi pai, inele de ceapă, cartofi bile, sos tartar, ketchup.",
+            "ru": "Куриные палочки из курица в панировке, картофель фри, кольца из лук, картофель шарики, соус тартар, кетчуп."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3105,7 +3653,11 @@
           },
           "portion": "200 gr",
           "price": "90",
-          "description": "Piept de pui, făină de grâu, ou, pesmeți măcinați, sos tar-tar.",
+          "description": {
+            "en": "Chicken breast, wheat flour, egg, breadcrumbs ground, sauce tartar-tartar.",
+            "ro": "Piept de pui, făină de grâu, ou, pesmeți măcinați, sos tar-tar.",
+            "ru": "Куриная грудка, пшеничная мука, яйцо, панировочные сухари молотые, соус тартар-тартар."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3121,7 +3673,11 @@
           },
           "portion": "160 gr",
           "price": "80",
-          "description": " Retropina, făină de grâu, sos de soia.",
+          "description": {
+            "en": "Retropina, wheat flour, soy sauce.",
+            "ro": " Retropina, făină de grâu, sos de soia.",
+            "ru": "Retropina, пшеничная мука, соевый соус."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3142,7 +3698,11 @@
           },
           "portion": "150 gr",
           "price": "70",
-          "description": "Urechi de porc, sos de soia, condimente.",
+          "description": {
+            "en": "Ears of pork, soy sauce, spices.",
+            "ro": "Urechi de porc, sos de soia, condimente.",
+            "ru": "Уши из свинина, соевый соус, специи."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3158,7 +3718,11 @@
           },
           "portion": "150 gr",
           "price": "75",
-          "description": "Urechi de porc, sos de soia, sos oyster, condimente, usturoi, morcov coreean.",
+          "description": {
+            "en": "Ears of pork, soy sauce, sauce oyster, spices, garlic, carrot Korean-style.",
+            "ro": "Urechi de porc, sos de soia, sos oyster, condimente, usturoi, morcov coreean.",
+            "ru": "Уши из свинина, соевый соус, соус устричный, специи, чеснок, морковь по-корейски."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3174,7 +3738,11 @@
           },
           "portion": "250 gr",
           "price": "210",
-          "description": "Creveți, făină de grâu, ou, pesmeți măcinați, sos picant.",
+          "description": {
+            "en": "Shrimp, wheat flour, egg, breadcrumbs ground, sauce spicy.",
+            "ro": "Creveți, făină de grâu, ou, pesmeți măcinați, sos picant.",
+            "ru": "Креветки, пшеничная мука, яйцо, панировочные сухари молотые, соус острый."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
@@ -3190,7 +3758,11 @@
           },
           "portion": "200 gr",
           "price": "250",
-          "description": "Basturma, sudjuk, arahide, cașcaval afumat, snacksuri.",
+          "description": {
+            "en": "Basturma, sujuk, peanuts, smoked cheese, snacks.",
+            "ro": "Basturma, sudjuk, arahide, cașcaval afumat, snacksuri.",
+            "ru": "Бастурма, суджук, арахис, копчёный сыр, закуски."
+          },
           "section": {
             "en": "Beer snacks",
             "ro": "Gustări la bere",
