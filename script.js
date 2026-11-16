@@ -19,47 +19,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const translations = {
         en: {
-            languageLabel: "Choose language",
-            categories: "Menu categories",
+            languageLabel: "Choose language", categories: "Menu categories",
             subtitle: "Tourist Menu · Tap any dish for details",
             footer: "Please call your waiter to place an order.",
-            weight: "Weight",
-            allergens: "Allergens:",
-            noneSpecified: "None specified",
-            noItems: "No items in this category yet.",
-            loadError: "Unable to load the menu. Please try again later.",
-            close: "Close dish details",
-            showDetails: "Show details"
+            weight: "Portion", allergens: "Allergens:", noneSpecified: "Not specified",
+            noItems: "No items in this category yet.", loadError: "Unable to load the menu.",
+            close: "Close dish details", showDetails: "Show details", lei: "lei"
         },
         ro: {
-            languageLabel: "Alegeți limba",
-            categories: "Categorii meniu",
-            subtitle: "Meniu turistic · Atingeți un preparat pentru detalii",
+            languageLabel: "Alegeți limba", categories: "Categorii meniu",
+            subtitle: "Meniu · Atingeți un preparat pentru detalii",
             footer: "Vă rugăm să chemați chelnerul pentru a comanda.",
-            weight: "Gramaj",
-            allergens: "Alergeni:",
-            noneSpecified: "Nespecificați",
-            noItems: "Nu există preparate în această categorie.",
-            loadError: "Meniul nu a putut fi încărcat. Încercați din nou mai târziu.",
-            close: "Închide detaliile preparatului",
-            showDetails: "Afișează detaliile"
+            weight: "Cantitate", allergens: "Alergeni:", noneSpecified: "Nespecificați",
+            noItems: "Nu există poziții în această categorie.", loadError: "Meniul nu a putut fi încărcat.",
+            close: "Închide detaliile preparatului", showDetails: "Afișează detaliile", lei: "lei"
         },
         ru: {
-            languageLabel: "Выберите язык",
-            categories: "Категории меню",
-            subtitle: "Меню для гостей · Нажмите на блюдо, чтобы узнать подробности",
+            languageLabel: "Выберите язык", categories: "Категории меню",
+            subtitle: "Меню · Нажмите на позицию, чтобы узнать подробности",
             footer: "Чтобы сделать заказ, пожалуйста, позовите официанта.",
-            weight: "Вес",
-            allergens: "Аллергены:",
-            noneSpecified: "Не указаны",
-            noItems: "В этой категории пока нет блюд.",
-            loadError: "Не удалось загрузить меню. Попробуйте позже.",
-            close: "Закрыть описание блюда",
-            showDetails: "Показать описание"
+            weight: "Порция", allergens: "Аллергены:", noneSpecified: "Не указаны",
+            noItems: "В этой категории пока нет позиций.", loadError: "Не удалось загрузить меню.",
+            close: "Закрыть описание позиции", showDetails: "Показать описание", lei: "лей"
         }
     };
 
     let language = getSavedLanguage();
+    const currency = "lei";
 
     function getSavedLanguage() {
         try {
@@ -73,13 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function getLocalizedValue(value) {
         if (typeof value === "string") return value;
         if (!value || typeof value !== "object" || Array.isArray(value)) return "";
-        return value[language] || value.en || value.ro || value.ru || "";
+        return value[language] || value.ro || value.en || value.ru || "";
     }
 
-    function getAllergens(item) {
-        if (Array.isArray(item.allergens)) return item.allergens;
-        if (Array.isArray(item.allergens?.[language])) return item.allergens[language];
-        return item.allergens?.en || item.allergens?.ro || item.allergens?.ru || [];
+    function displayPrice(item) {
+        const rawPrice = item.priceLabel ?? (item.priceMdl == null ? "" : `${item.priceMdl}`);
+        return rawPrice ? `${rawPrice} ${translations[language].lei}` : "";
     }
 
     function showMessage(message, isError = false) {
@@ -98,22 +83,18 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("footerText").textContent = text.footer;
         document.getElementById("allergensLabel").textContent = text.allergens;
         closeModal.setAttribute("aria-label", text.close);
-
-        languageButtons.forEach(button => {
-            button.setAttribute("aria-pressed", String(button.dataset.lang === language));
-        });
+        languageButtons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.lang === language)));
     }
 
     function renderCategories() {
         categoriesNav.replaceChildren();
-
         menuData.categories.forEach(category => {
             const button = document.createElement("button");
-            const isActive = category.id === activeCategory.id;
+            const active = category.id === activeCategory.id;
             button.type = "button";
-            button.className = `cat-btn${isActive ? " active" : ""}`;
+            button.className = `cat-btn${active ? " active" : ""}`;
             button.textContent = getLocalizedValue(category) || category.id;
-            button.setAttribute("aria-pressed", String(isActive));
+            button.setAttribute("aria-pressed", String(active));
             button.addEventListener("click", () => {
                 activeCategory = category;
                 renderCategories();
@@ -125,77 +106,53 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function renderItems() {
         menuList.replaceChildren();
-        const items = menuData.items.filter(item => item.categoryId === activeCategory.id);
-
-        if (items.length === 0) {
-            showMessage(translations[language].noItems);
-            return;
-        }
-
-        items.forEach(item => {
+        activeCategory.items.forEach((entry, index) => {
+            const [name, portion = "", price = "", description = ""] = entry;
+            const item = { id: `${activeCategory.id}-${index + 1}`, name, portion, priceLabel: price, description, allergens: [] };
             const button = document.createElement("button");
-            const image = document.createElement("img");
+            const image = document.createElement("span");
             const info = document.createElement("span");
-            const name = document.createElement("span");
-            const price = document.createElement("span");
-            const title = getLocalizedValue(item.name);
-            const badgeText = getLocalizedValue(item.badge);
+            const title = document.createElement("span");
+            const meta = document.createElement("span");
 
             button.type = "button";
-            button.className = "menu-item";
-            button.setAttribute("aria-label", `${title}, ${item.priceMdl} MDL. ${translations[language].showDetails}`);
-
-            image.className = "item-image";
-            image.alt = "";
-            image.loading = "lazy";
-            image.decoding = "async";
-            if (typeof item.image === "string" && item.image) {
-                image.src = item.image;
-                image.addEventListener("error", () => image.classList.add("image-unavailable"), { once: true });
-            } else {
-                image.classList.add("image-unavailable");
-            }
-
+            button.className = "menu-item menu-item-text-only";
+            button.setAttribute("aria-label", `${name}, ${displayPrice(item)}. ${translations[language].showDetails}`);
+            image.className = "item-image item-image-placeholder";
+            image.setAttribute("aria-hidden", "true");
             info.className = "item-info";
-            name.className = "item-name";
-            name.textContent = title;
-            info.appendChild(name);
-
-            if (badgeText) {
-                const badge = document.createElement("span");
-                badge.className = "item-tag";
-                badge.textContent = badgeText;
-                info.appendChild(badge);
+            title.className = "item-name";
+            title.textContent = name;
+            info.appendChild(title);
+            if (description) {
+                const detail = document.createElement("span");
+                detail.className = "item-description";
+                detail.textContent = description;
+                info.appendChild(detail);
             }
-
-            price.className = "item-price";
-            price.textContent = `${item.priceMdl} MDL`;
-            button.append(image, info, price);
+            meta.className = "item-price";
+            meta.textContent = [portion, displayPrice(item)].filter(Boolean).join(" · ");
+            button.append(image, info, meta);
             button.addEventListener("click", () => openModal(item, button));
             menuList.appendChild(button);
         });
+
+        if (activeCategory.items.length === 0) showMessage(translations[language].noItems);
     }
 
     function updateModal() {
         if (!currentItem) return;
-
         const title = getLocalizedValue(currentItem.name);
         const image = typeof currentItem.image === "string" ? currentItem.image : "";
-        const text = translations[language];
-
         modalTitle.textContent = title;
         modalImg.alt = image ? title : "";
-        if (image) {
-            modalImg.src = image;
-        } else {
-            modalImg.removeAttribute("src");
-        }
-        modalWeight.textContent = `${text.weight}: ${currentItem.weight}`;
-        modalPrice.textContent = `${currentItem.priceMdl} MDL`;
+        if (image) modalImg.src = image;
+        else modalImg.removeAttribute("src");
+        modalWeight.textContent = currentItem.portion ? `${translations[language].weight}: ${currentItem.portion}` : "";
+        modalPrice.textContent = displayPrice(currentItem);
         modalDesc.textContent = getLocalizedValue(currentItem.description);
-        modalBadge.textContent = getLocalizedValue(currentItem.badge);
-        modalBadge.hidden = !modalBadge.textContent;
-        modalAllergens.textContent = getAllergens(currentItem).join(", ") || text.noneSpecified;
+        modalBadge.hidden = true;
+        modalAllergens.textContent = translations[language].noneSpecified;
     }
 
     function openModal(item, trigger) {
@@ -218,52 +175,33 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function validateMenu(data) {
-        if (!data || !Array.isArray(data.categories) || !Array.isArray(data.items)) {
-            throw new Error("Menu must contain categories and items arrays.");
+        if (!data || !Array.isArray(data.categories) || data.categories.length === 0) {
+            throw new Error("Menu must contain a non-empty categories array.");
         }
-        if (data.categories.length === 0) throw new Error("Menu has no categories.");
-
-        const categoryIds = new Set();
+        const ids = new Set();
         data.categories.forEach(category => {
-            if (!category || typeof category.id !== "string" || !category.id.trim() || categoryIds.has(category.id)) {
-                throw new Error("Every category must have a unique, non-empty string id.");
+            if (!category || typeof category.id !== "string" || !category.id.trim() || ids.has(category.id) || !Array.isArray(category.items)) {
+                throw new Error("Each category needs a unique id and an items array.");
             }
-            categoryIds.add(category.id);
-        });
-
-        const itemIds = new Set();
-        data.items.forEach(item => {
-            if (!item || (typeof item.id !== "string" && typeof item.id !== "number") || itemIds.has(item.id)) {
-                throw new Error("Every menu item must have a unique id.");
-            }
-            itemIds.add(item.id);
-            if (!categoryIds.has(item.categoryId)) throw new Error(`Menu item ${item.id} references an unknown category.`);
-            if (!getLocalizedValue(item.name).trim()) throw new Error(`Menu item ${item.id} is missing a name.`);
-            if (!Number.isFinite(item.priceMdl) || item.priceMdl < 0) throw new Error(`Menu item ${item.id} has an invalid price.`);
-            if (typeof item.weight !== "string" || !item.weight.trim()) throw new Error(`Menu item ${item.id} is missing its weight.`);
+            ids.add(category.id);
+            category.items.forEach((entry, index) => {
+                if (!Array.isArray(entry) || typeof entry[0] !== "string" || !entry[0].trim() || typeof entry[2] !== "string") {
+                    throw new Error(`Invalid menu item in category ${category.id} at position ${index + 1}.`);
+                }
+            });
         });
     }
 
     function setLanguage(nextLanguage) {
         if (!Object.hasOwn(translations, nextLanguage)) return;
         language = nextLanguage;
-        try {
-            localStorage.setItem("la-strada-language", language);
-        } catch {
-            // Language switching still works when storage is unavailable.
-        }
+        try { localStorage.setItem("la-strada-language", language); } catch { /* Optional persistence. */ }
         updateStaticText();
-        if (menuData) {
-            renderCategories();
-            renderItems();
-        }
+        if (menuData) { renderCategories(); renderItems(); }
         if (currentItem) updateModal();
     }
 
-    languageButtons.forEach(button => {
-        button.addEventListener("click", () => setLanguage(button.dataset.lang));
-    });
-
+    languageButtons.forEach(button => button.addEventListener("click", () => setLanguage(button.dataset.lang)));
     updateStaticText();
 
     fetch("menu.json")
@@ -274,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             validateMenu(data);
             menuData = data;
-            activeCategory = menuData.categories[0];
+            activeCategory = data.categories[0];
             renderCategories();
             renderItems();
         })
