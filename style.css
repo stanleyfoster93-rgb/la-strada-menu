@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("assets/fonts/cormorant-garamond-latin-600.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
 :root {
     --page-bg: #0c0c0d;
     --paper: #e8e1d7;
@@ -22,7 +30,7 @@ button:focus-visible, select:focus-visible, summary:focus-visible { outline: 3px
 .brand-row { display: flex; align-items: center; gap: 12px; }
 .brand-mark { width: 43px; height: 43px; flex: 0 0 43px; display: grid; place-items: center; border: 1px solid var(--sand); border-radius: 50%; color: var(--white); font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; background: rgba(194,147,93,.13); box-shadow: inset 0 0 0 3px var(--night), inset 0 0 0 4px rgba(194,147,93,.4); }
 .header-copy { flex: 1; min-width: 0; }
-.header-title { color: var(--white); font-family: Georgia, "Times New Roman", serif; font-size: 1.3rem; font-weight: 400; letter-spacing: .025em; }
+.header-title { color: var(--white); font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif; font-size: 1.65rem; font-weight: 600; line-height: 1; letter-spacing: .025em; }
 .subtitle { margin-top: 3px; color: #ded3c6; font-size: .73rem; line-height: 1.35; }
 .language-picker { position: relative; z-index: 1; flex: 0 0 auto; }
 .language-toggle { min-height: 44px; display: flex; align-items: center; gap: 6px; list-style: none; padding: 8px 11px; border: 1px solid rgba(194,147,93,.65); border-radius: 12px; color: var(--white); background: rgba(255,255,255,.05); font-size: .78rem; font-weight: 700; cursor: pointer; }
@@ -83,7 +91,7 @@ button:focus-visible, select:focus-visible, summary:focus-visible { outline: 3px
     .header { padding: 13px 12px; }
     .brand-row { gap: 9px; }
     .brand-mark { width: 38px; height: 38px; flex-basis: 38px; }
-    .header-title { font-size: 1.15rem; }
+    .header-title { font-size: 1.45rem; }
     .subtitle { font-size: .7rem; }
     .categories-nav { padding-inline: 12px; }
     .menu-list { padding-inline: 12px; }

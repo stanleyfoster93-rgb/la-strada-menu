@@ -12,6 +12,8 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+The locally hosted Cormorant Garamond font used for the restaurant name is licensed under the SIL Open Font License; see `assets/fonts/OFL-Cormorant-Garamond.txt`.
+
 ## Edit the menu
 
 The full menu is generated from `menu-analysis.txt`:
