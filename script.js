@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const allergensLabel = document.getElementById("allergensLabel");
     const modalAllergens = document.getElementById("modalAllergens");
     const allergensBox = document.getElementById("allergensBox");
+    const backgroundElements = [...document.querySelectorAll(".phone-frame > :not(.modal-overlay)")];
 
     let menuData = null;
     let activeCategoryId = null;
@@ -66,7 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function priceText(item) {
         const value = localized(item.price, "");
-        return value ? `${value} ${TEXT.currency}` : "";
+        const currency = typeof menuData?.currency === "string" ? menuData.currency : TEXT.currency;
+        return value ? `${value} ${currency}` : "";
     }
 
     function allergenText(value) {
@@ -212,6 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
         currentItem = item;
         lastFocusedElement = trigger;
         updateModal();
+        backgroundElements.forEach((element) => { element.inert = true; });
         modalOverlay.inert = false;
         modalOverlay.setAttribute("aria-hidden", "false");
         modalOverlay.classList.add("active");
@@ -223,6 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
         modalOverlay.classList.remove("active");
         modalOverlay.inert = true;
         modalOverlay.setAttribute("aria-hidden", "true");
+        backgroundElements.forEach((element) => { element.inert = false; });
         currentItem = null;
         if (lastFocusedElement && lastFocusedElement.isConnected) {
             lastFocusedElement.focus();
@@ -262,6 +266,29 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.addEventListener("keydown", (event) => {
         if (event.key === "Escape") closeModalHandler();
+        if (event.key !== "Tab" || !modalOverlay.classList.contains("active")) return;
+
+        const focusableElements = modalCard.querySelectorAll(
+            'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        );
+        const firstFocusable = focusableElements[0];
+        const lastFocusable = focusableElements[focusableElements.length - 1];
+
+        if (!firstFocusable) {
+            event.preventDefault();
+            return;
+        }
+
+        if (!modalCard.contains(document.activeElement)) {
+            event.preventDefault();
+            firstFocusable.focus();
+        } else if (event.shiftKey && document.activeElement === firstFocusable) {
+            event.preventDefault();
+            lastFocusable.focus();
+        } else if (!event.shiftKey && document.activeElement === lastFocusable) {
+            event.preventDefault();
+            firstFocusable.focus();
+        }
     });
 
     fetch("menu.json")

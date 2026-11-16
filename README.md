@@ -16,11 +16,9 @@ Then open `http://localhost:8000`.
 
 Edit `menu.json`:
 
-- Categories live in `categories` and have `id`, localized labels (`en`, `ro`, `ru`), and an `items` array.
-- Each item can be an object with `id`, localized `name`, `portion`, numeric `price`, localized `description`, localized `allergens`, optional `image`, and optional `badge`.
-- Legacy rows `[name, portion, price, description]` are still accepted for gradual migration. These rows only contain Romanian text, so that text remains Romanian after changing the interface language until translations are added.
+- Categories live in `categories` and have `id`, an English `en` label, and an `items` array.
+- Each item can be an object with `id`, English `name`, `portion`, numeric or string `price`, English `description`, English `allergens`, optional `image`, and optional `badge`.
+- Legacy rows `[name, portion, price, description, allergens]` are also accepted; provide English text for all visitor-facing content.
 - Currency is configured by the top-level `currency` property.
 
-To add a language, add its text to category/item localization objects and to the `TEXT` dictionary in `script.js`.
-
-The language selector supports English, Romanian, and Russian. Language choice is saved in local storage. Cards keep the compact name/description/portion/price layout; tapping a card opens details.
+Cards show the name, description, portion, and price; tapping a card opens its details.
