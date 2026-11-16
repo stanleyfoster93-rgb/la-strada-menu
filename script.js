@@ -1,35 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const LANGUAGES = ["en", "ro", "ru"];
     const TEXT = {
-        en: {
-            language: "Language", subtitle: "Tourist Menu · Tap any dish for details",
-            footer: "Please call your waiter to place an order.", portion: "Portion",
-            allergens: "Allergens:", unspecified: "Not specified", noItems: "No items in this category yet.",
-            loadError: "Unable to load the menu. Please try again later.", close: "Close dish details",
-            details: "View details", currency: "lei"
-        },
-        ro: {
-            language: "Limba", subtitle: "Meniu · Atingeți un preparat pentru detalii",
-            footer: "Vă rugăm să chemați chelnerul pentru a comanda.", portion: "Cantitate",
-            allergens: "Alergeni:", unspecified: "Nespecificați", noItems: "Nu există poziții în această categorie.",
-            loadError: "Meniul nu a putut fi încărcat. Încercați din nou mai târziu.", close: "Închide detaliile preparatului",
-            details: "Vezi detaliile", currency: "lei"
-        },
-        ru: {
-            language: "Язык", subtitle: "Меню · Нажмите на блюдо, чтобы узнать подробности",
-            footer: "Чтобы сделать заказ, пожалуйста, позовите официанта.", portion: "Порция",
-            allergens: "Аллергены:", unspecified: "Не указаны", noItems: "В этой категории пока нет блюд.",
-            loadError: "Не удалось загрузить меню. Попробуйте позже.", close: "Закрыть описание блюда",
-            details: "Подробнее", currency: "лей"
-        }
+        portion: "Portion",
+        allergens: "Allergens:",
+        unspecified: "Not specified",
+        noItems: "No items in this category yet.",
+        loadError: "Unable to load the menu. Please try again later.",
+        close: "Close dish details",
+        details: "View details",
+        currency: "MDL"
     };
 
     const categoriesNav = document.getElementById("categoriesNav");
     const menuList = document.getElementById("menuList");
-    const languageSelect = document.getElementById("languageSelect");
-    const languageLabel = document.getElementById("languageLabel");
-    const subtitle = document.getElementById("subtitle");
-    const footerText = document.getElementById("footerText");
     const modalOverlay = document.getElementById("modalOverlay");
     const closeModal = document.getElementById("closeModal");
     const modalImageWrap = document.getElementById("modalImageWrap");
@@ -47,38 +29,36 @@ document.addEventListener("DOMContentLoaded", () => {
     let activeCategoryId = null;
     let currentItem = null;
     let lastFocusedElement = null;
-    let language = getSavedLanguage();
-    languageSelect.value = language;
-
-    function getSavedLanguage() {
-        try {
-            const saved = localStorage.getItem("la-strada-language");
-            return LANGUAGES.includes(saved) ? saved : "en";
-        } catch {
-            return "en";
-        }
-    }
 
     function localized(value, fallback = "") {
         if (typeof value === "string") return value;
         if (typeof value === "number") return String(value);
         if (!value || typeof value !== "object" || Array.isArray(value)) return fallback;
-        return value[language] || value.ro || value.en || value.ru || fallback;
+        return value.en || value.ro || value.ru || value.name || fallback;
     }
 
     function normalizeItem(entry, categoryId, index) {
-        // Legacy rows are supported for gradual migration, but object entries are recommended.
         if (Array.isArray(entry)) {
-            const [name = "", portion = "", price = "", description = ""] = entry;
-            return { id: `${categoryId}-${index + 1}`, name, portion, price, description, allergens: [], image: "", badge: "" };
+            const [name = "", portion = "", price = "", description = "", allergens = []] = entry;
+            return {
+                id: `${categoryId}-${index + 1}`,
+                name,
+                portion,
+                price,
+                description,
+                allergens,
+                image: "",
+                badge: ""
+            };
         }
+
         return {
             ...entry,
             id: entry.id ?? `${categoryId}-${index + 1}`,
             portion: entry.portion ?? entry.weight ?? "",
             price: entry.price ?? entry.priceMdl ?? entry.priceLabel ?? "",
             description: entry.description ?? "",
-            allergens: entry.allergens ?? [],
+            allergens: Array.isArray(entry.allergens) ? entry.allergens : [],
             image: entry.image ?? "",
             badge: entry.badge ?? ""
         };
@@ -86,15 +66,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function priceText(item) {
         const value = localized(item.price, "");
-        return value ? `${value} ${TEXT[language].currency}` : "";
+        return value ? `${value} ${TEXT.currency}` : "";
     }
 
     function allergenText(value) {
-        if (Array.isArray(value)) return value.map(part => localized(part, String(part))).join(", ");
+        if (Array.isArray(value)) {
+            return value.map(part => localized(part, String(part))).join(", ");
+        }
+
         if (value && typeof value === "object") {
-            const translated = value[language] ?? value.ro ?? value.en ?? value.ru;
+            const translated = value.en ?? value.ro ?? value.ru ?? value.name;
             return Array.isArray(translated) ? translated.join(", ") : (translated || "");
         }
+
         return typeof value === "string" ? value : "";
     }
 
@@ -106,42 +90,42 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function updateStaticText() {
-        const text = TEXT[language];
-        document.documentElement.lang = language;
-        languageLabel.textContent = text.language;
-        subtitle.textContent = text.subtitle;
-        footerText.textContent = text.footer;
-        categoriesNav.setAttribute("aria-label", language === "ru" ? "Категории меню" : language === "ro" ? "Categorii meniu" : "Menu categories");
-        closeModal.setAttribute("aria-label", text.close);
-        allergensLabel.textContent = text.allergens;
+        document.documentElement.lang = "en";
+        allergensLabel.textContent = TEXT.allergens;
+        closeModal.setAttribute("aria-label", TEXT.close);
     }
 
     function renderCategories() {
         categoriesNav.replaceChildren();
-        menuData.categories.forEach(category => {
+
+        menuData.categories.forEach((category) => {
             const button = document.createElement("button");
             const isActive = category.id === activeCategoryId;
+
             button.type = "button";
             button.className = `cat-btn${isActive ? " active" : ""}`;
-            button.textContent = localized(category, category.id);
+            button.textContent = localized(category.en, category.id);
             button.setAttribute("aria-pressed", String(isActive));
             button.addEventListener("click", () => {
                 activeCategoryId = category.id;
                 renderCategories();
                 renderItems();
             });
+
             categoriesNav.appendChild(button);
         });
     }
 
     function renderItems() {
-        const category = menuData.categories.find(item => item.id === activeCategoryId);
+        const category = menuData.categories.find((item) => item.id === activeCategoryId);
+
         if (!category || !Array.isArray(category.items) || category.items.length === 0) {
-            showMessage(TEXT[language].noItems);
+            showMessage(TEXT.noItems);
             return;
         }
 
         menuList.replaceChildren();
+
         category.items.forEach((entry, index) => {
             const item = normalizeItem(entry, category.id, index);
             const card = document.createElement("button");
@@ -154,9 +138,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
             card.type = "button";
             card.className = "menu-item";
-            card.setAttribute("aria-label", `${localized(item.name)}. ${priceText(item)}. ${TEXT[language].details}`);
+            card.setAttribute("aria-label", `${localized(item.name)}. ${priceText(item)}. ${TEXT.details}`);
+
             bullet.className = "item-bullet";
             bullet.setAttribute("aria-hidden", "true");
+
             info.className = "item-info";
             name.className = "item-name";
             name.textContent = localized(item.name, "Menu item");
@@ -183,6 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
             portion.textContent = localized(item.portion, "");
             price.className = "item-price";
             price.textContent = priceText(item);
+
             if (portion.textContent) meta.appendChild(portion);
             if (price.textContent) meta.appendChild(price);
 
@@ -194,10 +181,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateModal() {
         if (!currentItem) return;
+
         const name = localized(currentItem.name, "Menu item");
         const image = typeof currentItem.image === "string" ? currentItem.image : "";
+
         modalTitle.textContent = name;
-        modalWeight.textContent = currentItem.portion ? `${TEXT[language].portion}: ${localized(currentItem.portion)}` : "";
+        modalWeight.textContent = currentItem.portion ? `${TEXT.portion}: ${localized(currentItem.portion)}` : "";
         modalPrice.textContent = priceText(currentItem);
         modalDesc.textContent = localized(currentItem.description, "");
 
@@ -215,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
         modalBadge.hidden = !badge;
 
         const allergens = allergenText(currentItem.allergens);
-        modalAllergens.textContent = allergens || TEXT[language].unspecified;
+        modalAllergens.textContent = allergens || TEXT.unspecified;
         allergensBox.hidden = !allergens;
     }
 
@@ -235,65 +224,60 @@ document.addEventListener("DOMContentLoaded", () => {
         modalOverlay.inert = true;
         modalOverlay.setAttribute("aria-hidden", "true");
         currentItem = null;
-        if (lastFocusedElement?.isConnected) lastFocusedElement.focus();
+        if (lastFocusedElement && lastFocusedElement.isConnected) {
+            lastFocusedElement.focus();
+        }
     }
 
     function validateMenu(data) {
         if (!data || !Array.isArray(data.categories) || !data.categories.length) {
             throw new Error("Menu must contain at least one category.");
         }
+
         const ids = new Set();
-        data.categories.forEach(category => {
+        data.categories.forEach((category) => {
             if (!category || typeof category.id !== "string" || ids.has(category.id) || !Array.isArray(category.items)) {
                 throw new Error("Each category must have a unique id and an items array.");
             }
+
             ids.add(category.id);
+
             category.items.forEach((entry, index) => {
                 if (Array.isArray(entry)) {
-                    if (typeof entry[0] !== "string" || entry[2] == null) throw new Error(`Invalid row in ${category.id} at ${index + 1}.`);
-                } else if (!entry || typeof entry !== "object" || !entry.name || entry.price == null && entry.priceMdl == null && entry.priceLabel == null) {
+                    if (typeof entry[0] !== "string" || entry[2] == null) {
+                        throw new Error(`Invalid row in ${category.id} at ${index + 1}.`);
+                    }
+                } else if (!entry || typeof entry !== "object" || !entry.name || (entry.price == null && entry.priceMdl == null && entry.priceLabel == null)) {
                     throw new Error(`Invalid item in ${category.id} at ${index + 1}.`);
                 }
             });
         });
     }
 
-    languageSelect.addEventListener("change", () => {
-        if (!LANGUAGES.includes(languageSelect.value)) return;
-        language = languageSelect.value;
-        try { localStorage.setItem("la-strada-language", language); } catch { /* Optional preference. */ }
-        updateStaticText();
-        if (menuData) {
-            renderCategories();
-            renderItems();
-        }
-        if (currentItem) updateModal();
-    });
-
     updateStaticText();
     modalOverlay.inert = true;
     closeModal.addEventListener("click", closeModalHandler);
-    modalOverlay.addEventListener("click", event => {
+    modalOverlay.addEventListener("click", (event) => {
         if (event.target === modalOverlay) closeModalHandler();
     });
-    document.addEventListener("keydown", event => {
+    document.addEventListener("keydown", (event) => {
         if (event.key === "Escape") closeModalHandler();
     });
 
     fetch("menu.json")
-        .then(response => {
+        .then((response) => {
             if (!response.ok) throw new Error(`Unable to load menu.json (${response.status}).`);
             return response.json();
         })
-        .then(data => {
+        .then((data) => {
             validateMenu(data);
             menuData = data;
             activeCategoryId = data.categories[0].id;
             renderCategories();
             renderItems();
         })
-        .catch(error => {
+        .catch((error) => {
             console.error("Menu load error:", error);
-            showMessage(TEXT[language].loadError, true);
+            showMessage(TEXT.loadError, true);
         });
 });
