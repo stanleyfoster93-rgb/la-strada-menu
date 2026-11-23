@@ -350,6 +350,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
     closeModal.addEventListener("click", closeModalHandler);
+    modalImg.addEventListener("error", () => {
+        console.warn("Unable to load dish image:", modalImg.src);
+        modalImageWrap.hidden = true;
+    });
     modalOverlay.addEventListener("click", (event) => {
         if (event.target === modalOverlay) closeModalHandler();
     });

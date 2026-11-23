@@ -9,6 +9,12 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "menu-analysis.txt"
 OUTPUT = ROOT / "menu.json"
 
+ITEM_IMAGES = {
+    "3-7-soleanca": "assets/images/solyanka.webp",
+    "9-1-tocana-de-porc-cu-mamaliga": "assets/images/tocana-pork.webp",
+    "12-10-quattro-formaggi": "assets/images/quattro-formaggi.webp",
+}
+
 SOURCE_SECTION_NAMES = {
     1: {"en": "Cold starters", "ro": "Gustări reci", "ru": "Холодные закуски"},
     2: {"en": "Salads", "ro": "Salate", "ru": "Салаты"},
@@ -963,6 +969,18 @@ def main():
         text = line.strip()
         if text and not text.startswith(("Sursa:", "Monedă:", "Scop:", "STRUCTURĂ", "LISTA", "OBSERVAȚII")):
             subgroup = text.rstrip(":")
+
+    items = {
+        item["id"]: item
+        for category in categories.values()
+        for item in category["items"]
+    }
+    for item_id, image in ITEM_IMAGES.items():
+        if item_id not in items:
+            raise ValueError(f"Image references an unknown menu item: {item_id}")
+        if not (ROOT / image).is_file():
+            raise FileNotFoundError(f"Image for {item_id} not found: {image}")
+        items[item_id]["image"] = image
 
     output = {"currency": "MDL", "categories": list(categories.values())}
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

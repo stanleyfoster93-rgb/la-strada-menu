@@ -832,7 +832,8 @@
             "en": "Soups & egg dishes",
             "ro": "Supe și bucate din ouă",
             "ru": "Супы и блюда из яиц"
-          }
+          },
+          "image": "assets/images/solyanka.webp"
         },
         {
           "id": "3-8-supa-de-mazare-cu-bacon",
@@ -1867,7 +1868,8 @@
             "en": "Pork dishes",
             "ro": "Preparate din porc",
             "ru": "Блюда из свинины"
-          }
+          },
+          "image": "assets/images/tocana-pork.webp"
         },
         {
           "id": "9-2-steak-din-ceafa-de-porc",
@@ -3123,7 +3125,8 @@
             "en": "Pizza",
             "ro": "Pizza",
             "ru": "Пицца"
-          }
+          },
+          "image": "assets/images/quattro-formaggi.webp"
         },
         {
           "id": "12-11-vegetariana",
