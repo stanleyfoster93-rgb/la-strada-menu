@@ -38,7 +38,8 @@
             "en": "Cold starters",
             "ro": "Gustări reci",
             "ru": "Холодные закуски"
-          }
+          },
+          "image": "assets/images/1-1-gustare-haiduc.webp"
         },
         {
           "id": "1-2-gustare-boiereasca-la-rachiu",
@@ -1225,7 +1226,8 @@
             "en": "Khachapuri",
             "ro": "Khachapuri",
             "ru": "Хачапури"
-          }
+          },
+          "image": "assets/images/4-7-vita-si-porc.webp"
         },
         {
           "id": "4-8-branza",
@@ -1361,7 +1363,8 @@
             "en": "Pancakes",
             "ro": "Clătite",
             "ru": "Блины"
-          }
+          },
+          "image": "assets/images/4-11-cu-pui-in-sos-de-frisca.webp"
         }
       ]
     },
@@ -2016,7 +2019,8 @@
             "en": "Side dishes",
             "ro": "Garnituri",
             "ru": "Гарниры"
-          }
+          },
+          "image": "assets/images/10-1-piure-de-cartofi.webp"
         },
         {
           "id": "10-2-cartofi-ca-acasa",
@@ -3662,7 +3666,8 @@
             "en": "Desserts",
             "ro": "Deserturi",
             "ru": "Десерты"
-          }
+          },
+          "image": "assets/images/14-6-desert-cusma-lui-guguta.webp"
         },
         {
           "id": "14-7-gogoase-cu-visina",

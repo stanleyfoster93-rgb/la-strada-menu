@@ -15,3 +15,5 @@ python3 scripts/build-menu.py
 To upload through GitHub, open this folder, choose **Add file → Upload files**, select the photos, and commit. The filename still needs to match the item's ID.
 
 The generator connects each image to the menu item with the matching ID. Filenames that do not match an item ID, duplicate images for one dish, and unsupported file types are reported as errors.
+
+If a photo is for a dish that is not yet listed in the menu, place it in `pending/`. Pending photos are not connected to menu items.

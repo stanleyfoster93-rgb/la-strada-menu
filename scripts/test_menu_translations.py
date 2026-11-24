@@ -40,11 +40,17 @@ class MenuTranslationTests(unittest.TestCase):
             "3-7-soleanca": "assets/images/3-7-soleanca.webp",
             "9-1-tocana-de-porc-cu-mamaliga": "assets/images/9-1-tocana-de-porc-cu-mamaliga.webp",
             "12-10-quattro-formaggi": "assets/images/12-10-quattro-formaggi.webp",
+            "4-11-cu-pui-in-sos-de-frisca": "assets/images/4-11-cu-pui-in-sos-de-frisca.webp",
+            "14-6-desert-cusma-lui-guguta": "assets/images/14-6-desert-cusma-lui-guguta.webp",
+            "1-1-gustare-haiduc": "assets/images/1-1-gustare-haiduc.webp",
+            "10-1-piure-de-cartofi": "assets/images/10-1-piure-de-cartofi.webp",
+            "4-7-vita-si-porc": "assets/images/4-7-vita-si-porc.webp",
         }.items():
             with self.subTest(item_id=item_id):
                 self.assertEqual(items[item_id]["image"], image)
                 self.assertTrue((ROOT / image).is_file())
         self.assertNotIn("image", items["3-1-zeama"])
+        self.assertTrue((ROOT / "assets/images/pending/koryushka.webp").is_file())
 
     def test_image_discovery_uses_item_id_as_filename(self):
         with tempfile.TemporaryDirectory() as temporary_directory:
@@ -73,6 +79,18 @@ class MenuTranslationTests(unittest.TestCase):
 
             with self.assertRaisesRegex(ValueError, "Multiple images"):
                 MENU["attach_images"]([{"id": "3-7-soleanca"}], directory, Path(temporary_directory))
+
+    def test_image_discovery_ignores_pending_subdirectory(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            directory = Path(temporary_directory) / "assets" / "images"
+            pending = directory / "pending"
+            pending.mkdir(parents=True)
+            (pending / "koryushka.webp").touch()
+            items = [{"id": "3-7-soleanca"}]
+
+            MENU["attach_images"](items, directory, Path(temporary_directory))
+
+            self.assertNotIn("image", items[0])
 
     def test_tocana_names_in_generated_menu(self):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))

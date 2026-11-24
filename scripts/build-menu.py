@@ -944,6 +944,8 @@ def attach_images(items, image_directory=IMAGE_DIRECTORY, root=ROOT):
     for path in image_directory.iterdir():
         if path.name.startswith(".") or path.name == "README.md":
             continue
+        if path.is_dir():
+            continue
         if not path.is_file() or path.suffix.casefold() not in IMAGE_EXTENSIONS:
             raise ValueError(f"Unsupported file in dish image directory: {path.name}")
         if path.stem not in items_by_id:
