@@ -10,6 +10,14 @@ SOURCE = ROOT / "menu-analysis.txt"
 OUTPUT = ROOT / "menu.json"
 IMAGE_DIRECTORY = ROOT / "assets" / "images"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+PLACINTA_NAMES_RU = {
+    1: "С брынзой и зеленью",
+    2: "С сыром",
+    3: "С картофелем",
+    4: "С капустой",
+    5: "С вишней",
+    6: "С яблоком / тыквой",
+}
 
 SOURCE_SECTION_NAMES = {
     1: {"en": "Cold starters", "ro": "Gustări reci", "ru": "Холодные закуски"},
@@ -903,6 +911,8 @@ def parse_item(line, section_number, subgroup, index):
         "en": translate_name(name, "en"),
         "ru": translate_name(name, "ru"),
     }
+    if section_number == 4 and subgroup.casefold() == "plăcinte":
+        translations["ru"] = PLACINTA_NAMES_RU[index]
     item = {
         "id": f"{section_number}-{index}-{slug(name)}",
         "name": translations,

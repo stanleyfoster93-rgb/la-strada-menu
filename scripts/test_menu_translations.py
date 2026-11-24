@@ -106,6 +106,21 @@ class MenuTranslationTests(unittest.TestCase):
         self.assertEqual(items["9-3-costita-la-grill-cu-mujdei"]["name"]["ru"], "Костица с соусом «Муждей»")
         self.assertEqual(items["10-4-mamaliga-cu-branza"]["name"]["ru"], "Мамалыга с брынзой")
 
+    def test_pie_names_in_russian_menu(self):
+        data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
+        items = {item["id"]: item for category in data["categories"] for item in category["items"]}
+        expected_names = {
+            "4-1-placinta-cu-branza-de-vaci-si-verdeata": "С брынзой и зеленью",
+            "4-2-cascaval": "С сыром",
+            "4-3-cartofi": "С картофелем",
+            "4-4-varza": "С капустой",
+            "4-5-visina": "С вишней",
+            "4-6-mar-bostan": "С яблоком / тыквой",
+        }
+        for item_id, name in expected_names.items():
+            with self.subTest(item_id=item_id):
+                self.assertEqual(items[item_id]["name"]["ru"], name)
+
     def test_generated_data_includes_corrected_text(self):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
         items = {item["id"]: item for category in data["categories"] for item in category["items"]}
@@ -119,7 +134,7 @@ class MenuTranslationTests(unittest.TestCase):
         cheese_pie = items["4-1-placinta-cu-branza-de-vaci-si-verdeata"]
         self.assertEqual(cheese_pie["name"]["ro"], "Plăcintă cu brânză de vaci și verdeață")
         self.assertEqual(cheese_pie["name"]["en"], "Pie with cottage cheese and herbs")
-        self.assertEqual(cheese_pie["name"]["ru"], "Плацинда с творогом и зеленью")
+        self.assertEqual(cheese_pie["name"]["ru"], "С брынзой и зеленью")
         self.assertIn("cottage cheese", cheese_pie["description"]["en"].casefold())
         self.assertIn("творог", cheese_pie["description"]["ru"].casefold())
 

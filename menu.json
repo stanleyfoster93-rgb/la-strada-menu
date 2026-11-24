@@ -1034,7 +1034,7 @@
           "name": {
             "ro": "Plăcintă cu brânză de vaci și verdeață",
             "en": "Pie with cottage cheese and herbs",
-            "ru": "Плацинда с творогом и зеленью"
+            "ru": "С брынзой и зеленью"
           },
           "portion": "300 gr",
           "price": "50",
@@ -1065,7 +1065,7 @@
           "name": {
             "ro": "Cașcaval",
             "en": "Cheese",
-            "ru": "Сыр"
+            "ru": "С сыром"
           },
           "portion": "300 gr",
           "price": "70",
@@ -1096,7 +1096,7 @@
           "name": {
             "ro": "Cartofi",
             "en": "Potatoes",
-            "ru": "Картофель"
+            "ru": "С картофелем"
           },
           "portion": "300 gr",
           "price": "50",
@@ -1121,7 +1121,7 @@
           "name": {
             "ro": "Varză",
             "en": "Cabbage",
-            "ru": "Капуста"
+            "ru": "С капустой"
           },
           "portion": "300 gr",
           "price": "50",
@@ -1146,7 +1146,7 @@
           "name": {
             "ro": "Vișină",
             "en": "Sour cherry",
-            "ru": "Вишня"
+            "ru": "С вишней"
           },
           "portion": "300 gr",
           "price": "70",
@@ -1171,7 +1171,7 @@
           "name": {
             "ro": "Măr / bostan",
             "en": "Apple / pumpkin",
-            "ru": "Яблоко / тыква"
+            "ru": "С яблоком / тыквой"
           },
           "portion": "300 gr",
           "price": "50",
