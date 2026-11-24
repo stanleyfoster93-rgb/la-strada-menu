@@ -1,5 +1,6 @@
 import json
 import runpy
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -36,14 +37,42 @@ class MenuTranslationTests(unittest.TestCase):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
         items = {item["id"]: item for category in data["categories"] for item in category["items"]}
         for item_id, image in {
-            "3-7-soleanca": "assets/images/solyanka.webp",
-            "9-1-tocana-de-porc-cu-mamaliga": "assets/images/tocana-pork.webp",
-            "12-10-quattro-formaggi": "assets/images/quattro-formaggi.webp",
+            "3-7-soleanca": "assets/images/3-7-soleanca.webp",
+            "9-1-tocana-de-porc-cu-mamaliga": "assets/images/9-1-tocana-de-porc-cu-mamaliga.webp",
+            "12-10-quattro-formaggi": "assets/images/12-10-quattro-formaggi.webp",
         }.items():
             with self.subTest(item_id=item_id):
                 self.assertEqual(items[item_id]["image"], image)
                 self.assertTrue((ROOT / image).is_file())
         self.assertNotIn("image", items["3-1-zeama"])
+
+    def test_image_discovery_uses_item_id_as_filename(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            directory = Path(temporary_directory) / "assets" / "images"
+            directory.mkdir(parents=True)
+            (directory / "3-7-soleanca.jpg").touch()
+            items = [{"id": "3-7-soleanca"}]
+
+            MENU["attach_images"](items, directory, Path(temporary_directory))
+
+            self.assertEqual(items[0]["image"], "assets/images/3-7-soleanca.jpg")
+
+    def test_image_discovery_rejects_unknown_item_ids(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            directory = Path(temporary_directory)
+            (directory / "not-a-menu-item.webp").touch()
+
+            with self.assertRaisesRegex(ValueError, "must match a menu item ID"):
+                MENU["attach_images"]([{"id": "3-7-soleanca"}], directory, Path(temporary_directory))
+
+    def test_image_discovery_rejects_duplicate_images(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            directory = Path(temporary_directory)
+            (directory / "3-7-soleanca.webp").touch()
+            (directory / "3-7-soleanca.png").touch()
+
+            with self.assertRaisesRegex(ValueError, "Multiple images"):
+                MENU["attach_images"]([{"id": "3-7-soleanca"}], directory, Path(temporary_directory))
 
     def test_tocana_names_in_generated_menu(self):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))

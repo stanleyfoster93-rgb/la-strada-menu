@@ -8,12 +8,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "menu-analysis.txt"
 OUTPUT = ROOT / "menu.json"
-
-ITEM_IMAGES = {
-    "3-7-soleanca": "assets/images/solyanka.webp",
-    "9-1-tocana-de-porc-cu-mamaliga": "assets/images/tocana-pork.webp",
-    "12-10-quattro-formaggi": "assets/images/quattro-formaggi.webp",
-}
+IMAGE_DIRECTORY = ROOT / "assets" / "images"
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 
 SOURCE_SECTION_NAMES = {
     1: {"en": "Cold starters", "ro": "Gustări reci", "ru": "Холодные закуски"},
@@ -941,6 +937,23 @@ def parse_item(line, section_number, subgroup, index):
     return item
 
 
+def attach_images(items, image_directory=IMAGE_DIRECTORY, root=ROOT):
+    items_by_id = {item["id"]: item for item in items}
+    seen = set()
+
+    for path in image_directory.iterdir():
+        if path.name.startswith(".") or path.name == "README.md":
+            continue
+        if not path.is_file() or path.suffix.casefold() not in IMAGE_EXTENSIONS:
+            raise ValueError(f"Unsupported file in dish image directory: {path.name}")
+        if path.stem not in items_by_id:
+            raise ValueError(f"Image filename must match a menu item ID: {path.name}")
+        if path.stem in seen:
+            raise ValueError(f"Multiple images found for menu item: {path.stem}")
+        seen.add(path.stem)
+        items_by_id[path.stem]["image"] = path.relative_to(root).as_posix()
+
+
 def main():
     categories = {
         category_id: {"id": category_id, "name": category["name"], "items": []}
@@ -970,17 +983,8 @@ def main():
         if text and not text.startswith(("Sursa:", "Monedă:", "Scop:", "STRUCTURĂ", "LISTA", "OBSERVAȚII")):
             subgroup = text.rstrip(":")
 
-    items = {
-        item["id"]: item
-        for category in categories.values()
-        for item in category["items"]
-    }
-    for item_id, image in ITEM_IMAGES.items():
-        if item_id not in items:
-            raise ValueError(f"Image references an unknown menu item: {item_id}")
-        if not (ROOT / image).is_file():
-            raise FileNotFoundError(f"Image for {item_id} not found: {image}")
-        items[item_id]["image"] = image
+    items = [item for category in categories.values() for item in category["items"]]
+    attach_images(items)
 
     output = {"currency": "MDL", "categories": list(categories.values())}
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
