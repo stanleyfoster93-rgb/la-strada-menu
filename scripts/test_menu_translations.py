@@ -110,7 +110,7 @@ class MenuTranslationTests(unittest.TestCase):
         data = json.loads((ROOT / "menu.json").read_text(encoding="utf-8"))
         items = {item["id"]: item for category in data["categories"] for item in category["items"]}
         expected_names = {
-            "4-1-placinta-cu-branza-de-vaci-si-verdeata": "С брынзой и зеленью",
+            "4-1-placinta-cu-branza-de-vaci-si-verdeata": "С творогом и зеленью",
             "4-2-cascaval": "С сыром",
             "4-3-cartofi": "С картофелем",
             "4-4-varza": "С капустой",
@@ -134,7 +134,7 @@ class MenuTranslationTests(unittest.TestCase):
         cheese_pie = items["4-1-placinta-cu-branza-de-vaci-si-verdeata"]
         self.assertEqual(cheese_pie["name"]["ro"], "Plăcintă cu brânză de vaci și verdeață")
         self.assertEqual(cheese_pie["name"]["en"], "Pie with cottage cheese and herbs")
-        self.assertEqual(cheese_pie["name"]["ru"], "С брынзой и зеленью")
+        self.assertEqual(cheese_pie["name"]["ru"], "С творогом и зеленью")
         self.assertIn("cottage cheese", cheese_pie["description"]["en"].casefold())
         self.assertIn("творог", cheese_pie["description"]["ru"].casefold())
 

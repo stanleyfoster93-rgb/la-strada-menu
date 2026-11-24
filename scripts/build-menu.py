@@ -11,7 +11,7 @@ OUTPUT = ROOT / "menu.json"
 IMAGE_DIRECTORY = ROOT / "assets" / "images"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 PLACINTA_NAMES_RU = {
-    1: "С брынзой и зеленью",
+    1: "С творогом и зеленью",
     2: "С сыром",
     3: "С картофелем",
     4: "С капустой",
